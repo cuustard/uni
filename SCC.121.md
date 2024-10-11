@@ -16,7 +16,17 @@ This module is assessed with Exams and Coursework:
 | Exam                             | Week ??? | 70%   |
 | Architecture Quiz                | Week 5, 10, 15, 20     | 5%    |
 
-## Lecture 1 - Module Introduction
+
+---
+
+### Table of Contents
+
+1. [Lecture 1 - Module Introduction & Sets](#Lecture-1)
+2. [Lecture 2 - Types of Sets](#Lecture-2)
+
+---
+
+## Lecture 1
 
 noted: 8th October 2024
 
@@ -83,7 +93,7 @@ For Example:
 | A - B | difference | objects that belong to set A but not set B |
 | A x B | Cartesian product | all ordered pairs with the first element from set A and the second from set B |
 
-## Lecture 2
+## Lecture-2
 
 Types of sets:
 
