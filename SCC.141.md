@@ -10,16 +10,14 @@ This module is assessed with Exams and Coursework:
 
 - 
 
-## Lecture 1 - Module Introduction
-
-noted: 9th October 2024
-
-[Original Slides](/SCC.141.slides/a.introSlides.pdf)
-
-
 The module aims for me to understand the fundamentals of Professionalism in Practice. This includes...
 
 - ...
 - ...
 - ...
 
+## Lecture 1 - Module Introduction
+
+noted: 9th October 2024
+
+[Original Slides](/SCC.141.slides/a.introSlides.pdf)

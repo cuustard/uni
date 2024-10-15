@@ -28,15 +28,15 @@ This module is assessed with Exams and Coursework:
 | Assembly                         | Online | Week 20    | 5%    |
 | Programming Project              | Online | Week 23    | 10%   |
 
-## Lecture 1 - Module Introduction
-
-noted: 8th October 2024
-
 The module aims for me to understand Digital Systems. This includes...
 
 - ...fundamental concepts of hardware & Entire Computer Systems
 - ...how hardware and software interact
 - ...how to program and debug software at low levels
+
+## Lecture 1 - Module Introduction
+
+noted: 8th October 2024
 
 ### What is Computer Architecture
 

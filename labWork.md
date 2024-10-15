@@ -2,8 +2,8 @@ began: 8th October 2024
 
 # Lab Work
 
-- [Week 1 - Learning the UNIX Shell](#week-1---learning-the-unix-shell)
-- [Week Two - C, Sets, & Number Systems](#week-2---c-sets--number-systems)
+1. [Week 1 - Learning the UNIX Shell](#week-1---learning-the-unix-shell)
+2. [Week Two - C, Sets, & Number Systems](#week-2---c-sets--number-systems)
 
 ## Week 1 - Learning the UNIX Shell
 

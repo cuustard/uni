@@ -4,10 +4,7 @@ began: 8th October 2024
 
 This module of the course is taught by 4 Lecturers:
 
-- Hansi Hettiarachchi
-- Adrian Friday
-- Saad Ezini
-- Nigel Davies
+-
 
 This module is assessed with Exams and Coursework:
 
@@ -16,6 +13,13 @@ This module is assessed with Exams and Coursework:
 | Exam                             | Week ??? | 70%   |
 | Architecture Quiz                | Week 5, 10, 15, 20     | 5%    |
 
+
+The module aims to help me understand the fundamentals of Computer Science. This includes...
+
+- ...the role of discrete mathematics and logic
+- ...designing algorithms using common data structures
+- ...analysing the efficiency of algorithms
+- ...the role of abstract data types
 
 ---
 
@@ -29,14 +33,6 @@ This module is assessed with Exams and Coursework:
 ## Lecture1
 
 noted: 8th October 2024
-
-The module aims to help me understand the fundamentals of Computer Science. This includes...
-
-- ...the role of discrete mathematics and logic
-- ...designing algorithms using common data structures
-- ...analysing the efficiency of algorithms
-- ...the role of abstract data types
-
 
 ### Sets
 
