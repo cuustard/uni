@@ -30,7 +30,7 @@ This module is assessed with Exams and Coursework:
 
 noted: 8th October 2024
 
-The module aims for me to  understand the fundamentals of Computer Science. This includes...
+The module aims to help me understand the fundamentals of Computer Science. This includes...
 
 - ...the role of discrete mathematics and logic
 - ...designing algorithms using common data structures
@@ -52,13 +52,13 @@ However, the element 6 is not in set A. Write this as `6 ∉ A`. This means 6 'd
 
 ### Defining Sets
 
-Finite and small sets are easy to write out. Take set A: `A = {4, 3, 2, 1, 5}`. This is a finite set with just 5 elements.
+Finite and small sets are easy to write out. Set A: `A = {4, 3, 2, 1, 5}`. This is a finite set with just 5 elements.
 
-Infinite/large sets cannot be enumerated. Instead we provide a property that all the sets members satisfy.
+Infinite/large sets cannot be enumerated. Instead, we provide a property that all the set's members satisfy.
 
 For example, set B: `B = {1, 2, 3, 4, 5, 6...}` and so on until infinity. To write this, we can give this set a property of `x`.
 
-We would say that, every object of `x` such that `x` is an integer and greater than 0. So `B = {x | P(x)}`. This means that B is the set of objects `x` such that `x` has property P.
+We would say that, every object of `x` such that `x` is an integer and greater than 0. So `B = {x | P(x)}`. This means that B is the set of objects `x` such that `x` has the property P.
 
 
 ### Set Operations
@@ -70,7 +70,7 @@ We would say that, every object of `x` such that `x` is an integer and greater t
 
 For the following examples, `A = {1, 2, 3, 4}`, `B = {4, 5, 6}`.
 
-Unionisation forms a new set from two sets, made of all the ements from both. Remove duplicates of unique elements. For example, `A ∪ B = {1, 2, 3, 4, 5, 6}`. Here we unionised two sets into one and removed duplicate elements at the same time.
+Unionisation forms a new set from two sets, made of all the elements from both. Remove duplicates of unique elements. For example, `A ∪ B = {1, 2, 3, 4, 5, 6}`. Here we unionised two sets into one and removed duplicate elements at the same time.
 
 Intersection forms a new set from two sets, made of the elements that are common between the original sets. For example, Take set A and B. `A ∩ B = {4}`. This is because both sets have 4 and nothing else in common.
 
@@ -104,19 +104,19 @@ Types of sets:
 - Subsets & Proper Subsets
 - Supersets & Proper Supersets
 - Universal
-- Commplement
+- Complement
 
 ### Empty Sets
 
-An empty/null/void set is one that contains no elements. Written as `{}` or `∅`. For example `Z = {}` or `Z = ∅`
+An empty/null/void set contains no elements. Written as `{}` or `∅`. For example `Z = {}` or `Z = ∅`
 
 ### Disjoint Sets
 
-Sets are disjoint if they have no elements in common (if ther intersection is empty). For example, `A = {1}` is disjoint from `B = {2}`. This is because they have no common elements.
+Sets are disjoint if they have no elements in common (if their intersection is empty). For example, `A = {1}` is disjoint from `B = {2}`. This is because they have no common elements.
 
 ### Equal Sets
 
-Sets are equal if they have exactly the same elements. For example `A = {1, 2, 3}` is equal to `B = {2, 3, 1}`. Written as `A = B`. If sets are unequal use the `≠` symbol. For example, `A ≠ Z`.
+Sets are equal if they have the same elements. For example `A = {1, 2, 3}` is equal to `B = {2, 3, 1}`. Written as `A = B`. If sets are unequal use the `≠` symbol. For example, `A ≠ Z`.
 
 ### Sets of Sets
 
@@ -124,7 +124,7 @@ Sets can contain atomic elements like letters, numbers, or a pair of elements. T
 
 ### Cardinality of Sets
 
-The Cardinality of a set is the number of a sets elements. Written as `|A|`. For example, take the set `A = {1, 2, 3, 4, 5}` so `|A| = 5`. For example, `B = {1, {1, 2}, ∅, 4}` so `|B| = 4`.
+The Cardinality of a set is the number of a set's elements. Written as `|A|`. For example, take the set `A = {1, 2, 3, 4, 5}` so `|A| = 5`. For example, `B = {1, {1, 2}, ∅, 4}` so `|B| = 4`.
 
 ### Subsets & Supersets
 
@@ -146,7 +146,7 @@ A is also a proper subset of B because B has some elements not in A. So `A ⊂ B
 
 ### Universal Sets
 
-A Universal set is a non-empty set that contains all the possibl elements relevant to the solution of a given problem. Example: `U = {red, orange, yellow, green, blue, indigo, violet}`.
+A Universal set is a non-empty set that contains all the possible elements relevant to the solution of a given problem. Example: `U = {red, orange, yellow, green, blue, indigo, violet}`.
 
 ### Complement Sets
 
@@ -166,7 +166,7 @@ A complement set is the difference between the universal set and a given set. De
 | Symbol | Symbol name | Meaning |
 |---|---|---|
 | A ⊆ B | subset | elements of set A are also in set B |
-| A ⊂ B | proper subset | A is subset and there is at least one element in set B that is not in set A |
+| A ⊂ B | proper subset | A is a subset and there is at least one element in set B that is not in set A |
 | B ⊇ A | superset | elements of set A are also in set B |
 | B ⊃ A | proper superset | B is superset and there is at least one element in set B that is not in set A |
 | U | universal set | set of all of the possible elements relevant to a specific problem |

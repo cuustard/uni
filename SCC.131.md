@@ -12,7 +12,7 @@ This module of the course is split into 4 components:
     - Includes: Debugging Intro, Physical Computing, and Compilation
 - ARM Assembly
     - Taught by Dr. Charalampos Rotsos
-    - Include:  Assembly Programming, Memory, and Interrupts/IO
+    - Include: Assembly Programming, Memory, and Interrupts/IO
 - Systems Programming
     - Taught by Dr. Paul Dempster
     - Includes: Assembly & C, Advanced C, and Network Sockets
@@ -32,15 +32,15 @@ This module is assessed with Exams and Coursework:
 
 noted: 8th October 2024
 
-The module aims for me to  understand Digital Systems. This includes...
+The module aims for me to understand Digital Systems. This includes...
 
-- ...fundametnal concepts of hardware & Entire Computer Systems
+- ...fundamental concepts of hardware & Entire Computer Systems
 - ...how hardware and software interact
-- ...how to program and debug software at low-levels
+- ...how to program and debug software at low levels
 
 ### What is Computer Architecture
 
-Architecture is the science of putting together building materaials to produce buildings.
+Architecture is the science of putting together building materials to produce buildings.
 
 Computer Architecture is the science of putting together hardware to produce computers.
 

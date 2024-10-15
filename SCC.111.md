@@ -1,6 +1,6 @@
 began: 9th October 2024
 
-# SCC.111 Software Developement
+# SCC.111 Software Development
 
 This module of the course is split into 4 components:
 
@@ -23,10 +23,10 @@ noted: 9th October 2024
 
 [Original Slides](/SCC.111.slides/a.introSlides.pdf)
 
-The module aims for me to  understand the Sofware Developement. This includes...
+The module aims for me to understand Sofware Development. This includes...
 
 - ...instilling the knowledge, understanding, and skills expected of a principled computer programmer.
-- ...developing a coherent understanding of the princicles & practice of imperative programming, the software development lifecycle, and its associated tools and techniques
+- ...developing a coherent understanding of the principles & practice of imperative programming, the software development lifecycle, and its associated tools and techniques
 
 
 ### What is a Program?
