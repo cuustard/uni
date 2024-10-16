@@ -104,7 +104,7 @@ int main() {
     - A ∩ B
         - A ∩ B = {3}
     - A ∪ B
-        - A ∪ B = {1, 2, 3, 4, 5, 6}
+        - A ∪ B = {0, 1, 2, 3, 4, 5, 6}
     - A – B
         - A – B = {1, 2, 4, 5}
     - B − A
@@ -139,7 +139,7 @@ int main() {
         - A – (B – C) = {a}
     - (A ∩ C) ∪ B
         - A ∩ C = {a}
-        - (A ∩ C) ∪ B = {1, 2, 3, 4, 5, b}
+        - (A ∩ C) ∪ B = {1, 2, 3, 4, 5, a}
     - A ∩ (C ∪ B)
         - C ∪ B = {1, 2, 3, 4, 5, a, b}
         - A ∩ (C ∪ B) = {1, 2, 3, a}
@@ -148,12 +148,16 @@ int main() {
 classes. Describe the students in each of the following sets, in English.
     - A ∩ B
         - Intersection of A and B. So this is the set of students that walk to classes and live within one mile of school.
+        - set of studetns who live within one mile of school AND the set of studetns who walk to classes.
     - A ∪ B
         - Union of A and B. So this is the set of students that walk to classes or live within one mile of school, or both.
+        - the set of students who live within one mile of school OR the set of students who walk to classes.
     - A – B
         - Difference of A and B. So this is the students that live within one mile of school subtracting the students who walk to classes.
+        - the set of students who live within one mile of school AND the set of students who do not walk to classes
     - B – A
         - Difference of B and A. So this is the students that walk to school subtracting the students who live within one mile of school.
+        - the set of students who walk to classes AND the set of students who live more than one mile of school
 
 6. Let A = {a, b, c} and B = {y, z}. Find
     - A x B
@@ -212,15 +216,15 @@ odd number}, and T = {3}.
     - Enumerate the elements of set O
         - {1, 3, 5, 7, 9}
     - What operation can be applied to set E and U to get set O?
-        - U - E
+        - comp(E) = O
     - Define set E through its elements’ property
         - E = {x | x is an even number}
     - Which of the sets above are subsets of set O?
-        - Set T
+        - Set T and O
     - Which of the sets above are proper subsets of set O?
         - Set T
     - Which of the sets above are proper supersets of empty set?
-        - None
+        - All of them
 
 ### SCC.131 Number Systems
 
