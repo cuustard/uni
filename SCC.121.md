@@ -8,11 +8,10 @@ This module of the course is taught by 4 Lecturers:
 
 This module is assessed with Exams and Coursework:
 
-| Task                             | Week       | Worth |
-|----------------------------------|------------|-------|
-| Exam                             | Week ??? | 70%   |
-| Architecture Quiz                | Week 5, 10, 15, 20     | 5%    |
-
+| Task              | Week               | Worth |
+| ----------------- | ------------------ | ----- |
+| Exam              | Week ???           | 70%   |
+| Architecture Quiz | Week 5, 10, 15, 20 | 5%    |
 
 The module aims to help me understand the fundamentals of Computer Science. This includes...
 
@@ -25,14 +24,12 @@ The module aims to help me understand the fundamentals of Computer Science. Thi
 
 ### Table of Contents
 
-| ToC                                      | Original Slides                       | Date |
-|------------------------------------------|---------------------------------------|------|
-| [Lecture 1 - Module Introduction & Sets](#lecture1) | [Sets](/SCC.121.slides/b.setsPartOne.pdf) | 8/10/2024 |
-| [Lecture 2 - Types of Sets](#lecture2) | [Types of Sets](/SCC.121.slides/c.setsPartTwo.pdf) |  |
-| [Lecture 3 - Relations](#lecture3) | [Relations](/SCC.121.slides/d.relationsPartOne.pdf) | |
-| [Lecture 4 - Relations Part 2](#lecture4) | [Relations Part 2](/SCC.121.slides/e.relationsPartTwo.pdf) | |
-
----
+| ToC                                                 | Original Slides                                            | Date      |
+| --------------------------------------------------- | ---------------------------------------------------------- | --------- |
+| [Lecture 1 - Module Introduction & Sets](#lecture1) | [Sets](/SCC.121.slides/b.setsPartOne.pdf)                  | 8/10/2024 |
+| [Lecture 2 - Types of Sets](#lecture2)              | [Types of Sets](/SCC.121.slides/c.setsPartTwo.pdf)         |           |
+| [Lecture 3 - Relations](#lecture3)                  | [Relations](/SCC.121.slides/d.relationsPartOne.pdf)        |           |
+| [Lecture 4 - Relations Part 2](#lecture4)           | [Relations Part 2](/SCC.121.slides/e.relationsPartTwo.pdf) |           |
 
 ## Lecture1
 
@@ -60,7 +57,6 @@ For example, set B: `B = {1, 2, 3, 4, 5, 6...}` and so on until infinity. To wri
 
 We would say that, every object of `x` such that `x` is an integer and greater than 0. So `B = {x | P(x)}`. This means that B is the set of objects `x` such that `x` has the property P.
 
-
 ### Set Operations
 
 - Union: `∪`
@@ -86,12 +82,12 @@ For Example:
 
 `A x R = {<1, 4>, <1, 5>, <1, 6>, <2, 4>, <2, 5> <2, 6>, <3, 4>, <3, 5>, <3, 6>, <4, 4>, <4, 5>, <4, 6>}`
 
-| Symbol | Symbol name | Meaning |
-|---|---|---|
-| A ∪ B | union | objects that belong to set A or set B |
-| A ∩ B | intersection | objects that belong to set A and set B |
-| A - B | difference | objects that belong to set A but not set B |
-| A x B | Cartesian product | all ordered pairs with the first element from set A and the second from set B |
+| Symbol | Symbol name       | Meaning                                                                       |
+| ------ | ----------------- | ----------------------------------------------------------------------------- |
+| A ∪ B  | union             | objects that belong to set A or set B                                         |
+| A ∩ B  | intersection      | objects that belong to set A and set B                                        |
+| A - B  | difference        | objects that belong to set A but not set B                                    |
+| A x B  | Cartesian product | all ordered pairs with the first element from set A and the second from set B |
 
 ## Lecture2
 
@@ -138,7 +134,7 @@ For example, if `A = {1, 2, 3}` and `B = {1, 2, 3, 4, 5}` then:
 
 All of A's elements are in B so `A ⊆ B`.
 
-This makes B a superset of A. Written `B ⊇ A`. 
+This makes B a superset of A. Written `B ⊇ A`.
 
 #### Proper Subsets & Proper Supersets
 
@@ -152,22 +148,21 @@ A Universal set is a non-empty set that contains all the possible elements relev
 
 A complement set is the difference between the universal set and a given set. Denoted by `comp(A) = U - A`. For example if `A = {red, yellow, blue}`. Then `comp(A) = {orange, green, indigo, violet}`.
 
-
 ### Summary
 
-| Symbol | Symbol name | Meaning |
-|---|---|---|
-| ∅ | empty set | set with no elements |
+| Symbol        | Symbol name                              | Meaning                                  |
+| ------------- | ---------------------------------------- | ---------------------------------------- |
+| ∅             | empty set                                | set with no elements                     |
 | disjoint sets | sets whose intersection is the empty set |
-| A = B | equal sets | sets with the same elements |
-| A ≠ B | not equal sets | sets which do not have the same elements |
-| A | set cardinality | number of elements in a set A |
+| A = B         | equal sets                               | sets with the same elements              |
+| A ≠ B         | not equal sets                           | sets which do not have the same elements |
+| A             | set cardinality                          | number of elements in a set A            |
 
-| Symbol | Symbol name | Meaning |
-|---|---|---|
-| A ⊆ B | subset | elements of set A are also in set B |
-| A ⊂ B | proper subset | A is a subset and there is at least one element in set B that is not in set A |
-| B ⊇ A | superset | elements of set A are also in set B |
-| B ⊃ A | proper superset | B is superset and there is at least one element in set B that is not in set A |
-| U | universal set | set of all of the possible elements relevant to a specific problem |
-| comp(A) | complement set | the difference between the universe and a given set A |
+| Symbol  | Symbol name     | Meaning                                                                       |
+| ------- | --------------- | ----------------------------------------------------------------------------- |
+| A ⊆ B   | subset          | elements of set A are also in set B                                           |
+| A ⊂ B   | proper subset   | A is a subset and there is at least one element in set B that is not in set A |
+| B ⊇ A   | superset        | elements of set A are also in set B                                           |
+| B ⊃ A   | proper superset | B is superset and there is at least one element in set B that is not in set A |
+| U       | universal set   | set of all of the possible elements relevant to a specific problem            |
+| comp(A) | complement set  | the difference between the universe and a given set A                         |
