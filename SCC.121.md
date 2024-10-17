@@ -25,8 +25,12 @@ The module aims to help me understand the fundamentals of Computer Science. Thi
 
 ### Table of Contents
 
-1. [Lecture 1 - Module Introduction & Sets](#lecture1)
-2. [Lecture 2 - Types of Sets](#lecture2)
+| ToC                                      | Original Slides                       | Date |
+|------------------------------------------|---------------------------------------|------|
+| [Lecture 1 - Module Introduction & Sets](#lecture1) | [Sets](/SCC.121.slides/b.setsPartOne.pdf) | 8/10/2024 |
+| [Lecture 2 - Types of Sets](#lecture2) | [Types of Sets](/SCC.121.slides/c.setsPartTwo.pdf) |  |
+| [Lecture 3 - Relations](#lecture3) | [Relations](/SCC.121.slides/d.relationsPartOne.pdf) | |
+| [Lecture 4 - Relations Part 2](#lecture4) | [Relations Part 2](/SCC.121.slides/e.relationsPartTwo.pdf) | |
 
 ---
 

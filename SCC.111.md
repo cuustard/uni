@@ -29,8 +29,11 @@ The module aims for me to understand Sofware Development. This includes...
 
 ### Table of Contents
 
-1. [Lecture 1 - Module Introduction](#lecture-1---module-introduction)
-2. [Lecture 2 - Writing Code](#lecture-2---writing-code)
+| ToC                                      | Original Slides                       | Date |
+|------------------------------------------|---------------------------------------|------|
+| [Lecture 1 - Module Introduction](#lecture-1---module-introduction) | [Module Intro](/SCC.111.slides/a.introSlides.pdf) | 9/10/2024 |
+| [Lecture 2 - Writing Code](#lecture-2---writing-code) | [Intro to C](/SCC.111.slides/b.introToC.pdf) |  |
+| [Lecture 3 - Control Flow](#lecture-2---control-flow) | [Control Flow](/SCC.111.slides/c.controlFlow.pdf) | |
 
 ---
 
@@ -184,3 +187,8 @@ int main()
     return 0
 }
 ```
+
+## Lecture 3 - Control Flow
+
+[Lecture Slides](/SCC.111.slides/c.controlFlow.pdf)
+
