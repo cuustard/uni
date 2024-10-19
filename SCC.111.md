@@ -29,18 +29,14 @@ Assessed with Exam and Coursework:
 
 ### Table of Contents
 
-| Week | Lecture                                                             | Original Slides                                   | Date Noted |
-| ---- | ------------------------------------------------------------------- | ------------------------------------------------- | ---------- |
-| 1    | [Lecture 1 - Module Introduction](#lecture-1---module-introduction) | [Module Intro](/SCC.111.slides/a.introSlides.pdf) | 9/10/2024  |
-| 1    | [Lecture 2 - Writing Code](#lecture-2---writing-code)               | [Intro to C](/SCC.111.slides/b.introToC.pdf)      | 11/10/2024 |
-| 2    | [Lecture 3 - Control Flow](#lecture-2---control-flow)               | [Control Flow](/SCC.111.slides/c.controlFlow.pdf) | 16/10/2024 |
-| 2    |                                                                     |                                                   |            |
+| Week | Lecture                                                             | Original Slides                                            | Date Noted |
+| ---- | ------------------------------------------------------------------- | ---------------------------------------------------------- | ---------- |
+| 1    | [Lecture 1 - Module Introduction](#lecture-1---module-introduction) | [Module Intro](/SCC.111.slides/a.introSlides.pdf)          | 9/10/2024  |
+| 1    | [Lecture 2 - Writing Code](#lecture-2---writing-code)               | [Intro to C](/SCC.111.slides/b.introToC.pdf)               | 11/10/2024 |
+| 2    | [Lecture 3 - Control Flow](#lecture-3---control-flow)               | [Control Flow](/SCC.111.slides/c.controlFlow.pdf)          | 16/10/2024 |
+| 2    | [Lecture 4 - Functions & Flow](#lecture-4---functions-&-flow)       | [Functions & Flow](/SCC.111.slides/d.functionsAndFlow.pdf) | 19/10/2024 |
 
 ## Lecture 1 - Module Introduction
-
-noted: 9th October 2024
-
-[Lecture Slides](/SCC.111.slides/a.introSlides.pdf)
 
 A program is a detailed plan or procedure for solving a problem with a computer.
 
@@ -49,8 +45,6 @@ Imperative programming is a programming paradigm of software that uses statement
 Starting with C - a compact and low level language used to generate fast and efficient code that exploits hardware features well. It is complied (translated into assembly only the computer understands).
 
 ## Lecture 2 - Writing Code
-
-[Lecture Slides](/SCC.111.slides/b.introToC.pdf)
 
 ```C
 #include <studio.h>
@@ -154,4 +148,33 @@ int main()
 
 ## Lecture 3 - Control Flow
 
-[Lecture Slides](/SCC.111.slides/c.controlFlow.pdf)
+When writing code we need to see how it is executed to make sense of what it will do. So we need to understand keywords, operators and function calls.
+
+Code can move between programs, blocks of code, statements in the program, and within a line of code as expressiosn within the statement are evaluated.
+
+Flow can be controlled by conditional statements (statements that must be true for a block of code to execute).
+
+A program executes from start to finish by statements can be repeated. Choosing the path for a program to flow through can also be decided with if statements.
+
+'Do... while' loops test a condition after the block of code is executed.
+
+## Lecture 4 - Functions & Flow
+
+We solve all problems by decmoposing it into smaller components. Sometimes the solution to these componenets can be packaged up into a functional and callable unit. This means we have to write less code and and makes it easier to maintain and reuse.
+
+C lets us define functions which package and name specific functionality. C also has libraries. In C, functions follow this form:
+
+```
+direct-declarator (parameter-type-list)
+
+int function_name()
+{
+    some code
+}
+```
+
+They can only return an arithmetic type or nothing (void)
+
+`main()` is the entry point to the program. It takes no parameters and returns a code to the shell.
+
+In C, the parameter values in the function are only ever a copy of whats passed in (passed by value).

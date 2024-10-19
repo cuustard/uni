@@ -24,14 +24,14 @@ The module aims to help me understand the fundamentals of Computer Science. Thi
 
 ### Table of Contents
 
-| ToC                                                 | Original Slides                                            | Date      |
-| --------------------------------------------------- | ---------------------------------------------------------- | --------- |
-| [Lecture 1 - Module Introduction & Sets](#lecture1) | [Sets](/SCC.121.slides/b.setsPartOne.pdf)                  | 8/10/2024 |
-| [Lecture 2 - Types of Sets](#lecture2)              | [Types of Sets](/SCC.121.slides/c.setsPartTwo.pdf)         |           |
-| [Lecture 3 - Relations](#lecture3)                  | [Relations](/SCC.121.slides/d.relationsPartOne.pdf)        |           |
-| [Lecture 4 - Relations Part 2](#lecture4)           | [Relations Part 2](/SCC.121.slides/e.relationsPartTwo.pdf) |           |
+| Week | ToC                                                           | Original Slides                                            | Date Noted |
+| ---- | ------------------------------------------------------------- | ---------------------------------------------------------- | ---------- |
+| 1    | [Lecture 1 - Module Introduction & Sets](#lecture-1---sets)   | [Sets](/SCC.121.slides/b.setsPartOne.pdf)                  | 8/10/2024  |
+| 1    | [Lecture 2 - Types of Sets](#lecture-2---types-of-sets)       | [Types of Sets](/SCC.121.slides/c.setsPartTwo.pdf)         |            |
+| 2    | [Lecture 3 - Relations](#lecture-3---relations)               | [Relations](/SCC.121.slides/d.relationsPartOne.pdf)        |            |
+| 2    | [Lecture 4 - Relations Part 2](#lecture-4---relations-part-2) | [Relations Part 2](/SCC.121.slides/e.relationsPartTwo.pdf) |            |
 
-## Lecture1
+## Lecture 1 - Sets
 
 noted: 8th October 2024
 
@@ -89,7 +89,7 @@ For Example:
 | A - B  | difference        | objects that belong to set A but not set B                                    |
 | A x B  | Cartesian product | all ordered pairs with the first element from set A and the second from set B |
 
-## Lecture2
+## Lecture 2 - Types of Sets
 
 Types of sets:
 
@@ -166,3 +166,7 @@ A complement set is the difference between the universal set and a given set. De
 | B ⊃ A   | proper superset | B is superset and there is at least one element in set B that is not in set A |
 | U       | universal set   | set of all of the possible elements relevant to a specific problem            |
 | comp(A) | complement set  | the difference between the universe and a given set A                         |
+
+## Lecture 3 - Relations
+
+## Lecture 4 - Relations Part 2
