@@ -91,30 +91,30 @@ Computer Architecture is rules and methods that describe the functionality, orga
 - Processing unit that contains Arithmetic Logic Unit (ALU) and processor Registers
 - Input & Output mechanisms
 
-![Von Neumman Architecture](/images/VonNeummanDiagram.png "Diagram of Von Neumman")
+![Von Neumman Architecture](images/VonNeummanDiagram.png "Diagram of Von Neumman")
 
 CPU contains
 
 - ALU + CU and Cache Memory
 - Logically the same as above diagram
 
-![Von Neumman Architecture](/images/VonNeummanDiagram2.png "Diagram of Von Neumman")
+![Von Neumman Architecture](images/VonNeummanDiagram2.png "Diagram of Von Neumman")
 
 ### Harvard
 
 Instructions and data stored in separate memories to overcome the bottleneck of Von Neumman. This allows parrallel access to data and instruction so this can be faster.
 
-![Harvard Architecture](/images/harvradDiagram.png "Diagram of Harvard")
+![Harvard Architecture](images/harvradDiagram.png "Diagram of Harvard")
 
 Modified Harvard:
 
 - Separates instructions and data caches internally but a single main memory is visible to programs.
 
-![Harvard Architecture](/images/harvradDiagram2.png "Diagram of Harvard")
+![Harvard Architecture](images/harvradDiagram2.png "Diagram of Harvard")
 
 ### Modern Architecture
 
-![Modern Architecture Diagram](/images/modernArchitecture.png "Diagram of Harvard")
+![Modern Architecture Diagram](images/modernArchitecture.png "Diagram of Harvard")
 
 ### Speed Factors & Limitations
 

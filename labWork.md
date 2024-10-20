@@ -2,9 +2,6 @@ began: 8th October 2024
 
 # Lab Work
 
-1. [Week 1 - Learning the UNIX Shell](#week-1---learning-the-unix-shell)
-2. [Week Two - C, Sets, & Number Systems](#week-2---c-sets--number-systems)
-
 | Week | Lecture                                                               | Original Handout                                                                   | Date Noted |
 | ---- | --------------------------------------------------------------------- | ---------------------------------------------------------------------------------- | ---------- |
 | 1    | [Week 1 - Learning the UNIX Shell](#week-1---learning-the-unix-shell) | [Learning the Unix Shell](/Lab/a.weekOneMaterial.pdf)                              | 9/10/2024  |
@@ -29,7 +26,7 @@ noted : 16th October 2024
 
 Create a derivative of the classic ‘hello world’ program, and get it compiling, fixing any errors on the way. Below is what I did in the terminal:
 
-![Screenshot of Terminal](/labScreenshots/a.terminalForHelloWorld.png "Screenshot showing terminal")
+![Screenshot of Terminal](labScreenshots/a.terminalForHelloWorld.png "Screenshot showing terminal")
 
 - `ls` to list stuff in current directory
 - `code helloworld.c` opens new file with extension c, in vscode
@@ -50,7 +47,7 @@ int main() {
 
 #### Task 2
 
-![Screenshot of Terminal](/labScreenshots/b.terminalForFemurLength.png "Screenshot showing terminal")
+![Screenshot of Terminal](labScreenshots/b.terminalForFemurLength.png "Screenshot showing terminal")
 
 ```C
 #include <stdio.h>
@@ -70,7 +67,7 @@ int main() {
 
 #### Task3
 
-![Screenshot of Terminal](/labScreenshots/c.terminalForSquare.png "Screenshot showing terminal")
+![Screenshot of Terminal](labScreenshots/c.terminalForSquare.png "Screenshot showing terminal")
 
 ```C
 #include <stdio.h>
