@@ -4,7 +4,16 @@ began: 8th October 2024
 
 This module of the course is taught by 4 Lecturers:
 
--
+- Discrete Maths & Logic
+  - Taught by Corina Sas
+- Data Structures
+  - Taught by Amit Chorpra
+- Algorithms & Complexity
+  - Taught by Emma Wilson
+- Sorting, Trees, & Graphs
+  - Taught by Fabien Dufoulon
+- Linear Algebra, Searching & Sorting, Sorting & it's efficiency, PageRank, Revision Lectures
+  - Taught by Mixed Lecturers
 
 This module is assessed with Exams and Coursework:
 

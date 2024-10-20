@@ -23,37 +23,35 @@ The module aims for me to understand the fundamentals of Professionalism in Prac
 
 ## Lecture 1 - Module Introduction
 
-noted: 9th October 2024
+Professional issues are areas of debate about ethical or practical conduct that underpin good professional practice in a field.
 
-Professional issues are areas of debate about ethical or practical conduict that underpin good professional practice in a field.
+The word 'ethics' is derived from the Greek word 'ethos' or 'a way of living'. Ethics is a branch of philosophy that is concerned with the behaviour of individuals in society.
 
-The word 'ethics' derived from the Greek word 'ethos' or 'a way of living'. Ethics is a branch of philosophy that is concerned with the behaviour of individuals in society.
+The design, manufacturing, and deployment of technology have ethical issues associated with responsibility, safety, security, risk, and trust.
 
-The design, manufacturing, and deployment of tecnology has ethical issues associated with responsibility, safety, security, risk, and trust.
-
-BCS charter requires the establishment and maintanence of a sound ethical foundation for the use of computers. This is done by laying a code of ethics - standards of behaviour that members follow.
+BCS charter requires the establishment and maintenance of a sound ethical foundation for the use of computers. This is done by laying a code of ethics - standards of behaviour that members follow.
 
 ### Professional Conduct
 
 - The Public Interest
   - Comply with regulations and laws that govern acting in the public interest
-    - Safeguards public health, protects the encironment, regards for privacy, security, and wellbeing of others.
+    - Safeguards public health, protects the environment and respects the privacy, security, and well-being of others.
   - Rights of third parties, copyright, and intellectual property
   - Conduct professional activities without discrimination on the grounds of:
-    - Sex, sexual orientation, matiral status, nationality, colour, race, ethnic origin, religion, age, or disability, or any other condition or requirement
+    - Sex, sexual orientation, marital status, nationality, colour, race, ethnic origin, religion, age, disability, or any other condition or requirement
   - Promote equal access to the benefits of IT
-    - Ensures that IT systems can be used by disabled people or helping to develop IT skills in groups of people who do not have them
+    - Ensures that IT systems can be used by disabled people or help to develop IT skills in groups of people who do not have them
 - Professional Competence and Integrity
   - Continuous professional development
-  - Being familiar with legislation
+  - Being familiar with the legislation
 - Duty to Relevant Authority
-  - Carry out professional duties with due care and diligence in accordance with the revevant authority's requirements.
+  - Carry out professional duties with due care and diligence in accordance with the relevant authority's requirements.
   - Behaving professionally
     - Conflict of Interest
     - Disclosing confidential information without permission
-    - Misrepresentation or witholding information
+    - Misrepresentation or withholding of information
 - Duty to the Profession
-  - Settings members expecations to uphold the reputation and good standing of BCS in particular, and profession in general
+  - Settings member's expectations to uphold the reputation and good standing of BCS in particular, and profession in general
   - The duty to support colleagues and help them to develop their skills
   - The need to take responsibility for those that we are managing and help guide their development
 
@@ -63,7 +61,7 @@ A system is a collection of interrelated parts that form a whole. It serves a pu
 
 > A system development lifecycle is the process of determining how a system can support business needs, designing the system, building it, and delivering it to users.
 
-### Stages of a Systems Development Lifecucle
+### Stages of a Systems Development Lifecycle
 
 - Planning
 - Analysis
@@ -104,7 +102,7 @@ Stages of Analysis:
      - Useful for discussing with others
      - Useful for identifying stakeholders
      - Suitable for any domain
-2. Determine requirements and characteristics of the system
+2. Determine the requirements and characteristics of the system
    - Identify potential improvements
    - Requirements change high-level objectives into precise statements of what a system should do
 3. Gather requirements from stakeholders/users
@@ -112,14 +110,14 @@ Stages of Analysis:
 
 PACT questions:
 
-- **People**: what are the intended users' characteristics and skills?
+- **People**: What are the intended users' characteristics and skills?
   - Language
   - Level of skill and expertise
   - Cognitive characteristics such as attention, perception, and memory
   - Physical characteristics such as physical abilities, and accessibility
   - Emotions such as satisfaction, frustration, things being aesthetically pleasing
   - Infrequent vs. frequent users
-- **Activities**: how is the activity currently carried out? why? what can be improved?
+- **Activities**: How is the activity currently carried out? Why? What can be improved?
   - Goals, tasks, and actions
   - Infrequent vs. frequent tasks?
   - Well-defined or vague goals
@@ -129,10 +127,10 @@ PACT questions:
   - Error Tolerance
 - **Context**: what is the environment of the activity?
   - Physical environment
-  - Social encironment
+  - Social environment
   - Organisational context
   - When and where activities happen
-- **Technology**: what tools are being used currently? how might new developments be used?
+- **Technology**: what tools are being used currently? How might new developments be used?
   - Input, data, and commands
   - Output
   - Communications between people, devices, speed, etc
@@ -147,11 +145,11 @@ PACT questions:
 - Involves design of architecture and interface, development of database and file specifications
 - Output: System Specification
 
-User interface design defnies how users will interact with the system andwhat kind of inputs and outputs thje systme accepts and produces.
+User interface design defines how users will interact with the system and what kind of inputs and outputs the system accepts and produces.
 
-- Navigation Mechanisms: how user gives instructions to the system (e.g. buttons)
-- Input Mechanisms: how the systme captures information (e.g. forms)
-- Output Mechanisms: how the system provides information to the user (e.g. reports)
+- **Navigation Mechanisms**: How the user gives instructions to the system (e.g. buttons)
+- **Input Mechanisms**: How the system captures information (e.g. forms)
+- **Output Mechanisms**: How the system provides information to the user (e.g. reports)
 
 #### Implementation
 
@@ -168,7 +166,7 @@ Testing:
 
 Maintenance:
 
-- Not just about maintaining existing functionality. Can involve building new functionality.
+- Not just about maintaining existing functionality. It can involve building new functionality.
 
 ### Models
 
@@ -179,9 +177,9 @@ Maintenance:
 Pros:
 
 - Requirements identified at the start.
-- Well suited to systems that have high security needs.
+- Well suited to systems that have high-security needs.
 - Clear deliverables
-- Easy to arrange tasks as thing progress one phase at a time
+- Easy to arrange tasks as things progress one phase at a time
 
 Cons:
 
@@ -189,21 +187,21 @@ Cons:
 - Inflexible
 - No working software until late stages
 - Doesn't adjust to changing requirements
-- Difficult to measure progess within stages
+- Difficult to measure progress within stages
 - High overheads
 
 #### Rapid Application Development
 
 E.g.:
 
-- iterative devIterative decelopment
+- Iterative development
 - System Prototyping
 - Throwaway Prototyping
 - Agile
   - Feature oriented
   - Rapid dev and delivery
   - Works in small iterations
-  - Deliver in eaach iteration
+  - Deliver in each iteration
   - Review and adapt
   - Make changes
 
@@ -212,7 +210,7 @@ Pros:
 - Cheaper and easier to make changes
 - Flexible
 - Requirements can change and are adaptive
-- Useful when userse struggle to articulate requirements
+- Useful when users struggle to articulate requirements
 - Get user feedback earlier
 - Quicker delivery of working software
 

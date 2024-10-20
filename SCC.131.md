@@ -36,16 +36,14 @@ The module aims for me to understand Digital Systems. This includes...
 
 ---
 
-| Week | ToC                                                                   | Original Slides                                                  | Date Noted |
-| ---- | --------------------------------------------------------------------- | ---------------------------------------------------------------- | ---------- |
-| 1    | [Lecture 1 - Module Introduction](#lecture-1---module-introduction)   | [Introduction](/SCC.131.slides/a.introSlides.pdf)                |            |
-| 1    | [Lecture 2 - Architecture & Speed](#lecture-2---architecture-&-speed) | [Comp Architecture](/SCC.131.slides/b.compArchitectureIntro.pdf) |            |
+| Week | ToC                                                                  | Original Slides                                                  | Date Noted |
+| ---- | -------------------------------------------------------------------- | ---------------------------------------------------------------- | ---------- |
+| 1    | [Lecture 1 - Module Introduction](#lecture-1---module-introduction)  | [Introduction](/SCC.131.slides/a.introSlides.pdf)                | 8/10/2024  |
+| 1    | [Lecture 2 - Architecture & Speed](#lecture-2---architecture--speed) | [Comp Architecture](/SCC.131.slides/b.compArchitectureIntro.pdf) | 11/10/2024 |
+| 2    | [Lecture 3](#lectur-3)                                               |                                                                  |            |
+| 2    | [Lecture 4](#lecture-4)                                              |                                                                  |            |
 
-## Lecture 1 - Module Introduction
-
-noted: 8th October 2024
-
-### What is Computer Architecture
+## Lecture 1 - Module Introduction & Computer Architecture
 
 Architecture is the science of putting together building materials to produce buildings.
 
@@ -131,3 +129,7 @@ Density Limitations
 
 - number of transistores per square inch
 - Moore's Law
+
+## Lectur 3
+
+## Lecture 4
