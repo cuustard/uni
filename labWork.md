@@ -2,11 +2,11 @@ began: 8th October 2024
 
 # Lab Work
 
-| Week | Lecture                                                               | Original Handout                                                                   | Date Noted |
-| ---- | --------------------------------------------------------------------- | ---------------------------------------------------------------------------------- | ---------- |
-| 1    | [Week 1 - Learning the UNIX Shell](#week-1---learning-the-unix-shell) | [Learning the Unix Shell](/Lab/a.weekOneMaterial.pdf)                              | 9/10/2024  |
-| 2    | [Week 2 - Writing Code](#week-2---c-sets--number-systems)             | [C, Sets, & Number Systems](/Lab/b.weekTwoMaterial.pdf)                            | 16/10/2024 |
-| 3    |                                                                       | [Rock Paper Scissors, Relations, Information Coding](/Lab/c.weekThreeMaterial.pdf) | 23/10/2024 |
+| Week | Lecture                                                               | Original Handout                                                                           | Date Noted |
+| ---- | --------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ | ---------- |
+| 1    | [Week 1 - Learning the UNIX Shell](#week-1---learning-the-unix-shell) | [Learning the Unix Shell](/labMaterial/a.weekOneMaterial.pdf)                              | 9/10/2024  |
+| 2    | [Week 2 - Writing Code](#week-2---c-sets--number-systems)             | [C, Sets, & Number Systems](/labMaterial/b.weekTwoMaterial.pdf)                            | 16/10/2024 |
+| 3    |                                                                       | [Rock Paper Scissors, Relations, Information Coding](/labMaterial/c.weekThreeMaterial.pdf) | 23/10/2024 |
 
 ## Week 1 - Learning the UNIX Shell
 
@@ -26,7 +26,7 @@ noted : 16th October 2024
 
 Create a derivative of the classic ‘hello world’ program, and get it compiling, fixing any errors on the way. Below is what I did in the terminal:
 
-![Screenshot of Terminal](labScreenshots/a.terminalForHelloWorld.png "Screenshot showing terminal")
+![Screenshot of Terminal](images/a.terminalForHelloWorld.png "Screenshot showing terminal")
 
 - `ls` to list stuff in current directory
 - `code helloworld.c` opens new file with extension c, in vscode
@@ -47,7 +47,7 @@ int main() {
 
 #### Task 2
 
-![Screenshot of Terminal](labScreenshots/b.terminalForFemurLength.png "Screenshot showing terminal")
+![Screenshot of Terminal](images/b.terminalForFemurLength.png "Screenshot showing terminal")
 
 ```C
 #include <stdio.h>
@@ -67,7 +67,7 @@ int main() {
 
 #### Task3
 
-![Screenshot of Terminal](labScreenshots/c.terminalForSquare.png "Screenshot showing terminal")
+![Screenshot of Terminal](images/c.terminalForSquare.png "Screenshot showing terminal")
 
 ```C
 #include <stdio.h>
