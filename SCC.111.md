@@ -36,6 +36,8 @@ Assessed with Exam and Coursework:
 | 2    | [Lecture 3 - Control Flow](#lecture-3---control-flow)               | [Control Flow](/SCC.111.slides/c.controlFlow.pdf)          | 16/10/2024 |
 | 2    | [Lecture 4 - Functions & Flow](#lecture-4---functions--flow)        | [Functions & Flow](/SCC.111.slides/d.functionsAndFlow.pdf) | 19/10/2024 |
 
+---
+
 ## Lecture 1 - Module Introduction
 
 A program is a detailed plan or procedure for solving a problem with a computer.

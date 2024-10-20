@@ -24,7 +24,9 @@ Assessed with Exams and Coursework:
 
 ---
 
-| Week | ToC                                                                                     | Original Slides                                                            | Date Noted |
+### Table of Contents
+
+| Week | Lecture                                                                                 | Original Slides                                                            | Date Noted |
 | ---- | --------------------------------------------------------------------------------------- | -------------------------------------------------------------------------- | ---------- |
 | 1    | [Lecture 1 - Module Introduction](#lecture-1---module-introduction)                     | [Introduction](/SCC.141.slides/a.introSlides.pdf)                          | 9/10/2024  |
 | 2    | [Lecture 2 - Systems Development Lifecycle](#lecture-2---systems-development-lifecycle) | [Systems Development Lifecycle](/SCC.141.slides/b.systemsDevLifecycle.pdf) | 16/10/2024 |

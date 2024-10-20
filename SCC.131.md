@@ -12,12 +12,18 @@ This module of the course is split into 4 components:
   - Includes: Debugging Intro, Physical Computing, and Compilation
 - ARM Assembly
   - Taught by Dr. Charalampos Rotsos
-  - Include: Assembly Programming, Memory, and Interrupts/IO
+  - Includes: Assembly Programming, Memory, and Interrupts/IO
 - Systems Programming
   - Taught by Dr. Paul Dempster
   - Includes: Assembly & C, Advanced C, and Network Sockets
 
-This module is assessed with Exams and Coursework:
+The module aims for me to understand Digital Systems. This includes...
+
+- ...fundamental concepts of hardware & Entire Computer Systems
+- ...how hardware and software interact
+- ...how to program and debug software at low levels
+
+Assessed with Exams and Coursework:
 
 | Task                            | Type   | Week       | Worth |
 | ------------------------------- | ------ | ---------- | ----- |
@@ -28,20 +34,18 @@ This module is assessed with Exams and Coursework:
 | Assembly                        | Online | Week 20    | 5%    |
 | Programming Project             | Online | Week 23    | 10%   |
 
-The module aims for me to understand Digital Systems. This includes...
-
-- ...fundamental concepts of hardware & Entire Computer Systems
-- ...how hardware and software interact
-- ...how to program and debug software at low levels
-
 ---
 
-| Week | ToC                                                                  | Original Slides                                                  | Date Noted |
+### Table of Contents
+
+| Week | Lecture                                                              | Original Slides                                                  | Date Noted |
 | ---- | -------------------------------------------------------------------- | ---------------------------------------------------------------- | ---------- |
 | 1    | [Lecture 1 - Module Introduction](#lecture-1---module-introduction)  | [Introduction](/SCC.131.slides/a.introSlides.pdf)                | 8/10/2024  |
 | 1    | [Lecture 2 - Architecture & Speed](#lecture-2---architecture--speed) | [Comp Architecture](/SCC.131.slides/b.compArchitectureIntro.pdf) | 11/10/2024 |
 | 2    | [Lecture 3](#lectur-3)                                               |                                                                  |            |
 | 2    | [Lecture 4](#lecture-4)                                              |                                                                  |            |
+
+---
 
 ## Lecture 1 - Module Introduction & Computer Architecture
 

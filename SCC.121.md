@@ -38,7 +38,7 @@ Assessed with Exams and Coursework:
 
 ### Table of Contents
 
-| Week | ToC                                                           | Original Slides                                            | Date Noted |
+| Week | Lecture                                                       | Original Slides                                            | Date Noted |
 | ---- | ------------------------------------------------------------- | ---------------------------------------------------------- | ---------- |
 | 1    | [Lecture 1 - Module Introduction & Sets](#lecture-1---sets)   | [Sets](/SCC.121.slides/b.setsPartOne.pdf)                  | 8/10/2024  |
 | 1    | [Lecture 2 - Types of Sets](#lecture-2---types-of-sets)       | [Types of Sets](/SCC.121.slides/c.setsPartTwo.pdf)         |            |
