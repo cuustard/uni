@@ -19,10 +19,10 @@ Assessed with Exam and Coursework:
 | Task                | Type   | Week        | Worth |
 | ------------------- | ------ | ----------- | ----- |
 | Exam                |        | Summer Term | 70%   |
-| A coursework        | Online | Week 5      | 5%    |
-| A coursework        | Online | Week 10     | 5%    |
-| A coursework        | Online | Week 15     | 5%    |
-| A coursework        | Online | Week 20     | 5%    |
+| Coursework          | Online | Week 5      | 5%    |
+| Coursework          | Online | Week 10     | 5%    |
+| Coursework          | Online | Week 15     | 5%    |
+| Coursework          | Online | Week 20     | 5%    |
 | Programming Project | Online | Week 21-25  | 10%   |
 
 ---
@@ -34,7 +34,7 @@ Assessed with Exam and Coursework:
 | 1    | [Lecture 1 - Module Introduction](#lecture-1---module-introduction) | [Module Intro](/SCC.111.slides/a.introSlides.pdf)          | 9/10/2024  |
 | 1    | [Lecture 2 - Writing Code](#lecture-2---writing-code)               | [Intro to C](/SCC.111.slides/b.introToC.pdf)               | 11/10/2024 |
 | 2    | [Lecture 3 - Control Flow](#lecture-3---control-flow)               | [Control Flow](/SCC.111.slides/c.controlFlow.pdf)          | 16/10/2024 |
-| 2    | [Lecture 4 - Functions & Flow](#lecture-4---functions-&-flow)       | [Functions & Flow](/SCC.111.slides/d.functionsAndFlow.pdf) | 19/10/2024 |
+| 2    | [Lecture 4 - Functions & Flow](#lecture-4---functions--flow)        | [Functions & Flow](/SCC.111.slides/d.functionsAndFlow.pdf) | 19/10/2024 |
 
 ## Lecture 1 - Module Introduction
 
@@ -42,7 +42,7 @@ A program is a detailed plan or procedure for solving a problem with a computer.
 
 Imperative programming is a programming paradigm of software that uses statements that change a programs state. So I should think about what to represent, and how my program should manipulate that.
 
-Starting with C - a compact and low level language used to generate fast and efficient code that exploits hardware features well. It is complied (translated into assembly only the computer understands).
+C is a compact and low level language used to generate fast and efficient code that exploits hardware features well. It is complied (translated into assembly only the computer understands).
 
 ## Lecture 2 - Writing Code
 

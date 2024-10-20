@@ -2,24 +2,35 @@ began: 9th October 2024
 
 # SCC.141 Professionalism in Practice
 
-This module of the course is split into 4 components:
+This module of the course is taught by 4 Lecturers:
 
--
+- Phil Benachour
+- Elisa Rubegni
+- Mo El-Haj
+- Elmira Yadollahi
 
-This module is assessed with Exams and Coursework:
+It aims for me to understand the fundamentals of Professionalism in Practice. This includes...
 
--
+- ...the principles of responsible computing
+- ...legal, social, ethical, and professional challenges
 
-The module aims for me to understand the fundamentals of Professionalism in Practice. This includes...
+Assessed with Exams and Coursework:
 
-- ...
-- ...
-- ...
+| Task       | Type                 | When    | Worth |
+| ---------- | -------------------- | ------- | ----- |
+| Coursework | Group work           | Week 10 | 10%   |
+| Coursework | Group work           | Week 20 | 20%   |
+| Exam       | Electronic in-person | June    | 70%   |
+
+---
 
 | Week | ToC                                                                                     | Original Slides                                                            | Date Noted |
 | ---- | --------------------------------------------------------------------------------------- | -------------------------------------------------------------------------- | ---------- |
 | 1    | [Lecture 1 - Module Introduction](#lecture-1---module-introduction)                     | [Introduction](/SCC.141.slides/a.introSlides.pdf)                          | 9/10/2024  |
 | 2    | [Lecture 2 - Systems Development Lifecycle](#lecture-2---systems-development-lifecycle) | [Systems Development Lifecycle](/SCC.141.slides/b.systemsDevLifecycle.pdf) | 16/10/2024 |
+| 3    |                                                                                         |                                                                            | 23/10/2024 |
+
+---
 
 ## Lecture 1 - Module Introduction
 

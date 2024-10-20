@@ -6,21 +6,19 @@ This module of the course is taught by 4 Lecturers:
 
 - Discrete Maths & Logic
   - Taught by Corina Sas
+  - Weeks 1 - 5
 - Data Structures
   - Taught by Amit Chorpra
+  - Weeks 6 - 11
 - Algorithms & Complexity
   - Taught by Emma Wilson
+  - Weeks 12 - 15
 - Sorting, Trees, & Graphs
   - Taught by Fabien Dufoulon
+  - Weeks 16 - 20
 - Linear Algebra, Searching & Sorting, Sorting & it's efficiency, PageRank, Revision Lectures
   - Taught by Mixed Lecturers
-
-This module is assessed with Exams and Coursework:
-
-| Task              | Week               | Worth |
-| ----------------- | ------------------ | ----- |
-| Exam              | Week ???           | 70%   |
-| Architecture Quiz | Week 5, 10, 15, 20 | 5%    |
+  - Weeks 21 - 25
 
 The module aims to help me understand the fundamentals of Computer Science. This includes...
 
@@ -28,6 +26,13 @@ The module aims to help me understand the fundamentals of Computer Science. Thi
 - ...designing algorithms using common data structures
 - ...analysing the efficiency of algorithms
 - ...the role of abstract data types
+
+Assessed with Exams and Coursework:
+
+| Task       | Type          | Week               | Worth |
+| ---------- | ------------- | ------------------ | ----- |
+| Exam       |               | Summer Term        | 70%   |
+| Coursework | "in-lab quiz" | Week 5, 10, 15, 20 | 30%   |
 
 ---
 
@@ -39,6 +44,8 @@ The module aims to help me understand the fundamentals of Computer Science. Thi
 | 1    | [Lecture 2 - Types of Sets](#lecture-2---types-of-sets)       | [Types of Sets](/SCC.121.slides/c.setsPartTwo.pdf)         |            |
 | 2    | [Lecture 3 - Relations](#lecture-3---relations)               | [Relations](/SCC.121.slides/d.relationsPartOne.pdf)        |            |
 | 2    | [Lecture 4 - Relations Part 2](#lecture-4---relations-part-2) | [Relations Part 2](/SCC.121.slides/e.relationsPartTwo.pdf) |            |
+
+---
 
 ## Lecture 1 - Sets
 
