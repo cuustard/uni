@@ -136,4 +136,42 @@ Density Limitations
 
 ## Lecture 3 - Information Coding
 
+Computer hardware should be as simple as possible due to cost, performance, and scalability factors. Because of this, we focus on handling small, posotive integers. Any other data type is a code/represenation that maps to positive integers.
+
+### ASCII
+
+The American Standard Code for Information Interchange is a 7-bit binary (2<sup>7</sup>) code for characters.
+
+![ASCII Table](images/ASCIItable.png "ASCII Table")
+
+In practice we use numbers such as negatives, fractions, floating-point, etc. But all these map to small, posotive whole numbers held in memory.
+
+### Decimal in Base-10
+
+Representing 1984:
+
+| Thousands (10<sup>3</sup>) | Hundreds ((10<sup>2</sup>)) | Tens ((10<sup>1</sup>)) | Units/Ones (10<sup>0</sup>) |
+| :------------------------: | :-------------------------: | :---------------------: | :-------------------------: |
+|    1 \* 10<sup>3</sup>     |     9 \* 10<sup>2</sup>     |   8 \* 10<sup>1</sup>   |     4 \* 10<sup>0</sup>     |
+|         1 \* 1000          |          9 \* 100           |         8 \* 10         |           4 \* 1            |
+|            1000            |             900             |           80            |              4              |
+
+1000 + 900 + 80 + 4 = 1984.
+
+### Multiplication and Division
+
+1984 \* 10 = 19840
+
+Multiplying a number by 10<sup>n</sup> shifts the number left by n decimal places, feeding in 0's on the right.
+
+Dividing a number by 10<sup>n</sup> shifts the number right by n decimal places.
+
+### Negative Numbers
+
+There are 3 coding approaches for negative numbers:
+
+- Sign and Magnitude
+- Excess N
+- Twos Complement
+
 ## Lecture 4 - Information Coding Part 2
