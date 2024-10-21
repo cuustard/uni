@@ -16,7 +16,7 @@ This module of the course is taught by 4 Lecturers:
 - Sorting, Trees, & Graphs
   - Taught by Fabien Dufoulon
   - Weeks 16 - 20
-- Linear Algebra, Searching & Sorting, Sorting & it's efficiency, PageRank, Revision Lectures
+- Linear Algebra, Searching & Sorting, Sorting & its efficiency, PageRank, Revision Lectures
   - Taught by Mixed Lecturers
   - Weeks 21 - 25
 
@@ -41,19 +41,15 @@ Assessed with Exams and Coursework:
 | Week | Lecture                                                       | Original Slides                                            | Date Noted |
 | ---- | ------------------------------------------------------------- | ---------------------------------------------------------- | ---------- |
 | 1    | [Lecture 1 - Module Introduction & Sets](#lecture-1---sets)   | [Sets](/SCC.121.slides/b.setsPartOne.pdf)                  | 8/10/2024  |
-| 1    | [Lecture 2 - Types of Sets](#lecture-2---types-of-sets)       | [Types of Sets](/SCC.121.slides/c.setsPartTwo.pdf)         |            |
-| 2    | [Lecture 3 - Relations](#lecture-3---relations)               | [Relations](/SCC.121.slides/d.relationsPartOne.pdf)        |            |
-| 2    | [Lecture 4 - Relations Part 2](#lecture-4---relations-part-2) | [Relations Part 2](/SCC.121.slides/e.relationsPartTwo.pdf) |            |
+| 1    | [Lecture 2 - Types of Sets](#lecture-2---types-of-sets)       | [Types of Sets](/SCC.121.slides/c.setsPartTwo.pdf)         | 10/10/2024 |
+| 2    | [Lecture 3 - Relations](#lecture-3---relations)               | [Relations](/SCC.121.slides/d.relationsPartOne.pdf)        | 15/10/2024 |
+| 2    | [Lecture 4 - Relations Part 2](#lecture-4---relations-part-2) | [Relations Part 2](/SCC.121.slides/e.relationsPartTwo.pdf) | 17/10/2024 |
 
 ---
 
 ## Lecture 1 - Sets
 
-noted: 8th October 2024
-
-### Sets
-
-A Set is a collection of unique (no duplicates) and unordered objects/elements/members. E.g. `A = {4, 3, 2, 1, 5}`
+A Set is a collection of unique and unordered objects/elements/members. E.g. `A = {4, 3, 2, 1, 5}`
 
 ### Membership
 
@@ -65,13 +61,11 @@ However, the element 6 is not in set A. Write this as `6 ∉ A`. This means 6 'd
 
 ### Defining Sets
 
-Finite and small sets are easy to write out. Set A: `A = {4, 3, 2, 1, 5}`. This is a finite set with just 5 elements.
+Finite and small sets are easy to write out. For example, set A: `A = {4, 3, 2, 1, 5}` is finite with just 5 elements.
 
-Infinite/large sets cannot be enumerated. Instead, we provide a property that all the set's members satisfy.
+Infinite/large sets cannot be enumerated. Instead, we provide a property that all the set's elements satisfy.
 
-For example, set B: `B = {1, 2, 3, 4, 5, 6...}` and so on until infinity. To write this, we can give this set a property of `x`.
-
-We would say that, every object of `x` such that `x` is an integer and greater than 0. So `B = {x | P(x)}`. This means that B is the set of objects `x` such that `x` has the property P.
+For example, set B: `B = {1, 2, 3, 4, 5, 6...}` and so on until infinity. To write this, we can give this set a property of x. We would say that, every element of x such that x is an integer and greater than 0. So `B = {x | P(x)}`. This means that B is the set of elements x such that x has the property P.
 
 ### Set Operations
 
@@ -80,30 +74,40 @@ We would say that, every object of `x` such that `x` is an integer and greater t
 - Difference `-`
 - Cartesian Product `x`
 
-For the following examples, `A = {1, 2, 3, 4}`, `B = {4, 5, 6}`.
+For the following examples: `A = {1, 2, 3, 4}`, `B = {4, 5, 6}`.
 
-Unionisation forms a new set from two sets, made of all the elements from both. Remove duplicates of unique elements. For example, `A ∪ B = {1, 2, 3, 4, 5, 6}`. Here we unionised two sets into one and removed duplicate elements at the same time.
+Unionisation forms a new set from two sets, made of all the elements from both. Any duplicates of an element are removed. For example, `A ∪ B = {1, 2, 3, 4, 5, 6}`. Here we unionised two sets into one and removed duplicate element, 4, at the same time.
 
-Intersection forms a new set from two sets, made of the elements that are common between the original sets. For example, Take set A and B. `A ∩ B = {4}`. This is because both sets have 4 and nothing else in common.
+Intersection forms a new set from two sets, made of the elements that are common between A and B. For example, `A ∩ B = {4}`. This is because both sets have element 4, and nothing else, in common.
 
-Difference forms a new set from two sets, made of all the elements from the first set that are not in the second set. For example. `A - B = {1, 2, 3, 5, 6}`.
+Difference forms a new set from two sets, made of all the elements from the first set that are not in the second set. For example. `A - B = {1, 2, 3}`.
 
-Cartesian Product:
+To understand Cartesian Product, first I need to understand Ordered Pairs:
 
-- An Ordered Pair is a pair of elements, with an order (usually ascending) associated with them.
-- An Ordered Pair is written as `<x, y>`. Where `x` and `y` are elements.
-- Two Ordered Pairs `<a, b>` and `<c, d>` are equal if `a = c` and `b = d`. This means that `<1, 2>` is not equal to `<2, 1>`.
+- An Ordered Pair is a pair of elements, with an order (usually ascending) associated with them
+- An Ordered Pair is written as `<x, y>`. Where x and y are elements
+- Two Ordered Pairs `<a, b>` and `<c, d>` are equal if `a = c` and `b = d`. This means that `<1, 2>` is not equal to `<2, 1>`
 
-For Example:
+The Cartesian Product of two sets creates a set of all possible ordered pairs between the sets. For example:
 
-`A x R = {<1, 4>, <1, 5>, <1, 6>, <2, 4>, <2, 5> <2, 6>, <3, 4>, <3, 5>, <3, 6>, <4, 4>, <4, 5>, <4, 6>}`
+```
+A x B =
+{
+  <1, 4>, <1, 5>, <1, 6>,
+  <2, 4>, <2, 5> <2, 6>,
+  <3, 4>, <3, 5>, <3, 6>,
+  <4, 4>, <4, 5>, <4, 6>
+}
+```
+
+Summary of set operations:
 
 | Symbol | Symbol name       | Meaning                                                                       |
 | ------ | ----------------- | ----------------------------------------------------------------------------- |
-| A ∪ B  | union             | objects that belong to set A or set B                                         |
-| A ∩ B  | intersection      | objects that belong to set A and set B                                        |
-| A - B  | difference        | objects that belong to set A but not set B                                    |
-| A x B  | Cartesian product | all ordered pairs with the first element from set A and the second from set B |
+| A ∪ B  | Union             | Elements that belong to set A **or** set B                                    |
+| A ∩ B  | Intersection      | Elements that belong to set A **and** set B                                   |
+| A - B  | Difference        | Elements that belong to set A but not set B                                   |
+| A x B  | Cartesian Product | All ordered pairs with the first element from set A and the second from set B |
 
 ## Lecture 2 - Types of Sets
 
@@ -120,15 +124,15 @@ Types of sets:
 
 ### Empty Sets
 
-An empty/null/void set contains no elements. Written as `{}` or `∅`. For example `Z = {}` or `Z = ∅`
+An empty/null/void set contains no elements. Written as `{}` or `∅`. For example `Z = {}` can also be written as `Z = ∅`.
 
 ### Disjoint Sets
 
-Sets are disjoint if they have no elements in common (if their intersection is empty). For example, `A = {1}` is disjoint from `B = {2}`. This is because they have no common elements.
+Sets are disjoint if they have no elements in common (if their intersection is empty). For example, `C = {1, 2, 3}` is disjoint from `D = {4, 5, 6}`. This is because they have no common elements.
 
 ### Equal Sets
 
-Sets are equal if they have the same elements. For example `A = {1, 2, 3}` is equal to `B = {2, 3, 1}`. Written as `A = B`. If sets are unequal use the `≠` symbol. For example, `A ≠ Z`.
+Sets are equal if they have the same elements. For example `E = {1, 2, 3}` is equal to `F = {2, 3, 1}`. Written as `C = D`. If sets are unequal use the `≠` symbol. For example, `D ≠ E`.
 
 ### Sets of Sets
 
@@ -136,7 +140,7 @@ Sets can contain atomic elements like letters, numbers, or a pair of elements. T
 
 ### Cardinality of Sets
 
-The Cardinality of a set is the number of a set's elements. Written as `|A|`. For example, take the set `A = {1, 2, 3, 4, 5}` so `|A| = 5`. For example, `B = {1, {1, 2}, ∅, 4}` so `|B| = 4`.
+The Cardinality of a set is the number of a set's elements. They are written as `|A|`. For example, `A = {1, 2, 3, 4, 5}` so `|A| = 5`. For example, `B = {1, {1, 2}, ∅, 4}` so `|B| = 4`.
 
 ### Subsets & Supersets
 
@@ -162,27 +166,28 @@ A Universal set is a non-empty set that contains all the possible elements relev
 
 ### Complement Sets
 
-A complement set is the difference between the universal set and a given set. Denoted by `comp(A) = U - A`. For example if `A = {red, yellow, blue}`. Then `comp(A) = {orange, green, indigo, violet}`.
+A complement set is the difference between the universal set and a given set. Denoted by `comp(A) = U - A`. For example if `A = {red, yellow, blue}` then `comp(A) = {orange, green, indigo, violet}`.
 
-### Summary
-
-| Symbol        | Symbol name                              | Meaning                                  |
-| ------------- | ---------------------------------------- | ---------------------------------------- |
-| ∅             | empty set                                | set with no elements                     |
-| disjoint sets | sets whose intersection is the empty set |
-| A = B         | equal sets                               | sets with the same elements              |
-| A ≠ B         | not equal sets                           | sets which do not have the same elements |
-| A             | set cardinality                          | number of elements in a set A            |
+Summary of Type of sets:
 
 | Symbol  | Symbol name     | Meaning                                                                       |
 | ------- | --------------- | ----------------------------------------------------------------------------- |
-| A ⊆ B   | subset          | elements of set A are also in set B                                           |
-| A ⊂ B   | proper subset   | A is a subset and there is at least one element in set B that is not in set A |
-| B ⊇ A   | superset        | elements of set A are also in set B                                           |
-| B ⊃ A   | proper superset | B is superset and there is at least one element in set B that is not in set A |
-| U       | universal set   | set of all of the possible elements relevant to a specific problem            |
-| comp(A) | complement set  | the difference between the universe and a given set A                         |
+| ∅       | Empty Set       | Set with no elements                                                          |
+|         | Disjoint Sets   | Sets whose intersection is the empty set                                      |
+| A = B   | Equal Sets      | Sets with the same elements                                                   |
+| A ≠ B   | Unequal Sets    | Sets which do not have the same elements                                      |
+| A       | Set Cardinality | Number of elements in a set                                                   |
+| A ⊆ B   | Subset          | Elements of set A are also in set B                                           |
+| A ⊂ B   | Proper Subset   | A is a subset and there is at least one element in set B that is not in set A |
+| B ⊇ A   | Superset        | Elements of set A are also in set B                                           |
+| B ⊃ A   | Proper Superset | B is superset and there is at least one element in set B that is not in set A |
+| U       | Universal Set   | Set of all of the possible elements relevant to a specific problem            |
+| comp(A) | Complement Set  | The difference between the universe and a given set A                         |
 
 ## Lecture 3 - Relations
 
 ## Lecture 4 - Relations Part 2
+
+```
+
+```
