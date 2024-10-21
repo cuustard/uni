@@ -187,7 +187,3 @@ Summary of Type of sets:
 ## Lecture 3 - Relations
 
 ## Lecture 4 - Relations Part 2
-
-```
-
-```

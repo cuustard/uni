@@ -27,23 +27,23 @@ Assessed with Exams and Coursework:
 
 | Task                            | Type   | Week       | Worth |
 | ------------------------------- | ------ | ---------- | ----- |
-| Exam                            | Online | Week 28-30 | 70%   |
 | Architecture Quiz               | Online | Week 5     | 5%    |
 | Architecture + Embedded Systems | Online | Week 10    | 5%    |
 | Assembly + Debugging Quiz       | Online | Week 15    | 5%    |
 | Assembly                        | Online | Week 20    | 5%    |
 | Programming Project             | Online | Week 23    | 10%   |
+| Exam                            | Online | Week 28-30 | 70%   |
 
 ---
 
 ### Table of Contents
 
-| Week | Lecture                                                              | Original Slides                                                  | Date Noted |
-| ---- | -------------------------------------------------------------------- | ---------------------------------------------------------------- | ---------- |
-| 1    | [Lecture 1 - Module Introduction](#lecture-1---module-introduction)  | [Introduction](/SCC.131.slides/a.introSlides.pdf)                | 8/10/2024  |
-| 1    | [Lecture 2 - Architecture & Speed](#lecture-2---architecture--speed) | [Comp Architecture](/SCC.131.slides/b.compArchitectureIntro.pdf) | 11/10/2024 |
-| 2    | [Lecture 3](#lectur-3)                                               |                                                                  |            |
-| 2    | [Lecture 4](#lecture-4)                                              |                                                                  |            |
+| Week | Lecture                                                                         | Original Slides                                                     | Date Noted |
+| ---- | ------------------------------------------------------------------------------- | ------------------------------------------------------------------- | ---------- |
+| 1    | [Lecture 1 - Module Introduction](#lecture-1---module-introduction)             | [Module Introduction](/SCC.131.slides/a.introSlides.pdf)            | 8/10/2024  |
+| 1    | [Lecture 2 - Architecture & Speed](#lecture-2---architecture--speed)            | [Comp Architecture](/SCC.131.slides/b.compArchitectureIntro.pdf)    | 11/10/2024 |
+| 2    | [Lecture 3 - Information Coding](#lecture-3---information-coding)               | [Information Coding](/SCC.131.slides/c.infoCodingPartOne.pdf)       |            |
+| 2    | [Lecture 4 - Information Coding Part 2](#lecture-4---information-coding-part-2) | [Information Coding Contd](/SCC.131.slides/d.infoCodingPartTwo.pdf) |            |
 
 ---
 
@@ -55,34 +55,34 @@ Computer Architecture is the science of putting together hardware to produce com
 
 ## Lecture 2 - Architecture & Speed
 
-A computer is an electronic device for storing and processing data, in binary form, according to instructions given to it in a bariable program.
+A computer is an electronic device for storing and processing data, in binary form, according to instructions given to it in a variable program.
 
 ### Computer History
 
 - Analytical Engine
   - First computer
-  - Partly built by Englishman Charles Babbage in 19th century
+  - Partly built by Englishman Charles Babbage in the 19th century
   - A fully program-controlled mechanical computer
   - Consisted of the mill (calculating unit), the store, the reader, and the printer
-  - Data was enterd onto physical punched cards
+  - Data was entered onto physical punched cards
   - Ada Lovelace wrote the first algorithm for a computer based on this machine.
 - ENIAC
-  - Electronic Numberical Integrator And Computer was the first programmable, electronic, general-purpose digital computer
+  - Electronic Numerical Integrator And Computer was the first programmable, electronic, general-purpose digital computer
   - Built during WW2 in the USA
   - Programmed via switches and cables
 - Manchester SSEM
-  - Small-Scale Experimetnal Machine was the first electronic stored program computer
+  - Small-Scale Experimental Machine was the first electronic stored-program computer
   - Built in Uni of Manchester
 - Cambridge EDSAC
-  - Electronic Delay Storage Automatic Caculator
+  - Electronic Delay Storage Automatic Calculator
   - Built at Cambridge Uni
   - First practical stored-program computer in regular use
-  - Used punched cards to load progams
+  - Used punched cards to load programs
 - IBM Personal Computer
   - Released 1981
   - Led to the era of cheap commodity-based computation
 
-Computer Architecture is rules and methods that describe the functionality, organisation, and implementation of computer systems which can be applied at many levels such as processor, memory, instruction sets.
+Computer Architecture is rules and methods that describe the functionality, organisation, and implementation of computer systems which can be applied at many levels such as processor, memory, and instruction sets.
 
 ### Von Neumman
 
@@ -96,13 +96,13 @@ Computer Architecture is rules and methods that describe the functionality, orga
 CPU contains
 
 - ALU + CU and Cache Memory
-- Logically the same as above diagram
+- Logically the same as the above diagram
 
 ![Von Neumman Architecture](images/VonNeummanDiagram2.png "Diagram of Von Neumman")
 
 ### Harvard
 
-Instructions and data stored in separate memories to overcome the bottleneck of Von Neumman. This allows parrallel access to data and instruction so this can be faster.
+Instructions and data are stored in separate memories to overcome the bottleneck of Von Neumman. This allows parallel access to data and instruction so this can be faster.
 
 ![Harvard Architecture](images/harvradDiagram.png "Diagram of Harvard")
 
@@ -122,18 +122,18 @@ Computer speed metrics:
 
 - Clock Rate
   - 3GHz processor makes 3 billion ticks per second
-  - instructions take different number of ticks so bad
+  - instructions take different numbers of ticks so bad
 - Millions of Instructions Per Second (MIPS)
-  - Better than previous but depends which instructions are counted (number of instructions)
+  - Better than previous but depends on which instructions are counted (number of instructions)
   - Different Results for programs
 - Floating Point Operations Per Second (FLOPS)
   - Better indication of speed where it counts
 
 Density Limitations
 
-- number of transistores per square inch
+- number of transistors per square inch
 - Moore's Law
 
-## Lectur 3
+## Lecture 3 - Information Coding
 
-## Lecture 4
+## Lecture 4 - Information Coding Part 2
