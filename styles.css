@@ -1,48 +1,56 @@
 :root {
   --background: white;
+  --primary-color: #aecbeb;
+  --hover-color: #dee2e6;
+  --hover-color-dark: darkgrey;
+  --link-color: #0b70bd;
+  --link-hover-color: #f48f42;
+  --font-family: "Montserrat", sans-serif;
+  --font-size: 18px;
 }
 
+/* Global Styles */
 * {
   box-sizing: border-box;
-  margin: 0px;
-  padding: 0px;
-  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-family);
   font-weight: 400;
 }
 
-/*---------- BODY ----------*/
-body {
-  max-width: 1000px;
-  margin: 50px auto 50px auto;
-  padding: 50px;
-  border-radius: 15px;
-}
-
-/*---------- HEADINGS ----------*/
-/*----- 1 -----*/
-.headingTitle1 {
-  border-bottom: 2px solid #aecbeb;
-  height: 21px;
-  margin: 39px -30px 32px -30px;
-  text-align: center;
-}
-h1 {
-  display: inline;
-  padding: 0 20px 0 20px;
+/* Body */
+.container {
+  width: 80vw;
+  margin: 0 auto;
+  padding: 20px;
   background-color: var(--background);
 }
 
-/*----- 2 -----*/
+/* Headings */
+.headingTitle1 {
+  border-bottom: 2px solid var(--primary-color);
+  height: 21px;
+  margin: 39px -30px 32px;
+  text-align: center;
+}
+
+h1 {
+  display: inline;
+  padding: 0 20px;
+  background-color: var(--background);
+}
+
 .headingTitle2 {
   width: 100%;
-  border-bottom: 1px solid #aecbeb;
+  border-bottom: 1px solid var(--primary-color);
   height: 17px;
-  margin: 39px -20px 20px -20px;
+  margin: 39px -20px 20px;
   text-align: left;
 }
+
 h2 {
   display: inline;
-  padding: 0px 10px 0px 19px;
+  padding: 0 10px 0 19px;
   background-color: var(--background);
 }
 
@@ -50,7 +58,13 @@ h3 {
   padding-top: 20px;
 }
 
-/*---------- PARAGRAPHS ----------*/
+/* Paragraphs and Lists */
+p,
+li,
+td {
+  font-size: var(--font-size);
+}
+
 li {
   margin-left: 50px;
 }
@@ -60,106 +74,42 @@ ul {
   margin-top: 17px;
 }
 
-p,
-li,
-td {
-  font-size: 17px;
-}
-
-/*---------- TABLES ----------*/
-/*----- basics -----*/
+/* Tables */
 table {
   border-collapse: collapse;
-  border-bottom: 1px solid rgb(0, 0, 0, 0.2);
-  width: 100%;
-  margin: 10px auto 20px auto;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  margin: 10px auto 20px;
 }
 
-/*----- table headings -----*/
 th {
-  background-color: #aecbeb;
+  background-color: var(--primary-color);
   border: 1px solid black;
   padding: 10px;
   text-align: left;
-  font-size: 18px;
+  font-size: var(--font-size);
 }
 
-/*----- table data (a cell) -----*/
 td {
   padding: 8px;
-  border-bottom: 1px solid black;
-  border: 1px solid rgb(0, 0, 0, 0.2);
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  transition: background-color 0.2s;
 }
 
-/*----- classes for rows -----*/
-.weekend {
-  background-color: #e1ecf7;
-}
-
-.endWeek {
-  border-bottom: 2px solid rgb(0, 0, 0, 0.7);
-}
-
-/*----- table row hover animation -----*/
 tr {
   transition: background-color 0.5s;
 }
+
 tr:hover {
-  background-color: #e8e8e8;
+  background-color: var(--hover-color);
 }
 
-td {
-  transition: background-color 0.4s;
-}
 td:hover {
-  background-color: lightgrey;
+  background-color: var(--hover-color-dark);
 }
 
-/*---------- LINKS ----------*/
-/*----- link hover animation ----*/
+/* Links */
 a {
   text-decoration: none;
-  color: #0b70bd;
+  color: var(--link-color);
   transition: color 0.3s;
-}
-a:hover {
-  color: #f48f42;
-}
-
-/*---------- FOR REVISION QUESTIONS ----------*/
-details {
-  padding: 8px;
-}
-
-summary {
-  background-color: #aecbeb;
-  border: 1px solid black;
-  padding: 10px;
-  text-align: left;
-  margin-bottom: 10px;
-  cursor: pointer;
-}
-
-.islog {
-  max-width: 1500px;
-}
-
-.blank-top-left {
-  background-color: white;
-  border: none;
-}
-
-.blank-top-right {
-  background-color: white;
-  border: none;
-}
-
-.marktop {
-  border-bottom: none;
-  border-top: 1px solid black;
-}
-
-.markschemeTable {
-  border-left: none;
-  border-top: none;
 }
