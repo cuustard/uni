@@ -44,6 +44,7 @@ Assessed with Exams and Coursework:
 | 1    | [Lecture 2 - Architecture & Speed](#lecture-2---architecture--speed)            | [Comp Architecture](/SCC.131.slides/b.compArchitectureIntro.pdf)    | 11/10/2024 |
 | 2    | [Lecture 3 - Information Coding](#lecture-3---information-coding)               | [Information Coding](/SCC.131.slides/c.infoCodingPartOne.pdf)       |            |
 | 2    | [Lecture 4 - Information Coding Part 2](#lecture-4---information-coding-part-2) | [Information Coding Contd](/SCC.131.slides/d.infoCodingPartTwo.pdf) |            |
+| 3    | [Lecture 5 - Boolean Logic](#lecture-5---boolean-logic)                         | [Boolean Logic](/SCC.131.slides/e.booleanLogic.pdf)                 |            |
 
 ---
 
@@ -175,3 +176,5 @@ There are 3 coding approaches for negative numbers:
 - Twos Complement
 
 ## Lecture 4 - Information Coding Part 2
+
+## Lecture 5 - Boolean Logic
