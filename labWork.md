@@ -2,11 +2,11 @@ began: 8th October 2024
 
 # Lab Work
 
-| Week | Lecture                                                               | Original Handout                                                                           | Date Noted |
-| ---- | --------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ | ---------- |
-| 1    | [Week 1 - Learning the UNIX Shell](#week-1---learning-the-unix-shell) | [Learning the Unix Shell](/labMaterial/a.weekOneMaterial.pdf)                              | 9/10/2024  |
-| 2    | [Week 2 - Writing Code](#week-2---c-sets--number-systems)             | [C, Sets, & Number Systems](/labMaterial/b.weekTwoMaterial.pdf)                            | 16/10/2024 |
-| 3    |                                                                       | [Rock Paper Scissors, Relations, Information Coding](/labMaterial/c.weekThreeMaterial.pdf) | 23/10/2024 |
+| Week | Lecture                                                                                   | Original Handout                                                                           | Date Noted |
+| ---- | ----------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ | ---------- |
+| 1    | [Week 1 - Learning the UNIX Shell](#week-1---learning-the-unix-shell)                     | [Learning the Unix Shell](/labMaterial/a.weekOneMaterial.pdf)                              | 9/10/2024  |
+| 2    | [Week 2 - Writing Code](#week-2---c-sets--number-systems)                                 | [C, Sets, & Number Systems](/labMaterial/b.weekTwoMaterial.pdf)                            | 16/10/2024 |
+| 3    | [Week 3 - RPS, Relations, Information Coding](#week-3---rps-relations-information-coding) | [Rock Paper Scissors, Relations, Information Coding](/labMaterial/c.weekThreeMaterial.pdf) | 23/10/2024 |
 
 ## Week 1 - Learning the UNIX Shell
 
@@ -250,3 +250,146 @@ int main() {
      - 101000111 9 bits now? what happens to overflow bit (msb). discard overflow: 01000111
    - 11100000 + 00110000
      - 100010000 9 bits now? what happens to overflow bit (msb). discard overflow: 00010000
+
+## Week 3 - RPS, Relations, Information Coding
+
+### Rock Paper Scissors
+
+Initial working draft:
+
+```C
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+
+int main() {
+    int playerChoice;
+    int playerCount = 0;
+    int compCount = 0;
+
+
+    char plays[3][20] = {"Rock", "Paper", "Scissors"};
+
+    srand(time(NULL));
+
+    printf("Enter 1 for Rock, 2 for Paper, or 3 for Scissors. 0 to quit the game\n");
+    scanf("%d", &playerChoice);
+
+    int computerChoice = (rand() % 3) + 1;
+
+    while(playerChoice >= 0 && playerChoice <= 3) {
+        if(playerChoice == 0) {
+            printf("Game over. You played %d games and won %d\n\n", playerCount+compCount, playerCount);
+            break;
+        }
+        if(playerChoice == computerChoice) {
+            printf("Player chose: %s\n", plays[playerChoice - 1]);
+            printf("Computer chose: %s\n", plays[computerChoice - 1]);
+            printf("Both chose same thing. You lose!\n");
+            compCount++;
+            printf("\n\nEnter 1 for Rock, 2 for Paper, or 3 for Scissors. 0 to quit the game\n");
+            scanf("%d", &playerChoice);
+            computerChoice = (rand() % 3) + 1;
+        } else if(playerChoice == 1 && computerChoice == 2) {
+            printf("Player chose: %s\n", plays[playerChoice - 1]);
+            printf("Computer chose: %s\n", plays[computerChoice - 1]);
+            printf("You lose!\n");
+            compCount++;
+            printf("\n\nEnter 1 for Rock, 2 for Paper, or 3 for Scissors. 0 to quit the game\n");
+            scanf("%d", &playerChoice);
+            computerChoice = (rand() % 3) + 1;
+        } else if(playerChoice == 2 && computerChoice == 3) {
+            printf("Player chose: %s\n", plays[playerChoice - 1]);
+            printf("Computer chose: %s\n", plays[computerChoice - 1]);
+            printf("You lose!\n");
+            compCount++;
+            printf("\n\nEnter 1 for Rock, 2 for Paper, or 3 for Scissors. 0 to quit the game\n");
+            scanf("%d", &playerChoice);
+            computerChoice = (rand() % 3) + 1;
+        } else if(playerChoice == 3 && computerChoice == 1) {
+            printf("Player chose: %s\n", plays[playerChoice - 1]);
+            printf("Computer chose: %s\n", plays[computerChoice - 1]);
+            printf("You lose!\n");
+            compCount++;
+            printf("\n\nEnter 1 for Rock, 2 for Paper, or 3 for Scissors. 0 to quit the game\n");
+            scanf("%d", &playerChoice);
+            computerChoice = (rand() % 3) + 1;
+        } else {
+            printf("Player chose: %s\n", plays[playerChoice - 1]);
+            printf("Computer chose: %s\n", plays[computerChoice - 1]);
+            printf("You win\n");
+            playerCount++;
+            printf("\n\nEnter 1 for Rock, 2 for Paper, or 3 for Scissors. 0 to quit the game\n");
+            scanf("%d", &playerChoice);
+            computerChoice = (rand() % 3) + 1;
+        }
+    }
+}
+```
+
+<details>
+  <summary>Revised Solution:</summary>
+```C
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+
+int main() {
+int playerChoice;
+int playerCount = 0;
+int compCount = 0;
+
+    char plays[3][20] = {"Rock", "Paper", "Scissors"};
+
+    srand(time(NULL));
+
+    printf("Enter 1 for Rock, 2 for Paper, or 3 for Scissors. 0 to quit the game\n");
+    scanf("%d", &playerChoice);
+
+    int computerChoice = (rand() % 3) + 1;
+
+    while(playerChoice >= 0 && playerChoice <= 3) {
+        if(playerChoice <= 0 || playerChoice > 3) {
+            printf("Game over. You played %d games and won %d\n\n", playerCount+compCount, playerCount);
+            break;
+        }
+        printf("Player chose: %s\n", plays[playerChoice - 1]);
+        printf("Computer chose: %s\n", plays[computerChoice - 1]);
+        if(playerChoice == computerChoice) {
+            printf("Both chose same thing. You lose!\n");
+            compCount++;
+            printf("\n\nEnter 1 for Rock, 2 for Paper, or 3 for Scissors. 0 to quit the game\n");
+            scanf("%d", &playerChoice);
+            computerChoice = (rand() % 3) + 1;
+        } else if((playerChoice == 1 && computerChoice == 2) || (playerChoice == 2 && computerChoice == 3) || (playerChoice == 3 && computerChoice == 1)) {
+            printf("Player chose: %s\n", plays[playerChoice - 1]);
+            printf("Computer chose: %s\n", plays[computerChoice - 1]);
+            printf("You lose!\n");
+            compCount++;
+            printf("\n\nEnter 1 for Rock, 2 for Paper, or 3 for Scissors. 0 to quit the game\n");
+            scanf("%d", &playerChoice);
+            computerChoice = (rand() % 3) + 1;
+        } else {
+            printf("Player chose: %s\n", plays[playerChoice - 1]);
+            printf("Computer chose: %s\n", plays[computerChoice - 1]);
+            printf("You win\n");
+            playerCount++;
+            printf("\n\nEnter 1 for Rock, 2 for Paper, or 3 for Scissors. 0 to quit the game\n");
+            scanf("%d", &playerChoice);
+            computerChoice = (rand() % 3) + 1;
+        }
+    }
+
+}
+
+```
+</details>
+
+### 121 Relations
+
+1. For the exercises in this part, we have the following relations on `A = {1, 2, 3, 4}`:
+   - `R1 = {< 1, 1 >, < 1, 2 >, < 2, 1 >, < 2, 2 >, < 3, 4 >, < 4, 1 >, < 4, 4 >}`
+   - `R2 = {< 2, 2 >, < 2, 3 >, < 2, 4 >, < 3, 2 >, < 3, 3 >, < 3, 4 >}`
+   - `R3 = {< 1, 1 >, < 1, 2 >, < 1, 4 >, < 2, 1 >, < 2, 2 >, < 3, 3 >, < 4,1 >, < 4, 4 >}`
+   - `R4 = {< 2, 1 >, < 3, 1 >, < 3, 2 >, < 4, 1 >, < 4, 2 >, < 4, 3 >}`
+```
