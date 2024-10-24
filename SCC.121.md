@@ -187,6 +187,42 @@ Summary of Type of sets:
 
 ## Lecture 3 - Relations
 
+![Associations](images/associations.png "Diagram showing example of assocations between students and academic courses")
+
+Pairs of objects are related in specific ways. We can represent a relationship by describing what course each student takes. Starting from the student and ending with the course. We specify the relationship this way because it is a student that takes a course; a course does not take a student.
+
+Relations are asymmetric. The direction matters because the order of elements in the order pair matters.
+
+The cartesian product will give us all possible ordered pairs (12 in this example). But there are only 5 relations. In real life, which students take which course could be all the possible pairs, but often it will be a subset of the cartesian product.
+
+A binary relation is an ordered pair where two elements are brought together.
+
+Binary Relation R from set A to set B, or over `A x B`. A set of ordered pairs `<a, b>`, `a ∈ A` and `b ∈ B`. An ordered pair `<a, b> ∈ R`. Means element a is related to element b through the relation R.
+
+The relationship between R and A x B is as follows:
+
+- A x B is the set of all ordered pairs (the cartesian product)
+- R is a subset of `A x B`. So `R ⊆ A x B`. It is not a proper subset as R could be the cartesian product.
+
+In the above diagram, Relation T (Takes):
+
+- John Takes course1
+  - `<John, course1> ∈ T`
+- Jim Takes course1
+  - `<Jim, course1> ∈ T`
+- Helen Takes course2 and course3
+  - `<Helen, course2> ∈ T`
+  - `<Helen, course3> ∈ T`
+- Mary Takes course3
+  - `<Mary, course3> ∈ T`
+
+Another example:
+
+- `A = {0, 1, 2, 3}` and `B = {0, 1, 2, 3, 4}`
+- List the ordered pairs in the relation R from A to B that satisfy `<a, b> ∈ R`, if `b - a = 1`.
+- `b - a = 1` is equivilant to `b = a + 1`. So `<a, b> = <a, a + 1>`:
+- So the relation R looks like: `R = {<0, 1>, <1, 2>, <2, 3>, <3, 4>}`
+
 ## Lecture 4 - Relations Part 2
 
 ## Lecture 5 - Functions

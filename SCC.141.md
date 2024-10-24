@@ -26,11 +26,11 @@ Assessed with Exams and Coursework:
 
 ### Table of Contents
 
-| Week | Lecture                                                                                 | Original Slides                                                            | Date Noted |
-| ---- | --------------------------------------------------------------------------------------- | -------------------------------------------------------------------------- | ---------- |
-| 1    | [Lecture 1 - Module Introduction](#lecture-1---module-introduction)                     | [Introduction](/SCC.141.slides/a.introSlides.pdf)                          | 9/10/2024  |
-| 2    | [Lecture 2 - Systems Development Lifecycle](#lecture-2---systems-development-lifecycle) | [Systems Development Lifecycle](/SCC.141.slides/b.systemsDevLifecycle.pdf) | 16/10/2024 |
-| 3    |                                                                                         |                                                                            | 23/10/2024 |
+| Week | Lecture                                                                                                    | Original Slides                                                               | Date Noted |
+| ---- | ---------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------- | ---------- |
+| 1    | [Lecture 1 - Module Introduction](#lecture-1---module-introduction)                                        | [Introduction](/SCC.141.slides/a.introSlides.pdf)                             | 9/10/2024  |
+| 2    | [Lecture 2 - Systems Development Lifecycle](#lecture-2---systems-development-lifecycle)                    | [Systems Development Lifecycle](/SCC.141.slides/b.systemsDevLifecycle.pdf)    | 16/10/2024 |
+| 3    | [Lecture 3 - Requirements & Requirements Engineering](#lecture-3---requirements--requirements-engineering) | [Requirements & Requirements Engineering](/SCC.141.slides/c.requirements.pdf) | 23/10/2024 |
 
 ---
 
@@ -235,3 +235,72 @@ Cons:
 - Less control
 - Can be difficult to scale for large systems
 - Less documentation
+
+## Lecture 3 - Requirements & Requirements Engineering
+
+### What Are Requirements & Why Are They Important?
+
+A requirement is a clear, testable, and measurable statement, expresed in natural language without jargon, that specifies the intended functionalities, characteristics, or constraints of a product. It specifies what the product should do and ensures it meets the desired operational, functional, and accessibility needs.
+
+Requirements are important because:
+
+- Enables 'time to market with the right product':
+  - Streamlines development by providing clear direction.
+  - Reduces misunderstandings and rework.
+  - Prioritizes critical features for faster delivery.
+  - Aligns product with market demands to enhance success.
+- Central to delivery:
+  - Serves as a reference throughout the project lifecycle.
+  - Guides design, development, testing, and deployment.
+  - Establishes clear acceptance criteria for evaluation.
+  - Aligns expectations with outcomes to ensure stakeholder satisfaction.
+- Provide a 'nagivation chart' for any project:
+  - Helps chart a course from concept to completion.
+  - Facilitates tracking progress and informed decision-making.
+  - Identifies potential risks early in the process.
+  - Allows for adaptability while maintaining focus on goals.
+
+Projects can fail when there are issues with the requirements, such as being incomplete, unrealistic, or constantly changing.
+
+### Types of Requirements
+
+- Functional (functions of the product)
+- Non-functional (characteristics of the product)
+- Business
+- User
+- System
+
+#### Functional Requirements
+
+- Defines what the product must do and how it will be implemented
+- "the product capabilities or things that product must do for its users"
+- Processes the product must perform
+  - This relates to what the system must do to be able to perform in order to support a user task
+- Information the product must provide
+  - This relate to what information the product should contai nto enable a process
+
+#### Non-functional Requirements
+
+- Defines the qualities and characteristics the product must have
+- "the quality attributes, deseign & implementation constraints, and external interfces which a product must have"
+- Usability, performance, maintainabiity, security, legal compliance, etc.
+
+There are 3 types of Non-Functional Requirements:
+
+- **Professional**: These specify how the product must behave
+- **Organisational**: Formed from organisational policies and procedures
+- **External**: Arise from external factors and it's development process
+
+![Type of non-functional requirements](images/nonFunctionalRequirements.png "Diagram showing the types of non-functional requirements")
+
+Examples of non-functional requirements:
+
+- Performance: "It should take less than 3 seconds for a user to recieve confirmation of their order"
+- Security: "Users must log-in to a password-protected area to see their order history"
+- Legal: "Data must be stored in compiance with GDPR"
+
+There is another way that non-functional requirements can be categorised:
+
+- Quality: e.g. maintainability, reliability, performance, usability
+- Process: how the developement process is going to be carried out
+- Constraints: from business or operational context

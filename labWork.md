@@ -327,8 +327,8 @@ int main() {
 }
 ```
 
-<details>
-  <summary>Revised Solution:</summary>
+Revised Solution:
+
 ```C
 #include <stdio.h>
 #include <stdlib.h>
@@ -381,9 +381,13 @@ int compCount = 0;
     }
 
 }
+```
+
+Final Solution:
+
+```C
 
 ```
-</details>
 
 ### 121 Relations
 
@@ -392,4 +396,3 @@ int compCount = 0;
    - `R2 = {< 2, 2 >, < 2, 3 >, < 2, 4 >, < 3, 2 >, < 3, 3 >, < 3, 4 >}`
    - `R3 = {< 1, 1 >, < 1, 2 >, < 1, 4 >, < 2, 1 >, < 2, 2 >, < 3, 3 >, < 4,1 >, < 4, 4 >}`
    - `R4 = {< 2, 1 >, < 3, 1 >, < 3, 2 >, < 4, 1 >, < 4, 2 >, < 4, 3 >}`
-```
