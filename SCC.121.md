@@ -226,3 +226,116 @@ Another example:
 ## Lecture 4 - Relations Part 2
 
 ## Lecture 5 - Functions
+
+## Lecture 6 - Functions Part 2
+
+## Lecture 7 - Propositional Logic
+
+## Lecture 8 - Propositional Logic Part 2
+
+### Logical Reasoning
+
+- An Argument is a squence of propositions that end with a conclusion.
+  - The argument is VALID if, given that the premises are true, then the conclusion is true.
+- A Premise is the basis on which we esablish the conclusion.
+- A Conclusion is a claim that we try to esablish as true.
+
+Written in the form:
+
+![Logcal Reasoning Writen Form](images/logcialReasoning.png)
+
+### Propositional Logic
+
+Building blocks of propositional logic:
+
+- Atomic & Compound Propositions
+- Fundamental Connectives
+
+A rule is a function that takes propositions as premises and returns others as conclusions.
+
+- **Inference Rules**: tamplates for building valid arguments
+- **Replacement Rules**: replaces parts of propositions with logically equivalent expressions
+
+### Inference Rules
+
+Inference rules give methods to evaulate the validity of arguments. They highlight logical reasoning behind a valid argument are justify stemps from premises t oconclusion. An alternative to this is truth tables, but these are inconvenient with more propositions and are less intuitive.
+
+The rules:
+
+- Modus Ponens
+- Modus Tollens
+- Addition
+- Simplification
+- Hypothetical Syllogism
+- Disjunctive Syllogism
+- Absorption
+
+#### Modus Ponens
+
+![Modus Ponens Example](images/modusPonens.png "Diagram showing example of Modus Ponens Rule")
+
+#### Modus Tollens
+
+![Modus Tollens Example](images/modusTollens.png "Diagram showing example of Modus Tollens Rule")
+
+#### Addition (disjunction introduction)
+
+![Addition Example](images/addition.png "Diagram showing example of Addition Rule")
+
+#### Simplification (conjunction elimination)
+
+![Simplification Example](images/simplification.png "Diagram showing example of Simplification Rule")
+
+#### Hypothetical Syllogism
+
+![Hypothetical Syllogism Example](images/hypotheticalSyllogism.png "Diagram showing example of Hypothetical Syllogism Rule")
+
+#### Disjunctive Syllogism
+
+This rule works for both OR and XOR
+
+![Disjunctive Syllogism Example](images/disjunctiveSyllogism.png "Diagram showing example of Disjunctive Syllogism Rule")
+
+#### Absorption
+
+![Absorption Example](images/absorption.png "Diagram showing example of Absorption Rule")
+
+| Rule                                     | Description                                                                                                                                                                                                        | Example Image                                                                                                                |
+| ---------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------- |
+| Modus Ponens                             | one premise is a conditional statement, the other premise affirms the antecedent, and the conclusion affirms the consequent                                                                                        | ![Modus Ponens Example](images/modusPonens.png "Diagram showing example of Modus Ponens Rule")                               |
+| Modus Tollens                            | one premise is a conditional statement, the other premise denies the consequent, and the conclusion denies the antecedent                                                                                          | ![Modus Tollens Example](images/modusTollens.png "Diagram showing example of Modus Tollens Rule")                            |
+| Addition (disjunction introduction)      | the premise is a proposition, and the conclusion is a disjunction formed by that proposition and any other proposition                                                                                             | ![Addition Example](images/addition.png "Diagram showing example of Addition Rule")                                          |
+| Simplification (conjunction elimination) | the premise is a conjunction, and the conclusion is either of the propositions forming the conjunction                                                                                                             | ![Simplification Example](images/simplification.png "Diagram showing example of Simplification Rule")                        |
+| Hypothetical Syllogism                   | the premises are two conditionals such as P → Q and Q → R so that one’s antecedent matches the consequent of the other, and the conclusion is another conditional which results from the chain of reasoning: P → R | ![Hypothetical Syllogism Example](images/hypotheticalSyllogism.png "Diagram showing example of Hypothetical Syllogism Rule") |
+| Disjunctive Syllogism                    | one premise is a disjunction, the other premise denies one of the propositions in the disjunction, and the conclusion affirms the other proposition in the disjunction                                             | ![Disjunctive Syllogism Example](images/disjunctiveSyllogism.png "Diagram showing example of Disjunctive Syllogism Rule")    |
+| Absorption                               | the premise is a conditional: P → Q, and the conclusion is also a conditional whose consequent is a conjunction of the consequent and antecedent: P → ( P ∧ Q )                                                    | ![Absorption Example](images/absorption.png "Diagram showing example of Absorption Rule")                                    |
+
+### Replacement Rules
+
+| Rule/Law            | Description                                                                                                                                                                                                 | Example                                                                   |
+| ------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------- |
+| Commutative law     | The order of laws does not affect the result of hte conjunction or disjunction                                                                                                                              | `P ∨ Q` = `Q ∨ P` / `P ∧ Q` = `Q ∧ P`                                     |
+| Associative law     | The grouping of propositions does not affect the result of the conjuction or disjunction                                                                                                                    | `(P ∨ Q) ∨ R` = `P ∨ (Q ∨ R)` / `(P ∧ Q) ∧ R` = `P ∧ (Q ∧ R)`             |
+| Distributive law    | 'Multiply' out the brackets                                                                                                                                                                                 | `P ∧ (Q ∨ R)` = `(P ∧ Q) ∨ (P ∧ R)` / `P ∨ (Q ∧ R)` = `(P ∨ Q) ∧ (P ∨ R)` |
+| De Morgan’s laws    |                                                                                                                                                                                                             | `~P ∧ ~Q` = `~(P ∨ Q)` / `~P ∨ ~Q` = `~(P ∧ Q)`                           |
+| Absorption law      | The disjunction of any proposition P with (P ∧ Q) has the same truth value as P                                                                                                                             | `P ∨ (P ∧ Q)` = `P` / `P ∧ (P ∨ Q)` = `P`                                 |
+| Identity law        | The conjunction of any proposition P with an arbitrary tautology T has the same truth value as P. <br> The disjunction of any proposition P with an arbitrary contradiction F has the same truth value as P | `P ∧ T` = `P` <br> `P ∨ F` = `P`                                          |
+| Idempotence law     | The property of a conjunction or disjunction to be applied multiple times on a proposition without changing the proposition                                                                                 | `P ∧ P` = `P` / `P ∨ P` = `P`                                             |
+| Negation law        | The disjunction of any proposition P and its negation is a tautology                                                                                                                                        | `P ∨ ~P` = `True` / `P ∧ ~P` = `False`                                    |
+| Double negation law |                                                                                                                                                                                                             | `~(~P)` = `P`                                                             |
+| Implication law     | Implication can be expressed by disjunction and negation                                                                                                                                                    | `P → Q` = `~P ∨ Q`                                                        |
+| Contraposition law  |                                                                                                                                                                                                             | `P → Q` = `~P → ~Q`                                                       |
+| Equivalence law     | A biconditional is equivalent to the conjunction of two conditionals                                                                                                                                        | `P <--> Q` = `(P → Q) ∧ (Q → P)`                                          |
+
+• Commutative law – states that a compound proposition involving exclusively ANDs, or exclusively ORs is unaltered by reordering its atomic propositions.
+• Associative law – states that a compound proposition involving exclusively ANDs or exclusively ORs, is unaltered by regrouping its atomic propositions.
+• Distributive law – states that a compound proposition involving AND, OR and parentheses, is unaltered by distributing the first connective to link the first proposition separately with each proposition in the parentheses.
+• De Morgan law states that the conjunction of negations is the negation of a disjunction: ~P  ~Q is equivalent to ~(P  Q).
+• Absorption law states that the disjunction of any proposition P with (P ∧ Q) has the same truth value as P: P ∨ (P ∧ Q) is equivalent to P; the conjunction of any proposition P with (P ∨ Q) has the same truth value as P: P∧ (P ∨ Q) is equivalent to P.
+• Identity law states that the conjunction of any proposition P with an arbitrary tautology has the same truth value as P; the disjunction of any proposition P with an arbitrary contradiction F (proposition which is always false) has the same truth value as P.
+• Idempotence law states the property of a conjunction or disjunction to be applied multiple times on a proposition without changing the proposition: P ∧ P is logically equivalent to P, P ∨ P is logically equivalent to P.
+• Negation law states that the disjunction of any proposition P and its negation is a tautology; the conjunction of any proposition P and its negation is a contradiction.
+• Doble negation law states that any proposition P is logically equivalent to its double negation ~(~P)
+• Implication law states that any implication P → Q is logically equivalent to ~P ∨ Q.
+• Contraposition law states that a conditional P → Q is logically equivalent to its contrapositive (implication of negations): ~Q → ~P.
+• Equivalence law states that a biconditional P  Q is logically equivalent to the conjunction of two conditionals: (P → Q)  (Q → P).

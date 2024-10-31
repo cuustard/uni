@@ -7,6 +7,7 @@ began: 8th October 2024
 | 1    | [Week 1 - Learning the UNIX Shell](#week-1---learning-the-unix-shell)                     | [Learning the Unix Shell](/labMaterial/a.weekOneMaterial.pdf)                              | 9/10/2024  |
 | 2    | [Week 2 - Writing Code](#week-2---c-sets--number-systems)                                 | [C, Sets, & Number Systems](/labMaterial/b.weekTwoMaterial.pdf)                            | 16/10/2024 |
 | 3    | [Week 3 - RPS, Relations, Information Coding](#week-3---rps-relations-information-coding) | [Rock Paper Scissors, Relations, Information Coding](/labMaterial/c.weekThreeMaterial.pdf) | 23/10/2024 |
+| 4    | [Week 4 - Arrays, Functions, Boolean Logic ](#week-4---arrays-functions-boolean-logic)    |                                                                                            |            |
 
 ## Week 1 - Learning the UNIX Shell
 
@@ -396,3 +397,189 @@ Final Solution:
    - `R2 = {< 2, 2 >, < 2, 3 >, < 2, 4 >, < 3, 2 >, < 3, 3 >, < 3, 4 >}`
    - `R3 = {< 1, 1 >, < 1, 2 >, < 1, 4 >, < 2, 1 >, < 2, 2 >, < 3, 3 >, < 4,1 >, < 4, 4 >}`
    - `R4 = {< 2, 1 >, < 3, 1 >, < 3, 2 >, < 4, 1 >, < 4, 2 >, < 4, 3 >}`
+
+## Week 4 - Arrays, Functions, Boolean Logic
+
+### 111 Arrays
+
+```C
+#include <stdio.h>
+
+int main() {
+    int scores[10] = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0};
+    int score = -1;
+    int i;
+    int count = 0;
+
+    while (count < 10) { // Get 10 scores
+        printf("Enter high score (0 to exit): ");
+        scanf("%d", &score); // get input
+        if (score == 0) {
+            break; // exit loop and output the high score table
+        } else if (score < 0 || score > 1000) {
+            printf("ERROR, score out of bounds. ");
+        } else { // if valid, add to the array
+            count++;
+            for (i = 0; i < 10; i++) {
+                if (scores[i] == 0) { // find next avaiable space in array
+                    scores[i] = score; // replace value with score
+                    break;
+            }
+        }
+        }
+    }
+
+    printf("\n*** HIGH SCORE TABLE ***\n");
+    for (i = 0; i < 10; i++) {
+        printf("%d - %d\n", i+1, scores[i]);
+    }
+}
+```
+
+### 121 Functions
+
+1. Let `A = {a, b, c, d, e}` and `B = {1, 2, 3, 4}` with `f(a) = 2`, `f(b) = 1`, `f(c) = 4`, `f(d) = 1` and `f(e)= 1`.
+
+   - Is f a function? Why?
+     - ...
+   - What is the domain of this function?
+     - ...
+   - What is the co-domain?
+     - ...
+   - What is the range of this function?
+     - ...
+
+2. Let the function f(x) = 3x - 3 on the set of real numbers. Find its inverse.
+
+   - ...
+
+3. Let `A = {1, 2, 3}`, and `B = {1, 2, 3, 4}`, and `f : A → B`, `g : A → B` by: `f(1) = 4`, `f(2) = 2`, `f(3) = 1`. `g(1) = 4`, `g(2) = 4`, `g(3) = 1`. Which of these functions is injective? f or g?
+
+   - ...
+
+4. Let `A = {1, 2, 3, 4}`, and `B = {1, 2, 3, 4}` and `f : A → B`, `g : A → B` by: `f(1) = 4`, `f(2) = 2`, `f(3) = 1`, `f(4) = 3`. `g(1) = 4`, `g(2) = 3`, `g(3) = 1`, `g(4) = 1`. Which of these functions is surjective? f or g?
+
+   - ...
+
+5. Let f(x) = 3x + 6 on the set of real numbers.
+
+   - Is f a bijective function?
+     - ...
+   - If so, what is its inverse?
+     - ...
+
+6. Let M and N be relations from A to B, with `A = {a, b, c, d}`, and `B = {s, t, u}`, defined as follows: `M = {<a, t>, <b, s>, <c, s>, <d, u>}`, `N = {<a, s>, <b, t>, <c, s >, <a, u>, <d, u>}`. Which one of the following statements is true?
+
+   - M and N are functions
+     - ...
+   - M is a function and N is not a function
+     - ...
+   - M and N are not functions
+     - ...
+   - none of these
+     - ...
+
+7. Let f be a function on the set N of natural numbers, `f: N → N`, defined by `f(x) = 2x + 3`. Is function f:
+
+   - injective
+     - ...
+   - surjective
+     - ...
+   - bijective
+     - ...
+   - none of the above
+     - ...
+
+8. Let `f: Z→ Z` be defined by `f(x) = 2x + 1`.
+
+   - What is the domain, codomain, range of f?
+     - ...
+   - Is f one-to-one (injective)?
+     - ...
+   - Is f onto (surjective)?
+     - ...
+   - If f is bijective, what is its inverse?
+     - ...
+
+9. Let f1 and f2 be two functions from A to B such that `f1(x) = x^2` and `f2(x) = x – x^2`
+
+   - What is the sum function f1+ f2?
+     - ...
+   - What is the product function f1x f2?
+     - ...
+
+10. Let f and g be two functions from the set of integers to the set of integers, defined by `f(x) = 2x + 3` and `g(x) = 3x + 2`.
+
+    - What is the composition of f and g?
+      - ...
+    - What is the composition of g and f?
+      - ...
+
+11. Let `f(x) = x2 + 1` and `g(x)= x + 2` be two functions from the set of integers to the set of integers. Find the following functions:
+
+    - f + g (x) =
+      - ...
+    - (f + g) (1) =
+      - ...
+    - f × g (x) =
+      - ...
+    - (f × g) (0) =
+      - ...
+    - f ◦ g (x) =
+      - ...
+    - (f ◦ g) (1) =
+      - ...
+    - g ◦ f (x) =
+      - ...
+    - (g ◦ f) (2) =
+      - ...
+
+### 131 Boolean Logic
+
+1. Express the following statements in Boolean algebra:
+
+   - Either A is true or B is true.
+     - A OR B
+   - A is not true.
+     - A'
+   - Neither A nor B is true.
+     - A' OR B'
+   - B is true, but not A.
+     - B AND 'A
+
+2. Simplify the following Boolean expressions:
+
+   - A+A’
+     - A
+   - A+A
+     - A
+   - A’ + A’A
+     - A
+   - A’ + AB
+
+3. Use a truth table to evaluate the following expressions. Given: ( A = 0) and (B = 1):
+
+   - A + B
+     - 1
+   - A’ + B’
+     - 1
+   - A + A’
+     - 1
+   - A’B’
+     - 0
+
+4. Minimise the following Boolean functions using Boolean algebra:
+
+   - F = AB + A’B + AB’
+     - ...
+   - F = ABC + AB’C + ABC’ + AB’C’ + A’BC + A’B’C
+     - ...
+
+5. Minimise the following Boolean functions using Karnaugh maps:
+
+   - F = AB + A’B + AB’
+     - ...
+   - F = ABC + AB’C + ABC’ + AB’C’ + A’BC + A’B’C
+     - ...
+   - F = A’BCD + A’B’CD + A’BC’D + A’B’C’D + ABC’D’ + AB’C’D’ + ABCD’ + AB’CD’
+     - ...
