@@ -29,12 +29,16 @@ Assessed with Exam and Coursework:
 
 ### Table of Contents
 
-| Week | Lecture                                                             | Original Slides                                            | Date Noted |
-| ---- | ------------------------------------------------------------------- | ---------------------------------------------------------- | ---------- |
-| 1    | [Lecture 1 - Module Introduction](#lecture-1---module-introduction) | [Module Intro](/SCC.111.slides/a.introSlides.pdf)          | 9/10/2024  |
-| 1    | [Lecture 2 - Writing Code](#lecture-2---writing-code)               | [Intro to C](/SCC.111.slides/b.introToC.pdf)               | 11/10/2024 |
-| 2    | [Lecture 3 - Control Flow](#lecture-3---control-flow)               | [Control Flow](/SCC.111.slides/c.controlFlow.pdf)          | 16/10/2024 |
-| 2    | [Lecture 4 - Functions & Flow](#lecture-4---functions--flow)        | [Functions & Flow](/SCC.111.slides/d.functionsAndFlow.pdf) | 19/10/2024 |
+| Week | Lecture                                                             | Original Slides                                                | Noted |
+| ---- | ------------------------------------------------------------------- | -------------------------------------------------------------- | ----- |
+| 1    | [Lecture 1 - Module Introduction](#lecture-1---module-introduction) | [Module Intro](/SCC.111.slides/a.introSlides.pdf)              | Yes   |
+| 1    | [Lecture 2 - Writing Code](#lecture-2---writing-code)               | [Intro to C](/SCC.111.slides/b.introToC.pdf)                   | Yes   |
+| 2    | [Lecture 3 - Control Flow](#lecture-3---control-flow)               | [Control Flow](/SCC.111.slides/c.controlFlow.pdf)              | Yes   |
+| 2    | [Lecture 4 - Functions & Flow](#lecture-4---functions--flow)        | [Functions & Flow](/SCC.111.slides/d.functionsAndFlow.pdf)     | Yes   |
+| 3    | [Lecture 5 - Variables & Arrays](#lecture-5---variables--arrays)    | [Variables & Arrays](/SCC.111.slides/e.variablesAndArrays.pdf) | No    |
+| 3    | [Lecture 6 - Reading Code](#lecture-6---reading-code)               | [Reading Code](/SCC.111.slides/f.readingCode.pdf)              | No    |
+| 4    | [Lecture 7 - Testing](#lecture-7---testing)                         | [Testing](/SCC.111.slides/g.testing.pdf)                       | No    |
+| 4    | [Lecture 8 - Debugging](#lecture-8---debugging)                     | [Debugging](/SCC.111.slides/h.debugging.pdf)                   | No    |
 
 ---
 
@@ -180,3 +184,11 @@ They can only return an arithmetic type or nothing (void)
 `main()` is the entry point to the program. It takes no parameters and returns a code to the shell.
 
 In C, the parameter values in the function are only ever a copy of whats passed in (passed by value).
+
+## Lecture 5 - Variables & Arrays
+
+## Lecture 6 - Reading Code
+
+## Lecture 7 - Testing
+
+## Lecture 8 - Debugging
