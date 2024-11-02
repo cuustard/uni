@@ -25,26 +25,28 @@ The module aims for me to understand Digital Systems. This includes...
 
 Assessed with Exams and Coursework:
 
-| Task                            | Type   | Week       | Worth |
-| ------------------------------- | ------ | ---------- | ----- |
-| Architecture Quiz               | Online | Week 5     | 5%    |
-| Architecture + Embedded Systems | Online | Week 10    | 5%    |
-| Assembly + Debugging Quiz       | Online | Week 15    | 5%    |
-| Assembly                        | Online | Week 20    | 5%    |
-| Programming Project             | Online | Week 23    | 10%   |
-| Exam                            | Online | Week 28-30 | 70%   |
+| Task                                 | Type   | Week       | Worth |
+| ------------------------------------ | ------ | ---------- | ----- |
+| Architecture Quiz                    | Online | Week 5     | 5%    |
+| Architecture + Embedded Systems Quiz | Online | Week 10    | 5%    |
+| Assembly + Debugging Quiz            | Online | Week 15    | 5%    |
+| Assembly                             | Online | Week 20    | 5%    |
+| Programming Project                  | Online | Week 23    | 10%   |
+| Exam                                 | Online | Week 28-30 | 70%   |
 
 ---
 
 ### Table of Contents
 
-| Week | Lecture                                                                         | Original Slides                                                     | Date Noted |
-| ---- | ------------------------------------------------------------------------------- | ------------------------------------------------------------------- | ---------- |
-| 1    | [Lecture 1 - Module Introduction](#lecture-1---module-introduction)             | [Module Introduction](/SCC.131.slides/a.introSlides.pdf)            | 8/10/2024  |
-| 1    | [Lecture 2 - Architecture & Speed](#lecture-2---architecture--speed)            | [Comp Architecture](/SCC.131.slides/b.compArchitectureIntro.pdf)    | 11/10/2024 |
-| 2    | [Lecture 3 - Information Coding](#lecture-3---information-coding)               | [Information Coding](/SCC.131.slides/c.infoCodingPartOne.pdf)       |            |
-| 2    | [Lecture 4 - Information Coding Part 2](#lecture-4---information-coding-part-2) | [Information Coding Contd](/SCC.131.slides/d.infoCodingPartTwo.pdf) |            |
-| 3    | [Lecture 5 - Boolean Logic](#lecture-5---boolean-logic)                         | [Boolean Logic](/SCC.131.slides/e.booleanLogic.pdf)                 |            |
+| Week | Lecture                                                                               | Original Slides                                                                  | Noted  |
+| ---- | ------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------- | ------ |
+| 1    | [Lecture 1 - Module Introduction](#lecture-1---module-introduction)                   | [Module Introduction](/SCC.131.slides/a.introSlides.pdf)                         | Yes    |
+| 1    | [Lecture 2 - Architecture & Speed](#lecture-2---architecture--speed)                  | [Comp Architecture](/SCC.131.slides/b.compArchitectureIntro.pdf)                 | Yes    |
+| 2    | [Lecture 3 - Information Coding](#lecture-3---information-coding)                     | [Information Coding](/SCC.131.slides/c.infoCodingPartOne.pdf)                    | Partly |
+| 2    | [Lecture 4 - Information Coding Part 2](#lecture-4---information-coding-part-2)       | [Information Coding Contd](/SCC.131.slides/d.infoCodingPartTwo.pdf)              | No     |
+| 3    | [Lecture 5 & 6 - Boolean Logic](#lecture-5--6---boolean-logic)                        | [Boolean Logic](/SCC.131.slides/e.booleanLogic.pdf)                              | No     |
+| 4    | [Lecture 7 - Instruction Set Architecture](#lecture-7---instruction-set-architecture) | [Instruction Set Architecture](/SCC.131.slides/f.instructionSetArchitecture.pdf) | No     |
+| 4    | [Lecture 8 - Building the ALU](#lecture-8---building-the-alu)                         | [Building The ALU](/SCC.131.slides/g.buildingTheALU.pdf)                         | NO     |
 
 ---
 
@@ -177,4 +179,8 @@ There are 3 coding approaches for negative numbers:
 
 ## Lecture 4 - Information Coding Part 2
 
-## Lecture 5 - Boolean Logic
+## Lecture 5 & 6 - Boolean Logic
+
+## Lecture 7 - Instruction Set Architecture
+
+## Lecture 8 - Building The ALU
