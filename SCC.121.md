@@ -284,15 +284,23 @@ These tabulate the value of a compound propotition for all possible values of it
 | Conditional   | →       |
 | Biconditional | ⇔       |
 
+#### AND
+
 ![AND Connective](images/connectiveAND.png)
+
+#### OR
 
 ![OR Connective](images/connectiveOR.png)
 
+#### XOR
+
 ![XOR Connective](images/connectiveXOR.png)
+
+#### NOT
 
 ![NOT Connective](images/connectiveNOT.png)
 
-Conditional / Implication
+#### Conditional / Implication
 
 IF antecedent THEN consequent. For example: IF the train is late, THEN we will miss our flight
 
@@ -300,7 +308,7 @@ This combines two propositions into a third proposition called the conditional o
 
 ![Conditional / Implication](images/conditionalImplicational.png)
 
-Biconditional
+#### Biconditional
 
 The biconditional is only True when both propositions have the same truth value.
 
