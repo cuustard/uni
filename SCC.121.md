@@ -46,7 +46,7 @@ Assessed with Exams and Coursework:
 | 2    | [Lecture 4 - Relations Part 2](#lecture-4---relations-part-2)                     | [Relations Part 2](/SCC.121.slides/e.relationsPartTwo.pdf)                    | No    |
 | 3    | [Lecture 5 - Functions](#lecture-5---functions)                                   | [Functions](/SCC.121.slides/f.functions.pdf)                                  | No    |
 | 3    | [Lecture 6 - Functions Part 2](#lecture-6---functions-part-2)                     | [Functions Part 2](/SCC.121.slides/g.functionsPartTwo.pdf)                    | No    |
-| 4    | [Lecture 7 - Propositional Logic](#lecture-7---propositional-logic)               | [Propositional Logic](/SCC.121.slides/h.propositionalLogic.pdf)               | No    |
+| 4    | [Lecture 7 - Propositional Logic](#lecture-7---propositional-logic)               | [Propositional Logic](/SCC.121.slides/h.propositionalLogic.pdf)               | Yes   |
 | 4    | [Lecture 8 - Propositional Logic Part 2](#lecture-8---propositional-logic-part-2) | [Propositional Logic Part 2](/SCC.121.slides/i.propositionalLogicPartTwo.pdf) | Yes   |
 
 ---
@@ -233,6 +233,96 @@ Another example:
 ## Lecture 6 - Functions Part 2
 
 ## Lecture 7 - Propositional Logic
+
+Logic is study of reasoning. It is a rational way of drawing conclusions.
+
+A proposition is a claim about how things are. It can either be true OR false. Not both. For exaple:
+
+True propositions:
+
+- Grass is green
+- Snow is white
+- 2 + 2 = 4
+
+False propositions:
+
+- Grass is red
+- Snow is pink
+- 2 + 2 = 5
+
+The following are examples of non propositions
+
+- Is the water warm?
+- Go for it!
+- Where are we?
+- Put the phone down!
+- Ouch!
+
+An Atomic proposition is one that is true or false value does not depend on that of any other proposition.
+
+A compound proposition is one which is constructed from atomic propositions by combinging them with fundamental connectives.
+
+### Truth Tables
+
+These tabulate the value of a compound propotition for all possible values of it's atomic propositions and their combination. For example, the truth table for 2 atomic propositions:
+
+| P   | Q   | Compound |
+| --- | --- | -------- |
+| F   | F   |          |
+| F   | T   |          |
+| T   | F   |          |
+| T   | T   |          |
+
+### Fundamental Connectives
+
+| Operation     | Symbols |
+| ------------- | ------- |
+| AND           | ⋀       |
+| OR            | ⋁       |
+| XOR           | ⊕, ⊻    |
+| NOT           | ~, ¬    |
+| Conditional   | →       |
+| Biconditional | ⇔       |
+
+![AND Connective](images/connectiveAND.png)
+
+![OR Connective](images/connectiveOR.png)
+
+![XOR Connective](images/connectiveXOR.png)
+
+![NOT Connective](images/connectiveNOT.png)
+
+Conditional / Implication
+
+IF antecedent THEN consequent. For example: IF the train is late, THEN we will miss our flight
+
+This combines two propositions into a third proposition called the conditional or implication. The conditional/implication is false when the antecedent is True and the consequent is False.
+
+![Conditional / Implication](images/conditionalImplicational.png)
+
+Biconditional
+
+The biconditional is only True when both propositions have the same truth value.
+
+![Biconditional](images/biconditional.png)
+
+### Logical Properties
+
+Tautologies are propositions which are always True, regardless of the truth values of it's atomic propositions. For example, Q = "I passed the exam". ~Q = "I did not pass the exam!.
+
+![Tautologies](images/tautologies.png)
+
+Contradictions are propositions which are always false, regardless of the truth values of it's atomic propositions. For example, Q = "I passed the exam". ~Q = "I did not pass the exam!.
+
+![Contradictions](images/contradictions.png)
+
+Contingencies are propositions that are neither tautologies nor contradictions. For example, P = "I passed the exam". ~P = "I did not pass the exam".
+
+Contingencies have both True's and Falses in their truth tables.
+
+![Contingencies](images/contingencies.png)
+
+Equivalence is when two propositions are logically equivalent if they have the exact same truth value under all circumstances. Written `P ≡ Q`.
 
 ## Lecture 8 - Propositional Logic Part 2
 
