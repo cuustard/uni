@@ -46,7 +46,8 @@ Assessed with Exams and Coursework:
 | 2    | [Lecture 4 - Information Coding Part 2](#lecture-4---information-coding-part-2)       | [Information Coding Contd](/SCC.131.slides/d.infoCodingPartTwo.pdf)              | No     |
 | 3    | [Lecture 5 & 6 - Boolean Logic](#lecture-5--6---boolean-logic)                        | [Boolean Logic](/SCC.131.slides/e.booleanLogic.pdf)                              | No     |
 | 4    | [Lecture 7 - Instruction Set Architecture](#lecture-7---instruction-set-architecture) | [Instruction Set Architecture](/SCC.131.slides/f.instructionSetArchitecture.pdf) | No     |
-| 4    | [Lecture 8 - Building the ALU](#lecture-8---building-the-alu)                         | [Building The ALU](/SCC.131.slides/g.buildingTheALU.pdf)                         | NO     |
+| 4    | [Lecture 8 - Building the ALU](#lecture-8---building-the-alu)                         | [Building The ALU](/SCC.131.slides/g.buildingTheALU.pdf)                         | No     |
+| 5    | [Lecture 9 - Building Memory](#lecture-9---building-memory)                           | [Building Memory](/SCC.131.slides/h.buildingMemory.pdf)                          | Ish    |
 
 ---
 
@@ -184,3 +185,64 @@ There are 3 coding approaches for negative numbers:
 ## Lecture 7 - Instruction Set Architecture
 
 ## Lecture 8 - Building The ALU
+
+## Lecture 9 - Building Memory
+
+Memory stores bits. Volatile memory is a type of memory that maintains its data only while there is powered. There are 2 types of Volatile Memory:
+
+- Dynamic Memory
+  - Used for Main Memory
+  - Slower, Cheaper
+- Static Memory
+  - Used for Registers & Cache
+  - Faster, more expensive
+
+![The Memory Heirarchy](images/memoryHeirarchy.png "Diagram of Memory Heirarchy")
+
+Memory is made of locations, each of which hold one unit of data. Each location has an address.
+
+![Abstracted Main Memory Diagram](images/abstractedMainMemory.png "Abstracted Main Memory Diagram")
+
+### Address Decoding
+
+An address decoder maps from a linear address to a specific memory location in a specific memory chip.
+
+![Address Decoding](images/addressDecoding.png "Diagram Showing The Process of Address Decoding")
+
+### Byte Ordering in Multi-Byte words
+
+Different machine architectures may organise multi-byte words differently in memory. There are 2 ways:
+
+- Big-endian
+  - Within a multi-byte word, the location with the lowest memory address holds the **most**-significant-byte
+- Little-endian
+  - Withing a nulti-byte word, the location with the lowest memory address holds the **least**-signficant-byte
+
+### Static Memory
+
+Stored bits are organised into multi-bit storage slots called registers. Networks of logic components are used to build storage for individual data bits.
+
+### Combinatorial Logic
+
+- Combinatorial Logic: Output is a function of it's input.
+- Sequential Logic: Output is a function of it's inpout AND it's current outputs.
+  - So the output is feeded into the inputs. Feedback loop.
+
+### Sequential Logic & S-R Flip-Flop
+
+The S-R Flip-Flop 'remembers' which of the 2 possible stats it is in.
+
+- Q<sub>0</sub> represents the current state
+- Q represents the next state.
+  - Q depends on the inputs S & R.
+
+![S-R Flip-Flop](images/SRflipFlip.png "Diagram showing Logic Circuits of SR Flip Flop")
+
+EXPLAIN IT HERE
+
+Has several limitations:
+
+- It's got distinct SET and RESET inputs
+  - It's better to have one single input that 'sets' the state if 1, and 'resets' the state if 0
+- There is no way of telling the flip-flop when it should store input data
+  - It's better to have a 'latch' signal for this to work in a practical system with a control unit
