@@ -30,8 +30,9 @@ Assessed with Exams and Coursework:
 | ----- | ---------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------ | ----- |
 | 1     | [Lecture 1 - Module Introduction](#lecture-1---module-introduction)                                                          | [Introduction](/SCC.141.slides/a.introSlides.pdf)                              | ✅    |
 | 2     | [Lecture 2 - Systems Development Lifecycle](#lecture-2---systems-development-lifecycle)                                      | [Systems Development Lifecycle](/SCC.141.slides/b.systemsDevLifecycle.pdf)     | ✅    |
-| 3     | [Lecture 3 - Requirements & Requirements Engineering](#lecture-3---requirements--requirements-engineering)                   | [Requirements & Requirements Engineering](/SCC.141.slides/c.requirements.pdf)  | 🟧    |
-| 4     | [Lecture 4 - Understandong Users, Usability, & User Experience](#lecture-4---understandong-users-usability--user-experience) | [Users, Usability, & User Experience](/SCC.141.slides/d.usersUsabilityUX.pdf)  | ❌    |
+| 3     | [Lecture 3 - Requirements & Requirements Engineering](#lecture-3---requirements--requirements-engineering)                   | [Requirements & Requirements Engineering](/SCC.141.slides/c.requirements.pdf)  | ✅    |
+| 4     | [Lecture 4 - Understandong Users, Usability, & User Experience](#lecture-4---understandong-users-usability--user-experience) | [Users, Usability, & User Experience](/SCC.141.slides/d.usersUsabilityUX.pdf)  | ✅    |
+| 5     | [Lecture 5 - Accesesibility](#lecture-5---accessibility)                                                                     | [Accessibility](/SCC.141.slides/e.accessibility.pdf)                           | ❌    |
 
 ---
 
@@ -347,3 +348,90 @@ Techniques for considering users:
   - Based on real data about users
 
 ### Usability
+
+Usability is the degree to which an interactive product enables specified users to achieve specific goals with ease, efficiency, and satisfaction within a defined context of use. It ensures that the product is intuitive to learn, effective in its functionality, and enjoyable from the user's perspective.
+
+![System Acceptability Tree](images/usabilityTree.png "Diagram showing System Acceptability Tree")
+
+#### Nielsen's Usability Characteristics
+
+- Learnability: easy-to-learn system
+- Efficiency: efficient system
+- Memorability: memorable system
+- Errors: low error rate
+- Satisfaction: satisfying to use
+
+#### Methods to Evaluate Usability
+
+1. Inspection Methods (Expert Evaluation)
+
+- Heuristic evaluation: experts check against usability principles
+- Walkthroughs: experts simulate user interactions
+- Standards/Guidline Checklist: review compliance with standards or guidlines
+
+2. Inquiry Methods (User Evaluation)
+
+- Observations: watch users interact with the system
+- Interviews/Focus Groups: gather feedback through discussions
+- Questionnaires: collect structured user feedback
+
+3. Testing Methods (User Evaluation)
+
+- Usability Testing: users complete tasks while being observed to identify issues
+
+#### Nielsen's Usability Heuristics
+
+A heuristic is a practical approach to problem-solving. It relies on guidelines, shortcuts, or rule of thimb to find a solution. It aims for a sufficient solution rather than a perfect one.
+
+1. **Simple & Natural Dialogue**: Easy-to-use and intuitive interfaces
+2. **Speak The Users' Language**: Use terms & concepts familiar to the uesr
+3. **Minimise Memory Load**: Users shouldn't need to remember too many rules to use the system
+4. **Consistency**: Actions should always have the same effect
+5. **Feedback**: The system should always inform users about its actions and their input
+6. **Clearly Marked Exits**: Make it easy to cancel or undo actions to recover from mistakes
+7. **Shortcuts**: Provide shortcuts for experienced users to speed up tasks
+8. **Good Error Messages**: Error messages should be clear, helpful, and polite
+9. **Prevent Errors**: Design the system to avoid mistakes before they happen
+10. **Help & Documentation**: Provide easy-to-find, well-structured help, but keep it simple, as most users avoid reading it
+
+| Pros                                                                                          | Cons                                                                       |
+| --------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------- |
+| Quick & inexpensive                                                                           | Requires expertise                                                         |
+| Provides fast feedback without need of large user groups, saving time and money               | Needs trained usability experts to be effective                            |
+| Fewer ethical/logistical concerns                                                             | Hard to find experts                                                       |
+| No need to recruit users or worry about privacy and consent, as experts handle the evaluation | Often identifies minor problems but can overlook larger usability concerns |
+
+#### Survey Measures for Usability
+
+The System Usability Scale (SUS) is often used after usability evaluations to get quantitative feedback from real users on how they perceive the usability of a system.
+
+![The System Usability Scale](images/systemUsabilityScale.png)
+
+#### Usability Testing & Metrics
+
+Usability Testing is often conducted to observe how users interact with the system in real time. Real users are assigned tasks and their performance is measured. Things such as completion time, number of errors, and success rate.
+
+Usability Metrics are key measurements used t oevaluate system usability, focusing on how well and how efficiently userse can complete tasks.
+
+- Effectiveness is measured as the percentage of tasks successfully completed. `(completed tasks / total tasks) * 100`.
+- Efficiency is measured by the time taken for users to complete a task. Faster task completion is correlated with a higher efficiency.
+
+### User Experience
+
+UX refers to the overall experience and feelings a user has when interacting with a system, device, or product, including the context of its use. It recognises that technology is no longer just about improving productivity in the workplace but also about creating a satisfying and seamless experience for users. It focuses on how a system feels to the user. User experience (UX) design is the intentional creation of experiences through technology, focusing on how users feel and interact with a product.
+
+- **Why**: Understand the user's needs, emotions, and motivations behind the activity
+- **How**: Design the interaction - how the users achieve their goals
+- **What**: Determine what activities the product enables users to perform
+
+### Dark Patterns
+
+Dark Patterns are deceptive UI design features that mislead users into making choices that are not in their best interest. The exploit human weaknesses and behaviours for the benefit ofthe service provider. Users often end up taking actions they didn't intend.
+
+- The Roach Motel is a situation in which it is easy for a user to to enter, but very difficult to exit.
+- Forced Continuity is when users are required to provide their credit card information to sign up for a free trial. Once over, they are automatically billed without proir notice.
+- Bait and Switch is when users into to complete one action, but an undesirable action occurs instead.
+
+Privacy Zuckering is the practice of designing confusing jargon and user interfaces that deceive users into sharing more personal information than they intend to.
+
+## Lecture 5 - Accessibility
