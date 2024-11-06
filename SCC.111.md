@@ -9,7 +9,7 @@ This module of the course is taught by 4 Lecturers:
 - Saad Ezini
 - Nigel Davies
 
-The module aims for me to understand Sofware Development. This includes...
+The module aims to help me understand software development. This includes...
 
 - ...instilling the knowledge, understanding, and skills expected of a principled computer programmer.
 - ...developing a coherent understanding of the principles & practice of imperative programming, the software development lifecycle, and its associated tools and techniques
@@ -46,9 +46,9 @@ Assessed with Exam and Coursework:
 
 A program is a detailed plan or procedure for solving a problem with a computer.
 
-Imperative programming is a programming paradigm of software that uses statements that change a programs state. So I should think about what to represent, and how my program should manipulate that.
+Imperative programming is a programming paradigm of software that uses statements that change a program's state. So I should think about what to represent, and how my program should manipulate that.
 
-C is a compact and low level language used to generate fast and efficient code that exploits hardware features well. It is complied (translated into assembly only the computer understands).
+C is a compact and low-level language used to generate fast and efficient code that exploits hardware features well. It is compiled (translated into assembly only the computer understands).
 
 ## Lecture 2 - Writing Code
 
@@ -61,9 +61,9 @@ int main()
 }
 ```
 
-Line 1 copies the contents of the file 'stdio.h' into the file this program is written in. Line 3 declares 'main' a function that is the starting point for execution when the program is run. The '{ }' makes up the body of the main function. Line 5 calls a function printf, which we pass in "Hello world" into, to output the message.
+Line 1 copies the contents of the file 'stdio.h' into the file this program is written in. Line 3 declares 'main' a function that is the starting point for execution when the program is run. The '{ }' makes up the body of the main function. Line 5 calls a function printf, which we pass in "Hello world", to output the message.
 
-I solve all problems by repeatedly breaking it down into smaller more manageable steps.
+I solve all problems by repeatedly breaking them down into smaller more manageable steps.
 
 C Vocab:
 
@@ -77,7 +77,7 @@ C Vocab:
 | switch   | typedef | union  | unsigned | void   |
 | volatile | while   |        |          |        |
 
-Programming languages have syntax - rules on how keywords/reserved words are used (the how). Vairables hold data (the what). Operators manipulate the data to produce the desired output.
+Programming languages have syntax - rules on how keywords/reserved words are used (the how). Variables hold data (the what). Operators manipulate the data to produce the desired output.
 
 ```C
 #include <stdio.h>
@@ -96,7 +96,7 @@ int main()
 }
 ```
 
-Program Flow: 'counter' controls the flow round a loop linked to the keyword 'while'. This is a logical test < or less than which is either true or false.
+Program Flow: 'counter' controls the flow around a loop linked to the keyword 'while'. This is a logical test < or less than which is either true or false.
 
 ### Variables Types
 
@@ -156,17 +156,17 @@ int main()
 
 When writing code we need to see how it is executed to make sense of what it will do. So we need to understand keywords, operators and function calls.
 
-Code can move between programs, blocks of code, statements in the program, and within a line of code as expressiosn within the statement are evaluated.
+Code can move between programs, blocks of code, statements in the program, and within a line of code as expressions within the statement are evaluated.
 
 Flow can be controlled by conditional statements (statements that must be true for a block of code to execute).
 
-A program executes from start to finish by statements can be repeated. Choosing the path for a program to flow through can also be decided with if statements.
+A program executes from start to finish with statements that can be repeated. Choosing the path for a program to flow through can also be decided with if statements.
 
 'Do... while' loops test a condition after the block of code is executed.
 
 ## Lecture 4 - Functions & Flow
 
-We solve all problems by decmoposing it into smaller components. Sometimes the solution to these componenets can be packaged up into a functional and callable unit. This means we have to write less code and and makes it easier to maintain and reuse.
+We solve all problems by decomposing them into smaller components. Sometimes the solution to these components can be packaged up into a functional and callable unit. This means we have to write less code and and makes it easier to maintain and reuse.
 
 C lets us define functions which package and name specific functionality. C also has libraries. In C, functions follow this form:
 
@@ -183,7 +183,7 @@ They can only return an arithmetic type or nothing (void)
 
 `main()` is the entry point to the program. It takes no parameters and returns a code to the shell.
 
-In C, the parameter values in the function are only ever a copy of whats passed in (passed by value).
+In C, the parameter values in the function are only ever a copy of what passed in (passed by value).
 
 ## Lecture 5 - Variables & Arrays
 

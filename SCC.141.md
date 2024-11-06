@@ -16,21 +16,21 @@ It aims for me to understand the fundamentals of Professionalism in Practice. Th
 
 Assessed with Exams and Coursework:
 
-| Task       | Type                 | When    | Worth |
-| ---------- | -------------------- | ------- | ----- |
-| Coursework | Group work           | Week 10 | 10%   |
-| Coursework | Group work           | Week 20 | 20%   |
-| Exam       | Electronic in-person | June    | 70%   |
+| Task       | Type                 | When     | Worth |
+| ---------- | -------------------- | -------- | ----- |
+| Coursework | Group work           | Week 10  | 10%   |
+| Coursework | Group work           | Week 20  | 20%   |
+| Exam       | Electronic in-person | June     | 70%   |
 
 ---
 
 ### Table of Contents
 
-| Week | Lecture                                                                                                    | Original Slides                                                               | Date Noted |
-| ---- | ---------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------- | ---------- |
-| 1    | [Lecture 1 - Module Introduction](#lecture-1---module-introduction)                                        | [Introduction](/SCC.141.slides/a.introSlides.pdf)                             | 9/10/2024  |
-| 2    | [Lecture 2 - Systems Development Lifecycle](#lecture-2---systems-development-lifecycle)                    | [Systems Development Lifecycle](/SCC.141.slides/b.systemsDevLifecycle.pdf)    | 16/10/2024 |
-| 3    | [Lecture 3 - Requirements & Requirements Engineering](#lecture-3---requirements--requirements-engineering) | [Requirements & Requirements Engineering](/SCC.141.slides/c.requirements.pdf) | 23/10/2024 |
+| Week  | Lecture                                                                                                     | Original Slides                                                                | Date Noted  |
+| ----- | ----------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------ | ----------- |
+| 1     | [Lecture 1 - Module Introduction](#lecture-1---module-introduction)                                         | [Introduction](/SCC.141.slides/a.introSlides.pdf)                              | 9/10/2024   |
+| 2     | [Lecture 2 - Systems Development Lifecycle](#lecture-2---systems-development-lifecycle)                     | [Systems Development Lifecycle](/SCC.141.slides/b.systemsDevLifecycle.pdf)     | 16/10/2024  |
+| 3     | [Lecture 3 - Requirements & Requirements Engineering](#lecture-3---requirements--requirements-engineering)  | [Requirements & Requirements Engineering](/SCC.141.slides/c.requirements.pdf)  | 23/10/2024  |
 
 ---
 
@@ -47,26 +47,26 @@ BCS charter requires the establishment and maintenance of a sound ethical founda
 ### Professional Conduct
 
 - The Public Interest
-  - Comply with regulations and laws that govern acting in the public interest
-    - Safeguards public health, protects the environment and respects the privacy, security, and well-being of others.
-  - Rights of third parties, copyright, and intellectual property
-  - Conduct professional activities without discrimination on the grounds of:
-    - Sex, sexual orientation, marital status, nationality, colour, race, ethnic origin, religion, age, disability, or any other condition or requirement
-  - Promote equal access to the benefits of IT
-    - Ensures that IT systems can be used by disabled people or help to develop IT skills in groups of people who do not have them
+    - Comply with regulations and laws that govern acting in the public interest
+      - Safeguards public health, protects the environment and respects the privacy, security, and well-being of others.
+    - Rights of third parties, copyright, and intellectual property
+    - Conduct professional activities without discrimination on the grounds of:
+      - Sex, sexual orientation, marital status, nationality, colour, race, ethnic origin, religion, age, disability, or any other condition or requirement
+    - Promote equal access to the benefits of IT
+      - Ensures that IT systems can be used by disabled people or help to develop IT skills in groups of people who do not have them
 - Professional Competence and Integrity
-  - Continuous professional development
-  - Being familiar with the legislation
+    - Continuous professional development
+    - Being familiar with the legislation
 - Duty to Relevant Authority
-  - Carry out professional duties with due care and diligence in accordance with the relevant authority's requirements.
-  - Behaving professionally
-    - Conflict of Interest
-    - Disclosing confidential information without permission
-    - Misrepresentation or withholding of information
+    - Carry out professional duties with due care and diligence in accordance with the relevant authority's requirements.
+    - Behaving professionally
+      - Conflict of Interest
+      - Disclosing confidential information without permission
+      - Misrepresentation or withholding of information
 - Duty to the Profession
-  - Settings member's expectations to uphold the reputation and good standing of BCS in particular, and profession in general
-  - The duty to support colleagues and help them to develop their skills
-  - The need to take responsibility for those that we are managing and help guide their development
+    - Settings member's expectations to uphold the reputation and good standing of BCS in particular, and profession in general
+    - The duty to support colleagues and help them to develop their skills
+    - The need to take responsibility for those that we are managing and help guide their development
 
 ## Lecture 2 - Systems Development Lifecycle
 
@@ -108,47 +108,47 @@ I need to understand **who** will use the system, **what** the system will do, a
 Stages of Analysis:
 
 1. Problem Analysis
-   - Understand the existing solutions/products/situation
-   - Breaking down a whole into parts to understand the functions and inter-relationships
-   - May include images that capture everything relevant to the system
-     - Good mental tool to understand a scenario
-     - Useful for discussing with others
-     - Useful for identifying stakeholders
-     - Suitable for any domain
+      - Understand the existing solutions/products/situation
+      - Breaking down a whole into parts to understand the functions and inter-relationships
+      - May include images that capture everything relevant to the system
+        - Good mental tool to understand a scenario
+        - Useful for discussing with others
+        - Useful for identifying stakeholders
+        - Suitable for any domain
 2. Determine the requirements and characteristics of the system
-   - Identify potential improvements
-   - Requirements change high-level objectives into precise statements of what a system should do
+      - Identify potential improvements
+      - Requirements change high-level objectives into precise statements of what a system should do
 3. Gather requirements from stakeholders/users
-   - Getting more insight into the requirements for the system by gathering data from users
+      - Getting more insight into the requirements for the system by gathering data from users
 
 PACT questions:
 
 - **People**: What are the intended users' characteristics and skills?
-  - Language
-  - Level of skill and expertise
-  - Cognitive characteristics such as attention, perception, and memory
-  - Physical characteristics such as physical abilities, and accessibility
-  - Emotions such as satisfaction, frustration, things being aesthetically pleasing
-  - Infrequent vs. frequent users
+    - Language
+    - Level of skill and expertise
+    - Cognitive characteristics such as attention, perception, and memory
+    - Physical characteristics such as physical abilities, and accessibility
+    - Emotions such as satisfaction, frustration, things being aesthetically pleasing
+    - Infrequent vs. frequent users
 - **Activities**: How is the activity currently carried out? Why? What can be improved?
-  - Goals, tasks, and actions
-  - Infrequent vs. frequent tasks?
-  - Well-defined or vague goals
-  - Continuous or interrupted?
-  - Individual or cooperative?
-  - Time requirements (e.g. how fast a response is needed)
-  - Error Tolerance
+    - Goals, tasks, and actions
+    - Infrequent vs. frequent tasks?
+    - Well-defined or vague goals
+    - Continuous or interrupted?
+    - Individual or cooperative?
+    - Time requirements (e.g. how fast a response is needed)
+    - Error Tolerance
 - **Context**: what is the environment of the activity?
-  - Physical environment
-  - Social environment
-  - Organisational context
-  - When and where activities happen
+    - Physical environment
+    - Social environment
+    - Organisational context
+    - When and where activities happen
 - **Technology**: what tools are being used currently? How might new developments be used?
-  - Input, data, and commands
-  - Output
-  - Communications between people, devices, speed, etc
-  - Size of screen
-  - Networked?
+    - Input, data, and commands
+    - Output
+    - Communications between people, devices, speed, etc
+    - Size of screen
+    - Networked?
 
 #### Design
 
@@ -211,12 +211,12 @@ E.g.:
 - System Prototyping
 - Throwaway Prototyping
 - Agile
-  - Feature oriented
-  - Rapid dev and delivery
-  - Works in small iterations
-  - Deliver in each iteration
-  - Review and adapt
-  - Make changes
+    - Feature oriented
+    - Rapid dev and delivery
+    - Works in small iterations
+    - Deliver in each iteration
+    - Review and adapt
+    - Make changes
 
 Pros:
 
@@ -240,25 +240,25 @@ Cons:
 
 ### What Are Requirements & Why Are They Important?
 
-A requirement is a clear, testable, and measurable statement, expresed in natural language without jargon, that specifies the intended functionalities, characteristics, or constraints of a product. It specifies what the product should do and ensures it meets the desired operational, functional, and accessibility needs.
+A requirement is a clear, testable, and measurable statement, expressed in natural language without jargon, that specifies the intended functionalities, characteristics, or constraints of a product. It specifies what the product should do and ensures it meets the desired operational, functional, and accessibility needs.
 
 Requirements are important because:
 
 - Enables 'time to market with the right product':
-  - Streamlines development by providing clear direction.
-  - Reduces misunderstandings and rework.
-  - Prioritizes critical features for faster delivery.
-  - Aligns product with market demands to enhance success.
+    - Streamlines development by providing clear direction.
+    - Reduces misunderstandings and rework.
+    - Prioritizes critical features for faster delivery.
+    - Aligns product with market demands to enhance success.
 - Central to delivery:
-  - Serves as a reference throughout the project lifecycle.
-  - Guides design, development, testing, and deployment.
-  - Establishes clear acceptance criteria for evaluation.
-  - Aligns expectations with outcomes to ensure stakeholder satisfaction.
-- Provide a 'nagivation chart' for any project:
-  - Helps chart a course from concept to completion.
-  - Facilitates tracking progress and informed decision-making.
-  - Identifies potential risks early in the process.
-  - Allows for adaptability while maintaining focus on goals.
+    - Serves as a reference throughout the project lifecycle.
+    - Guides design, development, testing, and deployment.
+    - Establishes clear acceptance criteria for evaluation.
+    - Aligns expectations with outcomes to ensure stakeholder satisfaction.
+- Provide a 'navigation chart' for any project:
+    - Helps chart a course from concept to completion.
+    - Facilitates tracking progress and informed decision-making.
+    - Identifies potential risks early in the process.
+    - Allows for adaptability while maintaining focus on goals.
 
 Projects can fail when there are issues with the requirements, such as being incomplete, unrealistic, or constantly changing.
 
@@ -275,32 +275,32 @@ Projects can fail when there are issues with the requirements, such as being inc
 - Defines what the product must do and how it will be implemented
 - "the product capabilities or things that product must do for its users"
 - Processes the product must perform
-  - This relates to what the system must do to be able to perform in order to support a user task
+    - This relates to what the system must do to be able to perform in order to support a user task
 - Information the product must provide
-  - This relate to what information the product should contai nto enable a process
+    - This relates to what information the product should contain to enable a process
 
 #### Non-functional Requirements
 
 - Defines the qualities and characteristics the product must have
-- "the quality attributes, deseign & implementation constraints, and external interfces which a product must have"
-- Usability, performance, maintainabiity, security, legal compliance, etc.
+- "the quality attributes, design & implementation constraints, and external interfaces which a product must have"
+- Usability, performance, maintainability, security, legal compliance, etc.
 
 There are 3 types of Non-Functional Requirements:
 
 - **Professional**: These specify how the product must behave
 - **Organisational**: Formed from organisational policies and procedures
-- **External**: Arise from external factors and it's development process
+- **External**: Arise from external factors and its development process
 
 ![Type of non-functional requirements](images/nonFunctionalRequirements.png "Diagram showing the types of non-functional requirements")
 
 Examples of non-functional requirements:
 
-- Performance: "It should take less than 3 seconds for a user to recieve confirmation of their order"
-- Security: "Users must log-in to a password-protected area to see their order history"
-- Legal: "Data must be stored in compiance with GDPR"
+- Performance: "It should take less than 3 seconds for a user to receive confirmation of their order"
+- Security: "Users must log in to a password-protected area to see their order history"
+- Legal: "Data must be stored in compliance with GDPR"
 
 There is another way that non-functional requirements can be categorised:
 
 - Quality: e.g. maintainability, reliability, performance, usability
-- Process: how the developement process is going to be carried out
+- Process: how the development process is going to be carried out
 - Constraints: from business or operational context
