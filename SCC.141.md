@@ -32,7 +32,7 @@ Assessed with Exams and Coursework:
 | 2     | [Lecture 2 - Systems Development Lifecycle](#lecture-2---systems-development-lifecycle)                                      | [Systems Development Lifecycle](/SCC.141.slides/b.systemsDevLifecycle.pdf)     | ✅    |
 | 3     | [Lecture 3 - Requirements & Requirements Engineering](#lecture-3---requirements--requirements-engineering)                   | [Requirements & Requirements Engineering](/SCC.141.slides/c.requirements.pdf)  | ✅    |
 | 4     | [Lecture 4 - Understandong Users, Usability, & User Experience](#lecture-4---understandong-users-usability--user-experience) | [Users, Usability, & User Experience](/SCC.141.slides/d.usersUsabilityUX.pdf)  | ✅    |
-| 5     | [Lecture 5 - Accesesibility](#lecture-5---accessibility)                                                                     | [Accessibility](/SCC.141.slides/e.accessibility.pdf)                           | ❌    |
+| 5     | [Lecture 5 - Accesesibility](#lecture-5---accessibility)                                                                     | [Accessibility](/SCC.141.slides/e.accessibility.pdf)                           | ✅    |
 
 ---
 
@@ -436,3 +436,53 @@ Dark Patterns are deceptive UI design features that mislead users into making ch
 ---
 
 ## Lecture 5 - Accessibility
+
+Accessibility is the concept of whether a product or service can be used by everyone.
+
+Digital Accessibility is the design of and building of websites and web apps that disabled people can interact with in a meaningful and equivalent way.
+
+When considering the user experience and designing a product:
+
+- **Who** is using the product?
+- **What** are they doing?
+- **Where** are they doing it?
+- **When** are they doing it?
+- **Why** are they doing it?
+- **How** are they doing it?
+
+Usability is a part of usefulness which has two key parts:
+
+- **Utility**: Does the system do what users need?
+- **Usability**: can users easily use the system's features?
+
+Nielsen's Usability Characteristics:
+
+- **Learnability**: The system should be easy to learn
+- **Efficiency**: The system should be efficient to use
+- **Memorability**: The system should be easy to remember
+- **Errors**: The system should have a low error rate
+- **Satisfaction**: The system should be satisfying to use
+
+> "The power of the Web is in its universality. Access by everyone regardless of disability is an essential aspect." - Tim Berners-Lee, W3C Director and inventor of the WWW
+
+Usability features can benefit those without disabilities as well as those with. For example:
+
+- Small-screen devices
+- Older people
+- Temporary disabilities
+- Situational limitations
+- Slow internet connections
+
+Accessibility is also important for Businesses:
+
+- Drive innovation
+- Enhances the brand
+- Extend the market reach
+- Minimise the legal risk
+
+### Web Accessibility Principles
+
+- **Perceivable**: Users must be able to percieve all essential information on the screen, and it must be conveyed to multiple senses
+- **Operable**: Users must be able to operate the digital product's interface and it can not require interaction that a user cannot perform
+- **Understandable**: Users must be able to understand the information andthe operation of the user interface
+- **Robust**: Supporting assistive technologies and ensuring that, as users and technology evolves, the product remains accesesible.
