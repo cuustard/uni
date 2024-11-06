@@ -48,11 +48,17 @@ Assessed with Exams and Coursework:
 
 ---
 
+---
+
 ## Lecture 1 - Module Introduction & Computer Architecture
 
 Architecture is the science of putting together building materials to produce buildings.
 
 Computer Architecture is the science of putting together hardware to produce computers.
+
+---
+
+---
 
 ## Lecture 2 - Architecture & Speed
 
@@ -135,6 +141,10 @@ Density Limitations
 - number of transistors per square inch
 - Moore's Law
 
+---
+
+---
+
 ## Lecture 3 - Information Coding
 
 Computer hardware should be as simple as possible due to cost, performance, and scalability factors. Because of this, we focus on handling small, positive integers. Any other data type is a code/representation that maps to positive integers.
@@ -175,13 +185,33 @@ There are 3 coding approaches for negative numbers:
 - Excess N
 - Twos Complement
 
+---
+
+---
+
 ## Lecture 4 - Information Coding Part 2
+
+---
+
+---
 
 ## Lecture 5 & 6 - Boolean Logic
 
+---
+
+---
+
 ## Lecture 7 - Instruction Set Architecture
 
+---
+
+---
+
 ## Lecture 8 - Building The ALU
+
+---
+
+---
 
 ## Lecture 9 - Building Memory
 
@@ -243,3 +273,7 @@ Has several limitations:
     - It's better to have one single input that 'sets' the state if 1, and 'resets' the state if 0
 - There is no way of telling the flip-flop when it should store input data
     - It's better to have a 'latch' signal for this to work in a practical system with a control unit
+
+---
+
+---

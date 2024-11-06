@@ -36,6 +36,8 @@ Assessed with Exams and Coursework:
 
 ---
 
+---
+
 ## Lecture 1 - Module Introduction
 
 Professional issues are areas of debate about ethical or practical conduct that underpin good professional practice in a field.
@@ -49,7 +51,6 @@ BCS charter requires the establishment and maintenance of a sound ethical founda
 ### Professional Conduct
 
 - The Public Interest
-
   - Comply with regulations and laws that govern acting in the public interest
     - Safeguard public health, protect the environment, and respect the privacy, security, and well-being of others.
   - Respect the rights of third parties, copyright, and intellectual property
@@ -57,7 +58,6 @@ BCS charter requires the establishment and maintenance of a sound ethical founda
     - Sex, sexual orientation, marital status, nationality, color, race, ethnic origin, religion, age, disability, or any other condition or requirement
   - Promote equal access to the benefits of IT
     - Ensure that IT systems can be used by disabled people or help to develop IT skills in groups of people who do not have them
-
 - Professional Competence and Integrity
   - Continuous professional development
   - Being familiar with the legislation
@@ -71,6 +71,10 @@ BCS charter requires the establishment and maintenance of a sound ethical founda
   - Set members' expectations to uphold the reputation and good standing of BCS in particular, and the profession in general
   - Support colleagues and help them to develop their skills
   - Take responsibility for those that we are managing and help guide their development
+
+---
+
+---
 
 ## Lecture 2 - Systems Development Lifecycle
 
@@ -224,6 +228,10 @@ E.g.:
 | Get user feedback earlier                             | Can be difficult to scale for large systems     |
 | Quicker delivery of working software                  | Less documentation                              |
 
+---
+
+---
+
 ## Lecture 3 - Requirements & Requirements Engineering
 
 ### What Are Requirements & Why Are They Important?
@@ -292,6 +300,10 @@ There is another way that non-functional requirements can be categorised:
 - Quality: e.g. maintainability, reliability, performance, usability
 - Process: how the development process is going to be carried out
 - Constraints: from business or operational context
+
+---
+
+---
 
 ## Lecture 4 - Understandong Users, Usability, & User Experience
 
@@ -418,5 +430,9 @@ Dark Patterns are deceptive UI design features that mislead users into making ch
 - Forced Continuity is when users are required to provide their credit card information to sign up for a free trial. Once over, they are automatically billed without proir notice.
 - Bait and Switch is when users into to complete one action, but an undesirable action occurs instead.
 - Privacy Zuckering is the practice of designing confusing jargon and user interfaces that deceive users into sharing more personal information than they intend to.
+
+---
+
+---
 
 ## Lecture 5 - Accessibility

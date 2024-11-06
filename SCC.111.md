@@ -39,6 +39,8 @@ Assessed with Exam and Coursework:
 
 ---
 
+---
+
 ## Lecture 1 - Module Introduction
 
 A program is a detailed plan or procedure for solving a problem with a computer.
@@ -46,6 +48,10 @@ A program is a detailed plan or procedure for solving a problem with a computer.
 Imperative programming is a programming paradigm of software that uses statements that change a program's state. So I should think about what to represent, and how my program should manipulate that.
 
 C is a compact and low-level language used to generate fast and efficient code that exploits hardware features well. It is compiled (translated into assembly only the computer understands).
+
+---
+
+---
 
 ## Lecture 2 - Writing Code
 
@@ -149,6 +155,10 @@ int main()
 }
 ```
 
+---
+
+---
+
 ## Lecture 3 - Control Flow
 
 When writing code we need to see how it is executed to make sense of what it will do. So we need to understand keywords, operators and function calls.
@@ -160,6 +170,10 @@ Flow can be controlled by conditional statements (statements that must be true f
 A program executes from start to finish with statements that can be repeated. Choosing the path for a program to flow through can also be decided with if statements.
 
 'Do... while' loops test a condition after the block of code is executed.
+
+---
+
+---
 
 ## Lecture 4 - Functions & Flow
 
@@ -182,10 +196,30 @@ They can only return an arithmetic type or nothing (void)
 
 In C, the parameter values in the function are only ever a copy of what passed in (passed by value).
 
+---
+
+---
+
 ## Lecture 5 - Variables & Arrays
+
+---
+
+---
 
 ## Lecture 6 - Reading Code
 
+---
+
+---
+
 ## Lecture 7 - Testing
 
+---
+
+---
+
 ## Lecture 8 - Debugging
+
+---
+
+---

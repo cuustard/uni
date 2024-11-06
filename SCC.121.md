@@ -52,6 +52,8 @@ Assessed with Exams and Coursework:
 
 ---
 
+---
+
 ## Lecture 1 - Sets
 
 A Set is a collection of unique and unordered objects/elements/members. E.g. `A = {4, 3, 2, 1, 5}`
@@ -113,6 +115,10 @@ Summary of set operations:
 | A ∩ B   | Intersection       | Elements that belong to set A **and** set B                                    |
 | A - B   | Difference         | Elements that belong to set A but not set B                                    |
 | A x B   | Cartesian Product  | All ordered pairs with the first element from set A and the second from set B  |
+
+---
+
+---
 
 ## Lecture 2 - Types of Sets
 
@@ -189,6 +195,10 @@ Summary of Type of sets:
 | U        | Universal Set    | Set of all of the possible elements relevant to a specific problem             |
 | comp(A)  | Complement Set   | The difference between the universe and a given set A                          |
 
+---
+
+---
+
 ## Lecture 3 - Relations
 
 ![Associations](images/associations.png "Diagram showing example of assocations between students and academic courses")
@@ -227,11 +237,27 @@ Another example:
 - `b - a = 1` is equivilant to `b = a + 1`. So `<a, b> = <a, a + 1>`:
 - So the relation R looks like: `R = {<0, 1>, <1, 2>, <2, 3>, <3, 4>}`
 
+---
+
+---
+
 ## Lecture 4 - Relations Part 2
+
+---
+
+---
 
 ## Lecture 5 - Functions
 
+---
+
+---
+
 ## Lecture 6 - Functions Part 2
+
+---
+
+---
 
 ## Lecture 7 - Propositional Logic
 
@@ -333,6 +359,10 @@ Contingencies have both True's and Falses in their truth tables.
 
 Equivalence is when two propositions are logically equivalent if they have the exact same truth value under all circumstances. Written `P ≡ Q`.
 
+---
+
+---
+
 ## Lecture 8 - Propositional Logic Part 2
 
 ### Logical Reasoning
@@ -403,3 +433,7 @@ The rules:
 - Implication law states that any implication P → Q is logically equivalent to ~P ∨ Q.
 - Contraposition law states that a conditional P → Q is logically equivalent to its contrapositive (implication of negations): ~Q → ~P.
 - Equivalence law states that a biconditional P  Q is logically equivalent to the conjunction of two conditionals: (P → Q)  (Q → P).
+
+---
+
+---
