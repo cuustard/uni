@@ -26,12 +26,12 @@ Assessed with Exams and Coursework:
 
 ### Table of Contents
 
-| Week  | Lecture                                                                                                     | Original Slides                                                                | Noted       |
-| ----- | ----------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------ | ----------- |
-| 1     | [Lecture 1 - Module Introduction](#lecture-1---module-introduction)                                         | [Introduction](/SCC.141.slides/a.introSlides.pdf)                              | 9/10/2024   |
-| 2     | [Lecture 2 - Systems Development Lifecycle](#lecture-2---systems-development-lifecycle)                     | [Systems Development Lifecycle](/SCC.141.slides/b.systemsDevLifecycle.pdf)     | 16/10/2024  |
-| 3     | [Lecture 3 - Requirements & Requirements Engineering](#lecture-3---requirements--requirements-engineering)  | [Requirements & Requirements Engineering](/SCC.141.slides/c.requirements.pdf)  | 23/10/2024  |
-|       |                                                                                                             |                                                                                |             |
+| Week  | Lecture                                                                                                                      | Original Slides                                                                | Noted |
+| ----- | ---------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------ | ----- |
+| 1     | [Lecture 1 - Module Introduction](#lecture-1---module-introduction)                                                          | [Introduction](/SCC.141.slides/a.introSlides.pdf)                              | ✅    |
+| 2     | [Lecture 2 - Systems Development Lifecycle](#lecture-2---systems-development-lifecycle)                                      | [Systems Development Lifecycle](/SCC.141.slides/b.systemsDevLifecycle.pdf)     | ✅    |
+| 3     | [Lecture 3 - Requirements & Requirements Engineering](#lecture-3---requirements--requirements-engineering)                   | [Requirements & Requirements Engineering](/SCC.141.slides/c.requirements.pdf)  | 🟧    |
+| 4     | [Lecture 4 - Understandong Users, Usability, & User Experience](#lecture-4---understandong-users-usability--user-experience) | [Users, Usability, & User Experience](/SCC.141.slides/d.usersUsabilityUX.pdf)  | ❌    |
 
 ---
 
@@ -305,3 +305,45 @@ There is another way that non-functional requirements can be categorised:
 - Quality: e.g. maintainability, reliability, performance, usability
 - Process: how the development process is going to be carried out
 - Constraints: from business or operational context
+
+## Lecture 4 - Understandong Users, Usability, & User Experience
+
+### Understanding Users
+
+- Computers used by larg vairety of people (not just techies)
+- Problems if products can't be used effectively by intended user groups
+- Need t oconsider people's capabilities, limitations, needs, & desires
+
+> "Technology may change rapidly, but people change very slowly. The principles of good design never change." - David A. Norman, (2013). The Design of Everyday Things: Revised and Expanded Edition.
+
+The timeline:
+
+- 1960s: Personal computers grew in popularity, leading to usability concerns
+- 1970s: Software engineering shifted its focus towards non-functional requirements like usability and maintainability
+- 1980s: The discipline of Human-Computer Interaction (HCI) emerged, concentrating on how people interact with computers
+
+Disciplines of HCI:
+
+- Interaction Design: Intuitive and engaging user interfaces
+- Human-Computer Interaction (HIC): Improving how users interact with computers
+- User Experience (UX) Design: Enhancing overall user satisfaction and ease of use
+- Requirements Engineering: Defining system functions and qualities
+
+We need to consider human abilities and capabilities as well as what they want/need. We must also consider how these might change in users over time. Factors:
+
+- Physiological Aspects: senses, movement, strength, fatigue, etc.
+- Cognitive Aspects: attention, memory, learning, cognitive load, etc.
+- Affective Aspects: emotional responses
+
+People are complex and unique so we can't predict every need or behaviour, which makes it impossible to design a product for everyone. Users will also struggle to articulate needs so what they want may differ to what they say.
+
+Techniques for considering users:
+
+- Scenarios
+  - Stories that describe how users interact with a system
+  - Help designers imagine how users will use the system in various ways
+- Personas
+  - Fictional characters that represent a typical user
+  - Based on real data about users
+
+### Usability

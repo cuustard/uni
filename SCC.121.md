@@ -41,14 +41,14 @@ Assessed with Exams and Coursework:
 
 | Week  | Lecture                                                                           | Original Slides                                                                | Noted  |
 | ----- | --------------------------------------------------------------------------------- | ------------------------------------------------------------------------------ | ------ |
-| 1     | [Lecture 1 - Module Introduction & Sets](#lecture-1---sets)                       | [Sets](/SCC.121.slides/b.setsPartOne.pdf)                                      | Yes    |
-| 1     | [Lecture 2 - Types of Sets](#lecture-2---types-of-sets)                           | [Types of Sets](/SCC.121.slides/c.setsPartTwo.pdf)                             | Yes    |
+| 1     | [Lecture 1 - Module Introduction & Sets](#lecture-1---sets)                       | [Sets](/SCC.121.slides/b.setsPartOne.pdf)                                      | ✅     |
+| 1     | [Lecture 2 - Types of Sets](#lecture-2---types-of-sets)                           | [Types of Sets](/SCC.121.slides/c.setsPartTwo.pdf)                             | ✅     |
 | 2     | [Lecture 3 - Relations](#lecture-3---relations)                                   | [Relations](/SCC.121.slides/d.relationsPartOne.pdf)                            | Ish    |
-| 2     | [Lecture 4 - Relations Part 2](#lecture-4---relations-part-2)                     | [Relations Part 2](/SCC.121.slides/e.relationsPartTwo.pdf)                     | No     |
-| 3     | [Lecture 5 - Functions](#lecture-5---functions)                                   | [Functions](/SCC.121.slides/f.functions.pdf)                                   | No     |
-| 3     | [Lecture 6 - Functions Part 2](#lecture-6---functions-part-2)                     | [Functions Part 2](/SCC.121.slides/g.functionsPartTwo.pdf)                     | No     |
-| 4     | [Lecture 7 - Propositional Logic](#lecture-7---propositional-logic)               | [Propositional Logic](/SCC.121.slides/h.propositionalLogic.pdf)                | Yes    |
-| 4     | [Lecture 8 - Propositional Logic Part 2](#lecture-8---propositional-logic-part-2) | [Propositional Logic Part 2](/SCC.121.slides/i.propositionalLogicPartTwo.pdf)  | Yes    |
+| 2     | [Lecture 4 - Relations Part 2](#lecture-4---relations-part-2)                     | [Relations Part 2](/SCC.121.slides/e.relationsPartTwo.pdf)                     | ❌     |
+| 3     | [Lecture 5 - Functions](#lecture-5---functions)                                   | [Functions](/SCC.121.slides/f.functions.pdf)                                   | ❌     |
+| 3     | [Lecture 6 - Functions Part 2](#lecture-6---functions-part-2)                     | [Functions Part 2](/SCC.121.slides/g.functionsPartTwo.pdf)                     | ❌     |
+| 4     | [Lecture 7 - Propositional Logic](#lecture-7---propositional-logic)               | [Propositional Logic](/SCC.121.slides/h.propositionalLogic.pdf)                | ✅     |
+| 4     | [Lecture 8 - Propositional Logic Part 2](#lecture-8---propositional-logic-part-2) | [Propositional Logic Part 2](/SCC.121.slides/i.propositionalLogicPartTwo.pdf)  | ✅     |
 
 ---
 
