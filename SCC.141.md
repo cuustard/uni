@@ -193,7 +193,7 @@ Maintenance:
 
 #### Waterfall
 
-![Waterfall Model](/images/waterfallModel.png "Waterfall Model")
+![Waterfall Model](images/waterfallModel.png "Waterfall Model")
 
 | Pros                                                         | Cons                                        |
 | ------------------------------------------------------------ | ------------------------------------------- |
