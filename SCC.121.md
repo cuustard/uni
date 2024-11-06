@@ -43,7 +43,7 @@ Assessed with Exams and Coursework:
 | ----- | --------------------------------------------------------------------------------- | ------------------------------------------------------------------------------ | ------ |
 | 1     | [Lecture 1 - Module Introduction & Sets](#lecture-1---sets)                       | [Sets](/SCC.121.slides/b.setsPartOne.pdf)                                      | ✅     |
 | 1     | [Lecture 2 - Types of Sets](#lecture-2---types-of-sets)                           | [Types of Sets](/SCC.121.slides/c.setsPartTwo.pdf)                             | ✅     |
-| 2     | [Lecture 3 - Relations](#lecture-3---relations)                                   | [Relations](/SCC.121.slides/d.relationsPartOne.pdf)                            | Ish    |
+| 2     | [Lecture 3 - Relations](#lecture-3---relations)                                   | [Relations](/SCC.121.slides/d.relationsPartOne.pdf)                            | 🟧     |
 | 2     | [Lecture 4 - Relations Part 2](#lecture-4---relations-part-2)                     | [Relations Part 2](/SCC.121.slides/e.relationsPartTwo.pdf)                     | ❌     |
 | 3     | [Lecture 5 - Functions](#lecture-5---functions)                                   | [Functions](/SCC.121.slides/f.functions.pdf)                                   | ❌     |
 | 3     | [Lecture 6 - Functions Part 2](#lecture-6---functions-part-2)                     | [Functions Part 2](/SCC.121.slides/g.functionsPartTwo.pdf)                     | ❌     |
