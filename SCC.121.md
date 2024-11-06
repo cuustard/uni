@@ -29,10 +29,11 @@ The module aims to help me understand the fundamentals of Computer Science. Thi
 
 Assessed with Exams and Coursework:
 
-| Task       | Type           | Week                | Worth |
-| ---------- | -------------- | ------------------- | ----- |
-| Exam       |                | Summer Term         | 70%   |
-| Coursework | "in-lab quiz"  | Week 5, 10, 15, 20  | 30%   |
+| Task                       | When                | Worth           |
+| -------------------------- | ------------------- | --------------- |
+| "Coursework" (In-lab quiz) | Week 5, 10, 15, 20  | 20% (5% each)   |
+| "Summer Project"           | Summer Term         | 10%             |
+| Exam                       | Summer Term         | 70%             |
 
 ---
 

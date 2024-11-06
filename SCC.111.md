@@ -16,14 +16,11 @@ The module aims to help me understand software development. This includes...
 
 Assessed with Exam and Coursework:
 
-| Task                | Type   | Week        | Worth |
-| ------------------- | ------ | ----------- | ----- |
-| Exam                |        | Summer Term | 70%   |
-| Coursework          | Online | Week 5      | 5%    |
-| Coursework          | Online | Week 10     | 5%    |
-| Coursework          | Online | Week 15     | 5%    |
-| Coursework          | Online | Week 20     | 5%    |
-| Programming Project | Online | Week 21-25  | 10%   |
+| Task                       | Week               | Worth         |
+| -------------------------- | ------------------ | ------------- |
+| "Coursework" (In-lab quiz) | Week 5, 10, 15, 20 | 20% (5% each) |
+| Programming Project        | Week 21-25         | 10%           |
+| Exam                       | Summer Term        | 70%           |
 
 ---
 

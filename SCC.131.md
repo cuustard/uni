@@ -25,14 +25,11 @@ The module aims to help me understand digital systems. This includes...
 
 Assessed with Exams and Coursework:
 
-| Task                                  | Type   | Week        | Worth  |
-| ------------------------------------- | ------ | ----------- | ------ |
-| Architecture Quiz                     | Online | Week 5      | 5%     |
-| Architecture + Embedded Systems Quiz  | Online | Week 10     | 5%     |
-| Assembly + Debugging Quiz             | Online | Week 15     | 5%     |
-| Assembly                              | Online | Week 20     | 5%     |
-| Programming Project                   | Online | Week 23     | 10%    |
-| Exam                                  | Online | Week 28-30  | 70%    |
+| Task                                           | Week                   | Worth             |
+| ---------------------------------------------- | ---------------------- | ----------------- |
+| "Coursework" (In-lab quiz)                     | Week 5, 10, 15, 20     | 20% (5% each)     |
+| Programming Project                            | Week 23                | 10%               |
+| Exam                                           | Summer Term            | 70%               |
 
 ---
 

@@ -16,21 +16,22 @@ It aims for me to understand the fundamentals of Professionalism in Practice. Th
 
 Assessed with Exams and Coursework:
 
-| Task       | Type                 | When     | Worth |
-| ---------- | -------------------- | -------- | ----- |
-| Coursework | Group work           | Week 10  | 10%   |
-| Coursework | Group work           | Week 20  | 20%   |
-| Exam       | Electronic in-person | June     | 70%   |
+| Task                | When            | Worth |
+| ------------------- | --------------- | ----- |
+| Groupwork           | Week 10         | 10%   |
+| Groupwork           | Week 20         | 20%   |
+| Exam                | Summer Term     | 70%   |
 
 ---
 
 ### Table of Contents
 
-| Week  | Lecture                                                                                                     | Original Slides                                                                | Date Noted  |
+| Week  | Lecture                                                                                                     | Original Slides                                                                | Noted       |
 | ----- | ----------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------ | ----------- |
 | 1     | [Lecture 1 - Module Introduction](#lecture-1---module-introduction)                                         | [Introduction](/SCC.141.slides/a.introSlides.pdf)                              | 9/10/2024   |
 | 2     | [Lecture 2 - Systems Development Lifecycle](#lecture-2---systems-development-lifecycle)                     | [Systems Development Lifecycle](/SCC.141.slides/b.systemsDevLifecycle.pdf)     | 16/10/2024  |
 | 3     | [Lecture 3 - Requirements & Requirements Engineering](#lecture-3---requirements--requirements-engineering)  | [Requirements & Requirements Engineering](/SCC.141.slides/c.requirements.pdf)  | 23/10/2024  |
+|       |                                                                                                             |                                                                                |             |
 
 ---
 
