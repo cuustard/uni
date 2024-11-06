@@ -49,26 +49,28 @@ BCS charter requires the establishment and maintenance of a sound ethical founda
 ### Professional Conduct
 
 - The Public Interest
-    - Comply with regulations and laws that govern acting in the public interest
-      - Safeguards public health, protects the environment and respects the privacy, security, and well-being of others.
-    - Rights of third parties, copyright, and intellectual property
-    - Conduct professional activities without discrimination on the grounds of:
-      - Sex, sexual orientation, marital status, nationality, colour, race, ethnic origin, religion, age, disability, or any other condition or requirement
-    - Promote equal access to the benefits of IT
-      - Ensures that IT systems can be used by disabled people or help to develop IT skills in groups of people who do not have them
+
+  - Comply with regulations and laws that govern acting in the public interest
+    - Safeguard public health, protect the environment, and respect the privacy, security, and well-being of others.
+  - Respect the rights of third parties, copyright, and intellectual property
+  - Conduct professional activities without discrimination on the grounds of:
+    - Sex, sexual orientation, marital status, nationality, color, race, ethnic origin, religion, age, disability, or any other condition or requirement
+  - Promote equal access to the benefits of IT
+    - Ensure that IT systems can be used by disabled people or help to develop IT skills in groups of people who do not have them
+
 - Professional Competence and Integrity
-    - Continuous professional development
-    - Being familiar with the legislation
+  - Continuous professional development
+  - Being familiar with the legislation
 - Duty to Relevant Authority
-    - Carry out professional duties with due care and diligence in accordance with the relevant authority's requirements.
-    - Behaving professionally
-      - Conflict of Interest
-      - Disclosing confidential information without permission
-      - Misrepresentation or withholding of information
+  - Carry out professional duties with due care and diligence in accordance with the relevant authority's requirements.
+  - Behave professionally
+    - Avoid conflicts of interest
+    - Do not disclose confidential information without permission
+    - Avoid misrepresentation or withholding of information
 - Duty to the Profession
-    - Settings member's expectations to uphold the reputation and good standing of BCS in particular, and profession in general
-    - The duty to support colleagues and help them to develop their skills
-    - The need to take responsibility for those that we are managing and help guide their development
+  - Set members' expectations to uphold the reputation and good standing of BCS in particular, and the profession in general
+  - Support colleagues and help them to develop their skills
+  - Take responsibility for those that we are managing and help guide their development
 
 ## Lecture 2 - Systems Development Lifecycle
 
@@ -110,47 +112,47 @@ I need to understand **who** will use the system, **what** the system will do, a
 Stages of Analysis:
 
 1. Problem Analysis
-      - Understand the existing solutions/products/situation
-      - Breaking down a whole into parts to understand the functions and inter-relationships
-      - May include images that capture everything relevant to the system
-        - Good mental tool to understand a scenario
-        - Useful for discussing with others
-        - Useful for identifying stakeholders
-        - Suitable for any domain
+   - Understand the existing solutions/products/situation
+   - Breaking down a whole into parts to understand the functions and inter-relationships
+   - May include images that capture everything relevant to the system
+     - Good mental tool to understand a scenario
+     - Useful for discussing with others
+     - Useful for identifying stakeholders
+     - Suitable for any domain
 2. Determine the requirements and characteristics of the system
-      - Identify potential improvements
-      - Requirements change high-level objectives into precise statements of what a system should do
+   - Identify potential improvements
+   - Requirements change high-level objectives into precise statements of what a system should do
 3. Gather requirements from stakeholders/users
-      - Getting more insight into the requirements for the system by gathering data from users
+   - Getting more insight into the requirements for the system by gathering data from users
 
 PACT questions:
 
 - **People**: What are the intended users' characteristics and skills?
-    - Language
-    - Level of skill and expertise
-    - Cognitive characteristics such as attention, perception, and memory
-    - Physical characteristics such as physical abilities, and accessibility
-    - Emotions such as satisfaction, frustration, things being aesthetically pleasing
-    - Infrequent vs. frequent users
+  - Language
+  - Level of skill and expertise
+  - Cognitive characteristics such as attention, perception, and memory
+  - Physical characteristics such as physical abilities, and accessibility
+  - Emotions such as satisfaction, frustration, things being aesthetically pleasing
+  - Infrequent vs. frequent users
 - **Activities**: How is the activity currently carried out? Why? What can be improved?
-    - Goals, tasks, and actions
-    - Infrequent vs. frequent tasks?
-    - Well-defined or vague goals
-    - Continuous or interrupted?
-    - Individual or cooperative?
-    - Time requirements (e.g. how fast a response is needed)
-    - Error Tolerance
-- **Context**: what is the environment of the activity?
-    - Physical environment
-    - Social environment
-    - Organisational context
-    - When and where activities happen
-- **Technology**: what tools are being used currently? How might new developments be used?
-    - Input, data, and commands
-    - Output
-    - Communications between people, devices, speed, etc
-    - Size of screen
-    - Networked?
+  - Goals, tasks, and actions
+  - Infrequent vs. frequent tasks?
+  - Well-defined or vague goals
+  - Continuous or interrupted?
+  - Individual or cooperative?
+  - Time requirements (e.g. how fast a response is needed)
+  - Error Tolerance
+- **Context**: What is the environment of the activity?
+  - Physical environment
+  - Social environment
+  - Organisational context
+  - When and where activities happen
+- **Technology**: What tools are being used currently? How might new developments be used?
+  - Input, data, and commands
+  - Output
+  - Communications between people, devices, speed, etc
+  - Size of screen
+  - Networked?
 
 #### Design
 
@@ -189,21 +191,14 @@ Maintenance:
 
 ![Waterfall Model](/images/waterfallModel.png "Waterfall Model")
 
-Pros:
-
-- Requirements identified at the start.
-- Well suited to systems that have high-security needs.
-- Clear deliverables
-- Easy to arrange tasks as things progress one phase at a time
-
-Cons:
-
-- Time consuming
-- Inflexible
-- No working software until late stages
-- Doesn't adjust to changing requirements
-- Difficult to measure progress within stages
-- High overheads
+| Pros                                                         | Cons                                        |
+| ------------------------------------------------------------ | ------------------------------------------- |
+| Requirements identified at the start.                        | Time consuming                              |
+| Well suited to systems that have high-security needs.        | Inflexible                                  |
+| Clear deliverables                                           | No working software until late stages       |
+| Easy to arrange tasks as things progress one phase at a time | Doesn't adjust to changing requirements     |
+|                                                              | Difficult to measure progress within stages |
+|                                                              | High overheads                              |
 
 #### Rapid Application Development
 
@@ -213,30 +208,21 @@ E.g.:
 - System Prototyping
 - Throwaway Prototyping
 - Agile
-    - Feature oriented
-    - Rapid dev and delivery
-    - Works in small iterations
-    - Deliver in each iteration
-    - Review and adapt
-    - Make changes
+  - Feature oriented
+  - Rapid dev and delivery
+  - Works in small iterations
+  - Deliver in each iteration
+  - Review and adapt
+  - Make changes
 
-Pros:
-
-- Cheaper and easier to make changes
-- Flexible
-- Requirements can change and are adaptive
-- Useful when users struggle to articulate requirements
-- Get user feedback earlier
-- Quicker delivery of working software
-
-Cons:
-
-- Can be more challenging to integrate at the end
-- Planning can be difficult
-- Can be harder to manage
-- Less control
-- Can be difficult to scale for large systems
-- Less documentation
+| Pros                                                  | Cons                                            |
+| ----------------------------------------------------- | ----------------------------------------------- |
+| Cheaper and easier to make changes                    | Can be more challenging to integrate at the end |
+| Flexible                                              | Planning can be difficult                       |
+| Requirements can change and are adaptive              | Can be harder to manage                         |
+| Useful when users struggle to articulate requirements | Less control                                    |
+| Get user feedback earlier                             | Can be difficult to scale for large systems     |
+| Quicker delivery of working software                  | Less documentation                              |
 
 ## Lecture 3 - Requirements & Requirements Engineering
 
@@ -247,20 +233,20 @@ A requirement is a clear, testable, and measurable statement, expressed in natur
 Requirements are important because:
 
 - Enables 'time to market with the right product':
-    - Streamlines development by providing clear direction.
-    - Reduces misunderstandings and rework.
-    - Prioritizes critical features for faster delivery.
-    - Aligns product with market demands to enhance success.
+  - Streamlines development by providing clear direction.
+  - Reduces misunderstandings and rework.
+  - Prioritizes critical features for faster delivery.
+  - Aligns product with market demands to enhance success.
 - Central to delivery:
-    - Serves as a reference throughout the project lifecycle.
-    - Guides design, development, testing, and deployment.
-    - Establishes clear acceptance criteria for evaluation.
-    - Aligns expectations with outcomes to ensure stakeholder satisfaction.
+  - Serves as a reference throughout the project lifecycle.
+  - Guides design, development, testing, and deployment.
+  - Establishes clear acceptance criteria for evaluation.
+  - Aligns expectations with outcomes to ensure stakeholder satisfaction.
 - Provide a 'navigation chart' for any project:
-    - Helps chart a course from concept to completion.
-    - Facilitates tracking progress and informed decision-making.
-    - Identifies potential risks early in the process.
-    - Allows for adaptability while maintaining focus on goals.
+  - Helps chart a course from concept to completion.
+  - Facilitates tracking progress and informed decision-making.
+  - Identifies potential risks early in the process.
+  - Allows for adaptability while maintaining focus on goals.
 
 Projects can fail when there are issues with the requirements, such as being incomplete, unrealistic, or constantly changing.
 
@@ -277,9 +263,9 @@ Projects can fail when there are issues with the requirements, such as being inc
 - Defines what the product must do and how it will be implemented
 - "the product capabilities or things that product must do for its users"
 - Processes the product must perform
-    - This relates to what the system must do to be able to perform in order to support a user task
+  - This relates to what the system must do to be able to perform in order to support a user task
 - Information the product must provide
-    - This relates to what information the product should contain to enable a process
+  - This relates to what information the product should contain to enable a process
 
 #### Non-functional Requirements
 
@@ -431,7 +417,6 @@ Dark Patterns are deceptive UI design features that mislead users into making ch
 - The Roach Motel is a situation in which it is easy for a user to to enter, but very difficult to exit.
 - Forced Continuity is when users are required to provide their credit card information to sign up for a free trial. Once over, they are automatically billed without proir notice.
 - Bait and Switch is when users into to complete one action, but an undesirable action occurs instead.
-
-Privacy Zuckering is the practice of designing confusing jargon and user interfaces that deceive users into sharing more personal information than they intend to.
+- Privacy Zuckering is the practice of designing confusing jargon and user interfaces that deceive users into sharing more personal information than they intend to.
 
 ## Lecture 5 - Accessibility
