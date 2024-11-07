@@ -39,7 +39,7 @@ Assessed with Exams and Coursework:
 | ----- | -------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------- | ------- |
 | 1     | [Lecture 1 - Module Introduction](#lecture-1---module-introduction)                    | [Module Introduction](/SCC.131.slides/a.introSlides.pdf)                          | ✅      |
 | 1     | [Lecture 2 - Architecture & Speed](#lecture-2---architecture--speed)                   | [Comp Architecture](/SCC.131.slides/b.compArchitectureIntro.pdf)                  | ✅      |
-| 2     | [Lecture 3 - Information Coding](#lecture-3---information-coding)                      | [Information Coding](/SCC.131.slides/c.infoCodingPartOne.pdf)                     | 🟧      |
+| 2     | [Lecture 3 - Information Coding](#lecture-3---information-coding)                      | [Information Coding](/SCC.131.slides/c.infoCodingPartOne.pdf)                     | ✅      |
 | 2     | [Lecture 4 - Information Coding Part 2](#lecture-4---information-coding-part-2)        | [Information Coding Contd](/SCC.131.slides/d.infoCodingPartTwo.pdf)               | ❌      |
 | 3     | [Lecture 5 & 6 - Boolean Logic](#lecture-5--6---boolean-logic)                         | [Boolean Logic](/SCC.131.slides/e.booleanLogic.pdf)                               | ❌      |
 | 4     | [Lecture 7 - Instruction Set Architecture](#lecture-7---instruction-set-architecture)  | [Instruction Set Architecture](/SCC.131.slides/f.instructionSetArchitecture.pdf)  | ❌      |
@@ -184,6 +184,44 @@ There are 3 coding approaches for negative numbers:
 - Sign and Magnitude
 - Excess N
 - Twos Complement
+
+#### Sign and Magnitude
+
+Binary number split into a sign-bit and the magnitude. The sign-bit indicates whether the value is positive or negative. For example. The following decomal numbers are represented in 8bit-binary using Sign and Magnitude:
+
+- +6 = 00000110
+- -6 = 10000110
+
+#### Excess N
+
+MSB used to represent an excess. Example:
+
+1. Code the decimal 20 using excess 127:
+
+   - Take the value 20 and add 127 to it: `20 + 127 = 147`.
+   - Encode 147 into binary: `147` in binary is `10010011`.
+   - This is the excess 127 representation of 20.
+
+2. To convert back:
+
+   - Take the excess 127 binary representation `10010011` and convert it back to decimal: `10010011` in decimal is `147`.
+   - Subtract the excess 127: `147 - 127 = 20`.
+
+Another Example:
+
+3. Code the decimal -20 using excess 127:
+
+   - Take the value -20 and add 127 to it: `-20 + 127 = 107`.
+   - Encode 107 into binary: `107` in binary is `01101011`.
+   - This is the excess 127 representation of -20.
+
+4. To convert back:
+   - Take the excess 127 binary representation `01101011` and convert it back to decimal: `01101011` in decimal is `107`.
+   - Subtract the excess 127: `107 - 127 = -20`.
+
+To determine excess N value, we use half of the maximum possible value as a buffer. For example, if the max value is 100, the excess is 50; if it's 10,000, the excess is 5,000. This "half-rule" provides a safe margin without setting limits too close to the maximum.
+
+Rule in action: If given the decimal 2,976, the max number is 10,000. 10,000/2 = 5,000. So could expect to encode in Excess 5000.
 
 ---
 
