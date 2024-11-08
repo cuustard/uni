@@ -23,9 +23,19 @@ Business Analytics is the process of transforming data into insight for making b
 
 ### Recommender Systems
 
-Are information filters that provide users with relevant outputs.
+Are information filters that provide users with relevant outputs. These are used in online stores, streaming servies, social media, and search engines.
 
-Big Data:
+Pros:
+
+- ...
+
+Cons:
+
+- ...
+
+### Big Data:
+
+The 5 V's of Big Data (IBM)
 
 - Volume
 - Velocity
