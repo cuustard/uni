@@ -33,6 +33,7 @@ Assessed with Exams and Coursework:
 | 3     | [Lecture 3 - Requirements & Requirements Engineering](#lecture-3---requirements--requirements-engineering)                   | [Requirements & Requirements Engineering](/SCC.141.slides/c.requirements.pdf)  | ✅    |
 | 4     | [Lecture 4 - Understandong Users, Usability, & User Experience](#lecture-4---understandong-users-usability--user-experience) | [Users, Usability, & User Experience](/SCC.141.slides/d.usersUsabilityUX.pdf)  | ✅    |
 | 5     | [Lecture 5 - Accesesibility](#lecture-5---accessibility)                                                                     | [Accessibility](/SCC.141.slides/e.accessibility.pdf)                           | ✅    |
+| 6     | [Lecture 6 - Solving Problems](#lecture-6---solving-problems)                                                                | [Solving Problems](/SCC.141.slides/f.solvingProblems.pdf)                      | ❌    |
 
 ---
 
@@ -486,3 +487,9 @@ Accessibility is also important for Businesses:
 - **Operable**: Users must be able to operate the digital product's interface and it can not require interaction that a user cannot perform
 - **Understandable**: Users must be able to understand the information andthe operation of the user interface
 - **Robust**: Supporting assistive technologies and ensuring that, as users and technology evolves, the product remains accesesible.
+
+---
+
+---
+
+## Lecture 6 - Solving Problems

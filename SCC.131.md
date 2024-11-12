@@ -35,16 +35,18 @@ Assessed with Exams and Coursework:
 
 ### Table of Contents
 
-| Week  | Lecture                                                                                | Original Slides                                                                   | Noted   |
-| ----- | -------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------- | ------- |
-| 1     | [Lecture 1 - Module Introduction](#lecture-1---module-introduction)                    | [Module Introduction](/SCC.131.slides/a.introSlides.pdf)                          | ✅      |
-| 1     | [Lecture 2 - Architecture & Speed](#lecture-2---architecture--speed)                   | [Comp Architecture](/SCC.131.slides/b.compArchitectureIntro.pdf)                  | ✅      |
-| 2     | [Lecture 3 - Information Coding](#lecture-3---information-coding)                      | [Information Coding](/SCC.131.slides/c.infoCodingPartOne.pdf)                     | ✅      |
-| 2     | [Lecture 4 - Information Coding Part 2](#lecture-4---information-coding-part-2)        | [Information Coding Contd](/SCC.131.slides/d.infoCodingPartTwo.pdf)               | ❌      |
-| 3     | [Lecture 5 & 6 - Boolean Logic](#lecture-5--6---boolean-logic)                         | [Boolean Logic](/SCC.131.slides/e.booleanLogic.pdf)                               | ❌      |
-| 4     | [Lecture 7 - Instruction Set Architecture](#lecture-7---instruction-set-architecture)  | [Instruction Set Architecture](/SCC.131.slides/f.instructionSetArchitecture.pdf)  | ❌      |
-| 4     | [Lecture 8 - Building the ALU](#lecture-8---building-the-alu)                          | [Building The ALU](/SCC.131.slides/g.buildingTheALU.pdf)                          | ❌      |
-| 5     | [Lecture 9 - Building Memory](#lecture-9---building-memory)                            | [Building Memory](/SCC.131.slides/h.buildingMemory.pdf)                           | 🟧      |
+| Week  | Lecture                                                                                        | Original Slides                                                                   | Noted   |
+| ----- | ---------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------- | ------- |
+| 1     | [Lecture 1 - Module Introduction](#lecture-1---module-introduction)                            | [Module Introduction](/SCC.131.slides/a.introSlides.pdf)                          | ✅      |
+| 1     | [Lecture 2 - Architecture & Speed](#lecture-2---architecture--speed)                           | [Comp Architecture](/SCC.131.slides/b.compArchitectureIntro.pdf)                  | ✅      |
+| 2     | [Lecture 3 - Information Coding](#lecture-3---information-coding)                              | [Information Coding](/SCC.131.slides/c.infoCodingPartOne.pdf)                     | ✅      |
+| 2     | [Lecture 4 - Information Coding Part 2](#lecture-4---information-coding-part-2)                | [Information Coding Contd](/SCC.131.slides/d.infoCodingPartTwo.pdf)               | ❌      |
+| 3     | [Lecture 5 & 6 - Boolean Logic](#lecture-5--6---boolean-logic)                                 | [Boolean Logic](/SCC.131.slides/e.booleanLogic.pdf)                               | ❌      |
+| 4     | [Lecture 7 - Instruction Set Architecture](#lecture-7---instruction-set-architecture)          | [Instruction Set Architecture](/SCC.131.slides/f.instructionSetArchitecture.pdf)  | ❌      |
+| 4     | [Lecture 8 - Building the ALU](#lecture-8---building-the-alu)                                  | [Building The ALU](/SCC.131.slides/g.buildingTheALU.pdf)                          | ❌      |
+| 5     | [Lecture 9 - Building Memory](#lecture-9---building-memory)                                    | [Building Memory](/SCC.131.slides/h.buildingMemory.pdf)                           | 🟧      |
+| 5     | [Lecture 10 - Building The Control Unit](#lecture-10---building-the-control-unit)              | [Building The Control Unit](/SCC.131.slides/i.buildingCU.pdf)                     | ❌      |
+| 6     | [Lecture 11 - Building the Input/Output System](#lecture-11---building-the-inputoutput-system) | [Buildinf The IO](/SCC.131.slides/j.buildingIO.pdf)                               | ❌      |
 
 ---
 
@@ -315,3 +317,11 @@ Has several limitations:
 ---
 
 ---
+
+## Lecture 10 - Building The Control Unit
+
+---
+
+---
+
+## Lecture 11 - Building the Input/Output System

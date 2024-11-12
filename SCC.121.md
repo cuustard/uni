@@ -49,6 +49,8 @@ Assessed with Exams and Coursework:
 | 3     | [Lecture 6 - Functions Part 2](#lecture-6---functions-part-2)                     | [Functions Part 2](/SCC.121.slides/g.functionsPartTwo.pdf)                     | ❌     |
 | 4     | [Lecture 7 - Propositional Logic](#lecture-7---propositional-logic)               | [Propositional Logic](/SCC.121.slides/h.propositionalLogic.pdf)                | ✅     |
 | 4     | [Lecture 8 - Propositional Logic Part 2](#lecture-8---propositional-logic-part-2) | [Propositional Logic Part 2](/SCC.121.slides/i.propositionalLogicPartTwo.pdf)  | ✅     |
+| 5     | [Lecture 9 - Predicate Logic](#lecture-9---predicate-logic)                       | [Predicate Logic](/SCC.121.slides/j.predicateLogic.pdf)                        | ❌     |
+| 5     | [Lecture 10 - Predicate Logic Part 2](#lecture-10---predicate-logic-part-2)       | [Predicate Logic Part 2](/SCC.121.slides/k.predicateLogicPartTwo.pdf)          | ❌     |
 
 ---
 
@@ -437,3 +439,11 @@ The rules:
 ---
 
 ---
+
+## Lecture 9 - Predicate Logic
+
+---
+
+---
+
+## Lecture 10 - Predicate Logic Part 2

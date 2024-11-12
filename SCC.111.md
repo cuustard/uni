@@ -26,16 +26,18 @@ Assessed with Exam and Coursework:
 
 ### Table of Contents
 
-| Week | Lecture                                                             | Original Slides                                                | Noted |
-| :--: | ------------------------------------------------------------------- | -------------------------------------------------------------- | :---: |
-|  1   | [Lecture 1 - Module Introduction](#lecture-1---module-introduction) | [Module Intro](/SCC.111.slides/a.introSlides.pdf)              |  ✅   |
-|  1   | [Lecture 2 - Writing Code](#lecture-2---writing-code)               | [Intro to C](/SCC.111.slides/b.introToC.pdf)                   |  ✅   |
-|  2   | [Lecture 3 - Control Flow](#lecture-3---control-flow)               | [Control Flow](/SCC.111.slides/c.controlFlow.pdf)              |  ✅   |
-|  2   | [Lecture 4 - Functions & Flow](#lecture-4---functions--flow)        | [Functions & Flow](/SCC.111.slides/d.functionsAndFlow.pdf)     |  ✅   |
-|  3   | [Lecture 5 - Variables & Arrays](#lecture-5---variables--arrays)    | [Variables & Arrays](/SCC.111.slides/e.variablesAndArrays.pdf) |  ❌   |
-|  3   | [Lecture 6 - Reading Code](#lecture-6---reading-code)               | [Reading Code](/SCC.111.slides/f.readingCode.pdf)              |  ❌   |
-|  4   | [Lecture 7 - Testing](#lecture-7---testing)                         | [Testing](/SCC.111.slides/g.testing.pdf)                       |  ❌   |
-|  4   | [Lecture 8 - Debugging](#lecture-8---debugging)                     | [Debugging](/SCC.111.slides/h.debugging.pdf)                   |  ❌   |
+| Week | Lecture                                                                    | Original Slides                                                     | Noted |
+| :--: | -------------------------------------------------------------------------- | ------------------------------------------------------------------- | :---: |
+|  1   | [Lecture 1 - Module Introduction](#lecture-1---module-introduction)        | [Module Intro](/SCC.111.slides/a.introSlides.pdf)                   |  ✅   |
+|  1   | [Lecture 2 - Writing Code](#lecture-2---writing-code)                      | [Intro to C](/SCC.111.slides/b.introToC.pdf)                        |  ✅   |
+|  2   | [Lecture 3 - Control Flow](#lecture-3---control-flow)                      | [Control Flow](/SCC.111.slides/c.controlFlow.pdf)                   |  ✅   |
+|  2   | [Lecture 4 - Functions & Flow](#lecture-4---functions--flow)               | [Functions & Flow](/SCC.111.slides/d.functionsAndFlow.pdf)          |  ✅   |
+|  3   | [Lecture 5 - Variables & Arrays](#lecture-5---variables--arrays)           | [Variables & Arrays](/SCC.111.slides/e.variablesAndArrays.pdf)      |  ❌   |
+|  3   | [Lecture 6 - Reading Code](#lecture-6---reading-code)                      | [Reading Code](/SCC.111.slides/f.readingCode.pdf)                   |  ❌   |
+|  4   | [Lecture 7 - Testing](#lecture-7---testing)                                | [Testing](/SCC.111.slides/g.testing.pdf)                            |  ❌   |
+|  4   | [Lecture 8 - Debugging](#lecture-8---debugging)                            | [Debugging](/SCC.111.slides/h.debugging.pdf)                        |  ❌   |
+|  5   | [Lecture 9 - Deubbign Part 2](#lecture-9---debugging-part-2)               | [Debugging Part 2](/SCC.111.slides/i.debuggingPartTwo.pdf)          |  ❌   |
+|  5   | [Lecture 10 - Indirection & Pointers](#lecture-10---indirection--pointers) | [Indirection & Pointers](/SCC.111.slides/j.indirectionPointers.pdf) |  ❌   |
 
 ---
 
@@ -223,3 +225,11 @@ In C, the parameter values in the function are only ever a copy of what passed i
 ---
 
 ---
+
+## Lecture 9 - Debugging Part 2
+
+---
+
+---
+
+## Lecture 10 - Indirection & Pointers
