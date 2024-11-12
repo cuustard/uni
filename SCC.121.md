@@ -39,18 +39,19 @@ Assessed with Exams and Coursework:
 
 ### Table of Contents
 
-| Week  | Lecture                                                                           | Original Slides                                                                | Noted  |
-| ----- | --------------------------------------------------------------------------------- | ------------------------------------------------------------------------------ | ------ |
-| 1     | [Lecture 1 - Module Introduction & Sets](#lecture-1---sets)                       | [Sets](/SCC.121.slides/b.setsPartOne.pdf)                                      | ✅     |
-| 1     | [Lecture 2 - Types of Sets](#lecture-2---types-of-sets)                           | [Types of Sets](/SCC.121.slides/c.setsPartTwo.pdf)                             | ✅     |
-| 2     | [Lecture 3 - Relations](#lecture-3---relations)                                   | [Relations](/SCC.121.slides/d.relationsPartOne.pdf)                            | 🟧     |
-| 2     | [Lecture 4 - Relations Part 2](#lecture-4---relations-part-2)                     | [Relations Part 2](/SCC.121.slides/e.relationsPartTwo.pdf)                     | ❌     |
-| 3     | [Lecture 5 - Functions](#lecture-5---functions)                                   | [Functions](/SCC.121.slides/f.functions.pdf)                                   | ❌     |
-| 3     | [Lecture 6 - Functions Part 2](#lecture-6---functions-part-2)                     | [Functions Part 2](/SCC.121.slides/g.functionsPartTwo.pdf)                     | ❌     |
-| 4     | [Lecture 7 - Propositional Logic](#lecture-7---propositional-logic)               | [Propositional Logic](/SCC.121.slides/h.propositionalLogic.pdf)                | ✅     |
-| 4     | [Lecture 8 - Propositional Logic Part 2](#lecture-8---propositional-logic-part-2) | [Propositional Logic Part 2](/SCC.121.slides/i.propositionalLogicPartTwo.pdf)  | ✅     |
-| 5     | [Lecture 9 - Predicate Logic](#lecture-9---predicate-logic)                       | [Predicate Logic](/SCC.121.slides/j.predicateLogic.pdf)                        | ❌     |
-| 5     | [Lecture 10 - Predicate Logic Part 2](#lecture-10---predicate-logic-part-2)       | [Predicate Logic Part 2](/SCC.121.slides/k.predicateLogicPartTwo.pdf)          | ❌     |
+| Week  | Lecture                                                                                                                             | Original Slides                                                                                          | Noted  |
+| ----- | ----------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- | ------ |
+| 1     | [Lecture 1 - Module Introduction & Sets](#lecture-1---sets)                                                                         | [Sets](/SCC.121.slides/b.setsPartOne.pdf)                                                                | ✅     |
+| 1     | [Lecture 2 - Types of Sets](#lecture-2---types-of-sets)                                                                             | [Types of Sets](/SCC.121.slides/c.setsPartTwo.pdf)                                                       | ✅     |
+| 2     | [Lecture 3 - Relations](#lecture-3---relations)                                                                                     | [Relations](/SCC.121.slides/d.relationsPartOne.pdf)                                                      | 🟧     |
+| 2     | [Lecture 4 - Relations Part 2](#lecture-4---relations-part-2)                                                                       | [Relations Part 2](/SCC.121.slides/e.relationsPartTwo.pdf)                                               | ❌     |
+| 3     | [Lecture 5 - Functions](#lecture-5---functions)                                                                                     | [Functions](/SCC.121.slides/f.functions.pdf)                                                             | ❌     |
+| 3     | [Lecture 6 - Functions Part 2](#lecture-6---functions-part-2)                                                                       | [Functions Part 2](/SCC.121.slides/g.functionsPartTwo.pdf)                                               | ❌     |
+| 4     | [Lecture 7 - Propositional Logic](#lecture-7---propositional-logic)                                                                 | [Propositional Logic](/SCC.121.slides/h.propositionalLogic.pdf)                                          | ✅     |
+| 4     | [Lecture 8 - Propositional Logic Part 2](#lecture-8---propositional-logic-part-2)                                                   | [Propositional Logic Part 2](/SCC.121.slides/i.propositionalLogicPartTwo.pdf)                            | ✅     |
+| 5     | [Lecture 9 - Predicate Logic](#lecture-9---predicate-logic)                                                                         | [Predicate Logic](/SCC.121.slides/j.predicateLogic.pdf)                                                  | ❌     |
+| 5     | [Lecture 10 - Predicate Logic Part 2](#lecture-10---predicate-logic-part-2)                                                         | [Predicate Logic Part 2](/SCC.121.slides/k.predicateLogicPartTwo.pdf)                                    | ❌     |
+| 6     | [Lecture 11 - Introduction to Data Structures & Abstract Data Types](#lecture-11---introduction-to-data-types--abstract-data-types) | [Introduction to Data Structures & Abstract Data Types](/SCC.121.slides/l.introDataStructuresAndADT.pdf) | ✅     |
 
 ---
 
@@ -423,27 +424,84 @@ The rules:
 | Contraposition law   |                                                                                                                                                                                                               | `P → Q` = `~P → ~Q`                                                       |
 | Equivalence law      | A biconditional is equivalent to the conjunction of two conditionals                                                                                                                                          | `P <--> Q` = `(P → Q) ∧ (Q → P)`                                          |
 
-- Commutative law – states that a compound proposition involving exclusively ANDs, or exclusively ORs is unaltered by reordering its atomic propositions.
-- Associative law – states that a compound proposition involving exclusively ANDs or exclusively ORs is unaltered by regrouping its atomic propositions.
-- Distributive law – states that a compound proposition involving AND, OR and parentheses, is unaltered by distributing the first connective to link the first proposition separately with each proposition in the parentheses.
-- De Morgan's law states that the conjunction of negations is the negation of a disjunction: ~P  ~Q is equivalent to ~(P  Q).
-- Absorption law states that the disjunction of any proposition P with (P ∧ Q) has the same truth value as P: P ∨ (P ∧ Q) is equivalent to P; the conjunction of any proposition P with (P ∨ Q) has the same truth value as P: P∧ (P ∨ Q) is equivalent to P.
-- Identity law states that the conjunction of any proposition P with an arbitrary tautology has the same truth value as P; the disjunction of any proposition P with an arbitrary contradiction F (a proposition which is always false) has the same truth value as P.
-- Idempotence law states the property of a conjunction or disjunction to be applied multiple times on a proposition without changing the proposition: P ∧ P is logically equivalent to P, P ∨ P is logically equivalent to P.
-- Negation law states that the disjunction of any proposition P and its negation is a tautology; the conjunction of any proposition P and its negation is a contradiction.
-- Doble negation law states that any proposition P is logically equivalent to its double negation ~(~P)
-- Implication law states that any implication P → Q is logically equivalent to ~P ∨ Q.
-- Contraposition law states that a conditional P → Q is logically equivalent to its contrapositive (implication of negations): ~Q → ~P.
-- Equivalence law states that a biconditional P  Q is logically equivalent to the conjunction of two conditionals: (P → Q)  (Q → P).
-
 ---
 
 ---
 
 ## Lecture 9 - Predicate Logic
 
+here...
+
 ---
 
 ---
 
 ## Lecture 10 - Predicate Logic Part 2
+
+here...
+
+---
+
+---
+
+## Lecture 11 - Introduction to Data Types & Abstract Data Types
+
+A structure being an Abstract Data Type (ADT) tells us what operations can be performed, but now how they will be implemented. This means the ADT does not specify how the data will be organisd in memory, or the algorithms used for implementing the operations.
+
+It is abstract because it is an implementation independent view.
+
+Abstraction is the process of provoding only the necessary information and hiding the internal details is known as abstraction.
+
+### The Queue
+
+A queue is an ordered collection of items which are added at the tail, and removed from the head. It is a First In First Out (FIFO) ordering property.
+
+| Operations    | def                                                 | Parameters     | Returns                                |
+| ------------- | --------------------------------------------------- | -------------- | -------------------------------------- |
+| Queue()       | Creates new empty queue                             | None           | Empty queue                            |
+| enqueue(item) | Adds new item to the tail of the queue              | An item to add | Nothing                                |
+| dequeue()     | If not empty, removes item in the head of the queue | None           | Item removed from the queue            |
+| isEmpty()     | Tests if the queue is emppty                        | None           | Boolean True if empty. False otherwise |
+| size()        | Coutns number of items in the queue                 | None           | Number of items in the queue           |
+
+![Queue Evolution](images/queueEvolution.png "Diagram showing queue procedures/functions")
+
+### Data Structures vs Abstract Data Types
+
+A data structure is the physical representation of the structure of the datya being stored in memory.
+
+An abstract data type is both the data structure and the procedures/functions which manipulate that data structure.
+
+### Encapsulation
+
+Encapsulation wraps attributes and methods in a class, hiding the details from the user.
+
+The only way the user can interact with a variable of that ADT is through an interface (a set of procedures that operate on the data structure).
+
+Encapsulation is strong if the details of how the data structure is actually stored can be completely hidden from the user. The user will have a conceptual (abstract) understanding of what the ADT does, but not how it does it.
+
+C does not have encapsulation. So instead we have to declare a new data structure to model an ADT then provide it with procedures/functions that operate on the data structure.
+
+### Arrays
+
+```C
+// Declaring an array in C
+int counts[26] = {a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t, u, v, w, x, y, z};
+```
+
+![Array Table](images/alphabetTable.png)
+
+```C
+// to increment the count for 'l' we can write
+counts[11] = counts[11] + 1;
+
+//print the value of the count for 'h'
+printf("%d\n", counts[7]);
+```
+
+- upb (upper bound) stores the index of the last element.
+- lwb (lower bound) stores the index of the first element. (always 0)
+
+---
+
+---
