@@ -5,20 +5,20 @@ began: 8th October 2024
 This module of the course is taught by 4 Lecturers:
 
 - Discrete Maths & Logic
-    - Taught by Corina Sas
-    - Weeks 1 - 5
+  - Taught by Corina Sas
+  - Weeks 1 - 5
 - Data Structures
-    - Taught by Amit Chorpra
-    - Weeks 6 - 11
+  - Taught by Amit Chorpra
+  - Weeks 6 - 11
 - Algorithms & Complexity
-    - Taught by Emma Wilson
-    - Weeks 12 - 15
+  - Taught by Emma Wilson
+  - Weeks 12 - 15
 - Sorting, Trees, & Graphs
-    - Taught by Fabien Dufoulon
-    - Weeks 16 - 20
+  - Taught by Fabien Dufoulon
+  - Weeks 16 - 20
 - Linear Algebra, Searching & Sorting, Sorting & its efficiency, PageRank, Revision Lectures
-    - Taught by Mixed Lecturers
-    - Weeks 21 - 25
+  - Taught by Mixed Lecturers
+  - Weeks 21 - 25
 
 The module aims to help me understand the fundamentals of Computer Science. This includes...
 
@@ -44,7 +44,7 @@ Assessed with Exams and Coursework:
 | 1     | [Lecture 1 - Module Introduction & Sets](#lecture-1---sets)                                                                         | [Sets](/SCC.121.slides/b.setsPartOne.pdf)                                                                | ✅     |
 | 1     | [Lecture 2 - Types of Sets](#lecture-2---types-of-sets)                                                                             | [Types of Sets](/SCC.121.slides/c.setsPartTwo.pdf)                                                       | ✅     |
 | 2     | [Lecture 3 - Relations](#lecture-3---relations)                                                                                     | [Relations](/SCC.121.slides/d.relationsPartOne.pdf)                                                      | 🟧     |
-| 2     | [Lecture 4 - Relations Part 2](#lecture-4---relations-part-2)                                                                       | [Relations Part 2](/SCC.121.slides/e.relationsPartTwo.pdf)                                               | ❌     |
+| 2     | [Lecture 4 - Relations Part 2](#lecture-4---relations-part-2)                                                                       | [Relations Part 2](/SCC.121.slides/e.relationsPartTwo.pdf)                                               | ✅     |
 | 3     | [Lecture 5 - Functions](#lecture-5---functions)                                                                                     | [Functions](/SCC.121.slides/f.functions.pdf)                                                             | ❌     |
 | 3     | [Lecture 6 - Functions Part 2](#lecture-6---functions-part-2)                                                                       | [Functions Part 2](/SCC.121.slides/g.functionsPartTwo.pdf)                                               | ❌     |
 | 4     | [Lecture 7 - Propositional Logic](#lecture-7---propositional-logic)                                                                 | [Propositional Logic](/SCC.121.slides/h.propositionalLogic.pdf)                                          | ✅     |
@@ -246,7 +246,28 @@ Another example:
 
 ## Lecture 4 - Relations Part 2
 
----
+### Operations on Relations
+
+| Symbol  | Symbol name               | Meaning                                                                                          |
+| ------- | ------------------------- | ------------------------------------------------------------------------------------------------ |
+| R1 ∪ R2 | union of relations        | set of all ordered pairs `<a, b>` that are in R1, or R2, or both                                 |
+| R1 ∩ R2 | intersection of relations | set of all ordered pairs `<a, b>` that are common to both R1 and R2                              |
+| R1 - R2 | difference of relations   | set of all ordered pairs `<a, b>` that are in R1 but not in R2                                   |
+| R1 ⊆ R2 | subrelation               | R1 is subrelation of R2 if every ordered tuple that is an element of R1 is also an element of R2 |
+
+### Properties of Relations
+
+### Properties of Relations
+
+| Property      | Definition                                                                                                      | Explanation                                                                                                             | Example                                                                                                                                                         |
+| ------------- | --------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Symmetry      | `R ⊆ A x A` is symmetric if for any `a` and `b` in `A`, if `<a, b> ∈ R` then `<b, a> ∈ R`.                      | There is symmetry if for any `<a, b>`, there is also a `<b, a>`. Otherwise, there is no symmetry.                       | "is a sibling of" is a symmetrical comparison, whereas "is a brother of" is not. `Jake is a sibling of Sophie` is symmetrical to `Sophie is a sibling of Jake`. |
+| Transitivity  | `R ⊆ A x A` is transitive for any `a`, `b`, and `c` in `A`, if `<a, b> ∈ R` and `<b, c> ∈ R` then `<a, c> ∈ R`. | There is transitivity if, for any `<a, b>` and `<b, c>` in `R`, then `<a, c>` should also be in `R`.                    | The `=` relation is transitive. If `a = b` and `b = c`, then `a = c`.                                                                                           |
+| Reflexivity   | `R ⊆ A x A` is reflexive if `<a, a> ∈ R` for every element `a` of `A`.                                          | There is reflexivity if, for any `a` in `A`, then `<a, a>` should be in `R`. Every element of `A` is related to itself. | Let `B = {5, 6, 7}`. For `R` to be reflexive it must contain `<5, 5>, <6, 6>, <7, 7>`.                                                                          |
+| Irreflexivity | `R ⊆ A x A` is irreflexive if `<a, a> ∉ R` for every element `a` of `A`.                                        | No element of `A` is in relation to itself.                                                                             | "is the parent of" is an irreflexive relation. No one can be their own parent.                                                                                  |
+| Equivalence   | `R ⊆ A x A` is an equivalence relation if `R` is reflexive, symmetric, and transitive.                          |                                                                                                                         |                                                                                                                                                                 |
+
+--
 
 ---
 
