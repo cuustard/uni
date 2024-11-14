@@ -2,11 +2,11 @@ began: 8th October 2024
 
 # Professionalism in Practice Seminars
 
-| Week   | Seminar         | Original Slide                               | Date Noted |
-| ------ | --------------- | -------------------------------------------- | ---------- |
-| 1 & 2  | [1](#seminar-1) | [Seminar 1](seminarMaterials/a.Seminar1.pdf) | Yes        |
-| 2 & 3  | [2](#seminar-2) | [Seminar 2](seminarMaterials/b.Seminar2.pdf) | Yes        |
-| 4 & 5  | [3](#seminar-3) | [Seminar 3](seminarMaterials/c.Seminar3.pdf) | Yes        |
+| Week   | Seminar         | Original Slide                               | Noted |
+| ------ | --------------- | -------------------------------------------- | :----------: |
+| 1 & 2  | [Seminar 1](#seminar-1) | [Seminar 1](seminarMaterials/a.Seminar1.pdf) | ✅        |
+| 2 & 3  | [Seminar 2](#seminar-2) | [Seminar 2](seminarMaterials/b.Seminar2.pdf) | ✅        |
+| 4 & 5  | [Seminar 3](#seminar-3) | [Seminar 3](seminarMaterials/c.Seminar3.pdf) | ✅        |
 
 ## Seminar 1
 
