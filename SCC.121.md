@@ -267,11 +267,36 @@ Another example:
 | Irreflexivity | `R ⊆ A x A` is irreflexive if `<a, a> ∉ R` for every element `a` of `A`.                                        | No element of `A` is in relation to itself.                                                                             | "is the parent of" is an irreflexive relation. No one can be their own parent.                                                                                  |
 | Equivalence   | `R ⊆ A x A` is an equivalence relation if `R` is reflexive, symmetric, and transitive.                          |                                                                                                                         |                                                                                                                                                                 |
 
---
+---
 
 ---
 
 ## Lecture 5 - Functions
+
+A function is a machine which given an input produce a unique output. Deterministic linkage ebtween two sets of values: inputs an outputs.
+
+It is a special type of binary relation. It associates each element of a set with a unique element of anotehr set.
+
+Abstract relation between sets. Each input value corresponds to a unique output value. Output vlaue depends in some way on the input value.
+
+### Formal Defintiions of Fuinctions
+
+Function from set A to B: for every `a ∈ A`, there is a unique `b ∈ B` such that `<a, b> ∈ f`. Notation: `f : A → B`.
+
+A function from set A to set B is a relation from A to B that satisifes:
+
+- for each element a in A, there is an element b in B such that `<a, b>` is in the relation, and that element is unique: if `<a, b>` and `<a, c>` are in the relation, then `b = c`.
+
+### Domain, Codomain, & Range
+
+Let the function f from A to B be: `f : A → B`.
+
+- A is the **domain** of function f - all input elements
+- B is the **codomain** of function f - all possible output elements
+
+The **range** is the set of values that are produced by a function. Therefore the range is a subset of the codomain: `range ⊆ codomain`.
+
+### Image & Preimage
 
 ---
 
