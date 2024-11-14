@@ -554,3 +554,158 @@ printf("%d\n", counts[7]);
 ---
 
 ## Lecture 12 - Memory, Pointers, & Records
+
+Computer memory is **byte addressable**. This means every byte of memory has 1 address. Thought of as an array. This can be thought of as an array where the address is the index of the array.
+
+A **word**'s length can differ between machines. We'll assume a word is 32 bits (4 bytes) long. An integer is usually 1 word long.
+
+**Variable**'s have 3 components:
+
+- A symbolic **name**
+- A **value** it contains
+- An **address** where it is in memory
+
+If a variable is on the left of the statement, it is assignment, on the right it is fetch.
+
+### Pointers
+
+C variables have local scope to the function they appear in. This makes it harder for multiple functions to work with - and acctually affect the value in a variable - the same variable. For example there may be a function to create a student record, and another that modifies that record. Functions pass variables by value which means that they copy the value into the function so that the actual value stored at the variables memory address is not affected.
+
+Pointers fix this by allowing us to pass the memory address of a variavble to the function as well as the value.
+
+```C
+
+// define character variable, and pointer variable
+char val;
+char *addr;
+
+// initialise by assigning values
+val = 3;
+addr = &val;
+printf("val = %d, addr = %x\n", val, addr);
+
+*addr = *addr + 2; // deference means go to address and fetch contents. so go to content stored at address and add 2
+printf("val = %d, addr = %x\n", val, addr);
+
+// Outputs:
+
+// val = 3, addr = 4063e8
+// val = 5 addr = 4063e8
+```
+
+### Levels of Indirection
+
+```C
+val = val + 2;
+
+// fetch - get content from the location where RHS val resides
+// evaluate - add 2 to it
+// store - the value in the location where val resides
+```
+
+```C
+
+```
+
+### Notation
+
+```C
+//indicate that a variable is a pointer with the * "type modifier"
+
+int* x;
+int * x;
+int *x; // can be read as "x is a pointer to an int
+
+// all above are equivalent
+```
+
+```C
+// unary operator * is the dereference operator (indirection operator)
+
+*ptr; // fetches the value stored at ptr
+%val; // returns address of val
+```
+
+### Records
+
+Records are compound and heterogeneous (multile data types in it). A records components are called fields and each field is identified with a name (rather than an index). It holds many properties of a single entity.
+
+```C
+// define record with MAXSIZE 20
+
+typedef struct student { //typedef: type definition. // struct: a structure // student: name of the tstruct
+  char name[MAXSIZE];
+  int age;
+  char gender;
+  int entryYear;
+  char subject[MAXSIZE];
+  char maritalStatus;
+} Student; // Student: name of the type
+```
+
+Function that creates space for a new Student record and returns a pointer to that space.
+
+```C
+Student* newStudent()
+//allocates space for a new Student record
+//returns pointer to allocated space
+{
+Student* pt = malloc(sizeof(Student));
+return pt;
+};
+```
+
+#### Arrow -> Operator
+
+The following creates a new Student record and allocates values to the fields
+
+```C
+Student* stu = newStudent();
+strcpy(stu->name, "James T. Kirk");
+stu->age = 19; // stu -> age is the same as (*stu).age = 19
+stu->gender = 'M';
+stu->entryYear = 2252;
+strcpy(stu->subject, "Space Command");
+```
+
+#### Dot . Operator
+
+Dot is used to access the fields rather than the arrow to allocate values.
+
+```C
+Student stu2;
+strcpy(stu2.name, "Nyota Uhura");
+stu2.age = 18;
+stu2.gender = 'F';
+stu2.entryYear = 2257;
+strcpy(stu2.subject, "Communications");
+stu2.maritalStatus = 's';
+```
+
+#### Arrays of Records
+
+Can have an array of students.
+
+```C
+Student* arrayOfStudents[2];
+arrayOfStudents[0] = stu;
+arrayOfStudents[1] = &stu2;
+```
+
+#### "set" Functions
+
+Function to only allow certain values for martial status
+
+```C
+bool setMaritalStatus(Student* s, char x)
+{
+  bool ok = false;
+  switch (x)
+  {
+    case 'm': case 'w':
+    case 's': case 'd': ok = true; break;
+  };
+  if (ok) s->maritalStatus = x;
+  return ok;
+}
+```
