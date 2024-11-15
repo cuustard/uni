@@ -14,7 +14,7 @@ began: 9th October 2024
 | 4    | [Lecture 8 - Correlation](#lecture-8---correlation)                           | [Correlation](/MSCI.152.slides/h.correlation.pdf)                         | ❌    |
 | 5    | [Lecture 9 - Simple Linear Regression](#lecture-9---simple-linear-regression) | [Simple Linear Regression](/MSCI.152.slides/i.simpleLinearRegression.pdf) | ❌    |
 | 6    | [Lecture 10 - Regression Part 2](#lecture-10---regression-part-2)             | [Regression Part 2](/MSCI.152.slides/j.regressionPartTwo.pdf)             | ✅    |
-|      |                                                                               | [Regression Part 3](/MSCI.152.slides/k.regressionPartThree.pdf)           | ❌    |
+| 6    | [Lecture 11 - Regression Part 3](#lecture-11---regression-part-3)             | [Regression Part 3](/MSCI.152.slides/k.regressionPartThree.pdf)           | ✅    |
 
 ## Lecture 1 - Module Introduction
 
@@ -116,4 +116,43 @@ Coursework will be nonoed if using R^2 instead of AdjustedR^2
 2. Standard Error S
 3. Information Criteria (AIC, BIC)
 
+---
+
+---
+
 ## Lecture 11 - Regression Part 3
+
+### Categorical Independent Variables
+
+A qualitative predictor (a factor) with two levels is called a **dummy variable**.
+
+Lets say we have variable in data called OWN (if OWNS a house or not). This may seem qualitative but can turn the data from OWN or NOT OWN to 1 an 0. Now it is quantatitive.
+
+### Linear vs Non-linear Relationships
+
+To incorporate non-linear associations in a linear model is to include a transformed version of the predictors. We can model a non-linear relationshop by polynomial regression in which we add a quadratic shape.
+
+### Forecasting with Regression
+
+Once we have estimated a regression line I can use it to forcast by using numercial inputs for the variables in the model.
+
+- X is known ahead of time.
+- X is unknown but can still be forcast
+- X is unknown but we wish to make what-if forcasts
+
+A prediction interval is an interval estimatea of an individual y value given values of the independent variables. An approx 95% prediction interval associated with the forcast.
+
+### Powerful but not complex Regression
+
+Other types of regression:
+
+- Log-regression
+- Logistic Regression
+- Multi-level regression
+
+Different Varible selection methods:
+
+- backward elimination
+- forward selection
+- stepwise selection
+- best subset
