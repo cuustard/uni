@@ -52,7 +52,7 @@ Assessed with Exams and Coursework:
 | 5     | [Lecture 9 - Predicate Logic](#lecture-9---predicate-logic)                                                                         | [Predicate Logic](/SCC.121.slides/j.predicateLogic.pdf)                                                  | ❌     |
 | 5     | [Lecture 10 - Predicate Logic Part 2](#lecture-10---predicate-logic-part-2)                                                         | [Predicate Logic Part 2](/SCC.121.slides/k.predicateLogicPartTwo.pdf)                                    | ❌     |
 | 6     | [Lecture 11 - Introduction to Data Structures & Abstract Data Types](#lecture-11---introduction-to-data-types--abstract-data-types) | [Introduction to Data Structures & Abstract Data Types](/SCC.121.slides/l.introDataStructuresAndADT.pdf) | ✅     |
-| 6     | [Lecture 12 - Memory, Pointers, & Records](#lecture-12---memory-pointers--records)                                                  | [Memory, Pointers, & Records](/SCC.121.slides/m.memoryPointersRecords.pdf)                               |        |
+| 6     | [Lecture 12 - Memory, Pointers, & Records](#lecture-12---memory-pointers--records)                                                  | [Memory, Pointers, & Records](/SCC.121.slides/m.memoryPointersRecords.pdf)                               | 🟧     |
 
 ---
 

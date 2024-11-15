@@ -47,6 +47,7 @@ Assessed with Exams and Coursework:
 | 5     | [Lecture 9 - Building Memory](#lecture-9---building-memory)                                    | [Building Memory](/SCC.131.slides/h.buildingMemory.pdf)                           | 🟧      |
 | 5     | [Lecture 10 - Building The Control Unit](#lecture-10---building-the-control-unit)              | [Building The Control Unit](/SCC.131.slides/i.buildingCU.pdf)                     | ❌      |
 | 6     | [Lecture 11 - Building the Input/Output System](#lecture-11---building-the-inputoutput-system) | [Buildinf The IO](/SCC.131.slides/j.buildingIO.pdf)                               | ❌      |
+|       | [Lectute 12 - Weeks 1-6 Recap](#lecture-12---weeks-1-6-recap)                                  | [Weeks 1-6 Recap](/SCC.131.slides/j.recapUpToWeek6.pdf)                           | ✅      |
 
 ---
 
@@ -325,3 +326,123 @@ Has several limitations:
 ---
 
 ## Lecture 11 - Building the Input/Output System
+
+---
+
+---
+
+## Lecture 12 - Weeks 1-6 Recap
+
+### Architecture
+
+Von Neumann:
+
+![Von Neumann Diagram](images/VonNeumanRECAPdiagram.png "diagram of von neumann architecture")
+
+Harvard:
+
+![Harvard Diagram](images/HarvardGraigramRECAP.png "diagram of harvard architecture")
+
+- Instructions & data memories are separate
+- So can access instructions & data simultaneously
+- So probably faster
+- So more expensive
+
+### Information Coding
+
+Every data type is a code like ASCII.
+
+Number representations:
+
+- Binary
+- Decimal
+- Octal
+- Hex
+
+Negative number representations
+
+- Excess n
+- Sign & Magnitude
+
+Adding & Subtracting numbers:
+
+- 2's complement
+
+Floating Points:
+
+- Range & accuracy
+- converting decimal/hex to binary/decimal/hex
+
+#### IEEE 754
+
+LOOK HOW TO DO THIS
+
+### Boolean Logic
+
+For any pair of binary digits (bits) A and B:
+
+![AND Truth Table](images/connectiveAND.png)
+
+![OR Truth Table](images/connectiveOR.png)
+
+![NOT Truth Table](images/connectiveNOT.png)
+
+![XOR Truth Table](images/connectiveXOR.png)
+
+INSERT building AND/OR/NOT from NAND/NOR
+
+#### Boolean Algebra
+
+| Law                 | AND form                | OR form                   |
+| ------------------- | ----------------------- | ------------------------- |
+| Identity 1          | A = A′′                 | A = A′′                   |
+| Identity 2          | 1A = A                  | 0 + A = A                 |
+| Null                | 0A = 0                  | 1 + A = 1                 |
+| Idempotence         | AA = A                  | A + A = A                 |
+| Complementarity     | AA′ = 0                 | A + A′ = 1                |
+| Commutativity       | AB = BA                 | A + B = B + A             |
+| Associativity       | (AB)C = A(BC)           | (A + B) + C = A + (B + C) |
+| Distributivity      | A + BC = (A + B)(A + C) | A(B + C) = AB + AC        |
+| Absorption          | A(A + B) = A            | A + AB = A                |
+| **de Morgan’s law** | (AB)′ = A′ + B′         | (A + B)′ = A′B′           |
+
+Karnaugh Maps
+
+### Fetch Decode Execute Cycle
+
+All the CPU does is repeate the process of fetching the next instruction, decoding it, and executing it.
+
+### Registers
+
+A register is a holding place for data being worked on in the CPU. They are much faster than main memory.
+
+There are general prupose and special registers. Registers used by arithmetic & logic instructions are general purpose.
+
+Special:
+
+- PC (program counter)
+- SP (stack pointer)
+
+### ALU
+
+- half adders and full adders work.
+- ripple-carry - carry select adders
+- the status and the overflow flag
+- bit shifting left and right
+
+### Memory
+
+- Dynamic vs Static Memory
+- Memory Address Decoding
+- Combinatorial vs Sequential Logic
+- SR Flip Flip
+
+### The Control Unit
+
+A 'little program' that endlessly executes the FDE cycle.
+
+### Pipelining
+
+Improves performance by exploiting inherent parallelism inside the control unit to speed up the FDE Cycle.
+
+![Pipelining Diagram](images/pipelining.png)
