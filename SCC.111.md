@@ -38,6 +38,7 @@ Assessed with Exam and Coursework:
 |  4   | [Lecture 8 - Debugging](#lecture-8---debugging)                            | [Debugging](/SCC.111.slides/h.debugging.pdf)                        |  ❌   |
 |  5   | [Lecture 9 - Deubbign Part 2](#lecture-9---debugging-part-2)               | [Debugging Part 2](/SCC.111.slides/i.debuggingPartTwo.pdf)          |  ❌   |
 |  5   | [Lecture 10 - Indirection & Pointers](#lecture-10---indirection--pointers) | [Indirection & Pointers](/SCC.111.slides/j.indirectionPointers.pdf) |  ❌   |
+|  6   | [Lecture 11 - ]                                                            |                                                                     |       |
 
 ---
 
@@ -233,3 +234,146 @@ In C, the parameter values in the function are only ever a copy of what passed i
 ---
 
 ## Lecture 10 - Indirection & Pointers
+
+---
+
+---
+
+## Lecture 11 - Pointers & Strings
+
+---
+
+---
+
+## Lecture 12 - Dynamic Memory & Compound Types
+
+A string is a sequence of characters (an array).
+
+```C
+int main() {
+    char *password = "Password";
+    *userEntry = "guess";
+
+    if(userEntry == password) { // this is wrong as it is comparing the values stored in the pointer variables. this returns false because there are different memory addresses stored in password and userEntry
+        printf("Correct Login\n");
+    }
+}
+```
+
+#### Comparing Strings
+
+```C
+char *password = "pass123";
+
+if (strcomp(password, "paass123") == 0 || strcomp(password, "secret") == 0) {
+    printf("Yes\n")
+}
+```
+
+#### `<string.h>`
+
+```C
+int strlen(char *) // find the length of string s
+char *strchr(char *, int) // find a character within a string (pointer or NULL)
+strcat(char *d, char *s) // append string s to d
+strcpy(char *d, char *s) // copy string s to d
+```
+
+### Beyond Basic Variables
+
+We have only seen variables that represent simple scalar values like int, char, etc or as fex length arrays of values. These are all declared with a fixed size.
+
+Variables also go out of scope at the end of the block they are declared in. They also incur overhead when copied.
+
+#### Addressing Fixed Size
+
+Types of storage:
+
+- **Literals**
+- **Standard Variables**
+- **Global Variables**
+- **Dynamic Variables** - from the heap
+
+Dynamic Memory is allocated at runtime by my code. It needs managing (must free and return to the heap when done with it). Gotta take extreme care to avoid memory leaks, and crashes.
+
+`maccloc()` gets a pointer to some memory.
+
+```C
+//create pointer str to 100 bytes
+char *str = (char *) malloc(sizeof(char) * 100);
+
+// do something with it
+str[0] = 'h';
+strcpy(str, "hello");
+
+// return str to the heap
+free(str)
+
+//malloc will return NULL if it fails (we ask for too much)
+
+// `sizeof(char)` asks how much a char is (1 byte)
+// `* 100` multiplies 1 byte by 100
+// `malloc(100)` allocates the heap space (returns a pointer)
+// `char *str` declares pointer str
+// `= (char *)` casts thet pointer to be of the type "points to char"
+```
+
+### More than just scalar values
+
+Compound types combine simple types into 1 entity. For example, a Q&A are always a pair we keep together.
+
+#### `struct`
+
+```C
+// Declare a new type (not variable, struct person)
+
+struct person {
+  char name[20]; // array of chars (string name)
+  int age;
+  char gender; // gender will be a single letter, e.g. 'f' or 'm'
+};
+// Declare the variable of type struct person */
+struct person aPerson;
+
+```
+
+Assigning:
+
+```C
+struct person aPerson;
+
+strcpy(aPerson.name, "Nigel");
+aPerson.age = 30;
+aPerson.gender = 'm';
+```
+
+An array of structs:
+
+```C
+struct person *people; // A pointer to a 'type struct person'
+
+// Try allocate memory (an array of struct persons)
+
+if ((people = (struct person *)
+    malloc(sizeof(struct person) * 100)) != NULL) {
+//it worked, do something with 100 people
+// free when done
+
+people[50].age = 18;
+
+free(people)
+
+} else {
+    // oh no out of memory
+}
+```
+
+access a struct field from a pointer:
+
+```C
+struct person *p = &aPerson;
+strcpy(p->name, "Nigel");
+p->age = 30;
+p->gender = 'm’;
+printf("%s's age is %d\n", p->name, p->age);
+```
