@@ -705,3 +705,103 @@ bool setMaritalStatus(Student* s, char x)
   return ok;
 }
 ```
+
+## Two Dimensional Arrays
+
+Elements in a 2D array are accessed by two indexes - one for a row, the other for a column.
+
+```C
+rating[0][2] // [0] specifies the row - [2] specifies the column
+```
+
+Declaring in C:
+
+```C
+int arrayName[3][4]; // creates empty arraw with 3 rows and 4 columns.
+
+// another example with char instead of integers
+
+char characterArray[2][3] // empty array with 2 rows and 3 columns
+// each element is type char
+```
+
+Generating each pair of inicies:
+
+```
+for (int row = 0; row < 2; row++) {
+  for (int col = 0; col < 3; col++) {
+    print row, col;
+  }
+}
+```
+
+Initialising the 2D array:
+
+```C
+void initCounts() {
+  for (int r = 0; r < NUMBER_OF_LANGS; r++) {
+    for (int c = 0; c < NUMBER_OF_LANGS; c++) {
+    counts[r][c] = 0;
+    }
+  }
+  counts[18][18] = 569;
+  counts[18][22] = 32;
+  counts[22][18] = 24;
+  counts[22][22] = 743;
+}
+```
+
+Examining elements of 2D array:
+
+```C
+void printCounts() {
+  for (int r = 0; r < NUMBER_OF_LANGS; r++) {
+  for (int c = 0; c < NUMBER_OF_LANGS; c++) {
+    if (counts[r][c] != 0) {
+      printf("%d, %d = %d\n", r, c, counts[r][c]);
+      }
+    }
+  }
+}
+```
+
+Summing the total number of samples in our 2D array:
+
+```C
+int getTotal() {
+  int total = 0;
+  for (int r = 0; r < NUMBER_OF_LANGS; r++) {
+    for (int c = 0; c < NUMBER_OF_LANGS; c++) {
+      total = total + counts[r][c];
+    }
+  }
+  return total;
+}
+```
+
+Summing the correct values:
+
+```C
+int getTotalCorrect() {
+  int correct = 0;
+  for (int l = 0; l < NUMBER_OF_LANGS; l++) {
+    correct = correct + counts[l][l];
+  }
+  return correct;
+}
+```
+
+Finding the accuracy of the classifier:
+
+```C
+void printAccuracy() {
+  int total = getTotal();
+  int totalCorrect = getTotalCorrect();
+  printf("\nAccuracy: %d/%d: %.2f%%\n", totalCorrect, total, ((double)totalCorrect / (double) total) * 100.0);
+}
+```
+
+| Pros                                                          | Cons                              |
+| :------------------------------------------------------------ | :-------------------------------- |
+| Use single name to represent many data items of the same type | Fixed size                        |
+| Random access so very fast                                    | Insertion and deletion are costly |
