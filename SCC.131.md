@@ -4,18 +4,12 @@ began: 8th October 2024
 
 This module of the course is split into 4 components:
 
-- Computer Architecture
-    - Taught by Prof. Qiang Ni
-    - Includes: Number Systems, Circuit and Logic, and Computer Architecture Theory/ISA
-- Microbit
-    - Taught by Dr. Ioannis Chatzigerogiou
-    - Includes: Debugging Intro, Physical Computing, and Compilation
-- ARM Assembly
-    - Taught by Dr. Charalampos Rotsos
-    - Includes: Assembly Programming, Memory, and Interrupts/IO
-- Systems Programming
-    - Taught by Dr. Paul Dempster
-    - Includes: Assembly & C, Advanced C, and Network Sockets
+| Component             | Taught by                  | Includes                                                                |
+| --------------------- | -------------------------- | ----------------------------------------------------------------------- |
+| Computer Architecture | Prof. Qiang Ni             | Number Systems, Circuit and Logic, and Computer Architecture Theory/ISA |
+| Microbit              | Dr. Ioannis Chatzigerogiou | Debugging Intro, Physical Computing, and Compilation                    |
+| ARM Assembly          | Dr. Charalampos Rotsos     | Assembly Programming, Memory, and Interrupts/IO                         |
+| Systems Programming   | Dr. Paul Dempster          | Assembly & C, Advanced C, and Network Sockets                           |
 
 The module aims to help me understand digital systems. This includes...
 
@@ -25,29 +19,30 @@ The module aims to help me understand digital systems. This includes...
 
 Assessed with Exams and Coursework:
 
-| Task                                           | Week                   | Worth             |
-| ---------------------------------------------- | ---------------------- | ----------------- |
-| "Coursework" (In-lab quiz)                     | Week 5, 10, 15, 20     | 20% (5% each)     |
-| Programming Project                            | Week 23                | 10%               |
-| Exam                                           | Summer Term            | 70%               |
+| Task                       | Week               | Worth         |
+| -------------------------- | ------------------ | ------------- |
+| "Coursework" (In-lab quiz) | Week 5, 10, 15, 20 | 20% (5% each) |
+| Programming Project        | Week 23            | 10%           |
+| Exam                       | Summer Term        | 70%           |
 
 ---
 
 ### Table of Contents
 
-| Week  | Lecture                                                                                        | Original Slides                                                                   | Noted   |
-| ----- | ---------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------- | ------- |
-| 1     | [Lecture 1 - Module Introduction](#lecture-1---module-introduction)                            | [Module Introduction](/SCC.131.slides/a.introSlides.pdf)                          | ✅      |
-| 1     | [Lecture 2 - Architecture & Speed](#lecture-2---architecture--speed)                           | [Comp Architecture](/SCC.131.slides/b.compArchitectureIntro.pdf)                  | ✅      |
-| 2     | [Lecture 3 - Information Coding](#lecture-3---information-coding)                              | [Information Coding](/SCC.131.slides/c.infoCodingPartOne.pdf)                     | ✅      |
-| 2     | [Lecture 4 - Information Coding Part 2](#lecture-4---information-coding-part-2)                | [Information Coding Contd](/SCC.131.slides/d.infoCodingPartTwo.pdf)               | ❌      |
-| 3     | [Lecture 5 & 6 - Boolean Logic](#lecture-5--6---boolean-logic)                                 | [Boolean Logic](/SCC.131.slides/e.booleanLogic.pdf)                               | ❌      |
-| 4     | [Lecture 7 - Instruction Set Architecture](#lecture-7---instruction-set-architecture)          | [Instruction Set Architecture](/SCC.131.slides/f.instructionSetArchitecture.pdf)  | ❌      |
-| 4     | [Lecture 8 - Building the ALU](#lecture-8---building-the-alu)                                  | [Building The ALU](/SCC.131.slides/g.buildingTheALU.pdf)                          | ❌      |
-| 5     | [Lecture 9 - Building Memory](#lecture-9---building-memory)                                    | [Building Memory](/SCC.131.slides/h.buildingMemory.pdf)                           | 🟧      |
-| 5     | [Lecture 10 - Building The Control Unit](#lecture-10---building-the-control-unit)              | [Building The Control Unit](/SCC.131.slides/i.buildingCU.pdf)                     | ❌      |
-| 6     | [Lecture 11 - Building the Input/Output System](#lecture-11---building-the-inputoutput-system) | [Buildinf The IO](/SCC.131.slides/j.buildingIO.pdf)                               | ❌      |
-| 6     | [Lectute 12 - Weeks 1-6 Recap](#lecture-12---weeks-1-6-recap)                                  | [Weeks 1-6 Recap](/SCC.131.slides/j.recapUpToWeek6.pdf)                           | ✅      |
+| Week | Lecture                                                                                        | Original Slides                                                                  | Noted |
+| ---- | ---------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------- | ----- |
+| 1    | [Lecture 1 - Module Introduction](#lecture-1---module-introduction)                            | [Module Introduction](/SCC.131.slides/a.introSlides.pdf)                         | ✅    |
+| 1    | [Lecture 2 - Architecture & Speed](#lecture-2---architecture--speed)                           | [Comp Architecture](/SCC.131.slides/b.compArchitectureIntro.pdf)                 | ✅    |
+| 2    | [Lecture 3 - Information Coding](#lecture-3---information-coding)                              | [Information Coding](/SCC.131.slides/c.infoCodingPartOne.pdf)                    | ✅    |
+| 2    | [Lecture 4 - Information Coding Part 2](#lecture-4---information-coding-part-2)                | [Information Coding Contd](/SCC.131.slides/d.infoCodingPartTwo.pdf)              | ❌    |
+| 3    | [Lecture 5 & 6 - Boolean Logic](#lecture-5--6---boolean-logic)                                 | [Boolean Logic](/SCC.131.slides/e.booleanLogic.pdf)                              | ❌    |
+| 4    | [Lecture 7 - Instruction Set Architecture](#lecture-7---instruction-set-architecture)          | [Instruction Set Architecture](/SCC.131.slides/f.instructionSetArchitecture.pdf) | ❌    |
+| 4    | [Lecture 8 - Building the ALU](#lecture-8---building-the-alu)                                  | [Building The ALU](/SCC.131.slides/g.buildingTheALU.pdf)                         | ❌    |
+| 5    | [Lecture 9 - Building Memory](#lecture-9---building-memory)                                    | [Building Memory](/SCC.131.slides/h.buildingMemory.pdf)                          | 🟧    |
+| 5    | [Lecture 10 - Building The Control Unit](#lecture-10---building-the-control-unit)              | [Building The Control Unit](/SCC.131.slides/i.buildingCU.pdf)                    | ❌    |
+| 6    | [Lecture 11 - Building the Input/Output System](#lecture-11---building-the-inputoutput-system) | [Buildinf The IO](/SCC.131.slides/j.buildingIO.pdf)                              | ❌    |
+| 6    | [Lectute 12 - Weeks 1-6 Recap](#lecture-12---weeks-1-6-recap)                                  | [Weeks 1-6 Recap](/SCC.131.slides/j.recapUpToWeek6.pdf)                          | ✅    |
+| 7    | [The Micro:Bit](#the-microbit)                                                                 | [Architecturing The Micro:Bit](/SCC.131.slides/k.microbit.pdf)                   | ✅    |
 
 ---
 
@@ -70,27 +65,27 @@ A computer is an electronic device for storing and processing data, in binary fo
 ### Computer History
 
 - Analytical Engine
-    - First computer
-    - Partly built by Englishman Charles Babbage in the 19th century
-    - A fully program-controlled mechanical computer
-    - Consisted of the mill (calculating unit), the store, the reader, and the printer
-    - Data was entered onto physical punched cards
-    - Ada Lovelace wrote the first algorithm for a computer based on this machine.
+  - First computer
+  - Partly built by Englishman Charles Babbage in the 19th century
+  - A fully program-controlled mechanical computer
+  - Consisted of the mill (calculating unit), the store, the reader, and the printer
+  - Data was entered onto physical punched cards
+  - Ada Lovelace wrote the first algorithm for a computer based on this machine.
 - ENIAC
-    - Electronic Numerical Integrator And Computer was the first programmable, electronic, general-purpose digital computer
-    - Built during WW2 in the USA
-    - Programmed via switches and cables
+  - Electronic Numerical Integrator And Computer was the first programmable, electronic, general-purpose digital computer
+  - Built during WW2 in the USA
+  - Programmed via switches and cables
 - Manchester SSEM
-    - Small-Scale Experimental Machine was the first electronic stored-program computer
-    - Built-in the Uni of Manchester
+  - Small-Scale Experimental Machine was the first electronic stored-program computer
+  - Built-in the Uni of Manchester
 - Cambridge EDSAC
-    - Electronic Delay Storage Automatic Calculator
-    - Built at Cambridge Uni
-    - First practical stored-program computer in regular use
-    - Used punched cards to load programs
+  - Electronic Delay Storage Automatic Calculator
+  - Built at Cambridge Uni
+  - First practical stored-program computer in regular use
+  - Used punched cards to load programs
 - IBM Personal Computer
-    - Released 1981
-    - Led to the era of cheap commodity-based computation
+  - Released 1981
+  - Led to the era of cheap commodity-based computation
 
 Computer Architecture is rules and methods that describe the functionality, organisation, and implementation of computer systems which can be applied at many levels such as processor, memory, and instruction sets.
 
@@ -131,13 +126,13 @@ Modified Harvard:
 Computer speed metrics:
 
 - Clock Rate
-    - 3GHz processor makes 3 billion ticks per second
-    - instructions take different numbers of ticks so bad
+  - 3GHz processor makes 3 billion ticks per second
+  - instructions take different numbers of ticks so bad
 - Millions of Instructions Per Second (MIPS)
-    - Better than previous but depends on which instructions are counted (number of instructions)
-    - Different Results for programs
+  - Better than previous but depends on which instructions are counted (number of instructions)
+  - Different Results for programs
 - Floating Point Operations Per Second (FLOPS)
-    - Better indication of speed where it counts
+  - Better indication of speed where it counts
 
 Density Limitations
 
@@ -164,11 +159,11 @@ In practice, we use numbers such as negatives, fractions, floating-points, etc. 
 
 Representing 1984:
 
-| Thousands (10<sup>3</sup>)  | Hundreds ((10<sup>2</sup>)) | Tens ((10<sup>1</sup>))  | Units/Ones (10<sup>0</sup>)  |
-| :-------------------------: | :-------------------------: | :----------------------: | :--------------------------: |
-|    1 \* 10<sup>3</sup>      |     9 \* 10<sup>2</sup>     |   8 \* 10<sup>1</sup>    |     4 \* 10<sup>0</sup>      |
-|         1 \* 1000           |          9 \* 100           |         8 \* 10          |           4 \* 1             |
-|            1000             |             900             |           80             |              4               |
+| Thousands (10<sup>3</sup>) | Hundreds ((10<sup>2</sup>)) | Tens ((10<sup>1</sup>)) | Units/Ones (10<sup>0</sup>) |
+| :------------------------: | :-------------------------: | :---------------------: | :-------------------------: |
+|    1 \* 10<sup>3</sup>     |     9 \* 10<sup>2</sup>     |   8 \* 10<sup>1</sup>   |     4 \* 10<sup>0</sup>     |
+|         1 \* 1000          |          9 \* 100           |         8 \* 10         |           4 \* 1            |
+|            1000            |             900             |           80            |              4              |
 
 1000 + 900 + 80 + 4 = 1984.
 
@@ -259,11 +254,11 @@ Rule in action: If given the decimal 2,976, the max number is 10,000. 10,000/2 =
 Memory stores bits. Volatile memory is a type of memory that maintains its data only while there is power. There are 2 types of Volatile Memory:
 
 - Dynamic Memory
-    - Used for Main Memory
-    - Slower, Cheaper
+  - Used for Main Memory
+  - Slower, Cheaper
 - Static Memory
-    - Used for Registers & Cache
-    - Faster, more expensive
+  - Used for Registers & Cache
+  - Faster, more expensive
 
 ![The Memory Heirarchy](images/memoryHeirarchy.png "Diagram of Memory Heirarchy")
 
@@ -282,9 +277,9 @@ An address decoder maps from a linear address to a specific memory location in a
 Different machine architectures may organise multi-byte words differently in memory. There are 2 ways:
 
 - Big-endian
-    - Within a multi-byte word, the location with the lowest memory address holds the **most**-significant-byte
+  - Within a multi-byte word, the location with the lowest memory address holds the **most**-significant-byte
 - Little-endian
-    - Within a multi-byte word, the location with the lowest memory address holds the **least**-significant-byte
+  - Within a multi-byte word, the location with the lowest memory address holds the **least**-significant-byte
 
 ### Static Memory
 
@@ -294,7 +289,7 @@ Stored bits are organised into multi-bit storage slots called registers. Network
 
 - Combinatorial Logic: Output is a function of its input.
 - Sequential Logic: Output is a function of its input AND its current outputs.
-    - So the output is fed into the inputs. Feedback loop.
+  - So the output is fed into the inputs. Feedback loop.
 
 ### Sequential Logic & S-R Flip-Flop
 
@@ -302,7 +297,7 @@ The S-R Flip-Flop 'remembers' which of the 2 possible stats it is in.
 
 - Q<sub>0</sub> represents the current state
 - Q represents the next state.
-    - Q depends on the inputs S & R.
+  - Q depends on the inputs S & R.
 
 ![S-R Flip-Flop](images/SRflipFlip.png "Diagram showing Logic Circuits of SR Flip Flop")
 
@@ -311,9 +306,9 @@ EXPLAIN IT HERE
 Has several limitations:
 
 - It's got distinct SET and RESET inputs
-    - It's better to have one single input that 'sets' the state if 1, and 'resets' the state if 0
+  - It's better to have one single input that 'sets' the state if 1, and 'resets' the state if 0
 - There is no way of telling the flip-flop when it should store input data
-    - It's better to have a 'latch' signal for this to work in a practical system with a control unit
+  - It's better to have a 'latch' signal for this to work in a practical system with a control unit
 
 ---
 
@@ -326,6 +321,50 @@ Has several limitations:
 ---
 
 ## Lecture 11 - Building the Input/Output System
+
+The Input/Output system enables I/O devices to connect to the processor.
+
+Input Devices:
+
+- keyboard
+- mouse
+- trackpad
+- camera
+- other sensor
+
+Output devices:
+
+- Monitor
+- Printer
+- Speakers
+- Actuators
+
+Input AND Output devices:
+
+- Network Interfaces - ethernet, wifi, bluetooth
+- disks
+- audio cards
+- MIDI devices
+
+I/O Challenges:
+
+1. The Speed-Gap
+
+- I/O devices are mechanical so run massively slower compared to the CPU
+
+2. The Device Diversity
+
+- Diversity of data-access modes
+  - read-only, or write-only, or read-and-write
+  - Access by the induvidual byte or by the block/by the stream
+  - Access randomly (like a disk) or sequentially (like a tape)
+- Device-specific Operations
+  - change for resolution, set the time, focus
+- I/O protocol
+  - potential data transfer errors
+  - synchronous or asynchronous
+
+Device drivers are software plug-ins inside the operating system.
 
 ---
 
@@ -446,3 +485,58 @@ A 'little program' that endlessly executes the FDE cycle.
 Improves performance by exploiting inherent parallelism inside the control unit to speed up the FDE Cycle.
 
 ![Pipelining Diagram](images/pipelining.png)
+
+## The Micro:Bit
+
+### Requirements
+
+Micro:bit has 3 core goals:
+
+- Be simple and easy to use
+- Be the mosteffective tool for teaching digital skills and creativity
+- Inspire a diverse range of students
+
+These goals are turned into requirements:
+
+- Easy for students
+- Easy for teachers
+- No installation, setup, or internet
+- Appeal to a range of ages
+- Support a range of languages
+- Leverage system developed by different companies
+- Resource constrained
+- Millions of devices, tens of millions of users
+
+### Demo
+
+Website to build micro:bit programs looks like scratch (click-and-drag block programming). Behind the scenes this is turned into JavaScript/Python. Can change the language so you can write, instead of dragging blocks, in your preffered language.
+
+The microbit compiples all the blocks of code in the website interface into one program.
+
+Program is saved to the micro:bit. Needs power source but the program is stored in non-volatile memory.
+
+### Architecture
+
+A micro:bit contains:
+
+- 25 LED matrix screen
+- Light sensor
+- User definable buttons
+- Touch sensetive logo
+- Privacy indicator
+- 17 digital I/Os
+- 3 analog inputs
+- 3 PWM outputs
+- 3 touch sensetive pins
+- I2C, SPI, UART
+- 64MHz ARM Cortex M4
+- 128kB RAM, 512kB FLASH
+- USB storage/programming/debug
+- Microphone
+- Magnetic Speaker
+- 3 axis magnetmeter
+- 3 axis accelerometer
+- Temperature sensor
+- Bluetooth / 2.4GHz radio
+
+Each hardware component is supportedby a corresponding C/C++ software component.
