@@ -26,14 +26,15 @@ Assessed with Exams and Coursework:
 
 ### Table of Contents
 
-| Week  | Lecture                                                                                                                      | Original Slides                                                                | Noted |
-| ----- | ---------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------ | ----- |
-| 1     | [Lecture 1 - Module Introduction](#lecture-1---module-introduction)                                                          | [Introduction](/SCC.141.slides/a.introSlides.pdf)                              | ✅    |
-| 2     | [Lecture 2 - Systems Development Lifecycle](#lecture-2---systems-development-lifecycle)                                      | [Systems Development Lifecycle](/SCC.141.slides/b.systemsDevLifecycle.pdf)     | ✅    |
-| 3     | [Lecture 3 - Requirements & Requirements Engineering](#lecture-3---requirements--requirements-engineering)                   | [Requirements & Requirements Engineering](/SCC.141.slides/c.requirements.pdf)  | ✅    |
-| 4     | [Lecture 4 - Understandong Users, Usability, & User Experience](#lecture-4---understandong-users-usability--user-experience) | [Users, Usability, & User Experience](/SCC.141.slides/d.usersUsabilityUX.pdf)  | ✅    |
-| 5     | [Lecture 5 - Accesesibility](#lecture-5---accessibility)                                                                     | [Accessibility](/SCC.141.slides/e.accessibility.pdf)                           | ✅    |
-| 6     | [Lecture 6 - Solving Problems](#lecture-6---solving-problems)                                                                | [Solving Problems](/SCC.141.slides/f.solvingProblems.pdf)                      | ❌    |
+| Week  | Lecture                                                                                                                                                    | Original Slides                                                                | Noted |
+| ----- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------ | ----- |
+| 1     | [Lecture 1 - Module Introduction](#lecture-1---module-introduction)                                                                                        | [Introduction](/SCC.141.slides/a.introSlides.pdf)                              | ✅    |
+| 2     | [Lecture 2 - Systems Development Lifecycle](#lecture-2---systems-development-lifecycle)                                                                    | [Systems Development Lifecycle](/SCC.141.slides/b.systemsDevLifecycle.pdf)     | ✅    |
+| 3     | [Lecture 3 - Requirements & Requirements Engineering](#lecture-3---requirements--requirements-engineering)                                                 | [Requirements & Requirements Engineering](/SCC.141.slides/c.requirements.pdf)  | ✅    |
+| 4     | [Lecture 4 - Understandong Users, Usability, & User Experience](#lecture-4---understandong-users-usability--user-experience)                               | [Users, Usability, & User Experience](/SCC.141.slides/d.usersUsabilityUX.pdf)  | ✅    |
+| 5     | [Lecture 5 - Accesesibility](#lecture-5---accessibility)                                                                                                   | [Accessibility](/SCC.141.slides/e.accessibility.pdf)                           | ✅    |
+| 6     | [Lecture 6 - Solving Problems](#lecture-6---solving-problems)                                                                                              | [Solving Problems](/SCC.141.slides/f.solvingProblems.pdf)                      | ❌    |
+| 7     | [Lecture 7 - Intellectual Property, Software Protection, & Limiting Liability](#lecture-7---intellectual-property-software-protection--limiting-liability) | [Intellectual Property, Software Protection, & Limiting Liability]             | 🟧    |
 
 ---
 
@@ -493,3 +494,97 @@ Accessibility is also important for Businesses:
 ---
 
 ## Lecture 6 - Solving Problems
+
+---
+
+---
+
+## Lecture 7 - Intellectual Property, Software Protection, & Limiting Liability
+
+### Intellectual Property
+
+**Intellectual Property** is any unique product of human intellect that has commercial value.
+
+**Propert Rights**: People have the natural right to things which they remove/create through labour. We can extend this to Intellectual Property. If you 'steal' intellectual property you 'steal' the revenue derived from use of the use rather than the item.
+
+Intellectual Property is protected:
+
+- Protecting Intellectual Property:
+  - You can protect your IP by hiding it
+  - but then you do not benefit from it.
+- Benefits of grant intellectual property rights to:
+  - Encourage the createion of valuable ideas or
+  - Encourage trade based on ideas
+- Intellectual property rights tcompromise:
+  - Give authors/inventors exclusive rights
+  - But only for a finite period of time
+
+Intellectual Property Rights (IPR) is the name given to legal rights that protect:
+
+- Creative works
+- Inventions
+- Intangible assets of a business
+
+#### The Rights
+
+- **Copyright**
+  - This extends to literary, artistic, and musical works
+  - Governed by Copyright, Deisng, & Patents Act 1988 (CDPA)
+  - **Copyright Infringement** is the violation of copyright law
+- **Patents**
+  - A strong form of intellectual property rights and gives the owner the exclusive right of an invention for up to 20 years
+  - Protects againts independent development of something based on the same idea
+  - The application is long and expensive
+  - The invention must be new, involve an inventive step, be capable of industrial application, and fully disclosed
+- **Law of confidence**
+  - A useful supplement to copyright and patents
+  - It protects ideas before they become copyrighted/patented
+  - protects information like trade secrets, business know-how, lists of clients and contacts, and ideas not yet expressed in a tangible form
+- **Design rights**
+  - Protects original designs
+- **Trademarks**
+  - Sign capable of being represented graphically to distinguish goods/services
+
+#### AI & Intellectual Property:
+
+- Patent law is written assuming a human inventor
+- By not granting IPR to AI, companies can not profit from inventions by AI
+- If IPR was granted to AI, who would be responsible for it?
+
+#### Piracy
+
+**Piracy** is the act of unfairly trading on a person's creation.
+**Digital Piracy** is the act of unfairly trading (downloading) on a person's creation.
+
+- Copyright holder's claim: 1 download == 1 lost sale
+
+Digital Rights Management (DRM) accesses control mechanisms used to restrict medium usage (inhibits usage by multiple parties).
+
+The Digital Economy Act 2017\*\* increases max jail term for internet piracy to 10 years.
+
+### Software Protection
+
+Copying software reduces the purchase of the legitimate software. This leads to decreased income for the producers leading to lower production of new software.
+
+**Open Source** Software allows people to run the program for any prupose, study how the program works, and adapt it, redistribute it with changes too, improve the program and release improvements.
+
+Software copyright is now covered by the CDPA.
+
+The CDPA covers software, preparatory design materials, and databases. This is important for sofware as it restricts the copying of the work, distribtution of copies, and adaptations of it. Performing a restricted act without permissions results in infringement of copyright.
+
+The CDPA has two types of computer-produced work:
+
+- Owner of a copyright is the author of the work unless by employee in the course of his employment
+- Author of computer-generated work is the person by whom the arrangements necessary for the creation of the works are undertaken.
+
+Things to remember:
+
+1. Do not copy non-literal parts of computer software
+2. Prepare, date, and keep preparatory materials for developement
+3. Insert Deliberate Mistakes or redundant code
+4. Be aware that copyright extends to the compilation of a program
+5. Ensure that employees do not use materials or confidential information from previous emplyoment
+6. Honour confidentiality
+7. Give credit if adapting Open Source code
+
+### Limiting Liability
