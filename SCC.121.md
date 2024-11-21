@@ -53,6 +53,7 @@ Assessed with Exams and Coursework:
 | 5     | [Lecture 10 - Predicate Logic Part 2](#lecture-10---predicate-logic-part-2)                                                         | [Predicate Logic Part 2](/SCC.121.slides/k.predicateLogicPartTwo.pdf)                                    | ❌     |
 | 6     | [Lecture 11 - Introduction to Data Structures & Abstract Data Types](#lecture-11---introduction-to-data-types--abstract-data-types) | [Introduction to Data Structures & Abstract Data Types](/SCC.121.slides/l.introDataStructuresAndADT.pdf) | ✅     |
 | 6     | [Lecture 12 - Memory, Pointers, & Records](#lecture-12---memory-pointers--records)                                                  | [Memory, Pointers, & Records](/SCC.121.slides/m.memoryPointersRecords.pdf)                               | ✅     |
+| 7     | [Lecture 13 - The Kitchen Sink]()                                                                                                   | [The Kitchen Sink](/SCC.121.slides/o.theKitchenSink.pdf)                                                 | ✅     |
 
 ---
 
@@ -260,13 +261,24 @@ Another example:
 
 ### Properties of Relations
 
-| Property      | Definition                                                                                                      | Explanation                                                                                                             | Example                                                                                                                                                         |
-| ------------- | --------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Symmetry      | `R ⊆ A x A` is symmetric if for any `a` and `b` in `A`, if `<a, b> ∈ R` then `<b, a> ∈ R`.                      | There is symmetry if for any `<a, b>`, there is also a `<b, a>`. Otherwise, there is no symmetry.                       | "is a sibling of" is a symmetrical comparison, whereas "is a brother of" is not. `Jake is a sibling of Sophie` is symmetrical to `Sophie is a sibling of Jake`. |
-| Transitivity  | `R ⊆ A x A` is transitive for any `a`, `b`, and `c` in `A`, if `<a, b> ∈ R` and `<b, c> ∈ R` then `<a, c> ∈ R`. | There is transitivity if, for any `<a, b>` and `<b, c>` in `R`, then `<a, c>` should also be in `R`.                    | The `=` relation is transitive. If `a = b` and `b = c`, then `a = c`.                                                                                           |
-| Reflexivity   | `R ⊆ A x A` is reflexive if `<a, a> ∈ R` for every element `a` of `A`.                                          | There is reflexivity if, for any `a` in `A`, then `<a, a>` should be in `R`. Every element of `A` is related to itself. | Let `B = {5, 6, 7}`. For `R` to be reflexive it must contain `<5, 5>, <6, 6>, <7, 7>`.                                                                          |
-| Irreflexivity | `R ⊆ A x A` is irreflexive if `<a, a> ∉ R` for every element `a` of `A`.                                        | No element of `A` is in relation to itself.                                                                             | "is the parent of" is an irreflexive relation. No one can be their own parent.                                                                                  |
-| Equivalence   | `R ⊆ A x A` is an equivalence relation if `R` is reflexive, symmetric, and transitive.                          |                                                                                                                         |                                                                                                                                                                 |
+| Property     | Definition                                                                                                      | Explanation                                                                                                             | Example                                                                                                                                                         | C function |
+| ------------ | --------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- |
+| Symmetry     | `R ⊆ A x A` is symmetric if for any `a` and `b` in `A`, if `<a, b> ∈ R` then `<b, a> ∈ R`.                      | There is symmetry if for any `<a, b>`, there is also a `<b, a>`. Otherwise, there is no symmetry.                       | "is a sibling of" is a symmetrical comparison, whereas "is a brother of" is not. `Jake is a sibling of Sophie` is symmetrical to `Sophie is a sibling of Jake`. |            |
+| Transitivity | `R ⊆ A x A` is transitive for any `a`, `b`, and `c` in `A`, if `<a, b> ∈ R` and `<b, c> ∈ R` then `<a, c> ∈ R`. | There is transitivity if, for any `<a, b>` and `<b, c>` in `R`, then `<a, c>` should also be in `R`.                    | The `=` relation is transitive. If `a = b` and `b = c`, then `a = c`.                                                                                           |            |
+| Reflexivity  | `R ⊆ A x A` is reflexive if `<a, a> ∈ R` for every element `a` of `A`.                                          | There is reflexivity if, for any `a` in `A`, then `<a, a>` should be in `R`. Every element of `A` is related to itself. | Let `B = {5, 6, 7}`. For `R` to be reflexive it must contain `<5, 5>, <6, 6>, <7, 7>`.                                                                          | ```C       |
+
+bool isReflexive() {
+for (int i = 0; i < size; i++) {
+if (matrix[i][i] != 1) {
+return false;
+}
+}
+return true;
+}
+
+````|
+| Irreflexivity | `R ⊆ A x A` is irreflexive if `<a, a> ∉ R` for every element `a` of `A`.                                        | No element of `A` is in relation to itself.                                                                             | "is the parent of" is an irreflexive relation. No one can be their own parent.                                                                                  |            |
+| Equivalence   | `R ⊆ A x A` is an equivalence relation if `R` is reflexive, symmetric, and transitive.                          |                                                                                                                         |                                                                                                                                                                 |            |
 
 ---
 
@@ -534,7 +546,7 @@ C does not have encapsulation. So instead we have to declare a new data structur
 ```C
 // Declaring an array in C
 int counts[26] = {a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t, u, v, w, x, y, z};
-```
+````
 
 ![Array Table](images/alphabetTable.png)
 
@@ -805,3 +817,9 @@ void printAccuracy() {
 | :------------------------------------------------------------ | :-------------------------------- |
 | Use single name to represent many data items of the same type | Fixed size                        |
 | Random access so very fast                                    | Insertion and deletion are costly |
+
+---
+
+---
+
+## Lecture 13 - The Kitchen Sink
