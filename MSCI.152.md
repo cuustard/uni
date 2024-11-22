@@ -16,7 +16,7 @@ began: 9th October 2024
 | 6    | [Lecture 10 - Regression Part 2](#lecture-10---regression-part-2)                   | [Regression Part 2](/MSCI.152.slides/j.regressionPartTwo.pdf)                 | ✅    |
 | 6    | [Lecture 11 - Regression Part 3](#lecture-11---regression-part-3)                   | [Regression Part 3](/MSCI.152.slides/k.regressionPartThree.pdf)               | ✅    |
 | 7    | [Lecture 12 - Multiple Linear Regression](#lecture-12---multiple-linear-regression) | [Multiple Linear Regression](/MSCI.152.slides/l.multipleLinearRegression.pdf) | ✅    |
-| 8    | [Lecture 13 - Forecasting](#lecture-13---forecasting)                               | [Forecasting](/MSCI.152.slides/m.forecasting.pdf)                             |       |
+| 8    | [Lecture 13 - Forecasting](#lecture-13---forecasting)                               | [Forecasting](/MSCI.152.slides/m.forecasting.pdf)                             | ✅    |
 
 ## Lecture 1 - Module Introduction
 
@@ -172,3 +172,99 @@ yap
 ---
 
 ## Lecture 13 - Forecasting
+
+Descriptive Analytics: desecribes what has happened in the past
+
+Predictive Analytics: using models constructed from past data to predict the future or ascertain the impact of one variable on another. The main focus is to analyse current and histrorical facts to make predctions about future or otherwise unknown events. We might use:
+
+- Linear Regression
+- Time series analysis
+- Extrapolation
+- Data minning and Machine learning
+- Simulation
+
+### Decision Making & Forecasting
+
+Forecasting can help us plan our future, and in turn may improve our quality of life.
+
+Accurate forcasting, especially in businesses/organisations, leads to reduced uncertainty so better decisions made. It also helps to identify and capitalise on opportunities and saves costs.
+
+- Forecasts aim to provide information about future, conditional on historical and current knowledge.
+- Targets aim to provide direction towards a desirable future
+
+### Time Series Data
+
+- **Cross-sectional data** is measurements on multiple units, recorder in a single time period.
+- A **time series** is a set of comparable measurements recorder on a single variable over multiple timet periods.
+- **Panel data** are cross-sectionnal measurements that are repeated over time.
+
+Our focus is on time series but I may need to predict any 3.
+
+Noise (randomness) is inherently unforcastable since it has no structure, otherwise it should be captured by the forcasting method used. Is it impossible to predict whether the noise will go up or down as there is not structure.
+
+Structure of a time series:
+
+- Level
+  - Series that are comprised only be a level component are referred to as a level/constant.
+- Trend
+  - The underlying long term chanes in the level (increase or decrease)
+- Season
+  - A repeating pattern of a fixed period
+- Error/irregular/random part (noise)
+
+### Introduction to Forecasting
+
+1. Define the tforcasting and planning problem and decide the value of better forcasts
+2. Determine the resources to be devoted to providing the forecasts
+3. Collect relevant data
+4. Conduct and initial analysis of the data
+5. Select and appropriate forecasting method
+6. Generate forecasts
+7. Validate the forcaseting exercise by checking forecasts against actual outcomes
+
+Forecasting problem structure:
+
+- Forecasting object:
+  - Level of aggregation
+    - for a period
+    - Cumulative accross periods
+    - Growth rate
+    - Events
+- Forecasting Horizon: How far into the future?
+- Forecasting Frequencty: Yearly/Monthly/Weekly/Daily/Hourly
+
+A Time Series is a sequence of observations on a variable measured at successive points in time or over successive periods of time.
+
+![alt text](images/timeSeriesHighllighted.png)
+
+Time Series Notation:
+
+![alt text](images/timeSeriesNotationGraphLabeled.png)
+
+May need to predict multiple perios ahead
+
+**Point Forcast** is our expectation of the most probable future value of a variable.
+
+**Prediction intervals** show the bounds that the expected value should be in with a % chance.
+
+#### Forecasting Methods
+
+Qualitative:
+
+1. Involve the user of expert judgement to develop forecasts
+2. are appropriate when historical data are either unavailable or not applicable
+3. informal, implicit human extraplations without systematic instructions how to generate a forecast
+4. are subjective based upon personal experience and knowledge
+5. can incorporate new, unstructured information
+6. the results of forecast are not replicable by other experts or same expert at another time]
+
+Quantitative:
+
+1. use formal mathematical models
+2. can be used when past information is available and can be quantified
+3. are based on the application of a prescribed explicit analysis of numerically coded data
+4. are not based on subjective experience of human experts
+5. can be replicated: when used on identical data, it will always lead to the same forecasts (any exceptions?)
+6. quicker to obtain the results for many time series using many observations/variables
+
+![alt text](images/forecastingTree.png)
