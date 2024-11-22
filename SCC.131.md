@@ -43,6 +43,7 @@ Assessed with Exams and Coursework:
 | 6    | [Lecture 11 - Building the Input/Output System](#lecture-11---building-the-inputoutput-system) | [Buildinf The IO](/SCC.131.slides/j.buildingIO.pdf)                              | ❌    |
 | 6    | [Lectute 12 - Weeks 1-6 Recap](#lecture-12---weeks-1-6-recap)                                  | [Weeks 1-6 Recap](/SCC.131.slides/j.recapUpToWeek6.pdf)                          | ✅    |
 | 7    | [The Micro:Bit](#the-microbit)                                                                 | [Architecturing The Micro:Bit](/SCC.131.slides/k.microbit.pdf)                   | ✅    |
+|      | [The Micro:Bit Part 2](#lecture-14---the-microbit-part-2)                                      | [Micro:bit Part 2](/SCC.131.slides/l.microbitPartTwo.pdf)                        | ✅    |
 
 ---
 
@@ -486,7 +487,7 @@ Improves performance by exploiting inherent parallelism inside the control unit 
 
 ![Pipelining Diagram](images/pipelining.png)
 
-## The Micro:Bit
+## Lecture 13 - The Micro:Bit
 
 ### Requirements
 
@@ -540,3 +541,89 @@ A micro:bit contains:
 - Bluetooth / 2.4GHz radio
 
 Each hardware component is supportedby a corresponding C/C++ software component.
+
+---
+
+---
+
+## Lecture 14 - The Micro:Bit Part 2
+
+**Runtime code**/**software**: A software platform that provides an environment for executing user code. An asbstraction layer that developers can use to write software.
+
+**Microcontroller**: A processor, for somplicity, or a microcontroller unit (MCU). A compact integrated circuit equipped with oneor more central pocessing units and memory.
+
+**Embedded System**: An electronic product that comprises a microcontroller or multiple microcontrollers executing software instructions stored on a memory module to perform an essential function.
+
+### BBC micro:bit
+
+The Micro:Bit was built on The BBC's legacy with the BBC Micro for computing in education in 1981-1984.
+
+It is an open0source embedded system based on ARM microcontrollers. V1 was accounced in 2015, V2 in 2020.
+
+| factor          | V1                                                                                   | V1                                            |
+| --------------- | ------------------------------------------------------------------------------------ | --------------------------------------------- |
+| Target/APP. MCU | 16MHz 32-bit ARM Cortex-M0                                                           | 64MHZ 32-bit ARM Cortex-M4                    |
+| Flash Memory    | 256 KB                                                                               | 512KB                                         |
+| Static RAM      | 16 KB                                                                                | 128 KB                                        |
+| Interface MCU   | 48MHz ARM Cortext-M0+                                                                | 64 MHz ARM cortex-M4f                         |
+| Extras          | 3-axis accelerometer and magnetometer (compass), and temperator sensor. Light sensor | V1 + microphone, Speaker, Touch sensor button |
+
+### The Hardware
+
+![Micro:bit Architecture](images/microbitArchitecture.png "Diagram showing Architecture of micro:bit")
+
+![](images/microbitJSTandUSB.png)
+
+![](images/microbitProcessor.png)
+
+![alt text](images/microbitLEDandResetButton.png)
+
+![alt text](images/microbitProcessorSecond.png)
+
+![alt text](images/microbitBluetoothAntenna.png)
+
+![alt text](images/microbitMicAndSpeaker.png)
+
+![alt text](images/microbitMotionSensor.png)
+
+![alt text](images/microbitDisplay.png)
+
+![alt text](images/microbitButtonsAndTSL.png)
+
+![alt text](images/microbitEdgeConnector.png)
+
+![alt text](images/microbitRegulatorAndXtal.png)
+
+![alt text](images/microbitSWDandUARTandIC.png)
+
+### Firmware (DAPLink)
+
+DAPLink is an open-source interface firmware that createst a connection between the PC and SWD. The Micro:bit presents itself as a USB disk and drag-and-drop programming is enabled without installing drivers.
+
+Interface Mode: The hex file dropped into the USB disk is written into the target MCU flash.
+
+Bootloader Mode: The hex file is dropped onto the USB disk is written into the interface MCU flash and updates the version of DAPLink.
+
+### Software
+
+![alt text](images/microbitSoftwareDevKit.png)
+
+nRF5 Software Dev Kit is a rich dev environment for nRF51/nRF52 series MCUs (Nordic). Provides hardware abstraction and includes drivers, libraries, examples of peripherals and radio controls.
+
+![alt text](images/microbitSoftwareCODAL.png)
+
+COmponent Oriendted Device Abstraction Layer is the micro:bit runtime software written in C/C++. It abstracs hardware components as software components represented by C++ classes. Offers eventing subsystem for mapping asynchronous events to event handlers.
+
+![alt text](images/microbitSoftwareProgrammingLanguages.png)
+
+Interpreted Languages: User code and interpreter are copied into the target MCU. This allows users to program the micro:bit live over USB.
+
+Compiled Languages: User code is compiled to ARM assembly.
+
+Editors: high-level programming using blocks.
+
+---
+
+---
+
+## Lecturew 15
