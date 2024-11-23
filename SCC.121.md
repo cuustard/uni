@@ -53,7 +53,8 @@ Assessed with Exams and Coursework:
 | 5     | [Lecture 10 - Predicate Logic Part 2](#lecture-10---predicate-logic-part-2)                                                         | [Predicate Logic Part 2](/SCC.121.slides/k.predicateLogicPartTwo.pdf)                                    | ❌     |
 | 6     | [Lecture 11 - Introduction to Data Structures & Abstract Data Types](#lecture-11---introduction-to-data-types--abstract-data-types) | [Introduction to Data Structures & Abstract Data Types](/SCC.121.slides/l.introDataStructuresAndADT.pdf) | ✅     |
 | 6     | [Lecture 12 - Memory, Pointers, & Records](#lecture-12---memory-pointers--records)                                                  | [Memory, Pointers, & Records](/SCC.121.slides/m.memoryPointersRecords.pdf)                               | ✅     |
-| 7     | [Lecture 13 - The Kitchen Sink]()                                                                                                   | [The Kitchen Sink](/SCC.121.slides/o.theKitchenSink.pdf)                                                 | ✅     |
+| 7     | [Lecture 13 - Two Dimenstional Arrays](#lecture-13---two-dimensional-arrays)                                                        | [Two Dimensional Arrays](/SCC.121.slides/n.TwoDArrays.pdf)                                               | ✅     |
+| 7     | [Lecture 14 - The Kitchen Sink](#lecture-14---the-kitchen-sink)                                                                     | [The Kitchen Sink](/SCC.121.slides/o.theKitchenSink.pdf)                                                 | ✅     |
 
 ---
 
@@ -707,7 +708,7 @@ bool setMaritalStatus(Student* s, char x)
 }
 ```
 
-## Two Dimensional Arrays
+## Lecture 13 - Two Dimensional Arrays
 
 Elements in a 2D array are accessed by two indexes - one for a row, the other for a column.
 
@@ -811,4 +812,4 @@ void printAccuracy() {
 
 ---
 
-## Lecture 13 - The Kitchen Sink
+## Lecture 14 - The Kitchen Sink

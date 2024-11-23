@@ -42,8 +42,8 @@ Assessed with Exams and Coursework:
 | 5    | [Lecture 10 - Building The Control Unit](#lecture-10---building-the-control-unit)              | [Building The Control Unit](/SCC.131.slides/i.buildingCU.pdf)                    | ❌    |
 | 6    | [Lecture 11 - Building the Input/Output System](#lecture-11---building-the-inputoutput-system) | [Buildinf The IO](/SCC.131.slides/j.buildingIO.pdf)                              | ❌    |
 | 6    | [Lectute 12 - Weeks 1-6 Recap](#lecture-12---weeks-1-6-recap)                                  | [Weeks 1-6 Recap](/SCC.131.slides/j.recapUpToWeek6.pdf)                          | ✅    |
-| 7    | [The Micro:Bit](#the-microbit)                                                                 | [Architecturing The Micro:Bit](/SCC.131.slides/k.microbit.pdf)                   | ✅    |
-|      | [The Micro:Bit Part 2](#lecture-14---the-microbit-part-2)                                      | [Micro:bit Part 2](/SCC.131.slides/l.microbitPartTwo.pdf)                        | ✅    |
+| 7    | [Lecture 13 - The Micro:Bit](#lecture-13---the-microbit)                                       | [Architecturing The Micro:Bit](/SCC.131.slides/k.microbit.pdf)                   | ✅    |
+| 7    | [Lecture 14 - The Micro:Bit Part 2](#lecture-14---the-microbit-part-2)                         | [Micro:bit Part 2](/SCC.131.slides/l.microbitPartTwo.pdf)                        | ✅    |
 
 ---
 
@@ -626,4 +626,4 @@ Editors: high-level programming using blocks.
 
 ---
 
-## Lecturew 15
+## Lecture 15
