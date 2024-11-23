@@ -588,3 +588,28 @@ Things to remember:
 7. Give credit if adapting Open Source code
 
 ### Limiting Liability
+
+- For products and services:
+  - Specify a warranty period
+  - Specify 'appropriate use'
+  - Specify maximum reasonable liability
+  - Get liability insurance
+- For me:
+  - Ensure I follow my emploter's standards and guidelines
+  - Ensure thorough and regorous testing
+
+#### Product Liability
+
+**Consumer Protection Act 1987** (CPA) imposese a liability on the producer of a defective product. CPA applies to computer hardware. For examlpe, if a customer buys a disk containing software, the disk is deemed to be a 'product' and is protected. CPA however does not apply to computer software.
+
+#### Contractual Liability
+
+**Suply of Goods and Services Act 1982** (SGSA)
+
+Contract for the suply of services, where a supplier writes software for a client. It does not apply to software sold without some form of contract (licence agreement).
+
+It also binds the software supplier to provide a service with reasonable care. If the supplier fails, they could be liable for damages. The user is bound to the terms of licence.
+
+#### Negligence (Personal Liability)
+
+Imposes liability on a person who has acted carelessly under common law. Liability for negligence in software development can be significant in health-system failure, security-system malfunction, and e-commerce system security loopholes.
