@@ -41,6 +41,7 @@ Assessed with Exam and Coursework:
 |  6   | [Lecture 11 - Pointers & Strings](#lecture-11---pointers--strings)                           | [Pointers & Strings](/SCC.111.slides/k.pointersAndStrings.pdf)                         |  ✅   |
 |  6   | [Lecture 12 - Dynamic Memory & Compound Types](#lecture-12---dynamic-memory--compound-types) | [Dynamic Memory & Compound Types](/SCC.111.slides/l.dynamicMemoryAndCompoundTypes.pdf) |  ✅   |
 |  7   | [Lecture 13 - Quiz Solutions](#lecture-13---quiz-solutions)                                  | [Quiz Solutions](/SCC.111.slides/m.quizResults.pdf)                                    |  ❌   |
+|  7   | [Lecture 14 - APIs & Files](#lecture-14---apis--files)                                       | [APIs & Files](/SCC.111.slides/n.APIsAndFiles.pdf)                                     |  ✅   |
 
 ---
 
@@ -381,3 +382,85 @@ printf("%s's age is %d\n", p->name, p->age);
 ```
 
 ## Lecture 13 - Quiz Solutions
+
+---
+
+---
+
+## Lecture 14 - APIs & Files
+
+### APIs
+
+We need a way of running a program to interact with its environment, get data from long-terms presistent storage, and to handle any errors (missing giles, permissions, read/write data).
+
+To do this we can use an API (Application Programming Interface) is just a software interface. In our case, it's a set of operations defined for interacting with the systme in a controlled way.
+
+In C, An API we access is simply:
+
+- **One or more function** we can call
+- **Declared in a header** (.h) file that we need to include to use them
+
+### Files
+
+Informally, a file is a collection of (usually related) data, which can be logically viewed as a stream of bytes. This is the smallest unit of storage in the UNIX file system.
+
+A file:
+
+- Provides persistent storage of data
+- Either text or binary format
+- Can be accessed serially (line by line), OR randomly (jumping to specific data we want).
+- Needs to be opened, read/written to, and closed.
+
+Serially accessing:
+
+1. Open file
+2. Read next line
+3. Step 2. until all lines read
+4. Close File
+
+### Character Streams
+
+Processese input and output at a characater stream level...
+
+```C
+int getchar(void) // returns the next input character each time it is called, or when it encounters EOF (End Of File). EOF is defined in <stdio.h>
+
+int putchar(int) // is used for output. it puts the character c on the standard output (the screen). returns the character written, or EOF if an error occurs.
+```
+
+### File System Rules
+
+File must be opened by the library function `fopen`. This function takes a file name and returns a pointer (_FILE_ \*) to be used in the reads or writes. This file pointer points to a structure that contains information about the file (e.g. where to read from).
+
+```C
+// Declare pointer to a FILE structure
+FILE *fp;
+
+// The API call to open a file
+FILE *fopen(char *name, char *mode);
+
+
+// Read and write Characters
+int getc(FILE *fp);
+int putc(int c, FILE *fp);
+
+// Close file
+fclose(FILE *fp);
+
+
+// working with lines of text (text files)
+char *fgets(char *line, int maxline, FILE *fp);
+
+
+
+// Reading and writing records (binary files)
+
+size_t fread(void *ptr, size_t size, size-t nobj, FILE *fp);
+
+// fread reads from stream into arry ptr at most nobj objects of size size
+// fread returns the number of objects read
+// feof and ferror must be used to determine status
+
+//alt:
+size_t fwrite(const void *ptr, size_t size, size_t nobj, FILE *fp);
+```
