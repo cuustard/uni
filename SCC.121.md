@@ -819,5 +819,134 @@ void printAccuracy() {
 
 ---
 
-## LEcture 15 - The Stack
+## Lecture 15 - The Stack
 
+A stack is an Abstract Data Type (ADT) where the collection of items is ordered by when they were added. It follows the Last In First Out (LIFO) principle.
+
+It has functions `push` and `pop`. `Push` places an item on the top of the stack. `Pop` removes the item on the top of the stack and returns it.
+
+### What Can Go Wrong?
+
+- Trying to pop an empty stack causes an underflow error. The `pop` method needs to check if the stack is empty before trying to pop.
+- In bounded stacks, trying to push an item onto a full stack causes an overflow error. The `push` method needs to check if the stack is full before trying to push.
+
+Each element has a value and a pointer to the previous element.
+
+### Unbounded Stack
+
+Initialize empty stack:
+
+```
+Stack() {
+  top = nil;
+}
+```
+
+An element:
+
+```
+Element {
+  int data;
+  Element prev;
+}
+```
+
+Check if the stack is empty:
+
+```
+bool Empty(S) {
+  if (S.top == nil) {
+    return true;
+  }
+  return false;
+}
+```
+
+Push element to an unbounded stack:
+
+```
+Push(S, x) {
+  el = new Element;
+  el.data = x;
+  el.prev = nil;
+  if (Empty(S)) {
+    S.top = el;
+  } else {
+    el.prev = S.top;
+    S.top = el;
+  }
+}
+```
+
+Pop element from an unbounded stack:
+
+```
+int Pop(S) {
+  if (Empty(S)) {
+    "Underflow";
+  } else {
+    tmp = S.top;
+    S.top = S.top.prev;
+    return tmp.data;
+  }
+}
+```
+
+### Bounded Stack
+
+Initialize empty stack:
+
+```
+Stack() {
+  top = -1;
+}
+```
+
+Check if stack is empty:
+
+```
+bool Empty(S) {
+  if (S.top == -1) {
+    return true;
+  }
+  return false;
+}
+```
+
+Check if stack is full:
+
+```
+bool Full(S) {
+  if (S.top == MAX_SIZE - 1) {
+    return true;
+  }
+  return false;
+}
+```
+
+Push element to a bounded stack:
+
+```
+Push(S, x) {
+  if (Full(S)) {
+    "Overflow";
+  } else {
+    S.top++;
+    S.A[S.top] = x;
+  }
+}
+```
+
+Pop element from a bounded stack:
+
+```
+int Pop(S) {
+  if (Empty(S)) {
+    "Underflow";
+  } else {
+    data = S.A[S.top];
+    S.top--;
+    return data;
+  }
+}
+```
