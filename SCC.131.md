@@ -44,6 +44,7 @@ Assessed with Exams and Coursework:
 | 6    | [Lectute 12 - Weeks 1-6 Recap](#lecture-12---weeks-1-6-recap)                                  | [Weeks 1-6 Recap](/SCC.131.slides/j.recapUpToWeek6.pdf)                          | ✅    |
 | 7    | [Lecture 13 - The Micro:Bit](#lecture-13---the-microbit)                                       | [Architecturing The Micro:Bit](/SCC.131.slides/k.microbit.pdf)                   | ✅    |
 | 7    | [Lecture 14 - The Micro:Bit Part 2](#lecture-14---the-microbit-part-2)                         | [Micro:bit Part 2](/SCC.131.slides/l.microbitPartTwo.pdf)                        | ✅    |
+| 8    | [Lecture 15 - C/C++ & CODAL](#lecture-15---cc-codal)                                           | [C/C++ & CODAL](/SCC.131.slides/m.introCODAL.pdf)                                | ✅    |
 
 ---
 
@@ -626,4 +627,121 @@ Editors: high-level programming using blocks.
 
 ---
 
-## Lecture 15
+## Lecture 15 - C/C++ CODAL
+
+### The Microbit Class
+
+The Microbit Class consists of variables and methods that operate as drivers to control commonly used features of the micro:bit.
+
+MicroBit uBit;
+
+- uBit.i2c
+- uBit.sotrage
+- uBit.serial
+- uBit.messageBus
+- uBit.buttonA
+- uBit.buttonB
+- uBit.buttonAB
+- uBit.display
+- uBit.accelerometer
+- uBit.compass
+- uBit.thermometer
+- uBit.io
+- uBit.radio
+
+```C
+#include "MicroBit.h" // Include library that contains key functions for micro:bit
+
+Microbit uBit; // Declare uBit as a 'variable' of type MicroBit (creates object uBit which is an instance of class MicroBit)
+
+int main() {
+  uBit.init(); // initialise uBit
+  while (1) {
+    uBit.display.scroll("Hello World!") // output
+  }
+}
+```
+
+### The MicroBitDisplay class
+
+### The MicroBitImage Class
+
+```C
+MicroBitImage smiley("0,255,0,255,0\n 0,255,0,255,0\n 0,0,0,0,0\n 255,0,0,0,255\n
+0,255,255,255,0\n");
+
+uBit.display.print(smiley)
+```
+
+The `MicroBitImage` class represents a bitmap picture. The string constructor takes the form of a series of CSVs. Each value is the brightness of a pixel value in the range 0-255, starting at the top left and working right.
+
+```C
+//Create a 3x3 picture of a cross
+
+MicroBitImage cross("0,1,0\n1,0,1\n0,1,0\n");
+
+// Create blank 4x4 image
+MicroBitImage myImage(4, 4);
+
+// Paste content of cross onto myImage at pixel (1, 1)
+myImage.paste(cross, 1, 1);
+
+// Set brightness of pixel (2, 2) to 0
+myImage.setPixelValue(2, 2, 0);
+
+//Print myImage
+uBit.display.print(myImage);
+```
+
+Storing and printing read-only images:
+
+```C
+const uint8_t smiley[] = {0,1,0,1,0,0,1,0,1,0,0,0,0,0,0,1,0,0,0,1,0,1,1,1,0};
+
+MicroBitImage myImage(5, 5, smiley);
+
+uBit.display.print(myImage);
+```
+
+Example:
+
+```C
+const uint8_t hearts[] = {0,1,0,1,0,0,0,0,0,0,1,1,1,1,1,0,1,0,1,0,1,1,1,1,1,0,1,1,1,0,0,1,1,1,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0};
+MicroBitImage twoHearts(10,5,hearts);
+MicroBitImage bigHeart(5,5);
+MicroBitImage smallHeart(5,5);
+bigHeart.paste(twoHearts,0,0);
+smallHeart.paste(twoHearts,-5,0);
+while(1) {
+  uBit.display.print(bigHeart);
+  uBit.sleep(100); // time in ms
+  uBit.display.print(smallHeart);
+  uBit.sleep(100); // time in ms
+}
+```
+
+```C
+
+#include "MicroBit.h"
+MicroBit uBit;
+int main() {
+   MicroBitImage largeHeart("0,1,0,1,0\n \
+                             1,1,1,1,1\n \
+                             1,1,1,1,1\n \
+                             0,1,1,1,0\n \
+                             0,0,1,0,0\n");
+   MicroBitImage smallHeart("0,0,0,0,0\n \
+                             0,1,0,1,0\n \
+                             0,1,1,1,0\n \
+                             0,0,1,0,0\n \
+                             0,0,0,0,0\n");
+    uBit.init();
+    uBit.display.setDisplayMode(DISPLAY_MODE_BLACK_AND_WHITE);
+    while (1) {
+      uBit.display.print(largeHeart); // a large heart
+      uBit.sleep(500);
+      uBit.display.print(smallHeart); // a small heart
+      uBit.sleep(500);
+    }
+}
+```

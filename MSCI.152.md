@@ -63,6 +63,10 @@ The 5 V's of Big Data (IBM)
 
 ## Lecture 9 - Simple Linear Regression
 
+---
+
+---
+
 ## Lecture 10 - Regression Part 2
 
 ### Statistical Model Building

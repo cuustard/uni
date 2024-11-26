@@ -54,7 +54,8 @@ Assessed with Exams and Coursework:
 | 6     | [Lecture 11 - Introduction to Data Structures & Abstract Data Types](#lecture-11---introduction-to-data-types--abstract-data-types) | [Introduction to Data Structures & Abstract Data Types](/SCC.121.slides/l.introDataStructuresAndADT.pdf) | ✅     |
 | 6     | [Lecture 12 - Memory, Pointers, & Records](#lecture-12---memory-pointers--records)                                                  | [Memory, Pointers, & Records](/SCC.121.slides/m.memoryPointersRecords.pdf)                               | ✅     |
 | 7     | [Lecture 13 - Two Dimenstional Arrays](#lecture-13---two-dimensional-arrays)                                                        | [Two Dimensional Arrays](/SCC.121.slides/n.TwoDArrays.pdf)                                               | ✅     |
-| 7     | [Lecture 14 - The Kitchen Sink](#lecture-14---the-kitchen-sink)                                                                     | [The Kitchen Sink](/SCC.121.slides/o.theKitchenSink.pdf)                                                 | ✅     |
+| 7     | [Lecture 14 - The Kitchen Sink](#lecture-14---the-kitchen-sink)                                                                     | [The Kitchen Sink](/SCC.121.slides/o.theKitchenSink.pdf)                                                 | n/a    |
+| 8     | [Lecture 15 - The Stack](#lecture-15---the-stack)                                                                                   | [The Stack](/SCC.121.slides/p.stack.pdf)                                                                 |        |
 
 ---
 
@@ -813,3 +814,10 @@ void printAccuracy() {
 ---
 
 ## Lecture 14 - The Kitchen Sink
+
+---
+
+---
+
+## LEcture 15 - The Stack
+
