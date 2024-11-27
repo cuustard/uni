@@ -644,20 +644,19 @@ Since 2018, 'The General Data Protection Rgulation' (GDPR) replaced the DPA as t
 
 1. Consent
 
-- Data collection requires informed and freely given consent
-- Individuals can withdraw consent at any time
+   - Data collection requires informed and freely given consent
+   - Individuals can withdraw consent at any time
 
 2. Right to be forgotten
 
-- Individuals can request data deletion
+   - Individuals can request data deletion
 
 3. Right of access
 
-- Individuals can access their personal data helpd by organisations
+   - Individuals can access their personal data helpd by organisations
 
 4. Breach notification
-
-- Organisations must notify individuals and regulators of data breaches
+   - Organisations must notify individuals and regulators of data breaches
 
 #### Personal vs Sensitive Data
 
@@ -698,15 +697,14 @@ This means that:
 
 2. Document Everything:
 
-- Keep detailed records to demonstrate compliance with what you planned and stated.
+   - Keep detailed records to demonstrate compliance with what you planned and stated.
 
 3. Work with Experts:
 
-- Collaborate with specialists who understand the legal requirements.
+   - Collaborate with specialists who understand the legal requirements.
 
 4. If Working Alone:
-
-- You’ll need to familiarise yourself thoroughly with the relevant laws and regulations to ensure compliance.
+   - You’ll need to familiarise yourself thoroughly with the relevant laws and regulations to ensure compliance.
 
 ### Equality
 
@@ -750,13 +748,12 @@ This means that:
 
 1. Chaning expectations and opportunities
 
-- thorough documentation of a software dev process is essential
-- roles in monitoring and compiance are growing so technical expertise is in demand
-- research opportunities are increasing to develop metrics for evaluating AI systems
+   - thorough documentation of a software dev process is essentia
+   - roles in monitoring and compiance are growing so technical expertise is in demand
+   - research opportunities are increasing to develop metrics for evaluating AI systems
 
 2. Goverment Investment in training auditors
-
-- new career paths include working for organisations like the ICO or EHRC.
+   - new career paths include working for organisations like the ICO or EHRC.
 
 ### Regulating AI
 

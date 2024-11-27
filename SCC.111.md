@@ -42,6 +42,8 @@ Assessed with Exam and Coursework:
 |  6   | [Lecture 12 - Dynamic Memory & Compound Types](#lecture-12---dynamic-memory--compound-types) | [Dynamic Memory & Compound Types](/SCC.111.slides/l.dynamicMemoryAndCompoundTypes.pdf) |  ✅   |
 |  7   | [Lecture 13 - Quiz Solutions](#lecture-13---quiz-solutions)                                  | [Quiz Solutions](/SCC.111.slides/m.quizResults.pdf)                                    |  ❌   |
 |  7   | [Lecture 14 - APIs & Files](#lecture-14---apis--files)                                       | [APIs & Files](/SCC.111.slides/n.APIsAndFiles.pdf)                                     |  ✅   |
+|  8   | [Lecture 15 - More Files](#lecture-15---more-files)                                          | [Files Continued](/SCC.111.slides/o.moreFileStuff.pdf)                                 |  ✅   |
+|  8   | [Lecture 16 - Libraries](#lecture-16---libraries)                                            | [Libraries](/SCC.111.slides/p.libraries.pdf)                                           |       |
 
 ---
 
@@ -464,3 +466,30 @@ size_t fread(void *ptr, size_t size, size-t nobj, FILE *fp);
 //alt:
 size_t fwrite(const void *ptr, size_t size, size_t nobj, FILE *fp);
 ```
+
+## Lecture 15 - More Files
+
+### Challenge 1 - Copying A File
+
+1. Only copy a file that exists
+2. Only write to a 'valid' file
+3. Copy data from the input, to the output until we reach the end of the input file
+
+### Challenge 2 - Finding A Pattern in a text file
+
+1. Find a pattern
+2. Read the file line-by-line
+3. Search the line for the pattern
+4. Count how many times we find the pattern
+
+### Challenge 3 - Record Access (Binary Data)
+
+1. Read and write binary data to a file
+2. Use binary file IO
+3. Assuming that the format of the data structure is the formatof the file
+
+---
+
+---
+
+## Lecture 16 - Libraries
