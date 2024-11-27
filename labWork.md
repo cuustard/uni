@@ -2,12 +2,16 @@ began: 8th October 2024
 
 # Lab Work
 
-| Week  | Lecture                                                                                    | Original Handout                                                                            | Date Noted  |
-| ----- | ------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------- | ----------- |
-| 1     | [Week 1 - Learning the UNIX Shell](#week-1---learning-the-unix-shell)                      | [Learning the Unix Shell](/labMaterial/a.weekOneMaterial.pdf)                               | 9/10/2024   |
-| 2     | [Week 2 - Writing Code](#week-2---c-sets--number-systems)                                  | [C, Sets, & Number Systems](/labMaterial/b.weekTwoMaterial.pdf)                             | 16/10/2024  |
-| 3     | [Week 3 - RPS, Relations, Information Coding](#week-3---rps-relations-information-coding)  | [Rock Paper Scissors, Relations, Information Coding](/labMaterial/c.weekThreeMaterial.pdf)  | 23/10/2024  |
-| 4     | [Week 4 - Arrays, Functions, Boolean Logic ](#week-4---arrays-functions-boolean-logic)     |                                                                                             |             |
+| Week  | Lab                                                                                        | Original Handout                                                                            | Noted         |
+| ----- | ------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------- | ------------- |
+| 1     | [Week 1 - Learning the UNIX Shell](#week-1---learning-the-unix-shell)                      | [Learning the Unix Shell](/labMaterial/a.weekOneMaterial.pdf)                               | ✅            |
+| 2     | [Week 2 - Writing Code](#week-2---c-sets--number-systems)                                  | [C, Sets, & Number Systems](/labMaterial/b.weekTwoMaterial.pdf)                             | ✅            |
+| 3     | [Week 3 - RPS, Relations, Information Coding](#week-3---rps-relations-information-coding)  | [Rock Paper Scissors, Relations, Information Coding](/labMaterial/c.weekThreeMaterial.pdf)  | ✅            |
+| 4     | [Week 4 - Arrays, Functions, Boolean Logic ](#week-4---arrays-functions-boolean-logic)     |                                                                                             | ❌            |
+| 5     | [Week 5 - Quiz]                                                                            |                                                                                             | ❌            |
+| 6     |                                                                                            |                                                                                             | ❌            |
+| 7     |                                                                                            |                                                                                             | ❌            |
+| 8     |                                                                                            |                                                                                             | ❌            |
 
 ## Week 1 - Learning the UNIX Shell
 
@@ -583,3 +587,5 @@ int main() {
        - ...
      - F = A’BCD + A’B’CD + A’BC’D + A’B’C’D + ABC’D’ + AB’C’D’ + ABCD’ + AB’CD’
        - ...
+
+## Week 5 - Quiz
