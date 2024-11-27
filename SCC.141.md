@@ -35,6 +35,7 @@ Assessed with Exams and Coursework:
 | 5     | [Lecture 5 - Accesesibility](#lecture-5---accessibility)                                                                                                   | [Accessibility](/SCC.141.slides/e.accessibility.pdf)                                              | ✅    |
 | 6     | [Lecture 6 - Solving Problems](#lecture-6---solving-problems)                                                                                              | [Solving Problems](/SCC.141.slides/f.solvingProblems.pdf)                                         | ❌    |
 | 7     | [Lecture 7 - Intellectual Property, Software Protection, & Limiting Liability](#lecture-7---intellectual-property-software-protection--limiting-liability) | [Intellectual Property, Software Protection, & Limiting Liability](/SCC.141.slides/g.lawShit.pdf) | ✅    |
+| 8     | [Lecture 8 - Ethics](#lecture-8---ethics)                                                                                                                  | [Ethics](/SCC.141.slides/h.lawShitPartTwo.pdf)                                                    | ✅    |
 
 ---
 
@@ -613,3 +614,162 @@ It also binds the software supplier to provide a service with reasonable care. I
 #### Negligence (Personal Liability)
 
 Imposes liability on a person who has acted carelessly under common law. Liability for negligence in software development can be significant in health-system failure, security-system malfunction, and e-commerce system security loopholes.
+
+---
+
+---
+
+## Lecture 8 - Ethics
+
+- Ethics
+  - Principles of right and wrong that guide behaviours
+  - E.G. avoiding plagiarism
+- Legal Frameworks
+  - Laws based on ethics to regulate behaviour
+  - E.G. Not sharing someone's private information without consent
+- Best Practice
+  - Going beyond legal requirements to act ethically
+  - E.G. Asking for clear permission before collecting personal data
+- Standards
+  - Formal rules that define and enforce best practices
+  - E.G. Following guidelines like GDPR to protect personal data
+
+### Data Protection
+
+Before 2018, 'The Data Protection Act' goverend data protection in the UK. It granted rights to 'data subjects', imposed obligations on organisations, and introduced the information commissioner role.
+
+Since 2018, 'The General Data Protection Rgulation' (GDPR) replaced the DPA as the main framework for data protection in the UK and EU. It expanded rights for data subjects, tightened obligations for oganisations, and strengthened the role of information commissioner.
+
+#### Provisions
+
+1. Consent
+
+- Data collection requires informed and freely given consent
+- Individuals can withdraw consent at any time
+
+2. Right to be forgotten
+
+- Individuals can request data deletion
+
+3. Right of access
+
+- Individuals can access their personal data helpd by organisations
+
+4. Breach notification
+
+- Organisations must notify individuals and regulators of data breaches
+
+#### Personal vs Sensitive Data
+
+Personal Data:
+
+- Relates to all information regarding a person who can be directly or indirectly identified
+- Only applies to living people
+
+Sensitive Personal Data
+
+- Includes data about protected attributes
+- Requires greater justification for collection
+- Must be protected with higher security measures
+
+The difference is that sensitive personal data involves stricter rules and protections due to its potential impact on individuals.
+
+#### Principles of GDPR
+
+1. Lawfulness, Fariness, and Transparency
+2. Purpose Limitation
+3. Data Minimisation
+4. Accuracy
+5. Storage Limitation
+6. Integirty and Confidentiality
+7. Accountability
+
+This means that:
+
+1. Approval from Ethics Review Boards (ERBs):
+
+- Required for research involving personal data.
+  - Participatory Research:
+    - Obtain informed consent from participants.
+    - Plan and document data handling, use, and retention.
+  - Building Systems:
+    - Ensure compliance with data handling protocols and lawfulness.
+    - Follow specific conditions for using third-party libraries.
+
+2. Document Everything:
+
+- Keep detailed records to demonstrate compliance with what you planned and stated.
+
+3. Work with Experts:
+
+- Collaborate with specialists who understand the legal requirements.
+
+4. If Working Alone:
+
+- You’ll need to familiarise yourself thoroughly with the relevant laws and regulations to ensure compliance.
+
+### Equality
+
+The 'Equality Act 2010' protects against discrimintation.
+
+- Direct: Treating someone unfair due to a protected characteristics
+- Indirect: Policies or practices that disadvantag certain groups
+
+Monitored by the 'Equality and Human Rightst Commission' (EHRC).
+
+It is linked to the GDPR by ensuring fairness and lawfulness in data use.
+
+#### Positive Action vs Discrimination
+
+Positive Action is Recommended.
+
+- Take steps to improve representation and inclusion.
+- E.G.
+  - Helping people overcome distadvantages
+  - Meeting specific needs
+  - Encouraging underrepresented groups to participate
+
+Positive Discrimination is unlawful.
+
+- Treating one group is less favourable than another
+- E.G. Refusing to hire men solely to increase the number of women.
+
+### Governance
+
+When declaring AI systems, serveral roles work together to ensure the system is functional, compliant, and responsible
+
+Factsheets are standardised documents that provide details about and AI system's purpose, design, data, and performance, tailored for different stakeholders to ensure transparency and accountability.
+
+#### Stanrdard: Algorithmic Transparency
+
+1. The profession is producing auditable documentation for AI system, with effors like the UK's Algorithmic Transparency Standard.
+2. Challenges in defining facts that demonstrate compliance with legal concepts like fairness (transparency and accountability)
+3. Active research focuses on developing metrics to evaluate AI systems against regulations and best practices.
+
+This means that:
+
+1. Chaning expectations and opportunities
+
+- thorough documentation of a software dev process is essential
+- roles in monitoring and compiance are growing so technical expertise is in demand
+- research opportunities are increasing to develop metrics for evaluating AI systems
+
+2. Goverment Investment in training auditors
+
+- new career paths include working for organisations like the ICO or EHRC.
+
+### Regulating AI
+
+2023 AI Summit Key Achievements
+
+- Unprecedented Global Coordination
+- AI Expert Panel Established
+- Consensus on Regulation
+- Goverment Testing Plans
+
+Critics:
+
+- Critisised as being bias towards big tech.
+- no clear agreement on global standards or mechanisms to enforce regulations
+- should regulation be top-down (gov-led) or democratic (inclusive and participatory)?
+- is it appropriate for the tech industry to shapre the very rules that govern their technologies
