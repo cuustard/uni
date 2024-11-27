@@ -33,7 +33,7 @@ Assessed with Exams and Coursework:
 | 3     | [Lecture 3 - Requirements & Requirements Engineering](#lecture-3---requirements--requirements-engineering)                                                 | [Requirements & Requirements Engineering](/SCC.141.slides/c.requirements.pdf)                     | ✅    |
 | 4     | [Lecture 4 - Understandong Users, Usability, & User Experience](#lecture-4---understandong-users-usability--user-experience)                               | [Users, Usability, & User Experience](/SCC.141.slides/d.usersUsabilityUX.pdf)                     | ✅    |
 | 5     | [Lecture 5 - Accesesibility](#lecture-5---accessibility)                                                                                                   | [Accessibility](/SCC.141.slides/e.accessibility.pdf)                                              | ✅    |
-| 6     | [Lecture 6 - Solving Problems](#lecture-6---solving-problems)                                                                                              | [Solving Problems](/SCC.141.slides/f.solvingProblems.pdf)                                         | ❌    |
+| 6     | [Lecture 6 - Solving Problems](#lecture-6---solving-problems)                                                                                              | [Solving Problems](/SCC.141.slides/f.solvingProblems.pdf)                                         | ✅    |
 | 7     | [Lecture 7 - Intellectual Property, Software Protection, & Limiting Liability](#lecture-7---intellectual-property-software-protection--limiting-liability) | [Intellectual Property, Software Protection, & Limiting Liability](/SCC.141.slides/g.lawShit.pdf) | ✅    |
 | 8     | [Lecture 8 - Ethics](#lecture-8---ethics)                                                                                                                  | [Ethics](/SCC.141.slides/h.lawShitPartTwo.pdf)                                                    | ✅    |
 
@@ -506,9 +506,54 @@ Computer Science is about solving problems, not just programming. So employerse 
 
 ### Design Ethnography
 
+Design Ethnography is the practice of studying people in their natural environment. It is the earliest step of the development lifecycle and informs the entire cycle. It helps us to avoid mistakes and see opportunities for inovation.
+
+It involves
+
+- being embedded in an environment
+- observing and documenting
+- asking questions (interviewing)
+- exploring solutions with users (co-design)
+- analysiing (reflection, creativity)
+- communicating insights to a dev team
+- steering the design process
+
+### Question your assumptions
+
+1. Is the environment different from where the device has been previously tested and deployed?
+2. Which rules are flexible and open to change in this context?
+3. What are the diverse motivations of the people involved or impacted?
+4. Are you addressing the right problem, or could ther be a more critical one to solve?
+5. If you solved a related problem, could it be eliminate the need to address this one?
+
 ### Participatory Design
 
+#### Risk Mitigation Checklist
+
+Risk Zones:
+
+1. Zone 1: Authority & Discipline
+2. Zone 2: Malevolence & Accidental Harm
+3. Zone 3: Emotionality & Socialisation
+4. Zone 4: Governance & Accounting
+
 ### Value-Sensitive Design
+
+Designing a system the 'right' way means making sure it respects and supports human values. For example, people should be able to make choices that help them reach their goals. This includes giving users control over relevant features at the appropriate times. Computer scientists hould consider what values the system promotes and supports.
+
+#### Humble AI
+
+The Humbel AI Concept is an AI approach focused on ensuring trustworthy people are not unfairly distrusted, promoting fair, merit-based opportunities.
+
+The challenge is in balancing fairness without increasing false posotives (trusting untrustworthy individuals).
+
+1. Principle of Skepticism
+   - Goal: Assume AI might be missing critical information for decision-making
+   - Approach: Seek additional data, especially for cases near the decision threshould, to reduce errors.
+2. Principle of Curiosity
+   - Goal: Learn from borderline cases by testing different decisions
+   - Approach: Use 'safe exploration' to randomly grant opportunities to people close to the treshold and observe outcomes.
+   - Outcome: Refines the decision threshould overtime, helping the AI make more accurate and fair decisions.
 
 ---
 
