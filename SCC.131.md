@@ -45,6 +45,7 @@ Assessed with Exams and Coursework:
 | 7    | [Lecture 13 - The Micro:Bit](#lecture-13---the-microbit)                                       | [Architecturing The Micro:Bit](/SCC.131.slides/k.microbit.pdf)                   | ✅    |
 | 7    | [Lecture 14 - The Micro:Bit Part 2](#lecture-14---the-microbit-part-2)                         | [Micro:bit Part 2](/SCC.131.slides/l.microbitPartTwo.pdf)                        | ✅    |
 | 8    | [Lecture 15 - C/C++ & CODAL](#lecture-15---cc-codal)                                           | [C/C++ & CODAL](/SCC.131.slides/m.introCODAL.pdf)                                | ✅    |
+| 8    | [Lecture 16 - CODAL Part 2](#lecture-16---codal-part-2)                                        | [CODAL Part 2](/SCC.131.slides/n.CODALpartTwo.pdf)                               |       |
 
 ---
 
@@ -745,3 +746,9 @@ int main() {
     }
 }
 ```
+
+---
+
+---
+
+## Lecture 16 - CODAL Part 2

@@ -56,6 +56,7 @@ Assessed with Exams and Coursework:
 | 7     | [Lecture 13 - Two Dimenstional Arrays](#lecture-13---two-dimensional-arrays)                                                        | [Two Dimensional Arrays](/SCC.121.slides/n.TwoDArrays.pdf)                                               | ✅     |
 | 7     | [Lecture 14 - The Kitchen Sink](#lecture-14---the-kitchen-sink)                                                                     | [The Kitchen Sink](/SCC.121.slides/o.theKitchenSink.pdf)                                                 | n/a    |
 | 8     | [Lecture 15 - The Stack](#lecture-15---the-stack)                                                                                   | [The Stack](/SCC.121.slides/p.stack.pdf)                                                                 | ✅     |
+| 8     | [Lecture 16 - Linked Lists](#lecture-16---linked-lists)                                                                             | [Linked Lists](/SCC.121.slides/q.linkedLists.pdf)                                                        |        |
 
 ---
 
@@ -950,3 +951,9 @@ int Pop(S) {
   }
 }
 ```
+
+---
+
+---
+
+## Lecture 16 - Linked Lists
