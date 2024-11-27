@@ -40,7 +40,7 @@ Assessed with Exam and Coursework:
 |  5   | [Lecture 10 - Indirection & Pointers](#lecture-10---indirection--pointers)                   | [Indirection & Pointers](/SCC.111.slides/j.indirectionPointers.pdf)                    |  ❌   |
 |  6   | [Lecture 11 - Pointers & Strings](#lecture-11---pointers--strings)                           | [Pointers & Strings](/SCC.111.slides/k.pointersAndStrings.pdf)                         |  ✅   |
 |  6   | [Lecture 12 - Dynamic Memory & Compound Types](#lecture-12---dynamic-memory--compound-types) | [Dynamic Memory & Compound Types](/SCC.111.slides/l.dynamicMemoryAndCompoundTypes.pdf) |  ✅   |
-|  7   | [Lecture 13 - Quiz Solutions](#lecture-13---quiz-solutions)                                  | [Quiz Solutions](/SCC.111.slides/m.quizResults.pdf)                                    |  ❌   |
+|  7   | [Lecture 13 - Quiz Solutions](#lecture-13---quiz-solutions)                                  | [Quiz Solutions](/SCC.111.slides/m.quizResults.pdf)                                    |  n/a  |
 |  7   | [Lecture 14 - APIs & Files](#lecture-14---apis--files)                                       | [APIs & Files](/SCC.111.slides/n.APIsAndFiles.pdf)                                     |  ✅   |
 |  8   | [Lecture 15 - More Files](#lecture-15---more-files)                                          | [Files Continued](/SCC.111.slides/o.moreFileStuff.pdf)                                 |  ✅   |
 |  8   | [Lecture 16 - Libraries](#lecture-16---libraries)                                            | [Libraries](/SCC.111.slides/p.libraries.pdf)                                           |       |
