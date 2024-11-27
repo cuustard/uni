@@ -496,6 +496,20 @@ Accessibility is also important for Businesses:
 
 ## Lecture 6 - Solving Problems
 
+Computer Science is about solving problems, not just programming. So employerse expect us to be able to:
+
+- Look at the big picture in planning a solution
+- Understand the problem that has been set (and why)
+- Understand the environment it is being designed for
+- Understand the limitations
+- Create a solution that meets all essential criteria
+
+### Design Ethnography
+
+### Participatory Design
+
+### Value-Sensitive Design
+
 ---
 
 ---

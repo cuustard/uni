@@ -40,7 +40,7 @@ Assessed with Exams and Coursework:
 | 4    | [Lecture 8 - Building the ALU](#lecture-8---building-the-alu)                                  | [Building The ALU](/SCC.131.slides/g.buildingTheALU.pdf)                         | ❌    |
 | 5    | [Lecture 9 - Building Memory](#lecture-9---building-memory)                                    | [Building Memory](/SCC.131.slides/h.buildingMemory.pdf)                          | 🟧    |
 | 5    | [Lecture 10 - Building The Control Unit](#lecture-10---building-the-control-unit)              | [Building The Control Unit](/SCC.131.slides/i.buildingCU.pdf)                    | ❌    |
-| 6    | [Lecture 11 - Building the Input/Output System](#lecture-11---building-the-inputoutput-system) | [Buildinf The IO](/SCC.131.slides/j.buildingIO.pdf)                              | ❌    |
+| 6    | [Lecture 11 - Building the Input/Output System](#lecture-11---building-the-inputoutput-system) | [Building The IO](/SCC.131.slides/j.buildingIO.pdf)                              | ✅    |
 | 6    | [Lectute 12 - Weeks 1-6 Recap](#lecture-12---weeks-1-6-recap)                                  | [Weeks 1-6 Recap](/SCC.131.slides/j.recapUpToWeek6.pdf)                          | ✅    |
 | 7    | [Lecture 13 - The Micro:Bit](#lecture-13---the-microbit)                                       | [Architecturing The Micro:Bit](/SCC.131.slides/k.microbit.pdf)                   | ✅    |
 | 7    | [Lecture 14 - The Micro:Bit Part 2](#lecture-14---the-microbit-part-2)                         | [Micro:bit Part 2](/SCC.131.slides/l.microbitPartTwo.pdf)                        | ✅    |
@@ -352,22 +352,49 @@ Input AND Output devices:
 I/O Challenges:
 
 1. The Speed-Gap
-
-- I/O devices are mechanical so run massively slower compared to the CPU
-
+   - I/O devices are mechanical so run massively slower compared to the CPU
 2. The Device Diversity
+   - Diversity of data-access modes
+     - read-only, or write-only, or read-and-write
+     - Access by the induvidual byte or by the block/by the stream
+     - Access randomly (like a disk) or sequentially (like a tape)
+   - Device-specific Operations
+     - change for resolution, set the time, focus
+   - I/O protocol
+     - potential data transfer errors
+     - synchronous or asynchronous
 
-- Diversity of data-access modes
-  - read-only, or write-only, or read-and-write
-  - Access by the induvidual byte or by the block/by the stream
-  - Access randomly (like a disk) or sequentially (like a tape)
-- Device-specific Operations
-  - change for resolution, set the time, focus
-- I/O protocol
-  - potential data transfer errors
-  - synchronous or asynchronous
+Device drivers are software plug-ins inside the operating system. They abstract over device diveristy by grouping sets of similar types of device. E.G. many inputs can be made to look like a mouse to software. E.G. all hard disks are basically the same.
 
-Device drivers are software plug-ins inside the operating system.
+Functions of drivers:
+
+- Registering a device with the OS and initialising it
+- Initiating data transfers to or from a device
+- Monitoring status events from a device
+- Managing device/system shutdown
+
+### Two-fold Classification of device Types
+
+Classification of Device Types:
+
+1. Character Devices
+   - Send and recieve one byte at a time
+   - E.G. A keyboard
+2. Block Devices
+   - Send and reviece a multi-byte block at a time
+   - E.G. A hard disk
+
+Classification of Processor Support for I/O:
+
+1. Isolated I/O
+   - Processor porivdes dedicated physical pins for the connection of I/O devices...
+   - ...and dedicated instructions for doing I/O operations.
+   - It is suited to simple devices
+   - Having only a fixed set of special I/O instructions does not help with device diversity
+2. Memory-mapped I/O
+   - Devices sit within processors linear memory address space
+   - Simple, flexible programming model
+   - However, it addes complexity to devices
 
 ---
 
