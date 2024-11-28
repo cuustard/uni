@@ -78,6 +78,11 @@ Correlation and causation can happen at the same time but correlation does not a
 
 ## Lecture 9 - Simple Linear Regression
 
+<audio controls>
+  <source src="simpleLinearRegression.wav" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
 ![Audio](simpleLinearRegression.wav)
 
 From previous lectures, we've got a data sample, plotted a scatter diagram, and calculated the correlation coefficient r. Now we want to model the relationship to observe an estimate of what generally happenes.
