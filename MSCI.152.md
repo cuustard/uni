@@ -11,13 +11,13 @@ began: 9th October 2024
 | 3    | [Lecture 5 - Quantitative Data](#lecture-5---quantitative-data)                     | [Quantitative Data](/MSCI.152.slides/e.quantitativeData.pdf)                  | ❌    |
 | 3    | [Lecture 6 - Measures of Location](#lecture-6---measures-of-location)               | [Measures of Location](/MSCI.152.slides/f.measuresOfLocation.pdf)             | ❌    |
 | 4    | [Lecture 7 - Measures of Spread](#lecture-7---measures-of-spread)                   | [Measures of Spread](/MSCI.152.slides/g.measuresOfSpread.pdf)                 | ❌    |
-| 4    | [Lecture 8 - Correlation](#lecture-8---correlation)                                 | [Correlation](/MSCI.152.slides/h.correlation.pdf)                             | ❌    |
+| 4    | [Lecture 8 - Correlation](#lecture-8---correlation)                                 | [Correlation](/MSCI.152.slides/h.correlation.pdf)                             | ✅    |
 | 5    | [Lecture 9 - Simple Linear Regression](#lecture-9---simple-linear-regression)       | [Simple Linear Regression](/MSCI.152.slides/i.simpleLinearRegression.pdf)     | ❌    |
 | 6    | [Lecture 10 - Regression Part 2](#lecture-10---regression-part-2)                   | [Regression Part 2](/MSCI.152.slides/j.regressionPartTwo.pdf)                 | ✅    |
 | 6    | [Lecture 11 - Regression Part 3](#lecture-11---regression-part-3)                   | [Regression Part 3](/MSCI.152.slides/k.regressionPartThree.pdf)               | ✅    |
 | 7    | [Lecture 12 - Multiple Linear Regression](#lecture-12---multiple-linear-regression) | [Multiple Linear Regression](/MSCI.152.slides/l.multipleLinearRegression.pdf) | ✅    |
 | 7    | [Lecture 13 - Forecasting](#lecture-13---forecasting)                               | [Forecasting](/MSCI.152.slides/m.forecasting.pdf)                             | ✅    |
-| 8    | [Lecture 14 - Forecasting Part 2](#lecture-14---forecasting-part-2)                 | [Forecasting Part 2](/MSCI.152.slides/n.forecastingPartTwo.pdf)               |       |
+| 8    | [Lecture 14 - Forecasting Part 2](#lecture-14---forecasting-part-2)                 | [Forecasting Part 2](/MSCI.152.slides/n.forecastingPartTwo.pdf)               | ✅    |
 
 ## Lecture 1 - Module Introduction
 
@@ -62,7 +62,27 @@ The 5 V's of Big Data (IBM)
 
 ## Lecture 8 - Correlation
 
+When examining the relationship betweern two variables, for each element in the sample, we record two values. These values are the two variables.
+
+The X variable is the explanatory (independet) variable. The Y is the response (dependent) variable. The Y changes depending on the value of a X.
+
+Correlation = r = corr(x, y)
+
+The coeficcient r of a relationship measures the correlation between two variables. r ranges from -1 to 1.
+
+The closer r is to -1 or 1 implies a stronger linear relationship. `r = o` implies there is no linear relationship at all. r = 1 or r = -1 implies there is a perfect linear relationship. The sign of r tells us whether the relationship is
+
+![Correlation](images/corellation.png)
+
+Correlation and causation can happen at the same time but correlation does not always impy causation. This is because there could be other factors (variables) that effect the outcome (Y).
+
 ## Lecture 9 - Simple Linear Regression
+
+![Audio](simpleLinearRegression.wav)
+
+From previous lectures, we've got a data sample, plotted a scatter diagram, and calculated the correlation coefficient r. Now we want to model the relationship to observe an estimate of what generally happenes.
+
+The Line of best first aims to predict all the y values for all the x values.
 
 ---
 
