@@ -261,7 +261,7 @@ Qualitative:
 3. informal, implicit human extraplations without systematic instructions how to generate a forecast
 4. are subjective based upon personal experience and knowledge
 5. can incorporate new, unstructured information
-6. the results of forecast are not replicable by other experts or same expert at another time]
+6. the results of forecast are not replicable by other experts or same expert at another time
 
 Quantitative:
 
@@ -279,3 +279,65 @@ Quantitative:
 ---
 
 ## Lecture 14 - Forecasting Part 2
+
+### Time Series Exploration
+
+To identify a trend, we have to fit a smooth line through the time serires and observe whether this line is going up or down. Need to fit a flexible enough smooth line that can capture various versions of trend, cycle, or lack of them. To do this we can use the 'Centred Moving Average' (CMA). Fitting a straight (regression) line, often called a trendline, is wrong.
+
+In Excel we have the trendline function.
+
+The CMA provides a smoothed version of the timer series. It can filter out noise, and seasonality.
+
+### Simple Forecasting Methods
+
+#### Naive (Random Walk)
+
+The most simple forcast we can predict is that the time serires will continue as it is going - it will stay the same. This is why it is called the Naive forecast.
+
+There is big issue with this. If there is an outlier in plot, Naive will not know it is outlier and forcast based on this.
+
+#### Average Forecast
+
+Random movements of noise is cancelled out. The more data there is, the better the correct level is estimated. It gives an equal importance to all observations.
+
+It is resilient against outliers and provides a good estimation of the level.
+
+However due to its long memory, it does not adjust to changes in the level, which makes very poor forecast.
+
+#### Moving Average Forecast
+
+Moving Average allows us to select the appropriate memory (length of the average). So specified time periods can have their own average. This helps adjusting to changes in the level.
+
+The variable length allows us to control howreactive we are to new information and how robust we are against noisel.
+
+#### CMA vs MA
+
+CMA:
+
+- CMA is a descriptive tool. It is a fitted value (e.g. CMA Jan, Feb, Mar = fitted value for February)
+- Requires future information (it is centred).
+- Difference in calculation between even and odd lengths.
+
+MA:
+
+- MA is a predicitve tool. It is a forecasted value (e.g. SMA Jan, Feb, Mar = forecasted value for April)
+- Does not require any future information.
+- No difference in the calculation of even or odd lengths.
+- Is not a good estimation of the trend
+
+### Exponential Smoothing
+
+The Moving Average puts equal weight on each value, but if next months forecast should be based on the previous 12 months observations, more weight should be put on the more recent observations.
+
+Exponential Smoothing uses a weighted average of past time series values as a forecast.
+
+Recent forecasts are more important so weighted more heavily but the weight must add up to 100%.
+
+### Other
+
+Is a straight line forcast okay?
+Yes...
+
+1. A straight line forecast makes sense when a time series has no trend or seasonality.
+2. Noise cannot be forecasted. A wiggly line trying to forecast noise will just reduce accuracy.
+3. The forecast going forward contains all the information up to that point, so the straight line going forward does too.
