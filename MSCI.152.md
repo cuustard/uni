@@ -17,6 +17,7 @@ began: 9th October 2024
 | 6    | [Lecture 11 - Regression Part 3](#lecture-11---regression-part-3)                   | [Regression Part 3](/MSCI.152.slides/k.regressionPartThree.pdf)               | ✅    |
 | 7    | [Lecture 12 - Multiple Linear Regression](#lecture-12---multiple-linear-regression) | [Multiple Linear Regression](/MSCI.152.slides/l.multipleLinearRegression.pdf) | ✅    |
 | 7    | [Lecture 13 - Forecasting](#lecture-13---forecasting)                               | [Forecasting](/MSCI.152.slides/m.forecasting.pdf)                             | ✅    |
+| 8    | [Lecture 14 - Forecasting Part 2](#lecture-14---forecasting-part-2)                 | [Forecasting Part 2](/MSCI.152.slides/n.forecastingPartTwo.pdf)               |       |
 
 ## Lecture 1 - Module Introduction
 
@@ -272,3 +273,9 @@ Quantitative:
 6. quicker to obtain the results for many time series using many observations/variables
 
 ![alt text](images/forecastingTree.png)
+
+---
+
+---
+
+## Lecture 14 - Forecasting Part 2

@@ -2,20 +2,21 @@ began: 8th October 2024
 
 # Professionalism in Practice Seminars
 
-| Week   | Seminar         | Original Slide                               | Noted |
-| ------ | --------------- | -------------------------------------------- | :----------: |
-| 1 & 2  | [Seminar 1](#seminar-1) | [Seminar 1](seminarMaterials/a.Seminar1.pdf) | ✅        |
-| 2 & 3  | [Seminar 2](#seminar-2) | [Seminar 2](seminarMaterials/b.Seminar2.pdf) | ✅        |
-| 4 & 5  | [Seminar 3](#seminar-3) | [Seminar 3](seminarMaterials/c.Seminar3.pdf) | ✅        |
+| Week   | Seminar                 | Original Slide                               | Noted |
+| ------ | ----------------------- | -------------------------------------------- | :---: |
+| 1 & 2  | [Seminar 1](#seminar-1) | [Seminar 1](seminarMaterials/a.Seminar1.pdf) |  ✅   |
+| 3 & 4  | [Seminar 2](#seminar-2) | [Seminar 2](seminarMaterials/b.Seminar2.pdf) |  ✅   |
+| 5 & 6  | [Seminar 3](#seminar-3) | [Seminar 3](seminarMaterials/c.Seminar3.pdf) |  ✅   |
+| 7 & 8  | [Seminar](#seminar-4)   | [Seminar 4](seminarMaterials/c.Seminar4.pdf) |  ✅   |
 
 ## Seminar 1
 
 Introduction to Term 1 Assignment (10%):
 
 - Group report on: "What makes a good Computing professional?"
-   - Section 1: What are the skills and characteristics that make a good computing professional? 400 words
-   - Section 2: What are good practices for human-centred design? 400 words
-   - Section 3 (Personal Reflection): Reflect on something I've learnt this term and how this relates to where I see myself in 5 years. 250 words
+  - Section 1: What are the skills and characteristics that make a good computing professional? 400 words
+  - Section 2: What are good practices for human-centred design? 400 words
+  - Section 3 (Personal Reflection): Reflect on something I've learnt this term and how this relates to where I see myself in 5 years. 250 words
 
 ## Seminar 2
 
@@ -50,3 +51,7 @@ This seminar aims to assist in Section 2 of the group report. I need to identify
 3. Identifying Dark Patterns / Deceptive Design
    - What examples of this have I encountered online?
    - What do these examples teach us about good user-centered design?
+
+## Seminar 4
+
+This seminar we continued with the group report.
