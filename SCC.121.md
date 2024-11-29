@@ -2,24 +2,6 @@ began: 8th October 2024
 
 # SCC.121 Fundamentals of Computer Science
 
-This module of the course is taught by 4 Lecturers:
-
-- Discrete Maths & Logic
-  - Taught by Corina Sas
-  - Weeks 1 - 5
-- Data Structures
-  - Taught by Amit Chorpra
-  - Weeks 6 - 11
-- Algorithms & Complexity
-  - Taught by Emma Wilson
-  - Weeks 12 - 15
-- Sorting, Trees, & Graphs
-  - Taught by Fabien Dufoulon
-  - Weeks 16 - 20
-- Linear Algebra, Searching & Sorting, Sorting & its efficiency, PageRank, Revision Lectures
-  - Taught by Mixed Lecturers
-  - Weeks 21 - 25
-
 The module aims to help me understand the fundamentals of Computer Science. This includes...
 
 - ...the role of discrete mathematics and logic
@@ -29,34 +11,34 @@ The module aims to help me understand the fundamentals of Computer Science. Thi
 
 Assessed with Exams and Coursework:
 
-| Task                       | When                | Worth           |
-| -------------------------- | ------------------- | --------------- |
-| "Coursework" (In-lab quiz) | Week 5, 10, 15, 20  | 20% (5% each)   |
-| "Summer Project"           | Summer Term         | 10%             |
-| Exam                       | Summer Term         | 70%             |
+| Task                 | When                | Worth           |
+| -------------------- | ------------------- | --------------- |
+| In-lab quiz          | Week 5, 10, 15, 20  | 20% (5% each)   |
+| "Summer Project"     | Summer Term         | 10%             |
+| Exam                 | Summer Term         | 70%             |
 
 ---
 
 ### Table of Contents
 
-| Week  | Lecture                                                                                                                             | Original Slides                                                                                          | Noted  |
-| ----- | ----------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- | ------ |
-| 1     | [Lecture 1 - Module Introduction & Sets](#lecture-1---sets)                                                                         | [Sets](/SCC.121.slides/b.setsPartOne.pdf)                                                                | ✅     |
-| 1     | [Lecture 2 - Types of Sets](#lecture-2---types-of-sets)                                                                             | [Types of Sets](/SCC.121.slides/c.setsPartTwo.pdf)                                                       | ✅     |
-| 2     | [Lecture 3 - Relations](#lecture-3---relations)                                                                                     | [Relations](/SCC.121.slides/d.relationsPartOne.pdf)                                                      | 🟧     |
+| Week  | My Notes                                                                                                                            | Lecture Slides                                                                                           | Noted  |
+| :---: | ----------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- | :----: |
+| 1     | [Lecture 1 - Module Introduction & Sets](#lecture-1---sets)                                                                         | [Sets](/SCC.121.slides/b.setsPartOne.pdf)                                                                |  ✅    |
+| 1     | [Lecture 2 - Types of Sets](#lecture-2---types-of-sets)                                                                             | [Types of Sets](/SCC.121.slides/c.setsPartTwo.pdf)                                                       |  ✅    |
+| 2     | [Lecture 3 - Relations](#lecture-3---relations)                                                                                     | [Relations](/SCC.121.slides/d.relationsPartOne.pdf)                                                      |  🟧    |
 | 2     | [Lecture 4 - Relations Part 2](#lecture-4---relations-part-2)                                                                       | [Relations Part 2](/SCC.121.slides/e.relationsPartTwo.pdf)                                               | ✅     |
 | 3     | [Lecture 5 - Functions](#lecture-5---functions)                                                                                     | [Functions](/SCC.121.slides/f.functions.pdf)                                                             | ❌     |
 | 3     | [Lecture 6 - Functions Part 2](#lecture-6---functions-part-2)                                                                       | [Functions Part 2](/SCC.121.slides/g.functionsPartTwo.pdf)                                               | ❌     |
-| 4     | [Lecture 7 - Propositional Logic](#lecture-7---propositional-logic)                                                                 | [Propositional Logic](/SCC.121.slides/h.propositionalLogic.pdf)                                          | ✅     |
-| 4     | [Lecture 8 - Propositional Logic Part 2](#lecture-8---propositional-logic-part-2)                                                   | [Propositional Logic Part 2](/SCC.121.slides/i.propositionalLogicPartTwo.pdf)                            | ✅     |
-| 5     | [Lecture 9 - Predicate Logic](#lecture-9---predicate-logic)                                                                         | [Predicate Logic](/SCC.121.slides/j.predicateLogic.pdf)                                                  | ❌     |
-| 5     | [Lecture 10 - Predicate Logic Part 2](#lecture-10---predicate-logic-part-2)                                                         | [Predicate Logic Part 2](/SCC.121.slides/k.predicateLogicPartTwo.pdf)                                    | ❌     |
-| 6     | [Lecture 11 - Introduction to Data Structures & Abstract Data Types](#lecture-11---introduction-to-data-types--abstract-data-types) | [Introduction to Data Structures & Abstract Data Types](/SCC.121.slides/l.introDataStructuresAndADT.pdf) | ✅     |
-| 6     | [Lecture 12 - Memory, Pointers, & Records](#lecture-12---memory-pointers--records)                                                  | [Memory, Pointers, & Records](/SCC.121.slides/m.memoryPointersRecords.pdf)                               | ✅     |
-| 7     | [Lecture 13 - Two Dimenstional Arrays](#lecture-13---two-dimensional-arrays)                                                        | [Two Dimensional Arrays](/SCC.121.slides/n.TwoDArrays.pdf)                                               | ✅     |
-| 7     | [Lecture 14 - The Kitchen Sink](#lecture-14---the-kitchen-sink)                                                                     | [The Kitchen Sink](/SCC.121.slides/o.theKitchenSink.pdf)                                                 | n/a    |
-| 8     | [Lecture 15 - The Stack](#lecture-15---the-stack)                                                                                   | [The Stack](/SCC.121.slides/p.stack.pdf)                                                                 | ✅     |
-| 8     | [Lecture 16 - Linked Lists](#lecture-16---linked-lists)                                                                             | [Linked Lists](/SCC.121.slides/q.linkedLists.pdf)                                                        | ✅     |
+| 4     | [Lecture 7 - Propositional Logic](#lecture-7---propositional-logic)                                                                 | [Propositional Logic](/SCC.121.slides/h.propositionalLogic.pdf)                                          |  ✅    |
+| 4     | [Lecture 8 - Propositional Logic Part 2](#lecture-8---propositional-logic-part-2)                                                   | [Propositional Logic Part 2](/SCC.121.slides/i.propositionalLogicPartTwo.pdf)                            |  ✅    |
+|   5   | [Lecture 9 - Predicate Logic](#lecture-9---predicate-logic)                                                                         | [Predicate Logic](/SCC.121.slides/j.predicateLogic.pdf)                                                  |   ❌   |
+|   5   | [Lecture 10 - Predicate Logic Part 2](#lecture-10---predicate-logic-part-2)                                                         | [Predicate Logic Part 2](/SCC.121.slides/k.predicateLogicPartTwo.pdf)                                    |   ❌   |
+|   6   | [Lecture 11 - Introduction to Data Structures & Abstract Data Types](#lecture-11---introduction-to-data-types--abstract-data-types) | [Introduction to Data Structures & Abstract Data Types](/SCC.121.slides/l.introDataStructuresAndADT.pdf) |   ✅   |
+|   6   | [Lecture 12 - Memory, Pointers, & Records](#lecture-12---memory-pointers--records)                                                  | [Memory, Pointers, & Records](/SCC.121.slides/m.memoryPointersRecords.pdf)                               |   ✅   |
+|   7   | [Lecture 13 - Two Dimenstional Arrays](#lecture-13---two-dimensional-arrays)                                                        | [Two Dimensional Arrays](/SCC.121.slides/n.TwoDArrays.pdf)                                               |   ✅   |
+|   7   | [Lecture 14 - The Kitchen Sink](#lecture-14---the-kitchen-sink)                                                                     | [The Kitchen Sink](/SCC.121.slides/o.theKitchenSink.pdf)                                                 |  n/a   |
+|   8   | [Lecture 15 - The Stack](#lecture-15---the-stack)                                                                                   | [The Stack](/SCC.121.slides/p.stack.pdf)                                                                 |   ✅   |
+|   8   | [Lecture 16 - Linked Lists](#lecture-16---linked-lists)                                                                             | [Linked Lists](/SCC.121.slides/q.linkedLists.pdf)                                                        |   ✅   |
 
 ## Lecture 1 - Sets
 

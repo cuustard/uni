@@ -2,51 +2,24 @@ began: 9th October 2024
 
 # MSCI.152 Introduction to Business Intelligence and Analytics
 
-| Week | Lecture                                                                             | Original Slides                                                               | Noted |
-| ---- | ----------------------------------------------------------------------------------- | ----------------------------------------------------------------------------- | ----- |
-| 1    | [Lecture 1 - Module Introduction](#lecture-1---module-introduction)                 | [Module Intro](/MSCI.152.slides/a.introduction.pdf)                           | ❌    |
-| 1    | [Lecture 2 - Sampling Methods](#lecture-2---sampling-methods)                       | [Sampling Methods](/MSCI.152.slides/b.samplingMethods.pdf)                    | ❌    |
-| 2    | [Lecture 3 - Sampling Issues](#lecture-3---sampling-issues)                         | [Sampling Issues](/MSCI.152.slides/c.samplingIssues.pdf)                      | ❌    |
-| 2    | [Lecture 4 - Qualitative Data](#lecture-4---qualitative-data)                       | [Qualitative Data](/MSCI.152.slides/d.qualitativeData.pdf)                    | ❌    |
-| 3    | [Lecture 5 - Quantitative Data](#lecture-5---quantitative-data)                     | [Quantitative Data](/MSCI.152.slides/e.quantitativeData.pdf)                  | ❌    |
-| 3    | [Lecture 6 - Measures of Location](#lecture-6---measures-of-location)               | [Measures of Location](/MSCI.152.slides/f.measuresOfLocation.pdf)             | ❌    |
-| 4    | [Lecture 7 - Measures of Spread](#lecture-7---measures-of-spread)                   | [Measures of Spread](/MSCI.152.slides/g.measuresOfSpread.pdf)                 | ❌    |
-| 4    | [Lecture 8 - Correlation](#lecture-8---correlation)                                 | [Correlation](/MSCI.152.slides/h.correlation.pdf)                             | ✅    |
-| 5    | [Lecture 9 - Simple Linear Regression](#lecture-9---simple-linear-regression)       | [Simple Linear Regression](/MSCI.152.slides/i.simpleLinearRegression.pdf)     | ❌    |
-| 6    | [Lecture 10 - Regression Part 2](#lecture-10---regression-part-2)                   | [Regression Part 2](/MSCI.152.slides/j.regressionPartTwo.pdf)                 | ✅    |
-| 6    | [Lecture 11 - Regression Part 3](#lecture-11---regression-part-3)                   | [Regression Part 3](/MSCI.152.slides/k.regressionPartThree.pdf)               | ✅    |
-| 7    | [Lecture 12 - Multiple Linear Regression](#lecture-12---multiple-linear-regression) | [Multiple Linear Regression](/MSCI.152.slides/l.multipleLinearRegression.pdf) | ✅    |
-| 7    | [Lecture 13 - Forecasting](#lecture-13---forecasting)                               | [Forecasting](/MSCI.152.slides/m.forecasting.pdf)                             | ✅    |
-| 8    | [Lecture 14 - Forecasting Part 2](#lecture-14---forecasting-part-2)                 | [Forecasting Part 2](/MSCI.152.slides/n.forecastingPartTwo.pdf)               | ✅    |
+| Week | My Notes                                                                            | Lecture Slides                                                                | Noted |
+| :--: | ----------------------------------------------------------------------------------- | ----------------------------------------------------------------------------- | :---: |
+|  1   | [Lecture 1 - Module Introduction](#lecture-1---module-introduction)                 | [Module Intro](/MSCI.152.slides/a.introduction.pdf)                           |  ❌   |
+|  1   | [Lecture 2 - Sampling Methods](#lecture-2---sampling-methods)                       | [Sampling Methods](/MSCI.152.slides/b.samplingMethods.pdf)                    |  ❌   |
+|  2   | [Lecture 3 - Sampling Issues](#lecture-3---sampling-issues)                         | [Sampling Issues](/MSCI.152.slides/c.samplingIssues.pdf)                      |  ❌   |
+|  2   | [Lecture 4 - Qualitative Data](#lecture-4---qualitative-data)                       | [Qualitative Data](/MSCI.152.slides/d.qualitativeData.pdf)                    |  ❌   |
+|  3   | [Lecture 5 - Quantitative Data](#lecture-5---quantitative-data)                     | [Quantitative Data](/MSCI.152.slides/e.quantitativeData.pdf)                  |  ❌   |
+|  3   | [Lecture 6 - Measures of Location](#lecture-6---measures-of-location)               | [Measures of Location](/MSCI.152.slides/f.measuresOfLocation.pdf)             |  ❌   |
+|  4   | [Lecture 7 - Measures of Spread](#lecture-7---measures-of-spread)                   | [Measures of Spread](/MSCI.152.slides/g.measuresOfSpread.pdf)                 |  ❌   |
+|  4   | [Lecture 8 - Correlation](#lecture-8---correlation)                                 | [Correlation](/MSCI.152.slides/h.correlation.pdf)                             |  ✅   |
+|  5   | [Lecture 9 - Simple Linear Regression](#lecture-9---simple-linear-regression)       | [Simple Linear Regression](/MSCI.152.slides/i.simpleLinearRegression.pdf)     |  ❌   |
+|  6   | [Lecture 10 - Regression Part 2](#lecture-10---regression-part-2)                   | [Regression Part 2](/MSCI.152.slides/j.regressionPartTwo.pdf)                 |  ✅   |
+|  6   | [Lecture 11 - Regression Part 3](#lecture-11---regression-part-3)                   | [Regression Part 3](/MSCI.152.slides/k.regressionPartThree.pdf)               |  ✅   |
+|  7   | [Lecture 12 - Multiple Linear Regression](#lecture-12---multiple-linear-regression) | [Multiple Linear Regression](/MSCI.152.slides/l.multipleLinearRegression.pdf) |  ✅   |
+|  7   | [Lecture 13 - Forecasting](#lecture-13---forecasting)                               | [Forecasting](/MSCI.152.slides/m.forecasting.pdf)                             |  ✅   |
+|  8   | [Lecture 14 - Forecasting Part 2](#lecture-14---forecasting-part-2)                 | [Forecasting Part 2](/MSCI.152.slides/n.forecastingPartTwo.pdf)               |  ✅   |
 
 ## Lecture 1 - Module Introduction
-
-Business Analytics is the process of transforming data into insight for making better decisions.
-
-- Descriptive Analytics
-- Predictive
-
-### Recommender Systems
-
-Are information filters that provide users with relevant outputs. These are used in online stores, streaming servies, social media, and search engines.
-
-Pros:
-
-- ...
-
-Cons:
-
-- ...
-
-### Big Data:
-
-The 5 V's of Big Data (IBM)
-
-- Volume
-- Velocity
-- Variety
-- Veracity
-- Value
 
 ## Lecture 2 - Sampling Methods
 
@@ -79,15 +52,13 @@ Correlation and causation can happen at the same time but correlation does not a
 ## Lecture 9 - Simple Linear Regression
 
 <audio controls>
-  <source src="simpleLinearRegression.wav" type="audio/mpeg">
+  <source src="MSCI.152.slides/i.simpleLinearRegression.mp3" type="audio/mpeg">
   Your browser does not support the audio element.
 </audio>
 
-![Audio](simpleLinearRegression.wav)
+From previous lectures, we've got a data sample, plotted a scatter diagram, and calculated the correlation coefficient r. Now we want to model the relationship to observe an estimate of what generally happens.
 
-From previous lectures, we've got a data sample, plotted a scatter diagram, and calculated the correlation coefficient r. Now we want to model the relationship to observe an estimate of what generally happenes.
-
-The Line of best first aims to predict all the y values for all the x values.
+The line of best fit aims to predict all the y values for all the x values.
 
 ## Lecture 10 - Regression Part 2
 

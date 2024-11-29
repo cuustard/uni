@@ -2,13 +2,6 @@ began: 9th October 2024
 
 # SCC.111 Software Development
 
-This module of the course is taught by 4 Lecturers:
-
-- Hansi Hettiarachchi
-- Adrian Friday
-- Saad Ezini
-- Nigel Davies
-
 The module aims to help me understand software development. This includes...
 
 - ...instilling the knowledge, understanding, and skills expected of a principled computer programmer.
@@ -16,17 +9,17 @@ The module aims to help me understand software development. This includes...
 
 Assessed with Exam and Coursework:
 
-| Task                       | Week               | Worth         |
-| -------------------------- | ------------------ | ------------- |
-| "Coursework" (In-lab quiz) | Week 5, 10, 15, 20 | 20% (5% each) |
-| Programming Project        | Week 21-25         | 10%           |
-| Exam                       | Summer Term        | 70%           |
+| Assessment          | When               | Worth         |
+| ------------------- | ------------------ | ------------- |
+| In-lab quiz         | Week 5, 10, 15, 20 | 20% (5% each) |
+| Programming Project | Week 21-25         | 10%           |
+| Exam                | Summer Term        | 70%           |
 
 ---
 
 ### Table of Contents
 
-| Week | Lecture                                                                                      | Original Slides                                                                        | Noted |
+| Week | My Notes                                                                                     | Original Slides                                                                        | Noted |
 | :--: | -------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- | :---: |
 |  1   | [Lecture 1 - Module Introduction](#lecture-1---module-introduction)                          | [Module Intro](/SCC.111.slides/a.introSlides.pdf)                                      |  ✅   |
 |  1   | [Lecture 2 - Writing Code](#lecture-2---writing-code)                                        | [Intro to C](/SCC.111.slides/b.introToC.pdf)                                           |  ✅   |
