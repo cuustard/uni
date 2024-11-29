@@ -43,9 +43,7 @@ Assessed with Exam and Coursework:
 |  7   | [Lecture 13 - Quiz Solutions](#lecture-13---quiz-solutions)                                  | [Quiz Solutions](/SCC.111.slides/m.quizResults.pdf)                                    |  n/a  |
 |  7   | [Lecture 14 - APIs & Files](#lecture-14---apis--files)                                       | [APIs & Files](/SCC.111.slides/n.APIsAndFiles.pdf)                                     |  ✅   |
 |  8   | [Lecture 15 - More Files](#lecture-15---more-files)                                          | [Files Continued](/SCC.111.slides/o.moreFileStuff.pdf)                                 |  ✅   |
-|  8   | [Lecture 16 - Libraries](#lecture-16---libraries)                                            | [Libraries](/SCC.111.slides/p.libraries.pdf)                                           |       |
-
----
+|  8   | [Lecture 16 - Libraries](#lecture-16---multi-file-projects)                                  | [Libraries](/SCC.111.slides/p.libraries.pdf)                                           |  ✅   |
 
 ---
 
@@ -56,10 +54,6 @@ A program is a detailed plan or procedure for solving a problem with a computer.
 Imperative programming is a programming paradigm of software that uses statements that change a program's state. So I should think about what to represent, and how my program should manipulate that.
 
 C is a compact and low-level language used to generate fast and efficient code that exploits hardware features well. It is compiled (translated into assembly only the computer understands).
-
----
-
----
 
 ## Lecture 2 - Writing Code
 
@@ -163,10 +157,6 @@ int main()
 }
 ```
 
----
-
----
-
 ## Lecture 3 - Control Flow
 
 When writing code we need to see how it is executed to make sense of what it will do. So we need to understand keywords, operators and function calls.
@@ -178,10 +168,6 @@ Flow can be controlled by conditional statements (statements that must be true f
 A program executes from start to finish with statements that can be repeated. Choosing the path for a program to flow through can also be decided with if statements.
 
 'Do... while' loops test a condition after the block of code is executed.
-
----
-
----
 
 ## Lecture 4 - Functions & Flow
 
@@ -204,51 +190,19 @@ They can only return an arithmetic type or nothing (void)
 
 In C, the parameter values in the function are only ever a copy of what passed in (passed by value).
 
----
-
----
-
 ## Lecture 5 - Variables & Arrays
-
----
-
----
 
 ## Lecture 6 - Reading Code
 
----
-
----
-
 ## Lecture 7 - Testing
-
----
-
----
 
 ## Lecture 8 - Debugging
 
----
-
----
-
 ## Lecture 9 - Debugging Part 2
-
----
-
----
 
 ## Lecture 10 - Indirection & Pointers
 
----
-
----
-
 ## Lecture 11 - Pointers & Strings
-
----
-
----
 
 ## Lecture 12 - Dynamic Memory & Compound Types
 
@@ -385,10 +339,6 @@ printf("%s's age is %d\n", p->name, p->age);
 
 ## Lecture 13 - Quiz Solutions
 
----
-
----
-
 ## Lecture 14 - APIs & Files
 
 ### APIs
@@ -488,8 +438,78 @@ size_t fwrite(const void *ptr, size_t size, size_t nobj, FILE *fp);
 2. Use binary file IO
 3. Assuming that the format of the data structure is the formatof the file
 
----
+## Lecture 16 - Multi File Projects
 
----
+Having all our code in a single file can be straightforward as the compiler only has one file to parse to find all the functions in the program. It also means that the programmer only has one place to look. It also means that
 
-## Lecture 16 - Libraries
+However, it is problematic. One file won't scale well. Eventually, scrolling becomes unmanageable, making teamwork and handling larger projects difficult. It also becomes harder to package functions for reuse in other projects. Additionally, there is a risk of hidden dependencies and side effects.
+
+To combat this we can split a project into multiple smaller files. We can create useful sets of functions (cleaner APIs) that are grouped by purpose and can be reused across projects.
+
+![image](images/splitIntoManyFilesEG.png "image")
+
+We need to let main.c (or any function callers) know about the functions, and tell the compiler that there are multiple parts to compile and assemble.
+
+We can tekk the compiler what to expect for a function by declaring a forward declaration:
+
+```C
+int dequeue(); // compiler learns about the function spec
+
+int main() {
+    // call dequeue from here
+    dequeue(); // Compiler knows what to expect here
+}
+
+// implementation of dequeue here
+int dequeue() {
+    // the function
+    // Compiler actually declares function here
+}
+```
+
+Example of splitting across files:
+
+```C
+//FILE:  main.c
+int dequeue();
+
+int main() {
+    dequeue();
+}
+```
+
+```C
+//FILE: queue.c
+int dequeue() {
+    // ...
+}
+```
+
+Even better:
+
+```C
+//FILE: queue.h
+int dequeue();
+```
+
+```C
+//FILE:  main.c
+#include "queue.h"
+
+int main() {
+    dequeue();
+}
+```
+
+```C
+//FILE: queue.c
+int dequeue() {
+    // ...
+}
+```
+
+But now that we have multiple C files we need to combine them into a single executable: `gcc -o target source1.c source2.c etc.c`. Continued example:
+
+```
+gcc -o main main.c queue.c
+```

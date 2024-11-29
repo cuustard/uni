@@ -89,10 +89,6 @@ From previous lectures, we've got a data sample, plotted a scatter diagram, and 
 
 The Line of best first aims to predict all the y values for all the x values.
 
----
-
----
-
 ## Lecture 10 - Regression Part 2
 
 ### Statistical Model Building
@@ -148,10 +144,6 @@ Coursework will be nonoed if using R^2 instead of AdjustedR^2
 2. Standard Error S
 3. Information Criteria (AIC, BIC)
 
----
-
----
-
 ## Lecture 11 - Regression Part 3
 
 ### Categorical Independent Variables
@@ -189,17 +181,9 @@ Different Varible selection methods:
 - stepwise selection
 - best subset
 
----
-
----
-
 ## Lecture 12 - Multiple Linear Regression
 
 yap
-
----
-
----
 
 ## Lecture 13 - Forecasting
 
@@ -298,10 +282,6 @@ Quantitative:
 6. quicker to obtain the results for many time series using many observations/variables
 
 ![alt text](images/forecastingTree.png)
-
----
-
----
 
 ## Lecture 14 - Forecasting Part 2
 

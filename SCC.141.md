@@ -37,10 +37,6 @@ Assessed with Exams and Coursework:
 | 7     | [Lecture 7 - Intellectual Property, Software Protection, & Limiting Liability](#lecture-7---intellectual-property-software-protection--limiting-liability) | [Intellectual Property, Software Protection, & Limiting Liability](/SCC.141.slides/g.lawShit.pdf) | ✅    |
 | 8     | [Lecture 8 - Ethics](#lecture-8---ethics)                                                                                                                  | [Ethics](/SCC.141.slides/h.lawShitPartTwo.pdf)                                                    | ✅    |
 
----
-
----
-
 ## Lecture 1 - Module Introduction
 
 Professional issues are areas of debate about ethical or practical conduct that underpin good professional practice in a field.
@@ -74,10 +70,6 @@ BCS charter requires the establishment and maintenance of a sound ethical founda
   - Set members' expectations to uphold the reputation and good standing of BCS in particular, and the profession in general
   - Support colleagues and help them to develop their skills
   - Take responsibility for those that we are managing and help guide their development
-
----
-
----
 
 ## Lecture 2 - Systems Development Lifecycle
 
@@ -231,10 +223,6 @@ E.g.:
 | Get user feedback earlier                             | Can be difficult to scale for large systems     |
 | Quicker delivery of working software                  | Less documentation                              |
 
----
-
----
-
 ## Lecture 3 - Requirements & Requirements Engineering
 
 ### What Are Requirements & Why Are They Important?
@@ -303,10 +291,6 @@ There is another way that non-functional requirements can be categorised:
 - Quality: e.g. maintainability, reliability, performance, usability
 - Process: how the development process is going to be carried out
 - Constraints: from business or operational context
-
----
-
----
 
 ## Lecture 4 - Understandong Users, Usability, & User Experience
 
@@ -434,10 +418,6 @@ Dark Patterns are deceptive UI design features that mislead users into making ch
 - Bait and Switch is when users into to complete one action, but an undesirable action occurs instead.
 - Privacy Zuckering is the practice of designing confusing jargon and user interfaces that deceive users into sharing more personal information than they intend to.
 
----
-
----
-
 ## Lecture 5 - Accessibility
 
 Accessibility is the concept of whether a product or service can be used by everyone.
@@ -489,10 +469,6 @@ Accessibility is also important for Businesses:
 - **Operable**: Users must be able to operate the digital product's interface and it can not require interaction that a user cannot perform
 - **Understandable**: Users must be able to understand the information andthe operation of the user interface
 - **Robust**: Supporting assistive technologies and ensuring that, as users and technology evolves, the product remains accesesible.
-
----
-
----
 
 ## Lecture 6 - Solving Problems
 
@@ -554,10 +530,6 @@ The challenge is in balancing fairness without increasing false posotives (trust
    - Goal: Learn from borderline cases by testing different decisions
    - Approach: Use 'safe exploration' to randomly grant opportunities to people close to the treshold and observe outcomes.
    - Outcome: Refines the decision threshould overtime, helping the AI make more accurate and fair decisions.
-
----
-
----
 
 ## Lecture 7 - Intellectual Property, Software Protection, & Limiting Liability
 
@@ -673,10 +645,6 @@ It also binds the software supplier to provide a service with reasonable care. I
 #### Negligence (Personal Liability)
 
 Imposes liability on a person who has acted carelessly under common law. Liability for negligence in software development can be significant in health-system failure, security-system malfunction, and e-commerce system security loopholes.
-
----
-
----
 
 ## Lecture 8 - Ethics
 

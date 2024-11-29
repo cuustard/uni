@@ -58,10 +58,6 @@ Assessed with Exams and Coursework:
 | 8     | [Lecture 15 - The Stack](#lecture-15---the-stack)                                                                                   | [The Stack](/SCC.121.slides/p.stack.pdf)                                                                 | ✅     |
 | 8     | [Lecture 16 - Linked Lists](#lecture-16---linked-lists)                                                                             | [Linked Lists](/SCC.121.slides/q.linkedLists.pdf)                                                        | ✅     |
 
----
-
----
-
 ## Lecture 1 - Sets
 
 A Set is a collection of unique and unordered objects/elements/members. E.g. `A = {4, 3, 2, 1, 5}`
@@ -123,10 +119,6 @@ Summary of set operations:
 | A ∩ B   | Intersection       | Elements that belong to set A **and** set B                                    |
 | A - B   | Difference         | Elements that belong to set A but not set B                                    |
 | A x B   | Cartesian Product  | All ordered pairs with the first element from set A and the second from set B  |
-
----
-
----
 
 ## Lecture 2 - Types of Sets
 
@@ -203,10 +195,6 @@ Summary of Type of sets:
 | U        | Universal Set    | Set of all of the possible elements relevant to a specific problem             |
 | comp(A)  | Complement Set   | The difference between the universe and a given set A                          |
 
----
-
----
-
 ## Lecture 3 - Relations
 
 ![Associations](images/associations.png "Diagram showing example of assocations between students and academic courses")
@@ -245,10 +233,6 @@ Another example:
 - `b - a = 1` is equivilant to `b = a + 1`. So `<a, b> = <a, a + 1>`:
 - So the relation R looks like: `R = {<0, 1>, <1, 2>, <2, 3>, <3, 4>}`
 
----
-
----
-
 ## Lecture 4 - Relations Part 2
 
 ### Operations on Relations
@@ -271,10 +255,6 @@ Another example:
 | Reflexivity   | `R ⊆ A x A` is reflexive if `<a, a> ∈ R` for every element `a` of `A`.                                          | There is reflexivity if, for any `a` in `A`, then `<a, a>` should be in `R`. Every element of `A` is related to itself. | Let `B = {5, 6, 7}`. For `R` to be reflexive it must contain `<5, 5>, <6, 6>, <7, 7>`.                                                                          |
 | Irreflexivity | `R ⊆ A x A` is irreflexive if `<a, a> ∉ R` for every element `a` of `A`.                                        | No element of `A` is in relation to itself.                                                                             | "is the parent of" is an irreflexive relation. No one can be their own parent.                                                                                  |
 | Equivalence   | `R ⊆ A x A` is an equivalence relation if `R` is reflexive, symmetric, and transitive.                          |                                                                                                                         |                                                                                                                                                                 |
-
----
-
----
 
 ## Lecture 5 - Functions
 
@@ -303,15 +283,7 @@ The **range** is the set of values that are produced by a function. Therefore th
 
 ### Image & Preimage
 
----
-
----
-
 ## Lecture 6 - Functions Part 2
-
----
-
----
 
 ## Lecture 7 - Propositional Logic
 
@@ -413,10 +385,6 @@ Contingencies have both True's and Falses in their truth tables.
 
 Equivalence is when two propositions are logically equivalent if they have the exact same truth value under all circumstances. Written `P ≡ Q`.
 
----
-
----
-
 ## Lecture 8 - Propositional Logic Part 2
 
 ### Logical Reasoning
@@ -475,25 +443,13 @@ The rules:
 | Contraposition law   |                                                                                                                                                                                                               | `P → Q` = `~P → ~Q`                                                       |
 | Equivalence law      | A biconditional is equivalent to the conjunction of two conditionals                                                                                                                                          | `P <--> Q` = `(P → Q) ∧ (Q → P)`                                          |
 
----
-
----
-
 ## Lecture 9 - Predicate Logic
 
 here...
 
----
-
----
-
 ## Lecture 10 - Predicate Logic Part 2
 
 here...
-
----
-
----
 
 ## Lecture 11 - Introduction to Data Types & Abstract Data Types
 
@@ -552,10 +508,6 @@ printf("%d\n", counts[7]);
 
 - upb (upper bound) stores the index of the last element.
 - lwb (lower bound) stores the index of the first element. (always 0)
-
----
-
----
 
 ## Lecture 12 - Memory, Pointers, & Records
 
@@ -810,15 +762,7 @@ void printAccuracy() {
 | Use single name to represent many data items of the same type | Fixed size                        |
 | Random access so very fast                                    | Insertion and deletion are costly |
 
----
-
----
-
 ## Lecture 14 - The Kitchen Sink
-
----
-
----
 
 ## Lecture 15 - The Stack
 
@@ -951,10 +895,6 @@ int Pop(S) {
   }
 }
 ```
-
----
-
----
 
 ## Lecture 16 - Linked Lists
 

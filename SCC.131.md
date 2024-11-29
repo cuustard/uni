@@ -47,19 +47,11 @@ Assessed with Exams and Coursework:
 | 8    | [Lecture 15 - C/C++ & CODAL](#lecture-15---cc-codal)                                           | [C/C++ & CODAL](/SCC.131.slides/m.introCODAL.pdf)                                | ✅    |
 | 8    | [Lecture 16 - CODAL Part 2](#lecture-16---codal-part-2)                                        | [CODAL Part 2](/SCC.131.slides/n.CODALpartTwo.pdf)                               | ✅    |
 
----
-
----
-
 ## Lecture 1 - Module Introduction & Computer Architecture
 
 Architecture is the science of putting together building materials to produce buildings.
 
 Computer Architecture is the science of putting together hardware to produce computers.
-
----
-
----
 
 ## Lecture 2 - Architecture & Speed
 
@@ -142,10 +134,6 @@ Density Limitations
 - number of transistors per square inch
 - Moore's Law
 
----
-
----
-
 ## Lecture 3 - Information Coding
 
 Computer hardware should be as simple as possible due to cost, performance, and scalability factors. Because of this, we focus on handling small, positive integers. Any other data type is a code/representation that maps to positive integers.
@@ -224,33 +212,13 @@ To determine excess N value, we use half of the maximum possible value as a buff
 
 Rule in action: If given the decimal 2,976, the max number is 10,000. 10,000/2 = 5,000. So could expect to encode in Excess 5000.
 
----
-
----
-
 ## Lecture 4 - Information Coding Part 2
-
----
-
----
 
 ## Lecture 5 & 6 - Boolean Logic
 
----
-
----
-
 ## Lecture 7 - Instruction Set Architecture
 
----
-
----
-
 ## Lecture 8 - Building The ALU
-
----
-
----
 
 ## Lecture 9 - Building Memory
 
@@ -313,15 +281,7 @@ Has several limitations:
 - There is no way of telling the flip-flop when it should store input data
   - It's better to have a 'latch' signal for this to work in a practical system with a control unit
 
----
-
----
-
 ## Lecture 10 - Building The Control Unit
-
----
-
----
 
 ## Lecture 11 - Building the Input/Output System
 
@@ -395,10 +355,6 @@ Classification of Processor Support for I/O:
    - Devices sit within processors linear memory address space
    - Simple, flexible programming model
    - However, it addes complexity to devices
-
----
-
----
 
 ## Lecture 12 - Weeks 1-6 Recap
 
@@ -571,10 +527,6 @@ A micro:bit contains:
 
 Each hardware component is supportedby a corresponding C/C++ software component.
 
----
-
----
-
 ## Lecture 14 - The Micro:Bit Part 2
 
 **Runtime code**/**software**: A software platform that provides an environment for executing user code. An asbstraction layer that developers can use to write software.
@@ -650,10 +602,6 @@ Interpreted Languages: User code and interpreter are copied into the target MCU.
 Compiled Languages: User code is compiled to ARM assembly.
 
 Editors: high-level programming using blocks.
-
----
-
----
 
 ## Lecture 15 - C/C++ CODAL
 
@@ -774,17 +722,13 @@ int main() {
 }
 ```
 
----
-
----
-
 ## Lecture 16 - CODAL Part 2
 
 The Micro:Bit has 2 buttons, A and B. They are expostede on the Micro@Bit object as ubit.buttonA and ubit.buttonB. Also uBit.buttonAB when pressed at the same time. isPressed() returns 1 if the corresponding button is pressed.
 
 Syncrhonous button detection:
 
-```C
+```Cpp
 while(1) {
   if (uBit.buttonA.isPressed())
     uBit.display.print("A")
@@ -801,7 +745,7 @@ We want to determine when something has happened as well as if it has happened. 
 
 The aim of MicroBitMessageBus class is to listen to events and deliver MicroBitEvents to our program as the occur. When an event of interest is detected, the MicroBitMessageBus class calls a function linked to that event, known as an event handler.
 
-```C
+```Cpp
 ubit.messageBus.listen(//ID of component we lsiten to, //Event of interest, // Event handler to be called if raised
 )
 
@@ -812,7 +756,7 @@ uBit.messageBus.listen(MICROBIT_ID_BUTTON_A, MICROBIT_BUTTON_EVT_DOWN, onButtonA
 
 The MicroBitThermometer class provides access to the surface temperature of the application MCU, rather than the ambient temperature.
 
-```C
+```Cpp
 readTemp = uBit.thermometer.getTemperature(); //uncalibrated reading
 
 //the temp is 20c
@@ -822,7 +766,7 @@ readTemp = uBit.thermometer.getTemperature(); // Calibrate Reading
 
 The MicroBitLog class enables us to store data in a table-like foramat containing rows of readings or other types of data.
 
-```C
+```Cpp
 beginRow() //to open file and create a new row
 logData("x", y) // x is label of col, y is the data
 endRow() // to complete logging and close the file.
@@ -835,7 +779,7 @@ uBit.log.endRow();
 
 It is often good practice to add a timestamp to our data as we could use it to plot.
 
-```C
+```cpp
 uBit.log.setTimeStamp(TimeStapFormat::Seconds)
 
 uBit.log.setVisibility(true);
