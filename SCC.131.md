@@ -45,7 +45,7 @@ Assessed with Exams and Coursework:
 | 7    | [Lecture 13 - The Micro:Bit](#lecture-13---the-microbit)                                       | [Architecturing The Micro:Bit](/SCC.131.slides/k.microbit.pdf)                   | ✅    |
 | 7    | [Lecture 14 - The Micro:Bit Part 2](#lecture-14---the-microbit-part-2)                         | [Micro:bit Part 2](/SCC.131.slides/l.microbitPartTwo.pdf)                        | ✅    |
 | 8    | [Lecture 15 - C/C++ & CODAL](#lecture-15---cc-codal)                                           | [C/C++ & CODAL](/SCC.131.slides/m.introCODAL.pdf)                                | ✅    |
-| 8    | [Lecture 16 - CODAL Part 2](#lecture-16---codal-part-2)                                        | [CODAL Part 2](/SCC.131.slides/n.CODALpartTwo.pdf)                               |       |
+| 8    | [Lecture 16 - CODAL Part 2](#lecture-16---codal-part-2)                                        | [CODAL Part 2](/SCC.131.slides/n.CODALpartTwo.pdf)                               | ✅    |
 
 ---
 
@@ -779,3 +779,69 @@ int main() {
 ---
 
 ## Lecture 16 - CODAL Part 2
+
+The Micro:Bit has 2 buttons, A and B. They are expostede on the Micro@Bit object as ubit.buttonA and ubit.buttonB. Also uBit.buttonAB when pressed at the same time. isPressed() returns 1 if the corresponding button is pressed.
+
+Syncrhonous button detection:
+
+```C
+while(1) {
+  if (uBit.buttonA.isPressed())
+    uBit.display.print("A")
+  if (uBit.buttonB.isPressed())
+    uBit.display.print("B")
+  if (ubit.buttonAB.isPressed()) {
+    uBit.display.print("C")
+    uBit.sleep(100)
+  }
+}
+```
+
+We want to determine when something has happened as well as if it has happened. Components have been designed to raise events when they sense a change. For example the MicroBitAccelerometer class and MicrBitButton class.
+
+The aim of MicroBitMessageBus class is to listen to events and deliver MicroBitEvents to our program as the occur. When an event of interest is detected, the MicroBitMessageBus class calls a function linked to that event, known as an event handler.
+
+```C
+ubit.messageBus.listen(//ID of component we lsiten to, //Event of interest, // Event handler to be called if raised
+)
+
+//E.G.
+
+uBit.messageBus.listen(MICROBIT_ID_BUTTON_A, MICROBIT_BUTTON_EVT_DOWN, onButtonA)
+```
+
+The MicroBitThermometer class provides access to the surface temperature of the application MCU, rather than the ambient temperature.
+
+```C
+readTemp = uBit.thermometer.getTemperature(); //uncalibrated reading
+
+//the temp is 20c
+uBit.thermometer.setCalibration(readTemp-20);
+readTemp = uBit.thermometer.getTemperature(); // Calibrate Reading
+```
+
+The MicroBitLog class enables us to store data in a table-like foramat containing rows of readings or other types of data.
+
+```C
+beginRow() //to open file and create a new row
+logData("x", y) // x is label of col, y is the data
+endRow() // to complete logging and close the file.
+
+//E.G.
+uBit.log.beingRow();
+uBit.log.logData("temperature", uBit.thermometer.getTemperature());
+uBit.log.endRow();
+```
+
+It is often good practice to add a timestamp to our data as we could use it to plot.
+
+```C
+uBit.log.setTimeStamp(TimeStapFormat::Seconds)
+
+uBit.log.setVisibility(true);
+
+// can keep logging until...
+uBit.log.isFull() //returns 0
+
+ubit.log.clear()
+```
