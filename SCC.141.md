@@ -292,13 +292,13 @@ There is another way that non-functional requirements can be categorised:
 - Process: how the development process is going to be carried out
 - Constraints: from business or operational context
 
-## Lecture 4 - Understandong Users, Usability, & User Experience
+## Lecture 4 - Understanding Users, Usability, & User Experience
 
 ### Understanding Users
 
-- Computers used by larg vairety of people (not just techies)
+- Computers used by large variety of people (not just techies)
 - Problems if products can't be used effectively by intended user groups
-- Need t oconsider people's capabilities, limitations, needs, & desires
+- Need to oconsider people's capabilities, limitations, needs, & desires
 
 > "Technology may change rapidly, but people change very slowly. The principles of good design never change." - David A. Norman, (2013). The Design of Everyday Things: Revised and Expanded Edition.
 
@@ -321,7 +321,7 @@ We need to consider human abilities and capabilities as well as what they want/n
 - Cognitive Aspects: attention, memory, learning, cognitive load, etc.
 - Affective Aspects: emotional responses
 
-People are complex and unique so we can't predict every need or behaviour, which makes it impossible to design a product for everyone. Users will also struggle to articulate needs so what they want may differ to what they say.
+People are complex and unique so we can't predict every need or behaviour, which makes it impossible to design a product for everyone. Users will also struggle to articulate their needs so what they want may differ from what they say.
 
 Techniques for considering users:
 
@@ -350,41 +350,40 @@ Usability is the degree to which an interactive product enables specified users 
 
 1. Inspection Methods (Expert Evaluation)
 
-- Heuristic evaluation: experts check against usability principles
-- Walkthroughs: experts simulate user interactions
-- Standards/Guidline Checklist: review compliance with standards or guidlines
+   - Heuristic evaluation: experts check against usability principle
+   - Walkthroughs: experts simulate user interaction
+   - Standards/Guideline Checklist: review compliance with standards or guidelines
 
 2. Inquiry Methods (User Evaluation)
 
-- Observations: watch users interact with the system
-- Interviews/Focus Groups: gather feedback through discussions
-- Questionnaires: collect structured user feedback
+   - Observations: watch users interact with the syste
+   - Interviews/Focus Groups: gather feedback through discussion
+   - Questionnaires: collect structured user feedback
 
 3. Testing Methods (User Evaluation)
-
-- Usability Testing: users complete tasks while being observed to identify issues
+   - Usability Testing: users complete tasks while being observed to identify issues
 
 #### Nielsen's Usability Heuristics
 
-A heuristic is a practical approach to problem-solving. It relies on guidelines, shortcuts, or rule of thimb to find a solution. It aims for a sufficient solution rather than a perfect one.
+A heuristic is a practical approach to problem-solving. It relies on guidelines, shortcuts, or rules of thumb to find a solution. It aims for a sufficient solution rather than a perfect one.
 
 1. **Simple & Natural Dialogue**: Easy-to-use and intuitive interfaces
-2. **Speak The Users' Language**: Use terms & concepts familiar to the uesr
+2. **Speak The Users' Language**: Use terms & concepts familiar to the user
 3. **Minimise Memory Load**: Users shouldn't need to remember too many rules to use the system
 4. **Consistency**: Actions should always have the same effect
 5. **Feedback**: The system should always inform users about its actions and their input
-6. **Clearly Marked Exits**: Make it easy to cancel or undo actions to recover from mistakes
+6. **Marked Exits**: Make it easy to cancel or undo actions to recover from mistakes
 7. **Shortcuts**: Provide shortcuts for experienced users to speed up tasks
 8. **Good Error Messages**: Error messages should be clear, helpful, and polite
 9. **Prevent Errors**: Design the system to avoid mistakes before they happen
 10. **Help & Documentation**: Provide easy-to-find, well-structured help, but keep it simple, as most users avoid reading it
 
-| Pros                                                                                          | Cons                                                                       |
-| --------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------- |
-| Quick & inexpensive                                                                           | Requires expertise                                                         |
-| Provides fast feedback without need of large user groups, saving time and money               | Needs trained usability experts to be effective                            |
-| Fewer ethical/logistical concerns                                                             | Hard to find experts                                                       |
-| No need to recruit users or worry about privacy and consent, as experts handle the evaluation | Often identifies minor problems but can overlook larger usability concerns |
+| Pros                                                                                              | Cons                                                                        |
+| ------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------- |
+| Quick & inexpensive                                                                               | Requires expertise                                                          |
+| Provides fast feedback without the need of large user groups, saving time and money               | Needs trained usability experts to be effective                             |
+| Fewer ethical/logistical concerns                                                                 | Hard to find experts                                                        |
+| No need to recruit users or worry about privacy and consent, as experts handle the evaluation     | Often identifies minor problems but can overlook larger usability concerns  |
 
 #### Survey Measures for Usability
 
@@ -394,12 +393,12 @@ The System Usability Scale (SUS) is often used after usability evaluations to ge
 
 #### Usability Testing & Metrics
 
-Usability Testing is often conducted to observe how users interact with the system in real time. Real users are assigned tasks and their performance is measured. Things such as completion time, number of errors, and success rate.
+Usability Testing is often conducted to observe how users interact with the system in real-time. Real users are assigned tasks and their performance is measured. Things such as completion time, number of errors, and success rate.
 
-Usability Metrics are key measurements used t oevaluate system usability, focusing on how well and how efficiently userse can complete tasks.
+Usability Metrics are key measurements used to evaluate system usability, focusing on how well and how efficiently users can complete tasks.
 
-- Effectiveness is measured as the percentage of tasks successfully completed. `(completed tasks / total tasks) * 100`.
-- Efficiency is measured by the time taken for users to complete a task. Faster task completion is correlated with a higher efficiency.
+- Effectiveness is measured as the percentage of tasks completed. `(completed tasks / total tasks) * 100`.
+- Efficiency is measured by the time taken for users to complete a task. Faster task completion is correlated with higher efficiency.
 
 ### User Experience
 
@@ -411,10 +410,10 @@ UX refers to the overall experience and feelings a user has when interacting wit
 
 ### Dark Patterns
 
-Dark Patterns are deceptive UI design features that mislead users into making choices that are not in their best interest. The exploit human weaknesses and behaviours for the benefit ofthe service provider. Users often end up taking actions they didn't intend.
+Dark Patterns are deceptive UI design features that mislead users into making choices that are not in their best interest. They exploit human weaknesses and behaviours for the benefit of the service provider. Users often end up taking actions they didn't intend.
 
-- The Roach Motel is a situation in which it is easy for a user to to enter, but very difficult to exit.
-- Forced Continuity is when users are required to provide their credit card information to sign up for a free trial. Once over, they are automatically billed without proir notice.
+- The Roach Motel is a situation in which it is easy for a user to enter, but very difficult to exit.
+- Forced Continuity is when users are required to provide their credit card information to sign up for a free trial. Once over, they are automatically billed without prior notice.
 - Bait and Switch is when users into to complete one action, but an undesirable action occurs instead.
 - Privacy Zuckering is the practice of designing confusing jargon and user interfaces that deceive users into sharing more personal information than they intend to.
 
@@ -446,7 +445,7 @@ Nielsen's Usability Characteristics:
 - **Errors**: The system should have a low error rate
 - **Satisfaction**: The system should be satisfying to use
 
-> "The power of the Web is in its universality. Access by everyone regardless of disability is an essential aspect." - Tim Berners-Lee, W3C Director and inventor of the WWW
+> "The power of the Web is in its universality. Access by everyone regardless of disability is an essential aspect." - Tim Berners-Lee, W3C Director and inventor of the WWW.
 
 Usability features can benefit those without disabilities as well as those with. For example:
 
@@ -465,14 +464,14 @@ Accessibility is also important for Businesses:
 
 ### Web Accessibility Principles
 
-- **Perceivable**: Users must be able to percieve all essential information on the screen, and it must be conveyed to multiple senses
+- **Perceivable**: Users must be able to perceive all essential information on the screen, and it must be conveyed to multiple senses
 - **Operable**: Users must be able to operate the digital product's interface and it can not require interaction that a user cannot perform
-- **Understandable**: Users must be able to understand the information andthe operation of the user interface
-- **Robust**: Supporting assistive technologies and ensuring that, as users and technology evolves, the product remains accesesible.
+- **Understandable**: Users must be able to understand the information and the operation of the user interface
+- **Robust**: Supporting assistive technologies and ensuring that, as users and technology evolve, the product remains accessible.
 
 ## Lecture 6 - Solving Problems
 
-Computer Science is about solving problems, not just programming. So employerse expect us to be able to:
+Computer Science is about solving problems, not just programming. So employers expect us to be able to:
 
 - Look at the big picture in planning a solution
 - Understand the problem that has been set (and why)
@@ -482,7 +481,7 @@ Computer Science is about solving problems, not just programming. So employerse 
 
 ### Design Ethnography
 
-Design Ethnography is the practice of studying people in their natural environment. It is the earliest step of the development lifecycle and informs the entire cycle. It helps us to avoid mistakes and see opportunities for inovation.
+Design Ethnography is the practice of studying people in their natural environment. It is the earliest step of the development lifecycle and informs the entire cycle. It helps us to avoid mistakes and see opportunities for innovation.
 
 It involves
 
@@ -490,7 +489,7 @@ It involves
 - observing and documenting
 - asking questions (interviewing)
 - exploring solutions with users (co-design)
-- analysiing (reflection, creativity)
+- analysing (reflection, creativity)
 - communicating insights to a dev team
 - steering the design process
 
@@ -499,8 +498,8 @@ It involves
 1. Is the environment different from where the device has been previously tested and deployed?
 2. Which rules are flexible and open to change in this context?
 3. What are the diverse motivations of the people involved or impacted?
-4. Are you addressing the right problem, or could ther be a more critical one to solve?
-5. If you solved a related problem, could it be eliminate the need to address this one?
+4. Are you addressing the right problem, or could there be a more critical one to solve?
+5. If you solved a related problem, could it eliminate the need to address this one?
 
 ### Participatory Design
 
@@ -515,21 +514,21 @@ Risk Zones:
 
 ### Value-Sensitive Design
 
-Designing a system the 'right' way means making sure it respects and supports human values. For example, people should be able to make choices that help them reach their goals. This includes giving users control over relevant features at the appropriate times. Computer scientists hould consider what values the system promotes and supports.
+Designing a system the 'right' way means making sure it respects and supports human values. For example, people should be able to make choices that help them reach their goals. This includes giving users control over relevant features at the appropriate times. Computer scientists should consider what values the system promotes and supports.
 
 #### Humble AI
 
 The Humbel AI Concept is an AI approach focused on ensuring trustworthy people are not unfairly distrusted, promoting fair, merit-based opportunities.
 
-The challenge is in balancing fairness without increasing false posotives (trusting untrustworthy individuals).
+The challenge is in balancing fairness without increasing false positives (trusting untrustworthy individuals).
 
 1. Principle of Skepticism
    - Goal: Assume AI might be missing critical information for decision-making
-   - Approach: Seek additional data, especially for cases near the decision threshould, to reduce errors.
+   - Approach: Seek additional data, especially for cases near the decision threshold, to reduce errors.
 2. Principle of Curiosity
    - Goal: Learn from borderline cases by testing different decisions
-   - Approach: Use 'safe exploration' to randomly grant opportunities to people close to the treshold and observe outcomes.
-   - Outcome: Refines the decision threshould overtime, helping the AI make more accurate and fair decisions.
+   - Approach: Use 'safe exploration' to randomly grant opportunities to people close to the threshold and observe outcomes.
+   - Outcome: Refines the decision threshold overtime, helping the AI make more accurate and fair decisions.
 
 ## Lecture 7 - Intellectual Property, Software Protection, & Limiting Liability
 
@@ -537,19 +536,19 @@ The challenge is in balancing fairness without increasing false posotives (trust
 
 **Intellectual Property** is any unique product of human intellect that has commercial value.
 
-**Propert Rights**: People have the natural right to things which they remove/create through labour. We can extend this to Intellectual Property. If you 'steal' intellectual property you 'steal' the revenue derived from use of the use rather than the item.
+**Property Rights**: People have the natural right to things which they remove/create through labour. We can extend this to Intellectual Property. If you 'steal' intellectual property you 'steal' the revenue derived from use of the use rather than the item.
 
 Intellectual Property is protected:
 
 - Protecting Intellectual Property:
   - You can protect your IP by hiding it
   - but then you do not benefit from it.
-- Benefits of grant intellectual property rights to:
-  - Encourage the createion of valuable ideas or
+- Benefits of granting intellectual property rights to:
+  - Encourage the creation of valuable ideas or
   - Encourage trade based on ideas
-- Intellectual property rights tcompromise:
+- Intellectual property rights compromise:
   - Give authors/inventors exclusive rights
-  - But only for a finite period of time
+  - But only for a finite period
 
 Intellectual Property Rights (IPR) is the name given to legal rights that protect:
 
@@ -565,9 +564,9 @@ Intellectual Property Rights (IPR) is the name given to legal rights that protec
   - **Copyright Infringement** is the violation of copyright law
 - **Patents**
   - A strong form of intellectual property rights and gives the owner the exclusive right of an invention for up to 20 years
-  - Protects againts independent development of something based on the same idea
+  - Protects against independent development of something based on the same idea
   - The application is long and expensive
-  - The invention must be new, involve an inventive step, be capable of industrial application, and fully disclosed
+  - The invention must be new, involve an inventive step, be capable of industrial application, and be fully disclosed
 - **Law of confidence**
   - A useful supplement to copyright and patents
   - It protects ideas before they become copyrighted/patented
@@ -592,30 +591,30 @@ Intellectual Property Rights (IPR) is the name given to legal rights that protec
 
 Digital Rights Management (DRM) accesses control mechanisms used to restrict medium usage (inhibits usage by multiple parties).
 
-The Digital Economy Act 2017\*\* increases max jail term for internet piracy to 10 years.
+The Digital Economy Act 2017\*\* increases the maximum jail term for internet piracy to 10 years.
 
 ### Software Protection
 
-Copying software reduces the purchase of the legitimate software. This leads to decreased income for the producers leading to lower production of new software.
+Copying software reduces the purchase of legitimate software. This leads to decreased income for the producers leading to lower production of new software.
 
-**Open Source** Software allows people to run the program for any prupose, study how the program works, and adapt it, redistribute it with changes too, improve the program and release improvements.
+**Open Source** Software allows people to run the program for any purpose, study how the program works, adapt it, redistribute it with changes too, improve the program and release improvements.
 
 Software copyright is now covered by the CDPA.
 
-The CDPA covers software, preparatory design materials, and databases. This is important for sofware as it restricts the copying of the work, distribtution of copies, and adaptations of it. Performing a restricted act without permissions results in infringement of copyright.
+The CDPA covers software, preparatory design materials, and databases. This is important for software as it restricts the copying of the work, distribution of copies, and adaptations of it. Performing a restricted act without permission results in infringement of copyright.
 
 The CDPA has two types of computer-produced work:
 
-- Owner of a copyright is the author of the work unless by employee in the course of his employment
-- Author of computer-generated work is the person by whom the arrangements necessary for the creation of the works are undertaken.
+- Owner of a copyright is the author of the work unless by the employee in the course of his employment
+- The author of computer-generated work is the person by whom the arrangements necessary for the creation of the works are undertaken.
 
 Things to remember:
 
 1. Do not copy non-literal parts of computer software
-2. Prepare, date, and keep preparatory materials for developement
+2. Prepare, date, and keep preparatory materials for development
 3. Insert Deliberate Mistakes or redundant code
 4. Be aware that copyright extends to the compilation of a program
-5. Ensure that employees do not use materials or confidential information from previous emplyoment
+5. Ensure that employees do not use materials or confidential information from the previous emplyoment
 6. Honour confidentiality
 7. Give credit if adapting Open Source code
 
@@ -627,20 +626,20 @@ Things to remember:
   - Specify maximum reasonable liability
   - Get liability insurance
 - For me:
-  - Ensure I follow my emploter's standards and guidelines
-  - Ensure thorough and regorous testing
+  - Ensure I follow my employer's standards and guidelines
+  - Ensure thorough and rigorous testing
 
 #### Product Liability
 
-**Consumer Protection Act 1987** (CPA) imposese a liability on the producer of a defective product. CPA applies to computer hardware. For examlpe, if a customer buys a disk containing software, the disk is deemed to be a 'product' and is protected. CPA however does not apply to computer software.
+**Consumer Protection Act 1987** (CPA) imposes a liability on the producer of a defective product. CPA applies to computer hardware. For example, if a customer buys a disk containing software, the disk is deemed to be a 'product' and is protected. CPA however does not apply to computer software.
 
 #### Contractual Liability
 
-**Suply of Goods and Services Act 1982** (SGSA)
+**Supply of Goods and Services Act 1982** (SGSA)
 
-Contract for the suply of services, where a supplier writes software for a client. It does not apply to software sold without some form of contract (licence agreement).
+Contract for the supply of services, where a supplier writes software for a client. It does not apply to software sold without some form of contract (licence agreement).
 
-It also binds the software supplier to provide a service with reasonable care. If the supplier fails, they could be liable for damages. The user is bound to the terms of licence.
+It also binds the software supplier to provide a service with reasonable care. If the supplier fails, they could be liable for damages. The user is bound to the terms of the licence.
 
 #### Negligence (Personal Liability)
 
@@ -663,16 +662,16 @@ Imposes liability on a person who has acted carelessly under common law. Liabili
 
 ### Data Protection
 
-Before 2018, 'The Data Protection Act' goverend data protection in the UK. It granted rights to 'data subjects', imposed obligations on organisations, and introduced the information commissioner role.
+Before 2018, 'The Data Protection Act' governed data protection in the UK. It granted rights to 'data subjects', imposed obligations on organisations, and introduced the information commissioner role.
 
-Since 2018, 'The General Data Protection Rgulation' (GDPR) replaced the DPA as the main framework for data protection in the UK and EU. It expanded rights for data subjects, tightened obligations for oganisations, and strengthened the role of information commissioner.
+Since 2018, 'The General Data Protection Regulation' (GDPR) replaced the DPA as the main framework for data protection in the UK and EU. It expanded rights for data subjects, tightened obligations for organisations, and strengthened the role of information commissioner.
 
 #### Provisions
 
 1. Consent
 
    - Data collection requires informed and freely given consent
-   - Individuals can withdraw consent at any time
+     - Individuals can withdraw consent at any time
 
 2. Right to be forgotten
 
@@ -680,7 +679,7 @@ Since 2018, 'The General Data Protection Rgulation' (GDPR) replaced the DPA as t
 
 3. Right of access
 
-   - Individuals can access their personal data helpd by organisations
+   - Individuals can access the data held by organisations
 
 4. Breach notification
    - Organisations must notify individuals and regulators of data breaches
@@ -702,25 +701,25 @@ The difference is that sensitive personal data involves stricter rules and prote
 
 #### Principles of GDPR
 
-1. Lawfulness, Fariness, and Transparency
+1. Lawfulness, Fairness, and Transparency
 2. Purpose Limitation
 3. Data Minimisation
 4. Accuracy
 5. Storage Limitation
-6. Integirty and Confidentiality
+6. Integrity and Confidentiality
 7. Accountability
 
 This means that:
 
 1. Approval from Ethics Review Boards (ERBs):
 
-- Required for research involving personal data.
-  - Participatory Research:
-    - Obtain informed consent from participants.
-    - Plan and document data handling, use, and retention.
-  - Building Systems:
-    - Ensure compliance with data handling protocols and lawfulness.
-    - Follow specific conditions for using third-party libraries.
+   - Required for research involving personal data.
+     - Participatory Research:
+       - Obtain informed consent from participants.
+       - Plan and document data handling, use, and retention.
+     - Building Systems:
+       - Ensure compliance with data handling protocols and lawfulness.
+       - Follow specific conditions for using third-party libraries.
 
 2. Document Everything:
 
@@ -735,12 +734,12 @@ This means that:
 
 ### Equality
 
-The 'Equality Act 2010' protects against discrimintation.
+The 'Equality Act 2010' protects against discrimination.
 
-- Direct: Treating someone unfair due to a protected characteristics
-- Indirect: Policies or practices that disadvantag certain groups
+- Direct: Mistreating someone due to a protected characteristics
+- Indirect: Policies or practices that disadvantage certain groups
 
-Monitored by the 'Equality and Human Rightst Commission' (EHRC).
+Monitored by the 'Equality and Human Rights Commission' (EHRC).
 
 It is linked to the GDPR by ensuring fairness and lawfulness in data use.
 
@@ -750,7 +749,7 @@ Positive Action is Recommended.
 
 - Take steps to improve representation and inclusion.
 - E.G.
-  - Helping people overcome distadvantages
+  - Helping people overcome disadvantages
   - Meeting specific needs
   - Encouraging underrepresented groups to participate
 
@@ -761,25 +760,25 @@ Positive Discrimination is unlawful.
 
 ### Governance
 
-When declaring AI systems, serveral roles work together to ensure the system is functional, compliant, and responsible
+When declaring AI systems, several roles work together to ensure the system is functional, compliant, and responsible.
 
-Factsheets are standardised documents that provide details about and AI system's purpose, design, data, and performance, tailored for different stakeholders to ensure transparency and accountability.
+Factsheets are standardised documents that provide details about an AI system's purpose, design, data, and performance, tailored for different stakeholders to ensure transparency and accountability.
 
-#### Stanrdard: Algorithmic Transparency
+#### Standard: Algorithmic Transparency
 
-1. The profession is producing auditable documentation for AI system, with effors like the UK's Algorithmic Transparency Standard.
+1. The profession is producing auditable documentation for AI systems, with efforts like the UK's Algorithmic Transparency Standard.
 2. Challenges in defining facts that demonstrate compliance with legal concepts like fairness (transparency and accountability)
 3. Active research focuses on developing metrics to evaluate AI systems against regulations and best practices.
 
 This means that:
 
-1. Chaning expectations and opportunities
+1. Changing expectations and opportunities
 
-   - thorough documentation of a software dev process is essentia
-   - roles in monitoring and compiance are growing so technical expertise is in demand
+   - thorough documentation of a software dev process is essential
+   - roles in monitoring and compliance are growing so technical expertise is in demand
    - research opportunities are increasing to develop metrics for evaluating AI systems
 
-2. Goverment Investment in training auditors
+2. Government Investment in training auditors
    - new career paths include working for organisations like the ICO or EHRC.
 
 ### Regulating AI
@@ -789,11 +788,11 @@ This means that:
 - Unprecedented Global Coordination
 - AI Expert Panel Established
 - Consensus on Regulation
-- Goverment Testing Plans
+- Government Testing Plans
 
 Critics:
 
-- Critisised as being bias towards big tech.
+- Criticised as being biased towards big tech.
 - no clear agreement on global standards or mechanisms to enforce regulations
 - should regulation be top-down (gov-led) or democratic (inclusive and participatory)?
-- is it appropriate for the tech industry to shapre the very rules that govern their technologies
+- is it appropriate for the tech industry to shape the very rules that govern their technologies
