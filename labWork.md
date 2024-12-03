@@ -2,18 +2,18 @@ began: 8th October 2024
 
 # Lab Work
 
-| Week  | Lab                                                                                                                                          | Original Handout                                                                                                                                                   | Noted         |
-| ----- | -------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------- |
-| 1     | [Week 1 - Learning the UNIX Shell](#week-1---learning-the-unix-shell)                                                                        | [Learning the Unix Shell](/labMaterial/a.weekOneMaterial.pdf)                                                                                                      | ✅            |
-| 2     | [Week 2 - Writing Code](#week-2---c-sets--number-systems)                                                                                    | [C, Sets, & Number Systems](/labMaterial/b.weekTwoMaterial.pdf)                                                                                                    | ✅            |
-| 3     | [Week 3 - RPS, Relations, Information Coding](#week-3---rps-relations-information-coding)                                                    | [Rock Paper Scissors, Relations, Information Coding](/labMaterial/c.weekThreeMaterial.pdf)                                                                         | ✅            |
-| 4     | [Week 4 - Arrays, Functions, Boolean Logic ](#week-4---arrays-functions-boolean-logic)                                                       | [Arrays, Functions, Boolean Logic](/labMaterial/d.weekFourMaterial.pdf)                                                                                            | ❌            |
-| 5     | [Week 5 - Quiz](#week-5---quiz)                                                                                                              | [](/labMaterial)                                                                                                                                                   | ❌            |
-| 6     | [Week 6 - Going Social, Propositional & Predicate Logic, Logic Circuit](#week-6---going-social-propositional--predicate-logic-logic-circuit) | [Goign Social, Propositional & Predicate Logic, Logic Circuit](/labMaterial/f.weekSixMaterial.pdf)                                                                 | ❌            |
-| 7     | [Week 7 - iMapLancaster, Queues, BBC Micro:Bit](#week-7---imaplancaster-queues-bbc-microbit)                                                 | [iMapLancaster, Queues, BBC Micro:Bit](/labMaterial/g.weekSevenMaterial.pdf)                                                                                       | ❌            |
-| 8     | [Week 8 - Catching Up, Catching Up, Micro:Bit](#week-8---catching-up-catching-up-microbit)                                                   | [Catching Up, Catching Up, Micro:Bit](/labMaterial/h.weekEightMaterial.pdf)                                                                                        | ❌            |
-| 9     | [Week 9 - Assessed Coursework, Stacks, Micro:Bit](#week-9---assessed-coursework-stacks-microbit)                                             | [Assessed Coursework, Stacks, Micro:Bit](/labMaterial/i.weekNineMaterial.pdf)                                                                                      | ❌            |
-| 10    | [Week 10 - Quiz](#week-10---quiz)                                                                                                            | [](/labMaterial)                                                                                                                                                   | ❌            |
+| Week  | Lab                                                                                                                                          | Original Handout                                                                                     | Noted         |
+| ----- | -------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------- | ------------- |
+| 1     | [Week 1 - Learning the UNIX Shell](#week-1---learning-the-unix-shell)                                                                        | [Learning the Unix Shell](/labMaterial/a.weekOneMaterial.pdf)                                        | ✅            |
+| 2     | [Week 2 - Writing Code](#week-2---c-sets--number-systems)                                                                                    | [C, Sets, & Number Systems](/labMaterial/b.weekTwoMaterial.pdf)                                      | ✅            |
+| 3     | [Week 3 - RPS, Relations, Information Coding](#week-3---rps-relations-information-coding)                                                    | [Rock Paper Scissors, Relations, Information Coding](/labMaterial/c.weekThreeMaterial.pdf)           | ✅            |
+| 4     | [Week 4 - Arrays, Functions, Boolean Logic ](#week-4---arrays-functions-boolean-logic)                                                       | [Arrays, Functions, Boolean Logic](/labMaterial/d.weekFourMaterial.pdf)                              | ❌            |
+| 5     | [Week 5 - Quiz](#week-5---quiz)                                                                                                              | [](/labMaterial)                                                                                     | ❌            |
+| 6     | [Week 6 - Going Social, Propositional & Predicate Logic, Logic Circuit](#week-6---going-social-propositional--predicate-logic-logic-circuit) | [Goign Social, Propositional & Predicate Logic, Logic Circuit](/labMaterial/f.weekSixMaterial.pdf)   | ❌            |
+| 7     | [Week 7 - iMapLancaster, Queues, BBC Micro:Bit](#week-7---imaplancaster-queues-bbc-microbit)                                                 | [iMapLancaster, Queues, BBC Micro:Bit](/labMaterial/g.weekSevenMaterial.pdf)                         | ❌            |
+| 8     | [Week 8 - Catching Up, Catching Up, Micro:Bit](#week-8---catching-up-catching-up-microbit)                                                   | [Catching Up, Catching Up, Micro:Bit](/labMaterial/h.weekEightMaterial.pdf)                          | ❌            |
+| 9     | [Week 9 - Assessed Coursework, Stacks, Micro:Bit](#week-9---assessed-coursework-stacks-microbit)                                             | [Assessed Coursework, Stacks, Micro:Bit](/labMaterial/i.weekNineMaterial.pdf)                        | ❌            |
+| 10    | [Week 10 - Quiz](#week-10---quiz)                                                                                                            | [](/labMaterial)                                                                                     | ❌            |
 
 ## Week 1 - Learning the UNIX Shell
 
@@ -100,163 +100,182 @@ int main() {
 
 1. Determine whether each of the following pairs of sets is equal:
 
-- {1, 3, 5} and {5, 3, 1}
-       - {1, 3, 5} = {5, 3, 1} as order of elements does not matter. The same 3 elements are in the list so equal.
-     - {1, 3, 5} and {5, 1, 6}
-       - {1, 3, 5} ≠ {5, 1, 6} as different elements in both sets. 3 and 6.
+   - {1, 3, 5} and {5, 3, 1}
+     - {1, 3, 5} = {5, 3, 1} as order of elements does not matter. The same 3 elements are in the list so equal.
+   - {1, 3, 5} and {5, 1, 6}
+     - {1, 3, 5} ≠ {5, 1, 6} as different elements in both sets. 3 and 6.
 
 2. Let A = {1, 2, 3, 4, 5} and B = {0, 3, 6}. Find:
 
-- A ∩ B
-       - A ∩ B = {3}
-     - A ∪ B
-       - A ∪ B = {0, 1, 2, 3, 4, 5, 6}
-     - A – B
-       - A – B = {1, 2, 4, 5}
-     - B − A
-       - B - A = {0, 6}
+   - A ∩ B
+     - A ∩ B = {3}
+   - A ∪ B
+     - A ∪ B = {0, 1, 2, 3, 4, 5, 6}
+   - A – B
+     - A – B = {1, 2, 4, 5}
+   - B − A
+     - B - A = {0, 6}
 
 3. Let A = {0, 2, 4, 6, 8, 10}, B = {0, 1, 2, 3, 4, 5, 6} and C = {4, 5, 6, 7, 8, 9, 10}. Find:
 
-- A ∩ B ∩ C
-       - A ∩ B ∩ C = {4, 6}
-     - A ∪ B ∪ C
-       - A ∪ B ∪ C = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10}
-     - (A ∪ B) ∩ C
-       - A ∪ B = {0, 1, 2, 3, 4, 5, 6, 8, 10}
-       - (A ∪ B) ∩ C = {4, 5, 6, 8, 10}
-     - (A ∩ B) ∪ C
-       - A ∩ B = {0, 2, 4, 6}
-       - (A ∩ B) ∪ C = {0, 2, 4, 6, 7, 8, 9, 10}
+   - A ∩ B ∩ C
+     - A ∩ B ∩ C = {4, 6}
+   - A ∪ B ∪ C
+     - A ∪ B ∪ C = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10}
+   - (A ∪ B) ∩ C
+     - A ∪ B = {0, 1, 2, 3, 4, 5, 6, 8, 10}
+     - (A ∪ B) ∩ C = {4, 5, 6, 8, 10}
+   - (A ∩ B) ∪ C
+     - A ∩ B = {0, 2, 4, 6}
+     - (A ∩ B) ∪ C = {0, 2, 4, 6, 7, 8, 9, 10}
 
 4. If A = {1, 2, 3, a}, B = {1, 2, 3, 4, 5}, C = {a, b} evaluate:
 
-- A ∪ (B ∩ C)
-       - B ∩ C = {} = ∅
-       - A ∪ (B ∩ C) = {1, 2, 3, a}
-     - (A ∪ B) ∩ C
-       - A ∪ B = {1, 2, 3, 4, 5, a}
-       - (A ∪ B) ∩ C = {a}
-     - C – A
-       - C – A = {b}
-     - (A – B) – C
-       - A – B = {a}
-       - (A – B) – C = {b}
-     - A – (B – C)
-       - B – C = {1, 2, 3, 4, 5}
-       - A – (B – C) = {a}
-     - (A ∩ C) ∪ B
-       - A ∩ C = {a}
-       - (A ∩ C) ∪ B = {1, 2, 3, 4, 5, a}
-     - A ∩ (C ∪ B)
-       - C ∪ B = {1, 2, 3, 4, 5, a, b}
-       - A ∩ (C ∪ B) = {1, 2, 3, a}
+   - A ∪ (B ∩ C)
+     - B ∩ C = {} = ∅
+     - A ∪ (B ∩ C) = {1, 2, 3, a}
+   - (A ∪ B) ∩ C
+     - A ∪ B = {1, 2, 3, 4, 5, a}
+     - (A ∪ B) ∩ C = {a}
+   - C – A
+     - C – A = {b}
+   - (A – B) – C
+     - A – B = {a}
+     - (A – B) – C = {a}
+   - A – (B – C)
+     - B – C = {1, 2, 3, 4, 5}
+     - A – (B – C) = {a}
+   - (A ∩ C) ∪ B
+     - A ∩ C = {a}
+     - (A ∩ C) ∪ B = {1, 2, 3, 4, 5, a}
+   - A ∩ (C ∪ B)
+     - C ∪ B = {1, 2, 3, 4, 5, a, b}
+     - A ∩ (C ∪ B) = {1, 2, 3, a}
 
-5. Let A be the set of students who live within one mile of school and B the set of students who walk to
-   classes. Describe the students in each of the following sets, in English. - A ∩ B - Intersection of A and B. So this is the set of students that walk to classes and live within one mile of school. - set of students who live within one mile of school AND the set of students who walk to classes. - A ∪ B - Union of A and B. So this is the set of students that walk to classes or live within one mile of school, or both. - the set of students who live within one mile of school OR the set of students who walk to classes. - A – B - Difference of A and B. So this is the students that live within one mile of school subtracting the students who walk to classes. - the set of students who live within one mile of school AND the set of students who do not walk to classes - B – A - Difference of B and A. So this is the students that walk to school subtracting the students who live within one mile of school. - the set of students who walk to classes AND the set of students who live more than one mile of school
+5. Let A be the set of students who live within one mile of school and B the set of students who walk to classes. Describe the students in each of the following sets, in English.
 
-6. Let A = {a, b, c} and B = {y, z}. Find
+   - A ∩ B
+     - Intersection of A and B. So this is the set of students that walk to classes and live within one mile of school.
+   - A ∪ B
+     - Union of A and B. So this is the set of students that walk to classes or live within one mile of school, or both.
+   - A – B
+     - Difference of A and B. So this is the students that live within one mile of school subtracting the students who walk to classes.
+   - B – A
+     - Difference of B and A. So this is the students that walk to school subtracting the students who live within one mile of school.
 
-- A x B
-       - A x B = {<a, y>, <a, z>, <b, y>, <b, z>, <c, y>, <c, z>}
-     - B x A
-       - B x A = {<y, a>, <y, b>, <y, c>, <z, a>, <z, b>, <z, c>}
+6. Let A = {a, b, c} and B = {y, z}. Find:
+
+   - A x B
+     - A x B = {<a, y>, <a, z>, <b, y>, <b, z>, <c, y>, <c, z>}
+   - B x A
+     - B x A = {<y, a>, <y, b>, <y, c>, <z, a>, <z, b>, <z, c>}
 
 7. How many different elements does A x B have if A has m elements and B has n elements?
 
-- A x B will have m\*n elements.
+   - A x B will have m\*n elements.
 
-8. List the members of the following sets
+8. List the members of the following sets:
 
-- {x | x is a positive integer less than 12}
-       - {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11}
-     - {x | x is the square of an integer and x < 100}
-       - {1, 4, 9, 16, 25, 36, 49, 64, 81}
+   - {x | x is a positive integer less than 12}
+     - {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11}
+   - {x | x is the square of an integer and x < 100}
+     - {1, 4, 9, 16, 25, 36, 49, 64, 81}
 
-9. For each of the following sets, determine if 2 is an element of that set.
+9. For each of the following sets, determine if 2 is an element of that set:
 
-- { x ∈ R | x is an integer greater than 1}
-       - Yes. 2 is a real number and 2 is an integer greater than 2. So 2 is an element of that set.
-     - {x ∈ R | x is the square of an integer}
-       - No. 2 is a real number but 2 is not a square of an integer. So 2 is not an element of that set.
+   - { x ∈ R | x is an integer greater than 1}
+     - Yes. 2 is a real number and 2 is an integer greater than 1. So 2 is an element of that set.
+   - {x ∈ R | x is the square of an integer}
+     - No. 2 is a real number but 2 is not a square of an integer. So 2 is not an element of that set.
 
 10. Identify 2 sets whose cardinality is 1 and whose intersection’s cardinality is also 1.
 
-- A = {1} and B = {1}. |A| = 1 and |B| = 1. A ∩ B = {1}. |A ∩ B| = 1
+    - A = {1} and B = {1}. |A| = 1 and |B| = 1. A ∩ B = {1}. |A ∩ B| = 1
 
 11. Which of the following is not a proper subset of set A if A = {4, 5, 6, x, y, z}?
 
-- {4, x, y}
-        - Is a proper subset. The elements in this set are all in set A, but set A also has other unique elements.
-      - {3, 4, 5}
-        - Not a proper subset or a subset. There is an element 3 in this set that is not in A at all.
-      - {4, 5, 6}
-        - Is a proper subset. The elements in this set are all in set A, but set A also has other unique elements.
-      - Ø
-        - Not a proper subset or a subset. Ø = {}. There is no nested set of {} in set A.
+    - {4, x, y}
+      - Is a proper subset. The elements in this set are all in set A, but set A also has other unique elements.
+    - {3, 4, 5}
+      - Not a proper subset or a subset. There is an element 3 in this set that is not in A at all.
+    - {4, 5, 6}
+      - Is a proper subset. The elements in this set are all in set A, but set A also has other unique elements.
+    - Ø
+      - Is a proper subset. Ø = {}. There is no nested set of {} in set A.
 
 12. Which is a subset of set A? A = {a, {b}, c, {c}, {x, y}}
 
-- {a, {b}, c}
-        - Is a proper subset. The elements in this set are all in set A, but set A also has other unique elements.
-      - {a, b, c}
-        - Not a proper subset or a subset. There is an element b in this set that is not in A.
-      - {c, x, y}
-        - Not a proper subset or a subset. There are elements x and y in this set that is not in A.
-      - {x, y}
-        - Not a proper subset or a subset. There is an element x and y in this set that is not in A. It would be a proper subset if the set in question was {{x, y}}.
+    - {a, {b}, c}
+      - Is a proper subset. The elements in this set are all in set A, but set A also has other unique elements.
+    - {a, b, c}
+      - Not a proper subset or a subset. There is an element b in this set that is not in A.
+    - {c, x, y}
+      - Not a proper subset or a subset. There are elements x and y in this set that is not in A.
+    - {x, y}
+      - Not a proper subset or a subset. There is an element x and y in this set that is not in A. It would be a proper subset if the set in question was {{x, y}}.
 
 13. Which is false?
 
-- 1, 2 ⊆ 1, 2, 3
-        - True
-      - 1, 2 ⊆ 2, 3, 4
-        - False
-      - ∅ ⊆ 1, 2, 3
-        - False
+    - {1, 2} ⊆ {1, 2, 3}
+      - True
+    - {1, 2} ⊆ {2, 3, 4}
+      - False
+    - ∅ ⊆ {1, 2, 3}
+      - True
 
-14. Let Universal set U = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10}, and its 3 sets: E = {2, 4, 6, 8, 10}, O = {x | x is an
-    odd number}, and T = {3}. - Enumerate the elements of set O - {1, 3, 5, 7, 9} - What operation can be applied to set E and U to get set O? - comp(E) = O - Define set E through its elements’ property - E = {x | x is an even number} - Which of the sets above are subsets of set O? - Set T and O - Which of the sets above are proper subsets of set O? - Set T - Which of the sets above are proper supersets of empty set? - All of them
+14. Let Universal set U = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10}, and its 3 sets: E = {2, 4, 6, 8, 10}, O = {x | x is an odd number}, and T = {3}.
+    - Enumerate the elements of set O
+      - {1, 3, 5, 7, 9}
+    - What operation can be applied to set E and U to get set O?
+      - comp(E) = O
+    - Define set E through its elements’ property
+      - E = {x | x is an even number}
+    - Which of the sets above are subsets of set O?
+      - Set T and O
+    - Which of the sets above are proper subsets of set O?
+      - Set T
+    - Which of the sets above are proper supersets of empty set?
+      - All of them
 
 ### SCC.131 Number Systems
 
 1. Convert the following unsigned binary numbers to decimal:
 
-- 00001001
-       - 9
-     - 00101011
-       - 43
-     - 01001111
-       - 79
-     - 01111110
-       - 126
-     - 10000110
-       - 134
+   - 00001001
+     - 9
+   - 00101011
+     - 43
+   - 01001111
+     - 79
+   - 01111110
+     - 126
+   - 10000110
+     - 134
 
 2. Convert the following decimal numbers to unsigned 8-bit binary:
 
-- 22
-       - 00010110
-     - 19
-       - 00010011
-     - 84
-       - 01010100
-     - 120
-       - 01111000
-     - 93
-       - 01011101
+   - 22
+     - 00010110
+   - 19
+     - 00010011
+   - 84
+     - 01010100
+   - 120
+     - 01111000
+   - 93
+     - 01011101
 
 3. Add the following pairs of unsigned 8-bit binary numbers. Give your answer in unsigned 8-bit binary.
-      - 00000100 + 00000011
-        - 00000111
-      - 00000110 + 00001101
-        - 00010011
-      - 00001111 + 00010101
-        - 00100100
-      - 11101001 + 01011110
-        - 101000111 9 bits now? What happens to the overflow bit (MSB)? discard overflow: 01000111
-      - 11100000 + 00110000
-        - 100010000 9 bits now? What happens to the overflow bit (MSB)? discard overflow: 00010000
+   - 00000100 + 00000011
+     - 00000111
+   - 00000110 + 00001101
+     - 00010011
+   - 00001111 + 00010101
+     - 00100100
+   - 11101001 + 01011110
+     - 101000111 9 bits now? What happens to the overflow bit (MSB)? discard overflow: 01000111
+   - 11100000 + 00110000
+     - 100010000 9 bits now? What happens to the overflow bit (MSB)? discard overflow: 00010000
 
 ## Week 3 - RPS, Relations, Information Coding
 
@@ -390,20 +409,6 @@ int compCount = 0;
 }
 ```
 
-Final Solution:
-
-```C
-
-```
-
-### 121 Relations
-
-1. For the exercises in this part, we have the following relations on `A = {1, 2, 3, 4}`:
-      - `R1 = {< 1, 1 >, < 1, 2 >, < 2, 1 >, < 2, 2 >, < 3, 4 >, < 4, 1 >, < 4, 4 >}`
-      - `R2 = {< 2, 2 >, < 2, 3 >, < 2, 4 >, < 3, 2 >, < 3, 3 >, < 3, 4 >}`
-      - `R3 = {< 1, 1 >, < 1, 2 >, < 1, 4 >, < 2, 1 >, < 2, 2 >, < 3, 3 >, < 4,1 >, < 4, 4 >}`
-      - `R4 = {< 2, 1 >, < 3, 1 >, < 3, 2 >, < 4, 1 >, < 4, 2 >, < 4, 3 >}`
-
 ## Week 4 - Arrays, Functions, Boolean Logic
 
 ### 111 Arrays
@@ -444,160 +449,40 @@ int main() {
 
 ### 121 Functions
 
-1. Let `A = {a, b, c, d, e}` and `B = {1, 2, 3, 4}` with `f(a) = 2`, `f(b) = 1`, `f(c) = 4`, `f(d) = 1` and `f(e)= 1`.
-
-- Is f a function? Why?
-       - ...
-     - What is the domain of this function?
-       - ...
-     - What is the co-domain?
-       - ...
-     - What is the range of this function?
-       - ...
-
-2. Let the function f(x) = 3x - 3 on the set of real numbers. Find its inverse.
-
-- ...
-
-3. Let `A = {1, 2, 3}`, and `B = {1, 2, 3, 4}`, and `f : A → B`, `g : A → B` by: `f(1) = 4`, `f(2) = 2`, `f(3) = 1`. `g(1) = 4`, `g(2) = 4`, `g(3) = 1`. Which of these functions is injective? f or g?
-
-- ...
-
-4. Let `A = {1, 2, 3, 4}`, and `B = {1, 2, 3, 4}` and `f : A → B`, `g : A → B` by: `f(1) = 4`, `f(2) = 2`, `f(3) = 1`, `f(4) = 3`. `g(1) = 4`, `g(2) = 3`, `g(3) = 1`, `g(4) = 1`. Which of these functions is surjective? f or g?
-
-- ...
-
-5. Let f(x) = 3x + 6 on the set of real numbers.
-
-- Is f a bijective function?
-       - ...
-     - If so, what is its inverse?
-       - ...
-
-6. Let M and N be relations from A to B, with `A = {a, b, c, d}`, and `B = {s, t, u}`, defined as follows: `M = {<a, t>, <b, s>, <c, s>, <d, u>}`, `N = {<a, s>, <b, t>, <c, s >, <a, u>, <d, u>}`. Which one of the following statements is true?
-
-- M and N are functions
-       - ...
-     - M is a function and N is not a function
-       - ...
-     - M and N are not functions
-       - ...
-     - none of these
-       - ...
-
-7. Let f be a function on the set N of natural numbers, `f: N → N`, defined by `f(x) = 2x + 3`. Is function f:
-
-- injective
-       - ...
-     - surjective
-       - ...
-     - bijective
-       - ...
-     - none of the above
-       - ...
-
-8. Let `f: Z→ Z` be defined by `f(x) = 2x + 1`.
-
-- What is the domain, codomain, and range of f?
-       - ...
-     - Is f one-to-one (injective)?
-       - ...
-     - Is f onto (surjective)?
-       - ...
-     - If f is bijective, what is its inverse?
-       - ...
-
-9. Let f1 and f2 be two functions from A to B such that `f1(x) = x^2` and `f2(x) = x – x^2`
-
-- What is the sum function f1+ f2?
-       - ...
-     - What is the product function f1x f2?
-       - ...
-
-10. Let f and g be two functions from the set of integers to the set of integers, defined by `f(x) = 2x + 3` and `g(x) = 3x + 2`.
-
-- What is the composition of f and g?
-        - ...
-      - What is the composition of g and f?
-        - ...
-
-11. Let `f(x) = x2 + 1` and `g(x)= x + 2` be two functions from the set of integers to the set of integers. Find the following functions:
-
-- f + g (x) =
-        - ...
-      - (f + g) (1) =
-        - ...
-      - f × g (x) =
-        - ...
-      - (f × g) (0) =
-        - ...
-      - f ◦ g (x) =
-        - ...
-      - (f ◦ g) (1) =
-        - ...
-      - g ◦ f (x) =
-        - ...
-      - (g ◦ f) (2) =
-        - ...
-
 ### 131 Boolean Logic
-
-1. Express the following statements in Boolean algebra:
-
-- Either A is true or B is true.
-       - A OR B
-     - A is not true.
-       - A'
-     - Neither A nor B is true.
-       - A' OR B'
-     - B is true, but not A.
-       - B AND 'A
-
-2. Simplify the following Boolean expressions:
-
-- A+A’
-       - A
-     - A+A
-       - A
-     - A’ + A’A
-       - A
-     - A’ + AB
-
-3. Use a truth table to evaluate the following expressions. Given: ( A = 0) and (B = 1):
-
-- A + B
-       - 1
-     - A’ + B’
-       - 1
-     - A + A’
-       - 1
-     - A’B’
-       - 0
-
-4. Minimise the following Boolean functions using Boolean algebra:
-
-- F = AB + A’B + AB’
-       - ...
-     - F = ABC + AB’C + ABC’ + AB’C’ + A’BC + A’B’C
-       - ...
-
-5. Minimise the following Boolean functions using Karnaugh maps:
-
-- F = AB + A’B + AB’
-       - ...
-     - F = ABC + AB’C + ABC’ + AB’C’ + A’BC + A’B’C
-       - ...
-     - F = A’BCD + A’B’CD + A’BC’D + A’B’C’D + ABC’D’ + AB’C’D’ + ABCD’ + AB’CD’
-       - ...
 
 ## Week 5 - Quiz
 
 ## Week 6 - Going Social, Propositional & Predicate Logic, Logic Circuit
 
+### 111 Going Social
+
+### 121 Propositional & Predicate Logic
+
+### 131 Logic Circuit
+
 ## Week 7 - iMapLancaster, Queues, BBC Micro:Bit
+
+### 111 iMapLancaster
+
+### 121 Queues
+
+### 131 BBC Micro:Bit
 
 ## Week 8 - Catching-up, Catching-up, Micro:Bit
 
+### 111 Catching-up
+
+### 121 Catching-up
+
+### 131 Micro:Bit
+
 ## Week 9 - Assessed Coursework, Stacks, Micro:Bit
+
+### 111 Assessed Coursework
+
+### 121 Stack
+
+### 131 Micro:Bit
 
 ## Week 10 - Quiz
