@@ -37,6 +37,7 @@ Assessed with Exam and Coursework:
 |  7   | [Lecture 14 - APIs & Files](#lecture-14---apis--files)                                       | [APIs & Files](/SCC.111.slides/n.APIsAndFiles.pdf)                                     |  ✅   |
 |  8   | [Lecture 15 - More Files](#lecture-15---more-files)                                          | [Files Continued](/SCC.111.slides/o.moreFileStuff.pdf)                                 |  ✅   |
 |  8   | [Lecture 16 - Libraries](#lecture-16---multi-file-projects)                                  | [Libraries](/SCC.111.slides/p.libraries.pdf)                                           |  ✅   |
+|  9   | [Lecture 17 - Version Control](#lecture-17---version-control)                                | [Version Control](/SCC.111.slides/q.versionControl.pdf)                                |       |
 
 ---
 
@@ -506,3 +507,5 @@ But now that we have multiple C files we need to combine them into a single exec
 ```
 gcc -o main main.c queue.c
 ```
+
+## Lecture 17 - Version Control
