@@ -33,6 +33,11 @@ Assessed with Exams and Coursework:
 
 ## Lecture 1 - Module Introduction
 
+<audio controls>
+  <source src="SCC.141.slides/a.introSlides.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
 Professional issues are areas of debate about ethical or practical conduct that underpin good professional practice in a field.
 
 The word 'ethics' is derived from the Greek word 'ethos' or 'a way of living'. Ethics is a branch of philosophy that is concerned with the behaviour of individuals in society.
@@ -66,6 +71,11 @@ BCS charter requires the establishment and maintenance of a sound ethical founda
   - Take responsibility for those that we are managing and help guide their development
 
 ## Lecture 2 - Systems Development Lifecycle
+
+<audio controls>
+  <source src="SCC.141.slides/b.systemsDevLifecycle.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
 
 A system is a collection of interrelated parts that form a whole. It serves a purpose and a change in one part can change other parts of the system.
 
@@ -219,6 +229,11 @@ E.g.:
 
 ## Lecture 3 - Requirements & Requirements Engineering
 
+<audio controls>
+  <source src="SCC.141.slides/c.requirements.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
 ### What Are Requirements & Why Are They Important?
 
 A requirement is a clear, testable, and measurable statement, expressed in natural language without jargon, that specifies the intended functionalities, characteristics, or constraints of a product. It specifies what the product should do and ensures it meets the desired operational, functional, and accessibility needs.
@@ -287,6 +302,11 @@ There is another way that non-functional requirements can be categorised:
 - Constraints: from business or operational context
 
 ## Lecture 4 - Understanding Users, Usability, & User Experience
+
+<audio controls>
+  <source src="SCC.141.slides/d.usersUsabilityUX.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
 
 ### Understanding Users
 
@@ -413,6 +433,11 @@ Dark Patterns are deceptive UI design features that mislead users into making ch
 
 ## Lecture 5 - Accessibility
 
+<audio controls>
+  <source src="SCC.141.slides/e.accessibility.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
 Accessibility is the concept of whether a product or service can be used by everyone.
 
 Digital Accessibility is the design of and building of websites and web apps that disabled people can interact with in a meaningful and equivalent way.
@@ -464,6 +489,11 @@ Accessibility is also important for Businesses:
 - **Robust**: Supporting assistive technologies and ensuring that, as users and technology evolve, the product remains accessible.
 
 ## Lecture 6 - Solving Problems
+
+<audio controls>
+  <source src="SCC.141.slides/f.solvingProblems.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
 
 Computer Science is about solving problems, not just programming. So employers expect us to be able to:
 
@@ -525,6 +555,11 @@ The challenge is in balancing fairness without increasing false positives (trust
    - Outcome: Refines the decision threshold overtime, helping the AI make more accurate and fair decisions.
 
 ## Lecture 7 - Intellectual Property, Software Protection, & Limiting Liability
+
+<audio controls>
+  <source src="SCC.141.slides/g.lawShit.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
 
 ### Intellectual Property
 
