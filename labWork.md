@@ -2,16 +2,18 @@ began: 8th October 2024
 
 # Lab Work
 
-| Week  | Lab                                                                                        | Original Handout                                                                            | Noted         |
-| ----- | ------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------- | ------------- |
-| 1     | [Week 1 - Learning the UNIX Shell](#week-1---learning-the-unix-shell)                      | [Learning the Unix Shell](/labMaterial/a.weekOneMaterial.pdf)                               | ✅            |
-| 2     | [Week 2 - Writing Code](#week-2---c-sets--number-systems)                                  | [C, Sets, & Number Systems](/labMaterial/b.weekTwoMaterial.pdf)                             | ✅            |
-| 3     | [Week 3 - RPS, Relations, Information Coding](#week-3---rps-relations-information-coding)  | [Rock Paper Scissors, Relations, Information Coding](/labMaterial/c.weekThreeMaterial.pdf)  | ✅            |
-| 4     | [Week 4 - Arrays, Functions, Boolean Logic ](#week-4---arrays-functions-boolean-logic)     |                                                                                             | ❌            |
-| 5     | [Week 5 - Quiz]                                                                            |                                                                                             | ❌            |
-| 6     |                                                                                            |                                                                                             | ❌            |
-| 7     |                                                                                            |                                                                                             | ❌            |
-| 8     |                                                                                            |                                                                                             | ❌            |
+| Week  | Lab                                                                                                                                          | Original Handout                                                                                                                                                   | Noted         |
+| ----- | -------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------- |
+| 1     | [Week 1 - Learning the UNIX Shell](#week-1---learning-the-unix-shell)                                                                        | [Learning the Unix Shell](/labMaterial/a.weekOneMaterial.pdf)                                                                                                      | ✅            |
+| 2     | [Week 2 - Writing Code](#week-2---c-sets--number-systems)                                                                                    | [C, Sets, & Number Systems](/labMaterial/b.weekTwoMaterial.pdf)                                                                                                    | ✅            |
+| 3     | [Week 3 - RPS, Relations, Information Coding](#week-3---rps-relations-information-coding)                                                    | [Rock Paper Scissors, Relations, Information Coding](/labMaterial/c.weekThreeMaterial.pdf)                                                                         | ✅            |
+| 4     | [Week 4 - Arrays, Functions, Boolean Logic ](#week-4---arrays-functions-boolean-logic)                                                       | [Arrays, Functions, Boolean Logic](/labMaterial/d.weekFourMaterial.pdf)                                                                                            | ❌            |
+| 5     | [Week 5 - Quiz](#week-5---quiz)                                                                                                              | [](/labMaterial)                                                                                                                                                   | ❌            |
+| 6     | [Week 6 - Going Social, Propositional & Predicate Logic, Logic Circuit](#week-6---going-social-propositional--predicate-logic-logic-circuit) | [Goign Social, Propositional & Predicate Logic, Logic Circuit](/labMaterial/f.weekSixMaterial.pdf)                                                                 | ❌            |
+| 7     | [Week 7 - iMapLancaster, Queues, BBC Micro:Bit](#week-7---imaplancaster-queues-bbc-microbit)                                                 | [iMapLancaster, Queues, BBC Micro:Bit](/labMaterial/g.weekSevenMaterial.pdf)                                                                                       | ❌            |
+| 8     | [Week 8 - Catching Up, Catching Up, Micro:Bit](#week-8---catching-up-catching-up-microbit)                                                   | [Catching Up, Catching Up, Micro:Bit](/labMaterial/h.weekEightMaterial.pdf)                                                                                        | ❌            |
+| 9     | [Week 9 - Assessed Coursework, Stacks, Micro:Bit](#week-9---assessed-coursework-stacks-microbit)                                             | [Assessed Coursework, Stacks, Micro:Bit](/labMaterial/i.weekNineMaterial.pdf)                                                                                      | ❌            |
+| 10    | [Week 10 - Quiz](#week-10---quiz)                                                                                                            | [](/labMaterial)                                                                                                                                                   | ❌            |
 
 ## Week 1 - Learning the UNIX Shell
 
@@ -589,3 +591,13 @@ int main() {
        - ...
 
 ## Week 5 - Quiz
+
+## Week 6 - Going Social, Propositional & Predicate Logic, Logic Circuit
+
+## Week 7 - iMapLancaster, Queues, BBC Micro:Bit
+
+## Week 8 - Catching-up, Catching-up, Micro:Bit
+
+## Week 9 - Assessed Coursework, Stacks, Micro:Bit
+
+## Week 10 - Quiz
