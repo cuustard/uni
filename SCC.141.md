@@ -641,6 +641,11 @@ Imposes liability on a person who has acted carelessly under common law. Liabili
 
 ## Lecture 8 - Ethics
 
+<audio controls>
+  <source src="SCC.141.slides/h.lawShitPartTwo.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
 - Ethics
   - Principles of right and wrong that guide behaviours
   - E.G. avoiding plagiarism
@@ -792,3 +797,8 @@ Critics:
 - is it appropriate for the tech industry to shape the very rules that govern their technologies
 
 ## Lecture 9 - System Failures & Errors
+
+<audio controls>
+  <source src="SCC.141.slides/i.systemFailuresAndErrors.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
