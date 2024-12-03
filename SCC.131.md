@@ -29,23 +29,24 @@ Assessed with Exams and Coursework:
 
 ### Table of Contents
 
-| Week | My Notes                                                                                       | Lecture Slides                                                                   | Noted |
-| :--: | ---------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------- | :---: |
-|  1   | [Lecture 1 - Module Introduction](#lecture-1---module-introduction)                            | [Module Introduction](/SCC.131.slides/a.introSlides.pdf)                         |  ✅   |
-|  1   | [Lecture 2 - Architecture & Speed](#lecture-2---architecture--speed)                           | [Comp Architecture](/SCC.131.slides/b.compArchitectureIntro.pdf)                 |  ✅   |
-|  2   | [Lecture 3 - Information Coding](#lecture-3---information-coding)                              | [Information Coding](/SCC.131.slides/c.infoCodingPartOne.pdf)                    |  ✅   |
-|  2   | [Lecture 4 - Information Coding Part 2](#lecture-4---information-coding-part-2)                | [Information Coding Contd](/SCC.131.slides/d.infoCodingPartTwo.pdf)              |  ❌   |
-|  3   | [Lecture 5 & 6 - Boolean Logic](#lecture-5--6---boolean-logic)                                 | [Boolean Logic](/SCC.131.slides/e.booleanLogic.pdf)                              |  ❌   |
-|  4   | [Lecture 7 - Instruction Set Architecture](#lecture-7---instruction-set-architecture)          | [Instruction Set Architecture](/SCC.131.slides/f.instructionSetArchitecture.pdf) |  ❌   |
-|  4   | [Lecture 8 - Building the ALU](#lecture-8---building-the-alu)                                  | [Building The ALU](/SCC.131.slides/g.buildingTheALU.pdf)                         |  ❌   |
-|  5   | [Lecture 9 - Building Memory](#lecture-9---building-memory)                                    | [Building Memory](/SCC.131.slides/h.buildingMemory.pdf)                          |  🟧   |
-|  5   | [Lecture 10 - Building The Control Unit](#lecture-10---building-the-control-unit)              | [Building The Control Unit](/SCC.131.slides/i.buildingCU.pdf)                    |  ❌   |
-|  6   | [Lecture 11 - Building the Input/Output System](#lecture-11---building-the-inputoutput-system) | [Building The IO](/SCC.131.slides/j.buildingIO.pdf)                              |  ✅   |
-|  6   | [Lectute 12 - Weeks 1-6 Recap](#lecture-12---weeks-1-6-recap)                                  | [Weeks 1-6 Recap](/SCC.131.slides/j.recapUpToWeek6.pdf)                          |  ✅   |
-|  7   | [Lecture 13 - The Micro:Bit](#lecture-13---the-microbit)                                       | [Architecturing The Micro:Bit](/SCC.131.slides/k.microbit.pdf)                   |  ✅   |
-|  7   | [Lecture 14 - The Micro:Bit Part 2](#lecture-14---the-microbit-part-2)                         | [Micro:bit Part 2](/SCC.131.slides/l.microbitPartTwo.pdf)                        |  ✅   |
-|  8   | [Lecture 15 - C/C++ & CODAL](#lecture-15---cc-codal)                                           | [C/C++ & CODAL](/SCC.131.slides/m.introCODAL.pdf)                                |  ✅   |
-|  8   | [Lecture 16 - CODAL Part 2](#lecture-16---codal-part-2)                                        | [CODAL Part 2](/SCC.131.slides/n.CODALpartTwo.pdf)                               |  ✅   |
+| Week | My Notes                                                                                       | Lecture Slides                                                                                  | Noted |
+| :--: | ---------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- | :---: |
+|  1   | [Lecture 1 - Module Introduction](#lecture-1---module-introduction)                            | [Module Introduction](/SCC.131.slides/a.introSlides.pdf)                                        |  ✅   |
+|  1   | [Lecture 2 - Architecture & Speed](#lecture-2---architecture--speed)                           | [Comp Architecture](/SCC.131.slides/b.compArchitectureIntro.pdf)                                |  ✅   |
+|  2   | [Lecture 3 - Information Coding](#lecture-3---information-coding)                              | [Information Coding](/SCC.131.slides/c.infoCodingPartOne.pdf)                                   |  ✅   |
+|  2   | [Lecture 4 - Information Coding Part 2](#lecture-4---information-coding-part-2)                | [Information Coding Contd](/SCC.131.slides/d.infoCodingPartTwo.pdf)                             |  ❌   |
+|  3   | [Lecture 5 & 6 - Boolean Logic](#lecture-5--6---boolean-logic)                                 | [Boolean Logic](/SCC.131.slides/e.booleanLogic.pdf)                                             |  ❌   |
+|  4   | [Lecture 7 - Instruction Set Architecture](#lecture-7---instruction-set-architecture)          | [Instruction Set Architecture](/SCC.131.slides/f.instructionSetArchitecture.pdf)                |  ❌   |
+|  4   | [Lecture 8 - Building the ALU](#lecture-8---building-the-alu)                                  | [Building The ALU](/SCC.131.slides/g.buildingTheALU.pdf)                                        |  ❌   |
+|  5   | [Lecture 9 - Building Memory](#lecture-9---building-memory)                                    | [Building Memory](/SCC.131.slides/h.buildingMemory.pdf)                                         |  🟧   |
+|  5   | [Lecture 10 - Building The Control Unit](#lecture-10---building-the-control-unit)              | [Building The Control Unit](/SCC.131.slides/i.buildingCU.pdf)                                   |  ❌   |
+|  6   | [Lecture 11 - Building the Input/Output System](#lecture-11---building-the-inputoutput-system) | [Building The IO](/SCC.131.slides/j.buildingIO.pdf)                                             |  ✅   |
+|  6   | [Lectute 12 - Weeks 1-6 Recap](#lecture-12---weeks-1-6-recap)                                  | [Weeks 1-6 Recap](/SCC.131.slides/j.recapUpToWeek6.pdf)                                         |  ✅   |
+|  7   | [Lecture 13 - The Micro:Bit](#lecture-13---the-microbit)                                       | [Architecturing The Micro:Bit](/SCC.131.slides/k.microbit.pdf)                                  |  ✅   |
+|  7   | [Lecture 14 - The Micro:Bit Part 2](#lecture-14---the-microbit-part-2)                         | [Micro:bit Part 2](/SCC.131.slides/l.microbitPartTwo.pdf)                                       |  ✅   |
+|  8   | [Lecture 15 - C/C++ & CODAL](#lecture-15---cc-codal)                                           | [C/C++ & CODAL](/SCC.131.slides/m.introCODAL.pdf)                                               |  ✅   |
+|  8   | [Lecture 16 - CODAL Part 2](#lecture-16---codal-part-2)                                        | [CODAL Part 2](/SCC.131.slides/n.CODALpartTwo.pdf)                                              |  ✅   |
+|  9   | [Compiler, Assembler, Linker, & Loader](#lecture-17---compiler-assembler-linker--loader)       | [Compiler, Assembler, Linker, & Loader](/SCC.131.slides/o.compilerAssemblerLinkerAndLoader.pdf) |  ✅   |
 
 ## Lecture 1 - Module Introduction & Computer Architecture
 
@@ -789,3 +790,95 @@ uBit.log.isFull() //returns 0
 
 ubit.log.clear()
 ```
+
+## Lecture 17 - Compiler, Assembler, Linker, & Loader
+
+1. Preprocessor
+   - Macros, `#include directives`, `#xxx statement`'s.
+   - Outputs 'pure' C code.
+2. Compiler
+   - Converts C into Assembly code
+   - Not machine code, still human readable
+   - Dependent on machine architecture.
+3. Assembler
+   - Creates machine code stored in an object file
+4. Linker
+   -Combines several object files together
+
+![Diagram](images/creationOfExecutableFile.png)
+
+### Object Files
+
+Has main formats:
+
+- ELF: Executable and Linking Format (Linux)
+- COFF: Common Object-File Format (Windows)
+- Mach-O: Mac OS X (Mach Kernel)
+
+Object File components:
+
+- Machine Code of Program (the 'text' section)
+- Data (global const)(the 'data' secetion)
+- Required space for uninitialised data ('bss' for block starting symbol)
+- Symbol Tables (location of functions)
+- Relocation Information (what to modify when linking)
+
+![Linker View Diagram](images/linkerView.png)
+
+### Symbol Table & Relcation Information
+
+When a program consists of several parts:
+
+- myProg.c calls a function that is described in myLib.c
+- myProg.o needs to jump to code my myLib.o
+
+In myProg.o, the actual address of jump can not be decided
+
+1. put a placeholder until the address is known
+2. remeber address is not resolved
+3. this should be resolved when building the executable file
+
+1 and 2 are achieved with a symbol table in myLib.c and relocation information in myProg.o
+
+3 is thet job of the linker.
+
+### Linker
+
+Linking object files and libraries is carried out by the linker. On Linux, this is done by the program `1d`. This is a compelx program. `gcc -o` is used to call `1d` internally, takinging care of the correct parameters and complexity.
+
+Linking Multiple Files Together:
+
+- Object files will include references to eachother's code and/or data.
+- The linker uses the relocation records to fill in all addresses.
+- The linker combines information from the symbol tables and relocation records
+- Assembling to machine code removes all labels from the code.
+
+### Shared Objects
+
+### Static Linking
+
+The program and the library it is linked against, are combined by the linker at linking time. The binding time is fixed. Programs that are linked statically, are linked against archives of objects (libraries) that have the same extension `.a` (for archived).
+
+This means that when you compile a program, you know what library is used, and when you compy programs, you know that everything is present. However the programs take more disk space (and often memory space).
+
+### Dynamic Linking
+
+The program and the library is references, are not combined. The linker places information into the executable that tells the loader the location of the shared objects where required code can be found. References are found during runtime.
+
+Programs that are linked dynamically are linked against shared objects that hve the extension `.so` (for shared object.).
+
+This means that the file size is smaller on disk, libraries can be upgraded without the need to re-assemble the whole program, and that two programs can share the same libraries in memory. However libraries may change and the impact on the program is not always clear.
+
+### Separating the compiler from the linker
+
+We compile and link files in separate stages as program elements can be compiled independently. The linker puts objects together so changes in code only require re-compilation of the rorresponding object.
+
+### Loader
+
+In Linux, a process is loaded from a file in ELF format (Exercutable and Linkable Format). Code and data are loaded onto main memory. This is done by the loader, which is part of the OS.
+
+It performs memory and access validatoon, and performs the process setup.
+
+### In Micro:bit
+
+The C++ source files should be in the folder source with `main.cpp`. The statement `#include "MicroBit.h"` found at the begining of `main.cpp` prompts the preprocessor to include `MicroBit.h` found in the codal `-microbit-v2` library. The object file `main.cpp.obj` is linked with 3 libraries to create the .hex file.
