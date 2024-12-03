@@ -987,7 +987,7 @@ The relationship tells us, for example, if the amount of data is doubled does th
 
 ![BigO Notation Cheat Sheet](images/BigONotationCheatSheet.jpg)
 
-![Time Complexity Graph](images/timeComplexityGraph.jpg)
+![Time Complexity Graph](images/timecomplexitygraph.jpg)
 
 ### Linear Searching
 
