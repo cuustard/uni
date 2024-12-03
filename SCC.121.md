@@ -39,7 +39,7 @@ Assessed with Exams and Coursework:
 |   7   | [Lecture 14 - The Kitchen Sink](#lecture-14---the-kitchen-sink)                                                                     | [The Kitchen Sink](/SCC.121.slides/o.theKitchenSink.pdf)                                                 |  n/a  |
 |   8   | [Lecture 15 - The Stack](#lecture-15---the-stack)                                                                                   | [The Stack](/SCC.121.slides/p.stack.pdf)                                                                 |  ✅   |
 |   8   | [Lecture 16 - Linked Lists](#lecture-16---linked-lists)                                                                             | [Linked Lists](/SCC.121.slides/q.linkedLists.pdf)                                                        |  ✅   |
-|   9   |                                                                                                                                     |                                                                                                          |       |
+|   9   | [Lecture 17 - Searching](#lecture-17---searching)                                                                                   | [Searching](/SCC.121.slides/r.searching.pdf)                                                             |       |
 |   9   |                                                                                                                                     |                                                                                                          |       |
 
 ## Lecture 1 - Sets
@@ -956,6 +956,6 @@ No prev pointer. And unlike doubly linked list, it can only be traversted in for
 - E.G. tail pointer may be used to point to end of list and make a reverse traversal even more convenienet.
 - Sentinelts (Special markers) may be ued to simplify code
 
-## Lecture 17 -
+## Lecture 17 - Searching
 
 ## lecture 18 -
