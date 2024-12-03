@@ -958,4 +958,89 @@ No prev pointer. And unlike doubly linked list, it can only be traversted in for
 
 ## Lecture 17 - Searching
 
-## lecture 18 -
+### Data Storage and Retrieval
+
+- Put data item in store
+- Retrieve Specific Item
+
+If storage is quick, retrievel is slow. If Storage is careful, retrievel will be fast.
+
+| Storage                                                      | Retrieval                                     |
+| ------------------------------------------------------------ | --------------------------------------------- |
+| **Fast**: append latest data to the end of the store         | **Slow** linear search to find required item  |
+| **Slow**: append latest data to sorted position in the store | **Fast**: binary search to find required item |
+
+### Theoretical Time Complexity
+
+This is the relationshpi between the size of the input and the algorithm running time.
+
+- Let N be the size of the input
+- Characterise the runtime of the algorithm as a function of N
+
+The relationship tells us, for example, if the amount of data is doubled does the algorithm take...
+
+- 2x as long to run - then acceptable
+- more than 2x as long to run - then very bad
+- less than 2x as long to run - then very good
+
+#### Big-O Classes
+
+![BigO Notation Cheat Sheet](images/BigONotationCheatSheet.jpg)
+
+![Time Complexity Graph](images/timeComplexityGraph.jpg)
+
+### Linear Searching
+
+For an unsorted linear array A containing N integers:
+
+1. Find index of first occurance of integer x
+2. If x is not present in array then return -1
+
+```
+ls(a[], x) {
+  for i=0 to a.length {
+    if(a[i] = x) {
+      return i
+    }
+  return -1
+  }
+}
+```
+
+If we let N be the size of the input array, then the linear seach algorithm has complexity O(N). This is a linear compelxity as runtime grows in direct proportion to the input.
+
+### Binary Search
+
+Can only be used on sorted array. It has better theoretica time complexity than linear search as even if the array is sorted for a linear search it still has complexity O(N).
+
+To find X in array A:
+
+1. look at element A[M]. M is midpoint of array A.
+2. If X == A[M] then it is found
+3. If size(A) == 1 AND X != A[M] then X is not in A
+4. If X < A[M] X is in the left half of A. Jump back to step 1 for LHS.
+5. If X > A[M] X is in the right hald of A. Jump back to step 1 for RHS.
+
+```C
+// search for X in sorted array A
+int low = 0;
+int high = N - 1;
+int mid; // next element to try
+
+while(low <= high) {
+  mid = (low + high)/2;
+  if (A[mid] == X) {
+    return mid;
+  }
+  if (X < A[mid]) {
+    high = mid - 1; // narrow down to RHS
+  } else {
+    low = mid + 1; // narrow down to LHS
+  }
+}
+return -1; // not found in array
+```
+
+Binary Search Complexity: O(log<sub>2</sub>N)
+
+## Lecture 18 -
