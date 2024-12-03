@@ -19,16 +19,17 @@ Assessed with Exams and Coursework:
 
 ### Table of Contents
 
-| Week  | My Notes                                                                                                                                                   | Lecture Slides                                                                                    | Noted |
-| :---: | ---------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------- | :---: |
-| 1     | [Lecture 1 - Module Introduction](#lecture-1---module-introduction)                                                                                        | [Introduction](/SCC.141.slides/a.introSlides.pdf)                                                 | ✅    |
-| 2     | [Lecture 2 - Systems Development Lifecycle](#lecture-2---systems-development-lifecycle)                                                                    | [Systems Development Lifecycle](/SCC.141.slides/b.systemsDevLifecycle.pdf)                        |  ✅   |
-| 3     | [Lecture 3 - Requirements & Requirements Engineering](#lecture-3---requirements--requirements-engineering)                                                 | [Requirements & Requirements Engineering](/SCC.141.slides/c.requirements.pdf)                     |  ✅   |
-|   4   | [Lecture 4 - Understandong Users, Usability, & User Experience](#lecture-4---understandong-users-usability--user-experience)                               | [Users, Usability, & User Experience](/SCC.141.slides/d.usersUsabilityUX.pdf)                     |  ✅   |
-|   5   | [Lecture 5 - Accesesibility](#lecture-5---accessibility)                                                                                                   | [Accessibility](/SCC.141.slides/e.accessibility.pdf)                                              |  ✅   |
-|   6   | [Lecture 6 - Solving Problems](#lecture-6---solving-problems)                                                                                              | [Solving Problems](/SCC.141.slides/f.solvingProblems.pdf)                                         |  ✅   |
-|   7   | [Lecture 7 - Intellectual Property, Software Protection, & Limiting Liability](#lecture-7---intellectual-property-software-protection--limiting-liability) | [Intellectual Property, Software Protection, & Limiting Liability](/SCC.141.slides/g.lawShit.pdf) |  ✅   |
-|   8   | [Lecture 8 - Ethics](#lecture-8---ethics)                                                                                                                  | [Ethics](/SCC.141.slides/h.lawShitPartTwo.pdf)                                                    |  ✅   |
+| Week | My Notes                                                                                                                                                   | Lecture Slides                                                                                    | Noted |
+| :--: | ---------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------- | :---: |
+| 1    | [Lecture 1 - Module Introduction](#lecture-1---module-introduction)                                                                                        | [Introduction](/SCC.141.slides/a.introSlides.pdf)                                                 | ✅    |
+| 2    | [Lecture 2 - Systems Development Lifecycle](#lecture-2---systems-development-lifecycle)                                                                    | [Systems Development Lifecycle](/SCC.141.slides/b.systemsDevLifecycle.pdf)                        |  ✅   |
+| 3    | [Lecture 3 - Requirements & Requirements Engineering](#lecture-3---requirements--requirements-engineering)                                                 | [Requirements & Requirements Engineering](/SCC.141.slides/c.requirements.pdf)                     |  ✅   |
+|  4   | [Lecture 4 - Understandong Users, Usability, & User Experience](#lecture-4---understandong-users-usability--user-experience)                               | [Users, Usability, & User Experience](/SCC.141.slides/d.usersUsabilityUX.pdf)                     |  ✅   |
+|  5   | [Lecture 5 - Accesesibility](#lecture-5---accessibility)                                                                                                   | [Accessibility](/SCC.141.slides/e.accessibility.pdf)                                              |  ✅   |
+|  6   | [Lecture 6 - Solving Problems](#lecture-6---solving-problems)                                                                                              | [Solving Problems](/SCC.141.slides/f.solvingProblems.pdf)                                         |  ✅   |
+|  7   | [Lecture 7 - Intellectual Property, Software Protection, & Limiting Liability](#lecture-7---intellectual-property-software-protection--limiting-liability) | [Intellectual Property, Software Protection, & Limiting Liability](/SCC.141.slides/g.lawShit.pdf) |  ✅   |
+|  8   | [Lecture 8 - Ethics](#lecture-8---ethics)                                                                                                                  | [Ethics](/SCC.141.slides/h.lawShitPartTwo.pdf)                                                    |  ✅   |
+|  9   | [Lecture 9 - System Failures & Errors](#lecture-9---system-failures--errors)                                                                               | [System Failures & Errors](/SCC.141.slides/i.systemFailuresAndErrors.pdf)                         |       |
 
 ## Lecture 1 - Module Introduction
 
@@ -789,3 +790,5 @@ Critics:
 - no clear agreement on global standards or mechanisms to enforce regulations
 - should regulation be top-down (gov-led) or democratic (inclusive and participatory)?
 - is it appropriate for the tech industry to shape the very rules that govern their technologies
+
+## Lecture 9 - System Failures & Errors
