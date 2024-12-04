@@ -509,3 +509,13 @@ gcc -o main main.c queue.c
 ```
 
 ## Lecture 17 - Version Control
+
+Code is changed all the time. We start with nothing and write code line by line. We fix logical and syntax errors. The requirements evolve so we extend the code. We work with multiple developers and in many teams.
+
+We need a more principled approach to tracking your code base. We need to know what was changed, when, and by whom. We need version control.
+
+A version is essentially a new 'save'. Everytime someone makes a change tothe code (including adding/removing files and dependencies) to the project, the new 'version' is the sum of the differences between the source files. It's only a version when you chose to 'mark' the set of changes at some point in time.
+
+So version control is essentially software that we explicitly choose to track of mark certain changes. Revisions are created by 'committing' the changes. We label each revision. The differences between the source files are stored. This forms a revision history over the timeline of the project.
+
+This revision history allows us to see the cumulative differences, where the changes are, what the changes were, and we can 'go back in time' (reverting the changes to previous versions).
