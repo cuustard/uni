@@ -837,3 +837,151 @@ Critics:
   <source src="SCC.141.slides/i.systemFailuresAndErrors.mp3" type="audio/mpeg">
   Your browser does not support the audio element.
 </audio>
+
+### System Errors & Failures
+
+Entire system perspective:
+
+![Titanic Entire System perspectice](images/systemFaliuresdiagram.png)
+
+#### Caste Study: The Titanic
+
+Catastrophic failure of a large system. Cost money, lives, and organisational reputation. Many mistakes were made throughout the design and development lifecycle.
+
+As a system, the Titanic is a very complex socio-technical system with many safety-critical control features. At the time, it was made of the latest cutting-edge technology such as data communications and engineering technologies. It also had complex management structures and political, and organisation contexts.
+
+#### Case Study: Post Office
+
+> "The most widespread miscarriage of justice in UK history - The BBC
+
+In 1999, new accounting software produced by Fujitsu (Horizon) was installed in Post Offices. Between 2004 and 2014, over 700 post office branch managers received criminal convictions, accused of faulty accounting and theft. However, Horizon was at fault and had falsely suggested cash shortfalls.
+
+- **Technical Components**: The Horizon system was faulty with many bugs. "There were serious issues about the reliability of Horizon".
+- **People, Knowledge, & Process**: Post Office staff members complained of bugs in the system but they were not taken seriously. So Horizon concluded that their software was correct and that the staff had stolen money.
+- **Organisational Context & Environment**: Over-trust in technology. Lack of respect for workers. Embarrassment that an expensive tech contract was failing. Failed in the legal system
+
+#### Case Study: Boeing 737 Max
+
+In Oct 2018 and Mar 2019, everyone on board died in these 2 Boeing 737 Max crashes.
+
+What happened?:
+
+1. Boeing designers used large engines which had to be repositioned forward and high. This caused unwanted lift and pitch up to a higher angle of attack.
+2. To reduce pitch-up and the risk of stall, older software was used to automatically push the nose down.
+3. The MCAS system adjusts the angle of the stabiliser. This lifts the tail, hence forcing the nose down. The system is covert, forceful, and persistent.
+
+- **People, Knowledge, & Process, and Organisational Context**: A software solution was chosen for a hardware issue. There seemed to have been little open communication around the risks. Pilots raised concerns but were ignored. Some pilots were not even aware of the new system or how it worked.
+- **Environment**: Market forces pushing airline companies to make larger, faster planes - for cheaper.
+
+### Theories & Models to Understand System Failures
+
+Levels of Failure:
+
+- **Regulatory**: lack of info and regulation, under-trained staff
+- **Managerial**: safety climate, lines of command and responsibility, quality control
+- **Hardware**: design, requirements, and implementation failures
+- **Software**: requirements, and specification failures
+- **Human**: slips, lapses, mistakes, team factors, human error
+
+Failures in one area can coincide with the failure of a different part. This combination can cause cascading failures of other parts.
+
+Characteristics of a complex system can include:
+
+- **Complex Interactions**: Unfamiliar, unplanned, or unexpected sequences which are not visible or immediately comprehensible.
+- **Tightly Coupled**: Time-dependent processes, rigidly ordered processes, very little slack
+
+Swiss Cheese Model:
+
+![Swiss Cheese Model](images/swissCheeseModel.png)
+
+Limitations:
+
+1. Independence of barriers is assumed, and randomness in whether the holes line up.
+2. Layers of defence are not static or constant, and not independent of each other. They can interact, support, or erode one another.
+3. It does not explain what the holes are, why they got there, or how the holes line up.
+
+### understanding Dependability
+
+Dependability is the judgement about the user's trust in a system. It reflects the extent of the user's confidence that it will operate as expected and will not 'fail' in normal use.
+
+> "that property of a computer system that reliance can justifiably be placed on the service it delivers" - Mellor
+
+Laprie's Model:
+
+![Another Model](images/LapriesModel.png)
+
+Impairments:
+
+1. **System Failure**: when the system does not deliver the service its users expect.
+2. **System Error**: where the behaviour of the system does not conform to its specification
+3. **System Fault**: incorrect system state not expected by the designers of the system
+4. **Human Error or Mistake**: human behaviour that results in faults being introduced into the system
+
+Laprie's Model's Means:
+
+1. **Fault Avoidance**: preventing the occurrence of faults
+2. **Fault Tolerance**: delivering correct service, though faults are present
+3. **Fault Removal**: reducing number of severity of faults
+4. **Fault Forecasting**: estimating the number of faults, future occurrence, consequences
+
+Laprie's Model: Primary Attributes of Dependability:
+
+1. **Availability**: the ability of the system to deliver services when requested
+2. **Reliability**: ability of the system to deliver services as specified
+3. **Safety**: the ability of the system to operate without catastrophic failure
+4. **Security**: the ability of the system to protect itself against accidental or deliberate intrusion
+
+Laprie's Model: SecondaryAttributes of Dependability:
+
+5. **Timeliness**: the ability of the system to respond in a timely way to user requests
+6. **Survivability**: the ability of a system to continue to deliver its services to users in the face of deliberate or accidental attack
+7. **Recoverability**: the ability of the system to recover from user or system errors
+8. **Maintainability**: the ease of repairing the system after a failure has been discovered or changing the system to include new features
+
+### Understanding (and designing for) Human Error
+
+### Why Study Human Error?
+
+Human error has many consequences and a common reaction is a blame the user. But system engineers should be asking:
+
+1. How can we design systems that minimise the potential for human error?
+2. How can we design systems that detect and correct human error?
+3. How can we design systems that tolerate human error?
+
+Human errors are inherently fallible and errors are inevitable as human behaviour is varied. The general approach to human error is error tolerance rather than error avoidance.
+
+> "It is now widely held among human reliability specialists that the most productive strategy for dealing with active errors is to focus upon controlling their consequences rather than upon striving for their elimination" - reasonable
+
+To plan for errors, we can do several things:
+
+- Increase system visibility by not hiding the complexity behind automated mechanisms
+- Take errors into account in operator training like error Scenarios
+- Design interfaces with human user behaviour in mind
+- Norman: design for errors. Assume errors will occur and plan for error recovery. E.g. make it easy to reverse actions.
+
+Some would argue that system **automation** is the answer to avoiding human error. But automation addresses Skill & Rule-Based Tasks, leaving complex Knowledge-based tasks to humans. It can also hinder understanding, by decreasing system visibility and increasing complexity. Automation shifts the error source from operator/user errors to design errors, which may be hard to detect and fix.
+
+#### Generic Error Modeling System
+
+GEMS defines human error as the failure to perform a plan or task properly or the failure to apply the correct plan.
+
+There are several types of action:
+
+1. **Skill Based Performance**: routine, practised things done without much cognitive effort
+2. **Rule Based Performance**: following a set of rules or procedure
+3. **Knowledge-Based Performance**: applying Knowledge
+
+There are several types of errors:
+
+1. **Slips** (related to Skill Based Performance): "execution failure". users' intentions are correct but actions are not carried out properly
+2. **Lapses** (related to Skill Based Performance): "execution failure". forgetting to do something
+3. **Mistakes** (related to Rule & Knowledge-Based Performance): "planning failures". Inappropriate set of actions is carried out
+
+Advantages:
+
+- Provides a useful framework for thinking about designing systems that minimise, detect correct, and tolerate human error.
+
+Limitations:
+
+- Focuses on non-deliberate error, rather than deliberate (e.g. taking shortcuts)
+- High level, ignores the importance of context
