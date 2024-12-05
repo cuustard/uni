@@ -18,6 +18,7 @@ began: 9th October 2024
 |  7   | [Lecture 12 - Multiple Linear Regression](#lecture-12---multiple-linear-regression) | [Multiple Linear Regression](/MSCI.152.slides/l.multipleLinearRegression.pdf) |  ✅   |
 |  7   | [Lecture 13 - Forecasting](#lecture-13---forecasting)                               | [Forecasting](/MSCI.152.slides/m.forecasting.pdf)                             |  ✅   |
 |  8   | [Lecture 14 - Forecasting Part 2](#lecture-14---forecasting-part-2)                 | [Forecasting Part 2](/MSCI.152.slides/n.forecastingPartTwo.pdf)               |  ✅   |
+|  9   |                                                                                     |                                                                               |  ✅   |
 
 ## Lecture 1 - Module Introduction
 
@@ -317,3 +318,57 @@ Yes...
 1. A straight line forecast makes sense when a time series has no trend or seasonality.
 2. Noise cannot be forecasted. A wiggly line trying to forecast noise will just reduce accuracy.
 3. The forecast going forward contains all the information up to that point, so the straight line going forward does too.
+
+## Lecture 15 - Modelling In Practice
+
+### Project Understanding
+
+All modelling starts with a problem. A problem can be captured by some data sets. Appropriate modelling techniques can learn relationships. Finding models can be transferred back to thet real problem and applied successfully.
+
+While time spent on a project and data understandin is small compared to data preparation and modelling (20%:80%) the importance to success is the opposite.
+
+When setting objectives, we must decide what it is, if that objective is deliverable, and what the SMART success criteria is for it.
+
+### Data Understanding
+
+What kind of data do we have? Is the data relevant to the problem. Is there sufficient data? Is it valid? Is it showing what we would expect? Are there any errors in the data?
+
+Missing values can have different causes. A sensor may have been broken...
+
+### Data Preparation
+
+1. Select data
+2. Clean the data
+   - treating missing data
+   - identifying erroneous data and outliers
+   - defining the appropriate way to represent variables
+3. Construct data
+   - split into training/test sets if needed
+   - consider taking a smaller sample when dealing with big datasets
+   - transofrm variables
+     - categorical variables --> dummies
+     - normalise/standardise variables
+     - non-linear transformations
+
+### Modelling
+
+A problem in modelling is choosing a model that accurately captures both:
+
+- in-sample structure
+- behaviour of unseen data (generalise/predict)
+
+The bias-variance tradeoff:
+
+![Dart Board Visualisation of Bias-Variance Tradeoff](biasVarianceTradeoffDartBoard.png)
+
+![Graph Visualisation of Bias-Variance Tradeoff](biasVarianceTradeoffGraph)
+
+Under/overfitting:
+
+![Under/Overfitting](underOverFittingExample.png)
+
+## Evaluation
+
+**Model Interpretability**: A model is better interpretable than another model if its decisions are easier for a human to comprehend than decisions from the other model.
+
+Occam's Razer Principle:
