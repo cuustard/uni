@@ -40,7 +40,7 @@ Assessed with Exams and Coursework:
 |   8   | [Lecture 15 - The Stack](#lecture-15---the-stack)                                                                                   | [The Stack](/SCC.121.slides/p.stack.pdf)                                                                 |  ✅   |
 |   8   | [Lecture 16 - Linked Lists](#lecture-16---linked-lists)                                                                             | [Linked Lists](/SCC.121.slides/q.linkedLists.pdf)                                                        |  ✅   |
 |   9   | [Lecture 17 - Searching](#lecture-17---searching)                                                                                   | [Searching](/SCC.121.slides/r.searching.pdf)                                                             |       |
-|   9   |                                                                                                                                     |                                                                                                          |       |
+|   9   | [Lecture 18 - Recursion](#lecture-18---recursion)                                                                                   | [Recursion](/SCC.121.slides/s.recursion.pdf)                                                             |  ✅   |
 
 ## Lecture 1 - Sets
 
@@ -1043,4 +1043,132 @@ return -1; // not found in array
 
 Binary Search Complexity: O(log<sub>2</sub>N)
 
-## Lecture 18 -
+## Lecture 18 - Recursion
+
+A recursive fuction is one which calls itself in itself. We can use iteration or recursion to run the same piece of logic a given number of times.
+
+```C
+void counter(int n) {
+  for (int i = 0; i < n; i++) {
+    print("loop")
+  }
+}
+```
+
+```C
+void counter(int n) {
+  if (n != 0) {
+    print("loop");
+    counter(n - 1);
+  }
+}
+```
+
+### Order of Execution
+
+The order in which we execute logic in a recursive function depends on whether its before or after the self call.
+
+logic-before-recursion:
+
+```C
+void counter(int n) {
+  if (n != 0) {
+    print("loop " + (n - 1));
+    counter(n - 1)
+  }
+}
+
+// Outputs:
+// loop 3
+// loop 2
+// loop 1
+// loop 0
+```
+
+logic-after-recursion:
+
+```C
+void counter(int n) {
+  if (n != 1) {
+    counter(n - 1);
+    print("loop " + (n - 1));
+  }
+}
+
+// Outputs:
+// loop 0
+// loop 1
+// loop 2
+// loop 3
+```
+
+### Advantages
+
+Iteration:
+
+- good: memory usage is controlled explicitly by the programmer, so a stack overflow is less likey
+- good: can execute quicker as there is no overhead from stack frame creation/destruction
+- bad: naturally recursive function can be harder to understand in an iterative form
+
+Recursion:
+
+- good: naturally recursive functions are much more concise when expressed this way
+- good: languages which support tail recursion can eliminate some of the extra cost to performance, and stack overflows
+
+### Examples
+
+Iterative:
+
+```C
+int total(int array[]) {
+  int result = 0;
+
+  for (int i = 0; i < array.length; i++) {
+    result += array[i];
+  }
+  return result
+}
+```
+
+Recursively:
+
+```C
+int total(int array[], int size) {
+  if (size == 1) {
+    return array[size - 1]
+  }
+  return array[size -1] + total(array, size -1)
+}
+
+// Say array = [5, 10, 15, 20]; size = 4
+// 20 + total([5, 10, 15, 20], 3)
+// = 20 + (15 +  total([5, 10, 15, 20], 2))
+// = 20 + (15 +  (10 + total([5, 10, 15, 20], 1))
+// = 20 + (15 +  (10 + (5)))
+// = 20 + (15 +  (15))
+// = 20 + (30)
+// = 50
+```
+
+Factorial function e.g.:
+
+```C
+int factorial(int n) {
+  int total = 1;
+  for (int i = 1; i <= n; i++) {
+    total = total * i
+  }
+  return total;
+}
+```
+
+Recursively:
+
+```C
+int factorial(int n) {
+  if (n == 0) {
+    return 1;
+  }
+  return n * factorial(n - 1);
+}
+```
