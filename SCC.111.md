@@ -37,7 +37,8 @@ Assessed with Exam and Coursework:
 |  7   | [Lecture 14 - APIs & Files](#lecture-14---apis--files)                                       | [APIs & Files](/SCC.111.slides/n.APIsAndFiles.pdf)                                     |  ✅   |
 |  8   | [Lecture 15 - More Files](#lecture-15---more-files)                                          | [Files Continued](/SCC.111.slides/o.moreFileStuff.pdf)                                 |  ✅   |
 |  8   | [Lecture 16 - Libraries](#lecture-16---multi-file-projects)                                  | [Libraries](/SCC.111.slides/p.libraries.pdf)                                           |  ✅   |
-|  9   | [Lecture 17 - Version Control](#lecture-17---version-control)                                | [Version Control](/SCC.111.slides/q.versionControl.pdf)                                |       |
+|  9   | [Lecture 17 - Version Control](#lecture-17---version-control)                                | [Version Control](/SCC.111.slides/q.versionControl.pdf)                                |  🟧   |
+|  9   | [Lecture 18 - Dynamic Data Structures](#lecture-18---dynamic-data-structures)                | [Dynamic Data Structures](/SCC.111.slides/h.dynamicDataStructures.pdf)                 |  🟧   |
 
 ---
 
@@ -519,3 +520,72 @@ A version is essentially a new 'save'. Everytime someone makes a change tothe co
 So version control is essentially software that we explicitly choose to track of mark certain changes. Revisions are created by 'committing' the changes. We label each revision. The differences between the source files are stored. This forms a revision history over the timeline of the project.
 
 This revision history allows us to see the cumulative differences, where the changes are, what the changes were, and we can 'go back in time' (reverting the changes to previous versions).
+
+## Lecture 18 - Dynamic Data Structures
+
+If the data we want to process is of unknown size then we'd need our application to work despite flexible sixed data. Or we would need a more powerful way of organising the data to make it quicker to search or sort. Simple arrays lend themselves to linear organised data ideally of known size. These are not good enough.
+
+Fortunately we can use dynamic memory to allocate elements in data structures. We can also use pointers between dynamic instances to organise our data structure like a list of tree.
+
+### Building a Dynamic 'singly linked list'
+
+1. Allocate space for a 'node' of the appropriate type
+2. Find where to add our item (start, end, insertion point)
+3. Adjust the pointers to stay consistent with the type of data structure we're working with
+
+A linked list has 3 operations:
+
+- **Insert**: add to the list
+- **Find**: returns a pointer to the item in the list
+- **Delete**: remove from the list
+
+To develop these we need a good understanding of pointers, compound types, and dynamic memory (malloc).
+
+```
+struct {
+    char name[20]
+    char college[10]
+    struct pointer next
+} element {
+
+}
+```
+
+### Compound Variables & Dynamic Memory
+
+1. Declare a type for our node (struct)
+2. A variable representing the pointer to the data structure
+3. For each node, allocate a new node (using malloc)
+4. Chain it, so our first item points to the new item
+
+### Algorithms
+
+```C
+typedef struct tagNode {
+    char name[20], college[10];
+
+    struct tagNode *next;
+} tElement;
+
+// insert function
+tElement *insert(tElement *head, char *name, char *college) {
+    //create new node
+    tElement *new = (tElement *) malloc(sizeof(tElement));
+
+    // initialise node
+    strcpy(new->name, name);
+    strcpy(new->college, college);
+    new->next = NULL;
+
+    // look through the list, find where to insert and inser
+
+}
+
+// print function
+tElement *print(tElement *head) {
+    for (tElement *item = head; item != NULL; item = item->next) {
+        print("item %p contains %s\n", item, item-<name);
+    }
+}
+
+```
