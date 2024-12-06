@@ -29,24 +29,25 @@ Assessed with Exams and Coursework:
 
 ### Table of Contents
 
-| Week | My Notes                                                                                       | Lecture Slides                                                                                  | Noted |
-| :--: | ---------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- | :---: |
-|  1   | [Lecture 1 - Module Introduction](#lecture-1---module-introduction)                            | [Module Introduction](/SCC.131.slides/a.introSlides.pdf)                                        |  ✅   |
-|  1   | [Lecture 2 - Architecture & Speed](#lecture-2---architecture--speed)                           | [Comp Architecture](/SCC.131.slides/b.compArchitectureIntro.pdf)                                |  ✅   |
-|  2   | [Lecture 3 - Information Coding](#lecture-3---information-coding)                              | [Information Coding](/SCC.131.slides/c.infoCodingPartOne.pdf)                                   |  ✅   |
-|  2   | [Lecture 4 - Information Coding Part 2](#lecture-4---information-coding-part-2)                | [Information Coding Contd](/SCC.131.slides/d.infoCodingPartTwo.pdf)                             |  ❌   |
-|  3   | [Lecture 5 & 6 - Boolean Logic](#lecture-5--6---boolean-logic)                                 | [Boolean Logic](/SCC.131.slides/e.booleanLogic.pdf)                                             |  ❌   |
-|  4   | [Lecture 7 - Instruction Set Architecture](#lecture-7---instruction-set-architecture)          | [Instruction Set Architecture](/SCC.131.slides/f.instructionSetArchitecture.pdf)                |  ❌   |
-|  4   | [Lecture 8 - Building the ALU](#lecture-8---building-the-alu)                                  | [Building The ALU](/SCC.131.slides/g.buildingTheALU.pdf)                                        |  ❌   |
-|  5   | [Lecture 9 - Building Memory](#lecture-9---building-memory)                                    | [Building Memory](/SCC.131.slides/h.buildingMemory.pdf)                                         |  🟧   |
-|  5   | [Lecture 10 - Building The Control Unit](#lecture-10---building-the-control-unit)              | [Building The Control Unit](/SCC.131.slides/i.buildingCU.pdf)                                   |  ❌   |
-|  6   | [Lecture 11 - Building the Input/Output System](#lecture-11---building-the-inputoutput-system) | [Building The IO](/SCC.131.slides/j.buildingIO.pdf)                                             |  ✅   |
-|  6   | [Lectute 12 - Weeks 1-6 Recap](#lecture-12---weeks-1-6-recap)                                  | [Weeks 1-6 Recap](/SCC.131.slides/j.recapUpToWeek6.pdf)                                         |  ✅   |
-|  7   | [Lecture 13 - The Micro:Bit](#lecture-13---the-microbit)                                       | [Architecturing The Micro:Bit](/SCC.131.slides/k.microbit.pdf)                                  |  ✅   |
-|  7   | [Lecture 14 - The Micro:Bit Part 2](#lecture-14---the-microbit-part-2)                         | [Micro:bit Part 2](/SCC.131.slides/l.microbitPartTwo.pdf)                                       |  ✅   |
-|  8   | [Lecture 15 - C/C++ & CODAL](#lecture-15---cc-codal)                                           | [C/C++ & CODAL](/SCC.131.slides/m.introCODAL.pdf)                                               |  ✅   |
-|  8   | [Lecture 16 - CODAL Part 2](#lecture-16---codal-part-2)                                        | [CODAL Part 2](/SCC.131.slides/n.CODALpartTwo.pdf)                                              |  ✅   |
-|  9   | [Compiler, Assembler, Linker, & Loader](#lecture-17---compiler-assembler-linker--loader)       | [Compiler, Assembler, Linker, & Loader](/SCC.131.slides/o.compilerAssemblerLinkerAndLoader.pdf) |  ✅   |
+| Week | My Notes                                                                                              | Lecture Slides                                                                                  | Noted |
+| :--: | ----------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- | :---: |
+|  1   | [Lecture 1 - Module Introduction](#lecture-1---module-introduction)                                   | [Module Introduction](/SCC.131.slides/a.introSlides.pdf)                                        |  ✅   |
+|  1   | [Lecture 2 - Architecture & Speed](#lecture-2---architecture--speed)                                  | [Comp Architecture](/SCC.131.slides/b.compArchitectureIntro.pdf)                                |  ✅   |
+|  2   | [Lecture 3 - Information Coding](#lecture-3---information-coding)                                     | [Information Coding](/SCC.131.slides/c.infoCodingPartOne.pdf)                                   |  ✅   |
+|  2   | [Lecture 4 - Information Coding Part 2](#lecture-4---information-coding-part-2)                       | [Information Coding Contd](/SCC.131.slides/d.infoCodingPartTwo.pdf)                             |  ❌   |
+|  3   | [Lecture 5 & 6 - Boolean Logic](#lecture-5--6---boolean-logic)                                        | [Boolean Logic](/SCC.131.slides/e.booleanLogic.pdf)                                             |  ❌   |
+|  4   | [Lecture 7 - Instruction Set Architecture](#lecture-7---instruction-set-architecture)                 | [Instruction Set Architecture](/SCC.131.slides/f.instructionSetArchitecture.pdf)                |  ❌   |
+|  4   | [Lecture 8 - Building the ALU](#lecture-8---building-the-alu)                                         | [Building The ALU](/SCC.131.slides/g.buildingTheALU.pdf)                                        |  ❌   |
+|  5   | [Lecture 9 - Building Memory](#lecture-9---building-memory)                                           | [Building Memory](/SCC.131.slides/h.buildingMemory.pdf)                                         |  🟧   |
+|  5   | [Lecture 10 - Building The Control Unit](#lecture-10---building-the-control-unit)                     | [Building The Control Unit](/SCC.131.slides/i.buildingCU.pdf)                                   |  ❌   |
+|  6   | [Lecture 11 - Building the Input/Output System](#lecture-11---building-the-inputoutput-system)        | [Building The IO](/SCC.131.slides/j.buildingIO.pdf)                                             |  ✅   |
+|  6   | [Lectute 12 - Weeks 1-6 Recap](#lecture-12---weeks-1-6-recap)                                         | [Weeks 1-6 Recap](/SCC.131.slides/j.recapUpToWeek6.pdf)                                         |  ✅   |
+|  7   | [Lecture 13 - The Micro:Bit](#lecture-13---the-microbit)                                              | [Architecturing The Micro:Bit](/SCC.131.slides/k.microbit.pdf)                                  |  ✅   |
+|  7   | [Lecture 14 - The Micro:Bit Part 2](#lecture-14---the-microbit-part-2)                                | [Micro:bit Part 2](/SCC.131.slides/l.microbitPartTwo.pdf)                                       |  ✅   |
+|  8   | [Lecture 15 - C/C++ & CODAL](#lecture-15---cc-codal)                                                  | [C/C++ & CODAL](/SCC.131.slides/m.introCODAL.pdf)                                               |  ✅   |
+|  8   | [Lecture 16 - CODAL Part 2](#lecture-16---codal-part-2)                                               | [CODAL Part 2](/SCC.131.slides/n.CODALpartTwo.pdf)                                              |  ✅   |
+|  9   | [Lecture 17 - Compiler, Assembler, Linker, & Loader](#lecture-17---compiler-assembler-linker--loader) | [Compiler, Assembler, Linker, & Loader](/SCC.131.slides/o.compilerAssemblerLinkerAndLoader.pdf) |  ✅   |
+|  9   | [Lecture 18 - The C Proprocessor](#lecture-18---the-c-preprocessor)                                   | [The C Preprocessor](/SCC.131.slides/p.theCproprocessor.pdf)                                    |  ✅   |
 
 ## Lecture 1 - Module Introduction & Computer Architecture
 
@@ -882,3 +883,92 @@ It performs memory and access validatoon, and performs the process setup.
 ### In Micro:bit
 
 The C++ source files should be in the folder source with `main.cpp`. The statement `#include "MicroBit.h"` found at the begining of `main.cpp` prompts the preprocessor to include `MicroBit.h` found in the codal `-microbit-v2` library. The object file `main.cpp.obj` is linked with 3 libraries to create the .hex file.
+
+## Lecture 18 - The C Preprocessor
+
+The C Preprocessor is used automatically by the C compiler to transform your program before compilation. It is also called a macro processor because it allows you to define macros, and brief abbreviations for longer constructs.
+
+### Initial Processing
+
+The input file is read into memory and broken into lines. Different systems use different conventions to indicate the end of a line. GCC accepts LF, CR LF, and CR as end-of-line markers (LF = Line Feed, CR = Carriage Return).
+
+Continued lines are merged into one long line. A continued line is a line that ends with a backslash. The backslash is removed, and the following line is joined with the current one.
+
+All comments are replaced with single spaces. There are two kinds of comments. Block comments begin with `/*` and can span multiple lines until the end of `*/`. Line comments begin with `//` and continue until the end of the line.
+
+### Tokenization
+
+The C file is split into preprocessing tokens.
+
+- **Identifier**: a sequence of letters, digits, or underscores, beginning with a letter or underscore.
+- **Number**: any C integer and floating-point constants.
+- **String literals**: string/character constants and header file names.
+
+The stream of tokens can be passed to the compiler's parser. But if the stream contains any operations (identifiers) in the preprocessing language, it will be transformed first.
+
+### Preprocessing Language
+
+The preprocessing language consists of directives to be executed and macros to be expanded.
+
+![Directives and Macros](images/directivesAndMacros.png)
+
+There are no semicolons at the end of macros.
+
+- **Macro Expansion**: abbreviations for C code fragments. The preprocessor replaces macros with their definitions throughout the program.
+- **Conditional Compilation**: include or exclude code segments from compilation based on conditions.
+- **Diagnostics**: detect problems at compile time and issue errors or warnings.
+- **Inclusion of Header Files**: file declarations substituted in your program.
+- **Control the Compiler**: provide hints to the compiler on how to process the code.
+
+### Macro Expansion
+
+#### Object-like Macros
+
+- An object-like macro replaces an identifier with a code fragment.
+- Macros are defined using the `#define` directive.
+- This directive must be followed by a macro name and the intended expansion of the macro.
+- By convention, macro names are written in UPPERCASE.
+- The macro's body ends at the end of the `#define` line.
+- You can continue the definition onto multiple lines using a backslash.
+
+#### Function-like Macros
+
+- Function-like macros are macros that look like a function call.
+- To define a function-like macro, you use the same `#define` directive but append a pair of parentheses immediately after the macro name.
+- They accept arguments like C functions.
+
+#### Stringification/Stringizing
+
+- The stringification or stringizing operator `#`, when used with a macro definition, converts macro parameters into a string constant.
+- This means that a macro parameter with a leading `#` is replaced with the string literal of the actual argument.
+
+#### Undefining Macros
+
+- A macro may be undefined with the `#undef` directive.
+- This is followed by the macro's name.
+- It has no effect if the name is not a macro.
+- The identifier may be redefined as a macro by a subsequent `#define` directive.
+
+### Conditional Compilation
+
+The `#if` directive allows you to test the value of an arithmetic expression. It is like a C expression of integral type. You can use arithmetic operators and logic operators. The operator `defined` is often useful if we are interested in the existence of an identifier but not its value.
+
+The `#else` directive is added to a conditional to provide alternative preprocessing language for use if the condition fails. The directive `#elif` stands for "else if" and considers alternative conditions if the main condition fails. Do not forget that the directive `#endif` is required to close an `#if` statement in the preprocessing language.
+
+The `#ifdef` can be used to check if an object-like identifier or function-like identifier has been defined. They are macros themselves, for example, `#ifdef HI` means `#if defined(HI)`.
+
+All conditionals can be nested inside each other.
+
+### Header Files
+
+Header files are included using the preprocessing directive `#include`. Use `#include <file.h>` for system header files. Use the `#include "file.h"` for header files in your project path.
+
+The output of the preprocessor contains the output resulting from the included file followed by the output that comes after the `#include` directive in the source file. Metadata is also added to the preprocessed file to further assist compilation.
+
+### Control the Compiler: Double Inclusion
+
+If a header file happens to be included twice, the compiler will process its contents twice. This is likely to raise an error. If no errors are raised, the compilation time will increase (poor practice). The standard way to prevent double inclusion is to enclose the entire C code of the header file in a conditional.
+
+### Control the Compiler: Computed `#include`
+
+Sometimes it is necessary to select one of several different header files to be included in your program. They might specify config parameters to be used on different operating systems. An alternative is to use a computed include. Instead of considering all possible conditions internally, the header file that needs to be included can be specified externally as a compiler option.
