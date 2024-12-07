@@ -18,7 +18,8 @@ began: 9th October 2024
 |  7   | [Lecture 12 - Multiple Linear Regression](#lecture-12---multiple-linear-regression) | [Multiple Linear Regression](/MSCI.152.slides/l.multipleLinearRegression.pdf) |  ✅   |
 |  7   | [Lecture 13 - Forecasting](#lecture-13---forecasting)                               | [Forecasting](/MSCI.152.slides/m.forecasting.pdf)                             |  ✅   |
 |  8   | [Lecture 14 - Forecasting Part 2](#lecture-14---forecasting-part-2)                 | [Forecasting Part 2](/MSCI.152.slides/n.forecastingPartTwo.pdf)               |  ✅   |
-|  9   |                                                                                     |                                                                               |  ✅   |
+|  9   | [Lecture 15 - Modelling in Practice](#lecture-15---modelling-in-practice)           | [Modelling in Practice](/MSCI.152.slides/o.modellingInPractice.pdf)           |  ✅   |
+|  10  |                                                                                     |                                                                               |       |
 
 ## Lecture 1 - Module Introduction
 
@@ -329,6 +330,8 @@ While time spent on a project and data understandin is small compared to data pr
 
 When setting objectives, we must decide what it is, if that objective is deliverable, and what the SMART success criteria is for it.
 
+![Data Analysis Process Diagram](images/dataAnalysisProcessDiagram.png)
+
 ### Data Understanding
 
 What kind of data do we have? Is the data relevant to the problem. Is there sufficient data? Is it valid? Is it showing what we would expect? Are there any errors in the data?
@@ -359,13 +362,13 @@ A problem in modelling is choosing a model that accurately captures both:
 
 The bias-variance tradeoff:
 
-![Dart Board Visualisation of Bias-Variance Tradeoff](biasVarianceTradeoffDartBoard.png)
+![Dart Board Visualisation of Bias-Variance Tradeoff](images/biasVarianceTradeoffDartBoard.png)
 
-![Graph Visualisation of Bias-Variance Tradeoff](biasVarianceTradeoffGraph)
+![Graph Visualisation of Bias-Variance Tradeoff](images/biasVarianceTradeoffGraph.png)
 
 Under/overfitting:
 
-![Under/Overfitting](underOverFittingExample.png)
+![Under/Overfitting](images/underOverFittingExample.png)
 
 ## Evaluation
 
