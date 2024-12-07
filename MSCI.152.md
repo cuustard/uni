@@ -374,4 +374,4 @@ Under/overfitting:
 
 **Model Interpretability**: A model is better interpretable than another model if its decisions are easier for a human to comprehend than decisions from the other model.
 
-Occam's Razer Principle:
+Occam's Razer Principle: when faced with several methods that give roughly equivalent performance, pick the simplest.
