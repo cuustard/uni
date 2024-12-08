@@ -30,8 +30,8 @@ Assessed with Exam and Coursework:
 |  4   | [Lecture 7 - Testing](#lecture-7---testing)                                                  | [Testing](/SCC.111.slides/g.testing.pdf)                                               |  ❌   |
 |  4   | [Lecture 8 - Debugging](#lecture-8---debugging)                                              | [Debugging](/SCC.111.slides/h.debugging.pdf)                                           |  ❌   |
 |  5   | [Lecture 9 - Deubbign Part 2](#lecture-9---debugging-part-2)                                 | [Debugging Part 2](/SCC.111.slides/i.debuggingPartTwo.pdf)                             |  ❌   |
-|  5   | [Lecture 10 - Indirection & Pointers](#lecture-10---indirection--pointers)                   | [Indirection & Pointers](/SCC.111.slides/j.indirectionPointers.pdf)                    |  ❌   |
-|  6   | [Lecture 11 - Pointers & Strings](#lecture-11---pointers--strings)                           | [Pointers & Strings](/SCC.111.slides/k.pointersAndStrings.pdf)                         |  ✅   |
+|  5   | [Lecture 10 - Indirection & Pointers](#lecture-10---indirection--pointers)                   | [Indirection & Pointers](/SCC.111.slides/j.indirectionPointers.pdf)                    |  🟧   |
+|  6   | [Lecture 11 - Pointers & Strings](#lecture-11---pointers--strings)                           | [Pointers & Strings](/SCC.111.slides/k.pointersAndStrings.pdf)                         |  ❌   |
 |  6   | [Lecture 12 - Dynamic Memory & Compound Types](#lecture-12---dynamic-memory--compound-types) | [Dynamic Memory & Compound Types](/SCC.111.slides/l.dynamicMemoryAndCompoundTypes.pdf) |  ✅   |
 |  7   | [Lecture 13 - Quiz Solutions](#lecture-13---quiz-solutions)                                  | [Quiz Solutions](/SCC.111.slides/m.quizResults.pdf)                                    |  n/a  |
 |  7   | [Lecture 14 - APIs & Files](#lecture-14---apis--files)                                       | [APIs & Files](/SCC.111.slides/n.APIsAndFiles.pdf)                                     |  ✅   |
@@ -196,6 +196,65 @@ In C, the parameter values in the function are only ever a copy of what passed i
 ## Lecture 9 - Debugging Part 2
 
 ## Lecture 10 - Indirection & Pointers
+
+A pointer is a variable that contains the address of something else in memory such as another variable. This means that the pointer is not the value itself, it is the where to find it. It has its own type - pointer - in C.
+
+Think of computer memory as a street of houses (memory section) each with a unique location identifier (an address).
+
+When we declare a variable, a space in memory is set aside to store that type of data and the location is labelled with a name. E.G. declaring `x = 65` in our program will find free space in memory. In memory location `0x1012`. It labels that memory location as `x` and stores `65` there. We could get that data by the variable name or by targeting the address. This is good because if we have that box labelled x that contains 65, if I want to get that box I either need the address 0x1012 or i need the variable name. But if i want to get to the location 0x1024 I don't have a variable name for it, but I do have an address so I can get there without a name.
+
+What pointers allow us to talk about the space where x is, not what it is. Pointers give us this level in indirection. Pointers are variables themselves that we can change and make them point to different places.
+
+```C
+int *p = &y;
+// a pointer p is equal to the address of int y
+// so if y = 32 is stored in 0x1004 then x = 0x1012
+// the & is saying give me the address of y not the data at y.
+// the * is declaring a pointer to an integer not the integer itself
+```
+
+Dereferencing:
+
+```C
+*x = 65;
+// go to var x, find the value stored in it, treat it as an address, follow the address, and in the place that youve got to put the number 65.
+// so the * is saying, treat the thing in x as an address. then the data at that memory address is set to the RHS in this case 65
+
+// so if you didnt have the *, then the data at x would be replaced by 65. the compiler might complain as x is a type pointer but you trying to put int in it.
+```
+
+When we call a function we use a copy of the parameters the function is using. E.G.:
+
+```C
+
+void add_5(int value) {
+    value = value + 5;
+}
+
+int main() {
+    int amount = 10;
+    add_5(amount);
+    printf("Amount = %d\n", amount);
+    // you would expect this to print 15. but the function is passed a copy of the data in var amount, not the actual thing. So the data in var amount is not changed. scope issue.
+    return 0;
+}
+```
+
+To combat this we need to pass in the address of the thing that needs to be changed.
+
+```C
+void add_5(int *value) {
+    *value = *value + 5;
+    // 'value' is now where the data is that we modify
+}
+
+int main() {
+    int amount = 10;
+    add_5(amount);
+    printf("Amount = %d\n", amount);
+    return 0;
+}
+```
 
 ## Lecture 11 - Pointers & Strings
 
