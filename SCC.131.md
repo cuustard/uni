@@ -48,6 +48,7 @@ Assessed with Exams and Coursework:
 |  8   | [Lecture 16 - CODAL Part 2](#lecture-16---codal-part-2)                                               | [CODAL Part 2](/SCC.131.slides/n.CODALpartTwo.pdf)                                              |  ✅   |
 |  9   | [Lecture 17 - Compiler, Assembler, Linker, & Loader](#lecture-17---compiler-assembler-linker--loader) | [Compiler, Assembler, Linker, & Loader](/SCC.131.slides/o.compilerAssemblerLinkerAndLoader.pdf) |  ✅   |
 |  9   | [Lecture 18 - The C Proprocessor](#lecture-18---the-c-preprocessor)                                   | [The C Preprocessor](/SCC.131.slides/p.theCproprocessor.pdf)                                    |  ✅   |
+|  10  | [Lecture 19 - Debugging](#lecture-19---debugging)                                                     | [Debugging](/SCC.131.slides/r.debugging.pdf)                                                    |  ✅   |
 
 ## Lecture 1 - Module Introduction & Computer Architecture
 
@@ -972,3 +973,50 @@ If a header file happens to be included twice, the compiler will process its con
 ### Control the Compiler: Computed `#include`
 
 Sometimes it is necessary to select one of several different header files to be included in your program. They might specify config parameters to be used on different operating systems. An alternative is to use a computed include. Instead of considering all possible conditions internally, the header file that needs to be included can be specified externally as a compiler option.
+
+## Lecture 19 - Debugging
+
+Bugs that occur during compilation time:
+
+- syntactically incorrect
+- code violates programming conventions
+- issues may appear as warnings
+- static analysis of your code detects that it is invalid
+
+Bugs that occur during run time:
+
+- logical error in code
+- it will run but not as expected
+
+### Debugging Strategies
+
+**Divide & Conquer**: gradually remove/add code to create the smallest source file that contains the bug.
+
+1. Remove Code
+   - start with current code
+   - slowly remove code until the program works well
+   - examine last removed lines
+2. Add Code
+   - Start with smallest working program
+   - Add functionality until program works
+   - Examine the last added lines
+
+We can also insert `printf()` in different places to follow the program flow. This is useful but it can take many `printf()` statements and the inclusion of many could change the behaviour of the code (timing, the stack, etc...). The program could work with a bunch of `printf()` but the code could fail when they are removed. This is known as a 'heisenbug'.
+
+### Micrp:bit & Printing on the screen
+
+`printf()` and `scanf()` operations can be used to print and read data using a serial/UART interface. This is a communication interface between 2 computers. It transmits information sequentially one bit at a time but you need a serial client to read and write data (a screen).
+
+### Micro:bit Sending data through the serial
+
+For Linux:
+
+1. Install the program "screen
+2. Upload code to the micro:bit and open a terminal window
+3. Type `ls /dev/ttyACM*` to find the device node that it has been assigned to.
+4. Type `screen /dev/ttyACM0 1152000` (example/assumed device node) to display the serial output on the screen
+5. Press `Ctrl-A` and `Ctrl-D` to exit the screen. To return to screen type `screen -r`
+
+### Using a debugger
+
+A debugger is a less invasive alternative to `printf()`. It allows you to step through a program (slowly execute one instruction at a time), set breakpoints, investigate machine state (memory, registers, etc), investigate crashes. However it does not find problems for you or fix them.
