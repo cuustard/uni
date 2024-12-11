@@ -30,6 +30,7 @@ Assessed with Exams and Coursework:
 |  7   | [Lecture 7 - Intellectual Property, Software Protection, & Limiting Liability](#lecture-7---intellectual-property-software-protection--limiting-liability) | [Intellectual Property, Software Protection, & Limiting Liability](/SCC.141.slides/g.lawShit.pdf) |  ✅   |
 |  8   | [Lecture 8 - Ethics](#lecture-8---ethics)                                                                                                                  | [Ethics](/SCC.141.slides/h.lawShitPartTwo.pdf)                                                    |  ✅   |
 |  9   | [Lecture 9 - System Failures & Errors](#lecture-9---system-failures--errors)                                                                               | [System Failures & Errors](/SCC.141.slides/i.systemFailuresAndErrors.pdf)                         |  ✅   |
+|  10  | [Lecture 10 - System & Human Error, and Recap](#lecture-10---system--human-error-and-recap)                                                                | [System & Human Error, and Recap](/SCC.141.slides/j.SystemAndHumanError.pdf)                      |  ✅   |
 
 ## Lecture 1 - Module Introduction
 
@@ -985,3 +986,115 @@ Limitations:
 
 - Focuses on non-deliberate error, rather than deliberate (e.g. taking shortcuts)
 - High level, ignores the importance of context
+
+## Lecture 10 - System & Human Error, and Recap
+
+### Human Failure
+
+#### Understanding (and designing for) human error
+
+Human errors are difficult to distinguish between safe and erroneous behaviour.
+
+We can use the 'Generic Error Modeling Sysyem' by James Reason. This model outlines:
+
+- Failure to perform a task or plan properly
+- Failure to apply the correct plan
+
+This model defines 3 categories of human performance that can lead to errors under certain conditions:
+
+- Skills-based performance\*\*: routine, automatic actions requiring little congnitive effort
+- Rules-based performance\*\*: following established rules or procedures
+- Knowledge based performance\*\*: Using knowledge to address unfamilliar situations
+
+This model also defines types of errors:
+
+- Slips\*\* (related to skills-based performance): "Execution Failure"; the users intentions are correct but the actions are not carried out properly
+- Lapses\*\*( related to skills-based performance): "Execution Failure"; involving forgetting to perform an action
+- Mistakes\*\* (related to rule and knowledge-based performance): "Planning Failure"; an inappropriate set of actions is executed due to incorrect reasoning or rule selection
+
+This model has advantages and limitations:
+
+- **Advantage**: provides a structured framework for designing systems that minimise, detect, correct, and tolerate human error
+- **Limitations**: focuses on non-deliberate erros only and is a high-level approach that neglects the importance of contextual factors.
+
+> **_NOTE:_** The following content on human erros and automation is repeated from the previous lecture.
+
+Human error has many consequences and a common reaction is a blame the user. But system engineers should be asking:
+
+1. How can we design systems that minimise the potential for human error?
+2. How can we design systems that detect and correct human error?
+3. How can we design systems that tolerate human error?
+
+Human errors are inherently fallible and errors are inevitable as human behaviour is varied. The general approach to human error is error tolerance rather than error avoidance.
+
+> "It is now widely held among human reliability specialists that the most productive strategy for dealing with active errors is to focus upon controlling their consequences rather than upon striving for their elimination" - reasonable
+
+To plan for errors, we can do several things:
+
+- Increase system visibility by not hiding the complexity behind automated mechanisms
+- Take errors into account in operator training like error Scenarios
+- Design interfaces with human user behaviour in mind
+- Norman: design for errors. Assume errors will occur and plan for error recovery. E.g. make it easy to reverse actions.
+
+Some would argue that system **automation** is the answer to avoiding human error. But automation addresses Skill & Rule-Based Tasks, leaving complex Knowledge-based tasks to humans. It can also hinder understanding, by decreasing system visibility and increasing complexity. Automation shifts the error source from operator/user errors to design errors, which may be hard to detect and fix.
+
+> [!NOTE]  
+> Highlights information that users should take into account, even when skimming.
+
+> [!TIP]
+> Optional information to help a user be more successful.
+
+> [!IMPORTANT]  
+> Crucial information necessary for users to succeed.
+
+> [!WARNING]  
+> Critical content demanding immediate user attention due to potential risks.
+
+> [!CAUTION]
+> Negative potential consequences of an action.
+
+### Recap
+
+We have focused on understanding best practices. Next term we will going deeper, considering the complexities that exist in computing in society.
+
+- Being a computer scientist is not just abour programming.
+
+Computer Science is about solving problems, not just programming.They have legal and ethical obligations, risk management, and must consider the end-users. So employers expect us to be able to:
+
+- Look at the big picture in planning a solution
+- Understand the problem that has been set (and why)
+- Understand the environment it is being designed for
+- Understand the limitations
+- Create a solution that meets all essential criteria
+
+In terms of legal and ethical oblications:
+
+- Ethics
+  - Moreal principles, recognised by a given group, of right and wrong that guide behaviours
+  - E.G. avoiding plagiarism
+- Legal Frameworks
+  - Laws based on ethics to regulate behaviour
+  - E.G. Not sharing someone's private information without consent
+  - Code of conduct/ethics like 'BCS code of conduct' and 'ACM code of ethics'.
+    - Professional Competence and Integrity
+    - Public Interest
+    - Duty to the profession
+- Best Practice
+  - Going beyond legal requirements to act ethically
+  - E.G. Asking for clear permission before collecting personal data
+
+Legal Frameworks:
+
+- GDPR
+- Equality Act 2010
+- Copyright, Designgs and Patents Act 1988
+
+There is an importance to managing risks. We need to anticiapate and minimise unintended consequences, build dependable and error-tolerant systems.
+
+There is an importance to considering end-users as it is vital to consider end-users throughout the dev lifecycle.
+
+### How Term 2 Will Work
+
+Still group work but different members. The groupwork in 141 will prepare me for further work in years 2 and 3. Should be noted that the induvidual assessment component is worth 70% of the 141 grade.
+
+What are we being examined on? Open ended questions. not memorisation.
