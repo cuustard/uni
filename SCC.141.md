@@ -30,7 +30,9 @@ Assessed with Exams and Coursework:
 |  7   | [Lecture 7 - Intellectual Property, Software Protection, & Limiting Liability](#lecture-7---intellectual-property-software-protection--limiting-liability) | [Intellectual Property, Software Protection, & Limiting Liability](/SCC.141.slides/g.lawShit.pdf) |  ✅   |
 |  8   | [Lecture 8 - Ethics](#lecture-8---ethics)                                                                                                                  | [Ethics](/SCC.141.slides/h.lawShitPartTwo.pdf)                                                    |  ✅   |
 |  9   | [Lecture 9 - System Failures & Errors](#lecture-9---system-failures--errors)                                                                               | [System Failures & Errors](/SCC.141.slides/i.systemFailuresAndErrors.pdf)                         |  ✅   |
-|  10  | [Lecture 10 - System & Human Error, and Recap](#lecture-10---system--human-error-and-recap)                                                                | [System & Human Error, and Recap](/SCC.141.slides/j.SystemAndHumanError.pdf)                      |  ✅   |
+|  10  | [Lecture 10 - System & Human Error, and Recap](#lecture-10---system--human-error-and-recap)                                                                | [System & Human Error, and Recap](/SCC.141.slides/j.semesterRecap.pdf)                            |  ✅   |
+
+> **_NOTE:_** The AI Podcasts for all the lectures are produced from the Lecture Slide. The structure of my notes may differ to the order of topics discussed in the podcast.
 
 ## Lecture 1 - Module Introduction
 
@@ -939,71 +941,7 @@ Laprie's Model: SecondaryAttributes of Dependability:
 7. **Recoverability**: the ability of the system to recover from user or system errors
 8. **Maintainability**: the ease of repairing the system after a failure has been discovered or changing the system to include new features
 
-### Understanding (and designing for) Human Error
-
-We study human error because it has many consequences and a common reaction is a blame the user. But system engineers should be asking:
-
-- How can we design systems that minimise the potential for human error?
-- How can we design systems that detect and correct human error?
-- How can we design systems that tolerate human error?
-
-Humans are inherently flawed so errors are inevitable especially as human behaviour is varied. The general approach to human error is error tolerance rather than error avoidance.
-
-> "It is now widely held among human reliability specialists that the most productive strategy for dealing with active errors is to focus upon controlling their consequences rather than upon striving for their elimination" - reasonable
-
-To plan for errors, we can do several things:
-
-- Increase system visibility by not hiding the complexity behind automated mechanisms
-- Take errors into account in operator training like error Scenarios
-- Design interfaces with human user behaviour in mind
-- Design and plan for errors by assuming that errors will occur and planning recovery
-
-Some would argue that system **automation** is the answer to avoiding human error. But automation addresses Skill & Rule-Based Tasks, leaving complex Knowledge-based tasks to humans. It can also hinder understanding, by decreasing system visibility and increasing complexity. Automation shifts the error source from operator/user errors to design errors, which may be hard to detect and fix.
-
-### Generic Error Modeling System
-
-GEMS defines human error as the failure to perform a plan or task properly or the failure to apply the correct plan.
-
-There are several types of action:
-
-1. **Skill Based Performance**: routine, practised things done without much cognitive effort
-2. **Rule Based Performance**: following a set of rules or procedure
-3. **Knowledge-Based Performance**: applying Knowledge
-
-There are several types of errors:
-
-1. **Slips** (related to Skill Based Performance): "execution failure". users' intentions are correct but actions are not carried out properly
-2. **Lapses** (related to Skill Based Performance): "execution failure". forgetting to do something
-3. **Mistakes** (related to Rule & Knowledge-Based Performance): "planning failures". Inappropriate set of actions is carried out
-
-Advantages:
-
-- Provides a useful framework for thinking about designing systems that minimise, detect correct, and tolerate human error.
-
-Limitations:
-
-- Focuses on non-deliberate error, rather than deliberate (e.g. taking shortcuts)
-- High level, ignores the importance of context
-
-## Lecture 10 - System & Human Error, and Recap
-
-> **_NOTE:_** This lecture, even before the recap heading, was mostly recap and repeated content. A lot of these notes are copied from previous notes above.
-
-### Human Failure
-
-#### Understanding (and Designing for) Human Error
-
 Human errors are difficult to distinguish between safe and erroneous behaviour.
-
-We can use the 'Generic Error Modeling System' (GEMS). This model outlines the failure to perform a task/plan correctly, and the failure to apply the correct plan. GEMS defines 3 categories of human performance that can lead to errors:
-
-- **Skills-based performance**: routine, automatic actions requiring little cognitive effort
-- **Rules-based performance**: following established rules or procedures
-- **Knowledge based performance**: Using knowledge to address unfamiliar situations
-
-3 types of errors can occur from the above human performance categories. **Slips** and **lapses** are both categorized as 'execution failures' related to skills-based performance. Slips occur when the user’s intentions are correct, but their actions are not executed properly, leading to unintended outcomes. Lapses, on the other hand, involve forgetting to perform a necessary action and failing to complete the intended task. **Mistakes** differ from slips and lapses in that they are 'planning failures' associated with rule and knowledge-based performance. In these cases, an inappropriate set of actions is executed due to incorrect reasoning or the selection of an unsuitable rule.
-
-This model offers both advantages and limitations. One advantage is that it provides a structured framework for designing systems that minimize, detect, correct, and tolerate human error. However, its limitations include a focus solely on non-deliberate errors, such as accidental mistakes, while overlooking deliberate actions like taking shortcuts. Additionally, the model takes a high-level approach that fails to account for the critical influence of contextual factors.
 
 Human error has many consequences, and a common reaction is to blame the user. But system engineers should be asking:
 
@@ -1024,13 +962,23 @@ To plan for errors, we can do several things:
 
 Some would argue that system **automation** is the answer to avoiding human error. But automation addresses Skill & Rule-Based Tasks, leaving complex Knowledge-based tasks to humans. It can also hinder understanding, by decreasing system visibility and increasing complexity. Automation shifts the error source from operator/user errors to design errors, which may be hard to detect and fix.
 
-### Semester Recap
+#### Generic Error Modeling System (GEMS)
 
-We have focused on understanding best practices. Next term we will go deeper, considering the complexities that exist in computing in society.
+We can use the **Generic Error Modeling System**. The GEMS model outlines the failure to perform a task/plan correctly, and the failure to apply the correct plan. GEMS defines 3 categories of human performance that can lead to errors:
 
-- Being a computer scientist is not just about programming.
+- **Skills-based performance**: routine, automatic actions requiring little cognitive effort
+- **Rules-based performance**: following established rules or procedures
+- **Knowledge based performance**: Using knowledge to address unfamiliar situations
 
-Computer Science is about solving problems, not just programming. They have legal and ethical obligations, and risk management, and must consider the end-users. So employers expect us to be able to:
+3 types of errors can occur from the above human performance categories. **Slips** and **lapses** are both categorized as 'execution failures' related to skills-based performance. Slips occur when the user’s intentions are correct, but their actions are not executed properly, leading to unintended outcomes. Lapses, on the other hand, involve forgetting to perform a necessary action and failing to complete the intended task. **Mistakes** differ from slips and lapses in that they are 'planning failures' associated with rule and knowledge-based performance. In these cases, an inappropriate set of actions is executed due to incorrect reasoning or the selection of an unsuitable rule.
+
+One advantage of GEMS is that it provides a structured framework for designing systems that minimize, detect, correct, and tolerate human error. However, its limitations include a focus solely on non-deliberate errors, such as accidental mistakes, while overlooking deliberate actions like taking shortcuts. Additionally, the model takes a high-level approach that fails to account for the critical influence of contextual factors.
+
+## Lecture 10 - Recap
+
+> **_NOTE:_** The first part of this lecture is repeated/continued content from the previous lecture so I did not repeat the notes here. Some of the following notes that recap this semester's teachings are copied or derived from previous notes.
+
+Computer Science is about solving problems, not just programming. They have legal and ethical obligations and risk management considerations, and they must consider the end-users. So employers expect us to be able to:
 
 - Look at the big picture in planning a solution
 - Understand the problem that has been set (and why)
@@ -1038,28 +986,19 @@ Computer Science is about solving problems, not just programming. They have lega
 - Understand the limitations
 - Create a solution that meets all essential criteria
 
-In terms of legal and ethical obligations:
+To effectively address these expectations, it is essential to consider legal and ethical frameworks that influence how solutions are developed and implemented.
 
-- Ethics
-  - Moral principles, recognised by a given group, of right and wrong that guide behaviours
-  - E.G. avoiding plagiarism
-- Legal Frameworks
-  - Laws based on ethics to regulate behaviour
-  - E.G. Not sharing someone's private information without consent
-  - Code of conduct/ethics like 'The BCS code of conduct' and 'ACM code of ethics'.
-    - Professional Competence and Integrity
-    - Public Interest
-    - Duty to the profession
-- Best Practice
-  - Going beyond legal requirements to act ethically
-  - E.G. Asking for clear permission before collecting personal data
+- **Ethics** are moral principles, recognised by a given group, of right and wrong that guide behaviours. E.G. avoiding plagiarism
+- **Legal Frameworks** are laws based on ethics to regulate behaviour. E.G. Not sharing someone's private information without consent
+    - Code of conduct/ethics like 'The BCS code of conduct' and 'ACM code of ethics'.
+    - Frameworks like the GDPR, Equality Act, Copyright, Designs and Patents Act
+- **Best Practice** is going beyond legal requirements to act ethically
+    - E.G. Asking for clear permission before collecting personal data
 
-Legal Frameworks:
+However, legal and ethical considerations are only part of the broader responsibility—managing risks effectively is another key element of problem-solving in Computer Science.
 
-- GDPR
-- Equality Act 2010
-- Copyright, Designs and Patents Act 1988
+There is an importance to managing risks. We need to anticipate and minimise unintended consequences and build dependable and error-tolerant systems. Possible unintended consequences could include misuse, malevolent actors, negative effects on well-being, and inadequate protection of privacy and security. Anticipating and minimising risks is a big part of problem-solving. **Dependability** is an important property for many systems and risk management. It is defined as "that property of a computer system such that reliance can justifiably be placed on the service it delivers". There are ways of enhancing dependability through removing faults, being fault-tolerant, etc. Good analysis and planning stages enable better consideration of potential risks. Incomplete requirements are a key cause of project failure, so identifying the right requirements is crucial.
 
-There is an importance to managing risks. We need to anticipate and minimise unintended consequences and build dependable and error-tolerant systems.
+Risk management and dependability, though critical, must be paired with a user-focused approach to ensure solutions are practical and beneficial for their intended audience.
 
-There is an importance to considering end-users as it is vital to consider end-users throughout the dev lifecycle.
+It is vital to consider end-users throughout the system development life cycle because computers are used by a diverse population, each with unique needs, capabilities, and limitations. Systems should prioritize both accessibility and usability to ensure they are effective and inclusive. Digital accessibility involves designing and building websites and applications that allow disabled people to interact with them meaningfully and equivalently. Usability, on the other hand, focuses on enabling users to achieve their goals efficiently and with satisfaction. A usable product is intuitive, functional, and enjoyable. While people are unique and unpredictable, making it impossible to design for every scenario, understanding diverse user needs is essential. However, users may struggle to articulate their requirements, meaning their stated desires may not fully align with their actual needs.
