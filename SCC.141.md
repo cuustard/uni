@@ -976,6 +976,11 @@ One advantage of GEMS is that it provides a structured framework for designing s
 
 ## Lecture 10 - Recap
 
+<audio controls>
+  <source src="SCC.141.slides/j.semesterRecap.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
 > **_NOTE:_** The first part of this lecture is repeated/continued content from the previous lecture so I did not repeat the notes here. Some of the following notes that recap this semester's teachings are copied or derived from previous notes.
 
 Computer Science is about solving problems, not just programming. They have legal and ethical obligations and risk management considerations, and they must consider the end-users. So employers expect us to be able to:
