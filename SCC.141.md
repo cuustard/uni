@@ -941,15 +941,13 @@ Laprie's Model: SecondaryAttributes of Dependability:
 
 ### Understanding (and designing for) Human Error
 
-### Why Study Human Error?
+We study human error because it has many consequences and a common reaction is a blame the user. But system engineers should be asking:
 
-Human error has many consequences and a common reaction is a blame the user. But system engineers should be asking:
+- How can we design systems that minimise the potential for human error?
+- How can we design systems that detect and correct human error?
+- How can we design systems that tolerate human error?
 
-1. How can we design systems that minimise the potential for human error?
-2. How can we design systems that detect and correct human error?
-3. How can we design systems that tolerate human error?
-
-Human errors are inherently fallible and errors are inevitable as human behaviour is varied. The general approach to human error is error tolerance rather than error avoidance.
+Humans are inherently flawed so errors are inevitable especially as human behaviour is varied. The general approach to human error is error tolerance rather than error avoidance.
 
 > "It is now widely held among human reliability specialists that the most productive strategy for dealing with active errors is to focus upon controlling their consequences rather than upon striving for their elimination" - reasonable
 
@@ -958,11 +956,11 @@ To plan for errors, we can do several things:
 - Increase system visibility by not hiding the complexity behind automated mechanisms
 - Take errors into account in operator training like error Scenarios
 - Design interfaces with human user behaviour in mind
-- Norman: design for errors. Assume errors will occur and plan for error recovery. E.g. make it easy to reverse actions.
+- Design and plan for errors by assuming that errors will occur and planning recovery
 
 Some would argue that system **automation** is the answer to avoiding human error. But automation addresses Skill & Rule-Based Tasks, leaving complex Knowledge-based tasks to humans. It can also hinder understanding, by decreasing system visibility and increasing complexity. Automation shifts the error source from operator/user errors to design errors, which may be hard to detect and fix.
 
-#### Generic Error Modeling System
+### Generic Error Modeling System
 
 GEMS defines human error as the failure to perform a plan or task properly or the failure to apply the correct plan.
 
@@ -989,43 +987,31 @@ Limitations:
 
 ## Lecture 10 - System & Human Error, and Recap
 
+> **_NOTE:_** This lecture, even before the recap heading, was mostly recap and repeated content. A lot of these notes are copied from previous notes above.
+
 ### Human Failure
 
-#### Understanding (and designing for) human error
+#### Understanding (and Designing for) Human Error
 
 Human errors are difficult to distinguish between safe and erroneous behaviour.
 
-We can use the 'Generic Error Modeling Sysyem' by James Reason. This model outlines:
+We can use the 'Generic Error Modeling System' (GEMS). This model outlines the failure to perform a task/plan correctly, and the failure to apply the correct plan. GEMS defines 3 categories of human performance that can lead to errors:
 
-- Failure to perform a task or plan properly
-- Failure to apply the correct plan
+- **Skills-based performance**: routine, automatic actions requiring little cognitive effort
+- **Rules-based performance**: following established rules or procedures
+- **Knowledge based performance**: Using knowledge to address unfamiliar situations
 
-This model defines 3 categories of human performance that can lead to errors under certain conditions:
+3 types of errors can occur from the above human performance categories. **Slips** and **lapses** are both categorized as 'execution failures' related to skills-based performance. Slips occur when the user’s intentions are correct, but their actions are not executed properly, leading to unintended outcomes. Lapses, on the other hand, involve forgetting to perform a necessary action and failing to complete the intended task. **Mistakes** differ from slips and lapses in that they are 'planning failures' associated with rule and knowledge-based performance. In these cases, an inappropriate set of actions is executed due to incorrect reasoning or the selection of an unsuitable rule.
 
-- Skills-based performance\*\*: routine, automatic actions requiring little congnitive effort
-- Rules-based performance\*\*: following established rules or procedures
-- Knowledge based performance\*\*: Using knowledge to address unfamilliar situations
+This model offers both advantages and limitations. One advantage is that it provides a structured framework for designing systems that minimize, detect, correct, and tolerate human error. However, its limitations include a focus solely on non-deliberate errors, such as accidental mistakes, while overlooking deliberate actions like taking shortcuts. Additionally, the model takes a high-level approach that fails to account for the critical influence of contextual factors.
 
-This model also defines types of errors:
-
-- Slips\*\* (related to skills-based performance): "Execution Failure"; the users intentions are correct but the actions are not carried out properly
-- Lapses\*\*( related to skills-based performance): "Execution Failure"; involving forgetting to perform an action
-- Mistakes\*\* (related to rule and knowledge-based performance): "Planning Failure"; an inappropriate set of actions is executed due to incorrect reasoning or rule selection
-
-This model has advantages and limitations:
-
-- **Advantage**: provides a structured framework for designing systems that minimise, detect, correct, and tolerate human error
-- **Limitations**: focuses on non-deliberate erros only and is a high-level approach that neglects the importance of contextual factors.
-
-> **_NOTE:_** The following content on human erros and automation is repeated from the previous lecture.
-
-Human error has many consequences and a common reaction is a blame the user. But system engineers should be asking:
+Human error has many consequences, and a common reaction is to blame the user. But system engineers should be asking:
 
 1. How can we design systems that minimise the potential for human error?
 2. How can we design systems that detect and correct human error?
 3. How can we design systems that tolerate human error?
 
-Human errors are inherently fallible and errors are inevitable as human behaviour is varied. The general approach to human error is error tolerance rather than error avoidance.
+Humans are inherently flawed so errors are inevitable especially as human behaviour is varied. The general approach to human error is error tolerance rather than error avoidance.
 
 > "It is now widely held among human reliability specialists that the most productive strategy for dealing with active errors is to focus upon controlling their consequences rather than upon striving for their elimination" - reasonable
 
@@ -1038,28 +1024,13 @@ To plan for errors, we can do several things:
 
 Some would argue that system **automation** is the answer to avoiding human error. But automation addresses Skill & Rule-Based Tasks, leaving complex Knowledge-based tasks to humans. It can also hinder understanding, by decreasing system visibility and increasing complexity. Automation shifts the error source from operator/user errors to design errors, which may be hard to detect and fix.
 
-> [!NOTE]  
-> Highlights information that users should take into account, even when skimming.
+### Semester Recap
 
-> [!TIP]
-> Optional information to help a user be more successful.
+We have focused on understanding best practices. Next term we will go deeper, considering the complexities that exist in computing in society.
 
-> [!IMPORTANT]  
-> Crucial information necessary for users to succeed.
+- Being a computer scientist is not just about programming.
 
-> [!WARNING]  
-> Critical content demanding immediate user attention due to potential risks.
-
-> [!CAUTION]
-> Negative potential consequences of an action.
-
-### Recap
-
-We have focused on understanding best practices. Next term we will going deeper, considering the complexities that exist in computing in society.
-
-- Being a computer scientist is not just abour programming.
-
-Computer Science is about solving problems, not just programming.They have legal and ethical obligations, risk management, and must consider the end-users. So employers expect us to be able to:
+Computer Science is about solving problems, not just programming. They have legal and ethical obligations, and risk management, and must consider the end-users. So employers expect us to be able to:
 
 - Look at the big picture in planning a solution
 - Understand the problem that has been set (and why)
@@ -1067,15 +1038,15 @@ Computer Science is about solving problems, not just programming.They have legal
 - Understand the limitations
 - Create a solution that meets all essential criteria
 
-In terms of legal and ethical oblications:
+In terms of legal and ethical obligations:
 
 - Ethics
-  - Moreal principles, recognised by a given group, of right and wrong that guide behaviours
+  - Moral principles, recognised by a given group, of right and wrong that guide behaviours
   - E.G. avoiding plagiarism
 - Legal Frameworks
   - Laws based on ethics to regulate behaviour
   - E.G. Not sharing someone's private information without consent
-  - Code of conduct/ethics like 'BCS code of conduct' and 'ACM code of ethics'.
+  - Code of conduct/ethics like 'The BCS code of conduct' and 'ACM code of ethics'.
     - Professional Competence and Integrity
     - Public Interest
     - Duty to the profession
@@ -1087,14 +1058,8 @@ Legal Frameworks:
 
 - GDPR
 - Equality Act 2010
-- Copyright, Designgs and Patents Act 1988
+- Copyright, Designs and Patents Act 1988
 
-There is an importance to managing risks. We need to anticiapate and minimise unintended consequences, build dependable and error-tolerant systems.
+There is an importance to managing risks. We need to anticipate and minimise unintended consequences and build dependable and error-tolerant systems.
 
 There is an importance to considering end-users as it is vital to consider end-users throughout the dev lifecycle.
-
-### How Term 2 Will Work
-
-Still group work but different members. The groupwork in 141 will prepare me for further work in years 2 and 3. Should be noted that the induvidual assessment component is worth 70% of the 141 grade.
-
-What are we being examined on? Open ended questions. not memorisation.
