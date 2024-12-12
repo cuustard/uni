@@ -19,7 +19,8 @@ began: 9th October 2024
 |  7   | [Lecture 13 - Forecasting](#lecture-13---forecasting)                               | [Forecasting](/MSCI.152.slides/m.forecasting.pdf)                             |  ✅   |
 |  8   | [Lecture 14 - Forecasting Part 2](#lecture-14---forecasting-part-2)                 | [Forecasting Part 2](/MSCI.152.slides/n.forecastingPartTwo.pdf)               |  ✅   |
 |  9   | [Lecture 15 - Modelling in Practice](#lecture-15---modelling-in-practice)           | [Modelling in Practice](/MSCI.152.slides/o.modellingInPractice.pdf)           |  ✅   |
-|  10  |                                                                                     |                                                                               |       |
+|  10  | [Lectuer 16 - Data Mining](#lecture-16---data-mining)                               | [Data Mining](/MSCI.152.slides/p.dataMining.pdf)                              |  ✅   |
+|  10  | [Lecture 17 - Report Writing](#lecture-17---report-writing)                         | [Report Writing](/MSCI.152.slides/q.reportWriting.pdf)                        |       |
 
 ## Lecture 1 - Module Introduction
 
@@ -376,4 +377,98 @@ Under/overfitting:
 
 Occam's Razer Principle: when faced with several methods that give roughly equivalent performance, pick the simplest.
 
-## Lecture 16 -
+## Lecture 16 - Data Mining
+
+**Statistical Learning** refers to a set of tools used to understand complex data sets.
+
+**Supervised SL** involves building a statistical model for predicteding or estimating an output based on one ore more inputs.
+
+**Unsupervised SL** is when there are inputs but no supervising output. There is no outcome/response variable to predict that can "supervise" our analysis.
+
+![Statistical Learning Comic](images/statisticalLearning.png)
+
+The goal of Unsupervised SL techniques is to use the variable values to identify relationships between observations. It is high-dimensional descriptive analytics, designed to describe patterns and relationships in large data sets with many observations of many variables. But it does all this without any outcome/response variable.
+
+Unsupervised SL == Descriptive Data Mining
+
+### Cluster Analysis
+
+**Clustering**: Given a set of features X<sub>1</sub>, X<sub>2</sub>, ...X<sub>p</sub> measured on _n_ observations, the goal is to divide these objects into groups (clusters) such that objects within a group tend to be more similar to one another as compared to objects belonging to different groups.
+
+- We can discover subgroups among the variables and observations.
+- **Difference to Classification**: Class labels are unknown --> Similarity depends on application.
+- There is no unique definition of a cluster
+- A part of an exploratory data analysis (to explore and characterise data before supervised modelling)
+- Quite subjective and depends on the application: there is no way to check our work because we do not know the true answer.
+
+Steps:
+
+1. **Featuer Selection**: Features selected to encode as much information as possible concerning task
+2. **Proximity Measure**: Quantifies how similar or dissimilar feature vectors are
+3. **Clustering Criterion**: Determines what is a sensible type of cluster for application
+4. **Clustering Algorithm**: Determined by previous 2 choices
+5. **Validation and Interpretation of Results**
+
+There are 2 main clustering techniques.
+
+The **Euclidean Distance** is common method to measure dissimilarity between observations:
+
+d = √[(u<sub>1</sub> − v<sub>1</sub>)<sup>2</sup> + (u<sub>2</sub> − v<sub>2</sub>)<sup>2</sup>]
+
+Here is an example:
+
+Let:
+
+- u = (23, £20,375) 23-year-old customer with income of £20,375
+- v = (48, £19,475) 48-year-old customer with income of £19,475
+
+As measured by the Euclidean Distance, the dissimilarity between these two observations is:
+
+d = √[(23 - 48)<sup>2</sup> + (20,375 - 19,475)<sup>2</sup>] = 900
+
+In this case the amount of dissimilarity between the observations is dominated by the income variable because of the difference in scale. To avoid this we must standardise the units (replace the original values by (x - x̄)/x<sub>x</sub>>)
+
+### k-Means Clustering
+
+1. Specify number of clusters, `k`
+2. Randomly assign each observation to one of the `k` clusters
+3. After all observations have been assigned to a cluster, the resulting centroids are calculated (these cluster centroids are the "means" of k-means clustering)
+4. Using the updated cluster centroids, all obsercations are reassigned to the cluster with the closest centroid (where Euclidean distance is the standard metric)
+5. Repeat this process (calculate cluster centroid, assign each observation to the cluster with the nearest centroid) until there is no change in the clusters or a specified max number of iterations is reached
+
+![k-Means Clustering](images/kMeansClustering.png)
+
+k-Means clustering is sensetive to initialisation of centroids and is designed to identify spherical clusters (elongated clusters, and clusters of different sizes cause problems).
+
+### Hierarchical Clustering
+
+A pair of clusters with the lowest dissimilarity merged recursively. The Height of connection lines reflects dissimilarity. It is a nested structure which means that each cluster at a lower level is a subset of a cluster at a higher level. Not all data can be structured this way.
+
+![Hierarchical Clustering](images/hierarchicalClustering.png)
+
+Steps:
+
+1. At the beginning each respondent is their own cluster;
+2. Measure distances between all pairs of respondents;
+3. Construct a distance (or dissimilarity) matrix;
+4. Join two closest objects, either by forming new group or joining to the old one;
+5. Recalculate dissimilarities matrix based on linkage:
+   - Single linkage: use smallest distance
+   - Complete linkage: use largest distance
+   - Average linkage: average distance between all pairs in clusters
+   - Centroid linkage: distance between cluster centroids (mean)
+   - etc...
+6. Repeat steps 4 and 5 until all objects are clustered
+
+![Linkage Technique](images/smallestLinkage.png)
+![Linkage Technique](images/largestLinkage.png)
+![alt text](images/clusterCentroidLinkage.png)
+![alt text](images/averageLinkage.png)
+
+![Hierarchical Linkage](images/hierarchicalLinkage.png)
+
+Average and Complete Linkage tend to yield more balanced results.
+
+Hierarchical clustering aligns well with the idea of market segmentation. It is very suitable for specific applications like biology, medicine, social sciences, and text mining. It can do nested segments and does not assume much. However it is not clear how many clusters should be done. It might be heavy for big data sets and it does not guarantee finding the global optimum.
+
+## Lecture 17 - Report Writing
