@@ -41,6 +41,7 @@ Assessed with Exams and Coursework:
 |   8   | [Lecture 16 - Linked Lists](#lecture-16---linked-lists)                                                                             | [Linked Lists](/SCC.121.slides/q.linkedLists.pdf)                                                        |  ✅   |
 |   9   | [Lecture 17 - Searching](#lecture-17---searching)                                                                                   | [Searching](/SCC.121.slides/r.searching.pdf)                                                             |  ✅   |
 |   9   | [Lecture 18 - Recursion](#lecture-18---recursion)                                                                                   | [Recursion](/SCC.121.slides/s.recursion.pdf)                                                             |  ✅   |
+|  10   | [Lecture 19 - Indexed Retrieval](#lecture-19---indexed-retrieval)                                                                   | [Indexed Retrieval](/SCC.121.slides/t.indexedRetrieval.pdf)                                              |  ✅   |
 
 ## Lecture 1 - Sets
 
@@ -1172,3 +1173,98 @@ int factorial(int n) {
   return n * factorial(n - 1);
 }
 ```
+
+## Lecture 19 - Indexed Retrieval
+
+### Keys
+
+Indexed retrieval requires an identifier to store and retireve each object or record. An attribute of each object can be used as a key for storage and retrieval. The **key** is a unique name/identifier for each object. Keys allows a set of objects/records to be stored in a sorted order, so binary search can be used for retrieval.
+
+An array of sorted keys can fall into natural 'sections'. For example, there would be some A record, some B record, some C record, etc. A new array can be constructed to index the first element for each section. index[0] holds the index of the first A record. index[1] holds the index for the first B record. index[2] holds the index of the first C record. etc. If there are no keys with a specific letter then index[n] = -1.
+
+![Index Mapping Example](images/indexMappingExample.png)
+
+Here we can see that the index[n] for first key entry is the index of the first appearence of n in the data store array. the index array points to particular sections in the data store.
+
+Lets say we wanted to find the name Andy. We would look at the index[0], linear search until we find Andy at index[3]. Lets say we want to find the name Chris. Instead of searching through the entire data store array. We know only to look at the C entrys, We go to index[6] then linear search until we find it.
+
+```
+take the first L from name;
+convert L to numeric value V;
+P = index[V];
+
+if(P < 0>);
+  then no records start with this letter so fail;
+
+while(the first letter of the key of STORE[P]==L) {
+  if(key == name) {
+    return STORE[P] // found it
+  }
+  P++; // move to next record
+}
+
+// if loop exhausts then the name was not found
+```
+
+Indexed retrieval with linear seach has worst case efficiency of O(n). this is because in the worst case, all the names start with the same letter, therefore all records are in the same section, so we have to linear search through the entire array.
+
+But in practice, because some names begining with some letters are more common than others, the gain will be probably smaller.
+
+If some sections are large, we can do a binary search of the section starting with STORE[P]. This has worst case of O(log<sub>2</sub>n). This is because if everything is in one section, we have to binary search the entire array.
+
+But in practice, it depends on the size of sections but could be up to 26x faster than binary search without indexing.
+
+### Collisions
+
+There is a challange with indexing. Collisions can occur.
+
+### Collision-free Storage
+
+Imagine we have a set of words each with a different starting letter. This would be an array of 26 elements with the index of each word determined by its first letter. It would take the first letter of the word to test. Check it in the appropriate array element.
+
+This is O(1) algorithm.
+
+```
+Given name, look for record in store with matching key:
+  take first letter L from name;
+  convert L to numeric value V;
+  if(STORE[V].key == name) {
+    return STORE[V]; // record found
+  }
+  else... // no matching key
+```
+
+### Adding Entry
+
+#### Solution 1: indexed retrieval
+
+What if we need to add an entry for Christophe? We would have to make room for the entry in the store. This means that all the entries from position 0 onwards have to be shifted into the next slot. Then we can add christophe.
+
+![yada](images/addingEntryIndexedRetireval.png)
+
+But once we have Christophe in there, the index is wrong from element 3 onwards. So we have to recompute the Index by adding 1 to every posotion value starting at element 3.
+
+![yada](images/addingEntry2indexedRetrieval.png)
+
+#### Solution 2: using chains
+
+For storage based on the first letter of each key we need to use a linear array STORE of 26 elements representing the alphabet with each element pointing to the appropriate chain; i.e. STORE[0] points to a chain of objects whose keys starts with 'A'.
+
+```
+Given name, look for record in STORE with matching key:
+  take first letter L from namel;
+  convert L to numeric value V;
+  obtain chain pointer P from STORE[V];
+  while(P != null) {
+    if (P.key == name) {
+      return P; // found the record
+    }
+    P = P.next; // move to next record
+  }
+```
+
+This has worst case efficiency of O(n). As, if every object is on the same chain then linear search through the entire thing.
+
+But practically, it is much faster if the objects are distributed across many chains so the same improvement as with using arrays.
+
+Advantage as chains are dynamic so extra objects can be inserted easier. No need to recompute the index.
