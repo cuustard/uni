@@ -38,7 +38,9 @@ Assessed with Exam and Coursework:
 |  8   | [Lecture 15 - More Files](#lecture-15---more-files)                                          | [Files Continued](/SCC.111.slides/o.moreFileStuff.pdf)                                 |  ✅   |
 |  8   | [Lecture 16 - Libraries](#lecture-16---multi-file-projects)                                  | [Libraries](/SCC.111.slides/p.libraries.pdf)                                           |  ✅   |
 |  9   | [Lecture 17 - Version Control](#lecture-17---version-control)                                | [Version Control](/SCC.111.slides/q.versionControl.pdf)                                |  🟧   |
-|  9   | [Lecture 18 - Dynamic Data Structures](#lecture-18---dynamic-data-structures)                | [Dynamic Data Structures](/SCC.111.slides/h.dynamicDataStructures.pdf)                 |  🟧   |
+|  9   | [Lecture 18 - Dynamic Data Structures](#lecture-18---dynamic-data-structures)                | [Dynamic Data Structures](/SCC.111.slides/r.dynamicDataStructures.pdf)                 |  🟧   |
+|  10  | [Lecture 19 - C Highlights](#lecture-19---c-highlights)                                      | [C Highlights](/SCC.111.slides/s.cHighlights.pdf)                                      |  ❌   |
+|  10  | [Lecture 20 - Fun By The C](#lectuer-20---fun-by-the-c)                                      | [Fun By The C](/SCC.111.slides/t.funByTheC.pdf)                                        |       |
 
 ---
 
@@ -647,4 +649,21 @@ tElement *print(tElement *head) {
     }
 }
 
+```
+
+## Lecture 19 - C Highlights
+
+## Lectuer 20 - Fun By The C
+
+`gcc -o main main.c` makes preprocesor, c compiler, linker.
+
+The preprocessor defines constants, macros, and includes other files. lets you define a thing then it is substituted in the source file.
+
+there is no true or false, only 1 or 0. can define TRUE and FALS in constant in preprocess,r
+
+```C++
+#define FALSE 0
+#define TRUE !FALSE
+
+// textually replaces "FALSE" with 0
 ```
