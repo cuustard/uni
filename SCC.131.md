@@ -2,22 +2,7 @@ began: 8th October 2024
 
 # SCC.131 Digital Systems
 
-This module of the course is split into 4 components:
-
-| Component             | Taught by                  | Includes                                                                |
-| --------------------- | -------------------------- | ----------------------------------------------------------------------- |
-| Computer Architecture | Prof. Qiang Ni             | Number Systems, Circuit and Logic, and Computer Architecture Theory/ISA |
-| Microbit              | Dr. Ioannis Chatzigerogiou | Debugging Intro, Physical Computing, and Compilation                    |
-| ARM Assembly          | Dr. Charalampos Rotsos     | Assembly Programming, Memory, and Interrupts/IO                         |
-| Systems Programming   | Dr. Paul Dempster          | Assembly & C, Advanced C, and Network Sockets                           |
-
-The module aims to help me understand digital systems. This includes...
-
-- ...fundamental concepts of hardware & Entire Computer Systems
-- ...how hardware and software interact
-- ...how to program and debug software at low levels
-
-Assessed with Exams and Coursework:
+The module aims to help me understand digital systems. This includes fundamental concepts of hardware & Entire Computer Systems, how hardware and software interact, and how to program and debug software at low levels.
 
 | Task                       | Week               | Worth         |
 | -------------------------- | ------------------ | ------------- |

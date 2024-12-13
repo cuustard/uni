@@ -2,12 +2,7 @@ began: 9th October 2024
 
 # SCC.141 Professionalism in Practice
 
-The module aims to help me understand the fundamentals of Professionalism in Practice. This includes...
-
-- ...the principles of responsible computing
-- ...legal, social, ethical, and professional challenges
-
-Assessed with Exams and Coursework:
+The module aims to help me understand the fundamentals of Professionalism in Practice. This includes the principles of responsible computing, legal, social, ethical, and professional challenges.
 
 | Assessment          | When            | Worth |
 | ------------------- | --------------- | ----- |

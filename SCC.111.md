@@ -2,12 +2,7 @@ began: 9th October 2024
 
 # SCC.111 Software Development
 
-The module aims to help me understand software development. This includes...
-
-- ...instilling the knowledge, understanding, and skills expected of a principled computer programmer.
-- ...developing a coherent understanding of the principles & practice of imperative programming, the software development lifecycle, and its associated tools and techniques
-
-Assessed with Exam and Coursework:
+The module aims to help me understand software development. This includes instilling the knowledge, understanding, and skills expected of a principled computer programmer, and developing a coherent understanding of the principles & practice of imperative programming, the software development lifecycle, and its associated tools and techniques.
 
 | Assessment          | When               | Worth         |
 | ------------------- | ------------------ | ------------- |
@@ -40,7 +35,7 @@ Assessed with Exam and Coursework:
 |  9   | [Lecture 17 - Version Control](#lecture-17---version-control)                                | [Version Control](/SCC.111.slides/q.versionControl.pdf)                                |  🟧   |
 |  9   | [Lecture 18 - Dynamic Data Structures](#lecture-18---dynamic-data-structures)                | [Dynamic Data Structures](/SCC.111.slides/r.dynamicDataStructures.pdf)                 |  🟧   |
 |  10  | [Lecture 19 - C Highlights](#lecture-19---c-highlights)                                      | [C Highlights](/SCC.111.slides/s.cHighlights.pdf)                                      |  ❌   |
-|  10  | [Lecture 20 - Fun By The C](#lectuer-20---fun-by-the-c)                                      | [Fun By The C](/SCC.111.slides/t.funByTheC.pdf)                                        |       |
+|  10  | [Lecture 20 - Fun By The C](#lectuer-20---fun-by-the-c)                                      | [Fun By The C](/SCC.111.slides/t.funByTheC.pdf)                                        |  🟧   |
 
 ---
 

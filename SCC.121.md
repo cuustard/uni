@@ -2,14 +2,7 @@ began: 8th October 2024
 
 # SCC.121 Fundamentals of Computer Science
 
-The module aims to help me understand the fundamentals of Computer Science. This includes...
-
-- ...the role of discrete mathematics and logic
-- ...designing algorithms using common data structures
-- ...analysing the efficiency of algorithms
-- ...the role of abstract data types
-
-Assessed with Exams and Coursework:
+The module aims to help me understand the fundamentals of Computer Science. This includes the role of discrete mathematics and logic, designing algorithms using common data structures, analysing the efficiency of algorithms, and the role of abstract data types.
 
 | Task                 | When                | Worth           |
 | -------------------- | ------------------- | --------------- |
