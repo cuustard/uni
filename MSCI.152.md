@@ -20,7 +20,7 @@ began: 9th October 2024
 |  8   | [Lecture 14 - Forecasting Part 2](#lecture-14---forecasting-part-2)                 | [Forecasting Part 2](/MSCI.152.slides/n.forecastingPartTwo.pdf)               |  ✅   |
 |  9   | [Lecture 15 - Modelling in Practice](#lecture-15---modelling-in-practice)           | [Modelling in Practice](/MSCI.152.slides/o.modellingInPractice.pdf)           |  ✅   |
 |  10  | [Lectuer 16 - Data Mining](#lecture-16---data-mining)                               | [Data Mining](/MSCI.152.slides/p.dataMining.pdf)                              |  ✅   |
-|  10  | [Lecture 17 - Report Writing](#lecture-17---report-writing)                         | [Report Writing](/MSCI.152.slides/q.reportWriting.pdf)                        |       |
+|  10  | [Lecture 17 - Report Writing](#lecture-17---report-writing)                         | [Report Writing](/MSCI.152.slides/q.reportWriting.pdf)                        |  ✅   |
 
 ## Lecture 1 - Module Introduction
 
@@ -472,3 +472,184 @@ Average and Complete Linkage tend to yield more balanced results.
 Hierarchical clustering aligns well with the idea of market segmentation. It is very suitable for specific applications like biology, medicine, social sciences, and text mining. It can do nested segments and does not assume much. However it is not clear how many clusters should be done. It might be heavy for big data sets and it does not guarantee finding the global optimum.
 
 ## Lecture 17 - Report Writing
+
+> "Strong writing skills are essential for anyone in business. You need them to effectively communicate with colleagues, employees, and bosses and to sell ideas, products, or services you're offering." - The Science of Strong Business Writing, Harvard Business Review.
+
+> "Writing is a vital skill and is crucial to your organisation. No matter your field, role, industry or passion, effective writing can help sharpen critical thinking and position you to thrive in your environment." - Writing As Thinking: Why Writing Is Still A Critical Skill In Business, Forbes
+
+### Communcation
+
+Good communcation is vital to the successful running of any organisation. Report-writing is not the only means of communication but it is a very important one. You will also be practicing other vitally important communcation skills, that of giving presentations, working in teams, etc.
+
+### Report Writing Skills
+
+Pick up tips from looking at published material:
+
+- books, newspapers, and magazine articles
+- company brouchures and repots, etc.
+- though many are not written particularly well
+- try and see what makes something easy or hard to understand
+
+Like all communication skills the best way to learn is to do it and learn from your mistakes. You will get further practice through subsequent modules in your degree.
+
+A small project may result in a single report, and a large project may have several reporting stages which all require considerable report writing skills, which usually need to follow a formal style:
+
+- Proposal
+- Project plan
+- Interim report
+- Final report
+
+A poor report can completely ruin a good project.
+
+### Consider The Reader
+
+It is vital that I know who the reader is and that I write reports accordingly. They are my customers and they need to be satisfied. They don't want to work hard so the important messages have to come across loud and clear. Most reports have a short life and I probably won't get a second change to explain.
+
+However, my reports may have several readers. Rarely do all readers have identical needs and I need to keep them all happy. So the main emphasis is on action needed which should advise them on what they should do and what the consequences are likely to be.
+
+I should consider how they will ues the report. I should implement my recommendations as a reference guidance, and persuade somebody else to implement my recommendations. I should also consider how much time they have and therefore which parts of the report they will actually read.
+
+I should question what they already know about the issue. I don't want to spend a lot of time repeating what they already know. It is a waste of time for me and them, but some context and positioning is vital for clarity. I should question what technical knowledge do they have and how I should phrase my report to aid understanding.
+
+### Types of Readers
+
+### Standard Report Structure
+
+- Title
+- Executive Summary
+- Contents
+- The Main Body
+  - Introduction (background, project aims)
+  - What was done (data, models, analysis, results, etc.)
+  - Conclusions
+  - Recommendations
+- Appendices
+  - Additional Detailed Information
+
+#### Title
+
+The point of a title is to make the reader think "I know what this is", and to make the reader want to turn the page. It should briefely describe what the report is about and should be accompanied by a name so that is clear who is responsible for it.
+
+Common mistakes include making the title too cryptic, bland and uninformative, long and all embraacing, and only loosely linked to the main content.
+
+#### The Executive Summary
+
+This section is very importance as it may be the only part of the report read by executives. It should be an overview of the whole report and focus more on the outcomes and it is important to include all the recommendations.
+
+I should keep it to a single page or 2 if a really complex report.
+
+Common mistakes include writing an introduction or discussion rather than a summary, failure to cover findings and recommendations, too long, missing altogether, or is in the wrong place.
+
+#### Contents Page
+
+This is more important for very large and complex reports. It lists section headings with page numbers and enables readers to find specific information. It provides a quick overview of what is in the report.
+
+Common mistakes include it being in the wrong place, missing altogether, page numbering is wrong, or non-descriptive section headings.
+
+#### Main Body
+
+This is where the reader can find out why I have reached the conclusions I have nad why the recommendations are made. It is usually split into several sections and I might discuss:
+
+- What was the problem/opportunity?
+- How was it approached?
+- What methods/techniques were selected and why?
+- Findings and results
+
+It needs a logical structure to guide the argument. It also needs signposts from time to time (where we are, where we've been, and where we're going). Needs to be clear and have descriptive section headings:
+
+1. Introduction
+   - Background to the problem
+   - Aims for the project
+2. Several sections explanining what was done
+   - Approach (overview of methods used with reasons)
+   - Data analysis
+   - Model
+   - Experiments/analysis and results
+3. Conclusions
+   - The implications of the results
+4. Recommendations
+   - What action should be taken
+   - Bullet points can be effectice if several recommendations
+5. Key Aims
+   - Explain clearly what was done
+   - Provide a logical argument leading to the conclusions and recommendations
+
+Common mistakes include calling the section "The Main Body", writing it as a story, not explaining sufficiently, poor presentation of the argument, lack of descriptive headings, and not making clear conclusions/recommendations.
+
+#### Appendices
+
+Material that is useful but would disrupt the flow of the main report. For example:
+
+- Technical details of a computer model
+- Detailed output from model / analysis
+- User guide for the model
+- Questionnaire used
+- Interim reports for specific tasks
+- Additional background information
+
+Many reports do not need this section as items that are part of the key argument should be in the main body.
+
+Common mistakes include including too much, not including enough, including key information, no structure, lack of explanation, no refernce to it in the main body.
+
+### Sections
+
+Each main section should be started on a new page. It is gernerally recommended to number sections in a numeric digit-based system.
+
+### Writing Style
+
+Try to make it as easy and as pleasant as possible for the reader:
+
+- Simple and direct language where possible
+- Correct grammar, spelling, vocabulary, punctuation, syntax
+- Flowing style
+- Logical argument
+- Clear and concise
+- Avoid technical material (except in an Appendix)
+- Don’t let your opinions show (unless they can be backed up by data)
+- Avoid jargon (unless widely accepted in the organisation)
+- Avoid super-long sentences or paragraphs
+- Keep it fairly formal and respectful (can use the first person but do not be chatty)
+- Read it through yourself
+- Can you understand what you have written?
+- (if not, what chance has anyone else got?!)
+
+#### Spelling, Puncuation, & Grammar
+
+Does the sentence make sense and is the puncuation correct? Bad spelling looks sloppy and may cause confusion. Use a spelling and grammary checker.
+
+Good puncuation makes my meaning clear whereas bad puncuation makes my words harder and slower to read. It also conveys a completely wrong meaning and is very irritating.
+
+### Diagrams, Charts, Graphs, and Pictures
+
+A diagram, chart, or graph can convey meaning much more effectively than words if done well. I should fully label titles, axes labels, legends, and explain and summarise in the text what it shows.
+
+I should identify these as "figures" and it is a good idea to number them and provide a caption.
+
+### Tables
+
+Some people don't like tables of many numbers as they are hard to find interesting. However, sometimes it can be very useful or even essential. I should fully label the title, and have clear headings for rows and columns. I should also number tables and provide a caption. This makes it easier to identify and reference the table in the report.
+
+### Producing A Report
+
+There are several stages and each takes time:
+
+- Plan structure
+- Organise content
+- Write a draft (or several)
+- Format carefully
+- Get feedback on the draft
+- Check contents page, references and cross-references
+- Print & Distribute
+
+### Report Writing Summary
+
+Though few of us are natural writers, we can all learn to write good reports and there are a few simple rules to follow in doing so:
+
+- Write for your readers, not for yourself
+- Organise the contents
+- Strive for a simple and direct writing style and use good English to make yourself appear professional
+- Learn to use a word processor properly.
+- Use appendices carefully
+- Make good use of diagrams - they can be very good communication devices
+- Number the sections and pages
+- Ask someone else to read your report before you issue it
