@@ -49,6 +49,7 @@ Assessed with Exams and Coursework:
 |  9   | [Lecture 17 - Compiler, Assembler, Linker, & Loader](#lecture-17---compiler-assembler-linker--loader) | [Compiler, Assembler, Linker, & Loader](/SCC.131.slides/o.compilerAssemblerLinkerAndLoader.pdf) |  ✅   |
 |  9   | [Lecture 18 - The C Proprocessor](#lecture-18---the-c-preprocessor)                                   | [The C Preprocessor](/SCC.131.slides/p.theCproprocessor.pdf)                                    |  ✅   |
 |  10  | [Lecture 19 - Debugging](#lecture-19---debugging)                                                     | [Debugging](/SCC.131.slides/r.debugging.pdf)                                                    |  ✅   |
+|  10  | [Lecture 20 - Revision and Discussion of Lab Tasks](#lecture-20---revision--discussion-of-lab-tasks)  | [Revision & Discussion of Lab Tasks](/SCC.131.slides/s.labTasksReview.pdf)                      |  ✅   |
 
 ## Lecture 1 - Module Introduction & Computer Architecture
 
@@ -1020,3 +1021,21 @@ For Linux:
 ### Using a debugger
 
 A debugger is a less invasive alternative to `printf()`. It allows you to step through a program (slowly execute one instruction at a time), set breakpoints, investigate machine state (memory, registers, etc), investigate crashes. However it does not find problems for you or fix them.
+
+## Lecture 20 - Revision & Discussion of Lab Tasks
+
+In Week 7 Lecture 1, we met Joe and Steve, two inventors of the micro:bit. We learnt about initial requirements like a tangible approach for teaching computing that is easy to use and engage in, with no installation, set or internet. We found out the differences between micro:bit and other devices. We also followed a demo in MakeCode using block coding and were given a very high level of the architecture of micro:bit.
+
+In Week 7 Lecture 2, we talked about the key hardware components of the micro:bit and how they interact. We also found out the functions of the target MCU and interface MCU. Furthermore, we discussed the role of the interface firmware (DAPLink), runtime environment (CODAL) and how it facilitates code development. We also discovered the pros and cons of compiled code and interpreted code when it is flashed to the micro:bit.
+
+In Week 8 Lecture 1, we described the necessary tools to create C/C++ programs for micro:bit. We explained the sequence of steps, from editing main.cpp and building MICROBIT.hex to 'flashing' it using Windows. We were also introduced to some classes like MicroBit, MicroBitDisplay, and MicroBitImage.
+
+In Week 8 Lecture 2 we explained how to detect and react to events synchronously and asynchronously. We found out how to set up event listeners, which call event handlers when a MicroBitEvent is detected. We also learnt the use of wildcards that enable us to listen to multiple events triggered by the same component and associate a different response to each event. Finally, we learnt how to use the MicroBitThermometer class to measure temperature and the MicroBitLog class to log data to a file that can be accessed by a web browser.
+
+In Week 9 Lecture 1 we explained the stages of the preprocessor, compiler, and assembler, which translate a C source file into an object file. We described the sections of the object file the symbol table and the relcation table. We learnt the difference between dynamic linking against shared objects and static linking against archives of objects. Finally, we highlighted the importance of separating the linking stages from preprocessing, compilation, and translation into assembly.
+
+In Week 9 Lecture 2 we learnt about the initial processing of merging continued lines, breaking them, and removing comments. Then deepened our understanding by looking into tokenisation which is where each line is broken down into tokens. The Preprocessor looks at tokens that contain directives and macros. The flexibility that preprocessing offers in replacing object-like and function-like identifiers with their definitions, including header files and controlling compilation (using conditionals and computed include directives), and using predefined macros to diagnose problems.
+
+In Week 10 Lecture 1, we looked at types of bugs and debugging strategies, including using logging (printf) and reading the serial port to display messages sent by micro:bit. We also delved into potential issues that could arise when printf is removed and looked at debugging using GDB. We finally looked at Big-endian and little-endian systems, as well as on-chip debugging (OCD).
+
+Cohort average for 131 week 10 quiz (61.3%).
