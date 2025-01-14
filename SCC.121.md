@@ -35,6 +35,7 @@ The module aims to help me understand the fundamentals of Computer Science. Thi
 |   9   | [Lecture 17 - Searching](#lecture-17---searching)                                                                                   | [Searching](/SCC.121.slides/r.searching.pdf)                                                             |  ✅   |
 |   9   | [Lecture 18 - Recursion](#lecture-18---recursion)                                                                                   | [Recursion](/SCC.121.slides/s.recursion.pdf)                                                             |  ✅   |
 |  10   | [Lecture 19 - Indexed Retrieval](#lecture-19---indexed-retrieval)                                                                   | [Indexed Retrieval](/SCC.121.slides/t.indexedRetrieval.pdf)                                              |  ✅   |
+|  11   | [Lecture 20 - Hashing](#lecture-20---hashing)                                                                                       | [Hashing](/SCC.121.slides/u.hashing.pdf)                                                                 |  ✅   |
 
 ## Lecture 1 - Sets
 
@@ -1261,3 +1262,32 @@ This has worst case efficiency of O(n). As, if every object is on the same chain
 But practically, it is much faster if the objects are distributed across many chains so the same improvement as with using arrays.
 
 Advantage as chains are dynamic so extra objects can be inserted easier. No need to recompute the index.
+
+## Lecture 20 - Hashing
+
+A hashing function converts a key (usually a string) into an integer. The integer is then used for indexting a sotrage array. The same function is used for storing and retrieving data.
+
+Index integer is not just restricted from 0 to 25, which allows dada to be spread accross a much longer array.
+
+Collisions can be dealt with chaining.
+
+A hash table is a data structure designed for fast data retrieval. Elements in a hash table are stored in 'buckets' (e.g., an index of an array). Each element in the table has a unique part called the key. A hash function takes the key of an element and generates a hash code. The hash code determines which bucket the element belongs to, allowing for direct access to that element in the table.
+
+A good hashing function is one that minimises collisions by having a wide range of index values and unform hashing (each key is equally likely to map to an array location). To get a wide range of index values we can use multiplication as well as addition.
+
+Hash retrieval has two stages:
+
+1. Use hashing function to compute index
+2. Search chain in array element to see if there is a match
+
+A good hashing function and a large array could make stage 2 close to O(1), but stage 1 should be fast too. A real-world hashing function should avoid slow multiplication and division operations, and instead use fast logicial shifts and OR operations.
+
+### Key-value paris
+
+So far we've just been storing the keys. But we can also store an associated value as a key-value pair.
+
+This is when each induvidual element of data (the value) is associated with a unique identifier. We use a label (the key) to identify a piece of information (the value). E.g. the name (key) has associated phone number (value).
+
+- **Key**: Unique input to hash function (can be anything e.g. integer, but often a string) that is translated by hash function
+- **Hash of the key**: Determines the bucket where we store the value
+- **Value**: what we put in the bucket associated with the key (in previous examples we just put the key itself in the bucket)
