@@ -35,6 +35,7 @@ The module aims to help me understand digital systems. This includes fundamental
 |  9   | [Lecture 18 - The C Proprocessor](#lecture-18---the-c-preprocessor)                                   | [The C Preprocessor](/SCC.131.slides/p.theCproprocessor.pdf)                                    |  ✅   |
 |  10  | [Lecture 19 - Debugging](#lecture-19---debugging)                                                     | [Debugging](/SCC.131.slides/r.debugging.pdf)                                                    |  ✅   |
 |  10  | [Lecture 20 - Revision and Discussion of Lab Tasks](#lecture-20---revision--discussion-of-lab-tasks)  | [Revision & Discussion of Lab Tasks](/SCC.131.slides/s.labTasksReview.pdf)                      |  ✅   |
+|  11  | [Lecture 21 - The Micro:bit Radio Module](#lecture-21---the-microbit-radio-module)                    | [The Micro:bit Radio Module](/SCC.131.slides/t.microbitRadioModule.pdf)                         |       |
 
 ## Lecture 1 - Module Introduction & Computer Architecture
 
@@ -1024,3 +1025,110 @@ In Week 9 Lecture 2 we learnt about the initial processing of merging continued 
 In Week 10 Lecture 1, we looked at types of bugs and debugging strategies, including using logging (printf) and reading the serial port to display messages sent by micro:bit. We also delved into potential issues that could arise when printf is removed and looked at debugging using GDB. We finally looked at Big-endian and little-endian systems, as well as on-chip debugging (OCD).
 
 Cohort average for 131 week 10 quiz (61.3%).
+
+## Lecture 21 - The Micro:bit Radio Module
+
+![alt text](images/microBitSoFAR.png)
+
+Micro:bits have a Nordic Semiconductor nRF52833 System on Chip (SoC). This chip contains a 2.4GHz radio Module. The radio module is designed to run the Bluetooth low Energy (BLE) protocol.
+
+The radio mode has capabilitiies:
+
+- **Bandwidth & Frequency**: 1MHz narrowband, 2.407 GHz
+- **Transmission Rate**: 1Mbps
+- **Max Transfer Unit**: 32 bytes
+- **Encryption**: None
+- **Error Detection**: 16-bit hardware cyclic redundancy check (CRC) coding
+- **Transmission Power**: Eight user-configurable settings from 0 (-30 dBm) to 7 (+4dBm)
+- **Transmission Range**: 20m at 0dBm
+
+The strength of the recieved signal is expressed in decibles (dB) with respoect to 1 mW.
+
+If we express P as the power in Watts (W), then P/(1 MW) is how much stronger 1mW is to P.
+
+| dBm |        |
+| :-- | :----: |
+| 4   | 2.5 mW |
+| 0   |  1 mW  |
+| -10 | 100 μW |
+| -20 | 10 μW  |
+| -30 |  1 μW  |
+| -40 | 100 nW |
+| -50 | 10 nW  |
+| -60 |  1 nW  |
+
+A Micro:bit device can transmit 1 datagram at a time. This is a packet that is up to 32-bytes long.
+
+Before transmission or reception, radio module must be enabled:
+
+```
+uBit.radio.enable()
+
+uBit.radio.datagram.send(datagram)
+
+uBit.radio.datagram.recv()
+```
+
+The receiving micro:bit should use `uBit.radio.datagram.recv` after a `MICROBIT_RADIO_EVT_DATAGRAM` is raised:
+
+```
+uBit.messageBus.listen(MICROBIT_ID_RADIO, MICROBIT_RADIO_EVT_DATAGRAM, onRx);
+```
+
+### ManagedString and PacketBuffer
+
+ManagedString and PacketBuffer are managed types so they will automatically reserve and release memory, as needed (you do not need to allocate and free memory). Variables of type ManagedString are immutable.
+
+```
+// Strings can be compared
+ManagedString part1("HELLO");
+ManagedString part2("micro:bit");
+if (part1 == part2) uBit.display.scroll("SAME");
+if (part1 < part2) uBit.display.scroll("LESS");
+if (part1 > part2) uBit.display.scroll("MORE");
+
+// Strings can be joined to create a new string
+ManagedString greeting("HAPPY NEW YEAR ");
+ManagedString year(2024); // a value can be passed too!
+ManagedString msg = greeting + year;
+uBit.display.scroll(msg);
+```
+
+Elements in arrays of type PacketBuffer can be changed at any time, A byte can be read or written to the buffer by dereferencing it with square brackets:
+
+```
+#include "MicroBit.h"          // The MicroBit header file
+MicroBit uBit;                 // The MicroBit object
+
+int main() {                   // C CODE for the TRANSMITTER
+  uBit.init();                 // Initialise the device
+  uBit.radio.enable();         // Enable the radio component
+  PacketBuffer b(2);           // Create a sequence of two bytes
+  b[0] = 255;                  // Set the value of the first byte
+  b[1] = 10;                   // Set the value of the second byte
+  uBit.radio.datagram.send(b); // Transmit packet as a datagram
+}
+```
+
+```
+#include "MicroBit.h"                            // The MicroBit header file
+MicroBit uBit;                                   // The MicroBit object
+void onData(MicroBitEvent e) {                   // The event handler
+    PacketBuffer b = uBit.radio.datagram.recv(); // Store the received datagram
+    uBit.display.scroll(b[0]);        // Display the first byte of the datagram
+}
+int main() {                                     // C CODE for the RECEIVER
+    uBit.init();                                 // Initialise the device
+    uBit.radio.enable();                         // Enable the radio component
+    uBit.messageBus.listen(MICROBIT_ID_RADIO, MICROBIT_RADIO_EVT_DATAGRAM, onData);
+    release_fiber();
+}
+```
+
+### Other methods/functions of interest
+
+`getRSSI()` retrieves the recieved signal strength indicator which is measured in dBm, of the most recently recieved datagram.
+
+`enable()` initialises the radio components of micro:bit for transmission/reception, `disable()` disables this component for use as a multipoint sender/receiver.
+
+Users can define a group to which their micro:bit devices belong. Datagrams sent will only be recieved by other micro:bits in the same group. If a group is not specified, the defualt is 0.
