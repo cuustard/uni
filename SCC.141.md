@@ -26,6 +26,7 @@ The module aims to help me understand the fundamentals of Professionalism in Pra
 |  8   | [Lecture 8 - Ethics](#lecture-8---ethics)                                                                                                                  | [Ethics](/SCC.141.slides/h.lawShitPartTwo.pdf)                                                    |  ✅   |
 |  9   | [Lecture 9 - System Failures & Errors](#lecture-9---system-failures--errors)                                                                               | [System Failures & Errors](/SCC.141.slides/i.systemFailuresAndErrors.pdf)                         |  ✅   |
 |  10  | [Lecture 10 - System & Human Error, and Recap](#lecture-10---system--human-error-and-recap)                                                                | [System & Human Error, and Recap](/SCC.141.slides/j.semesterRecap.pdf)                            |  ✅   |
+|  11  | [Lecture 11 - Security In Systems](#lecture-11---security-in-systems)                                                                                      | [Security In Systems](/SCC.141.slides/k.systemSecurity.pdf)                                       |  ✅   |
 
 > **_NOTE:_** The AI Podcasts for all the lectures are produced from the Lecture Slide. The structure of my notes may differ to the order of topics discussed in the podcast.
 
