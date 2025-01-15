@@ -1002,3 +1002,99 @@ There is an importance to managing risks. We need to anticipate and minimise uni
 Risk management and dependability, though critical, must be paired with a user-focused approach to ensure solutions are practical and beneficial for their intended audience.
 
 It is vital to consider end-users throughout the system development life cycle because computers are used by a diverse population, each with unique needs, capabilities, and limitations. Systems should prioritize both accessibility and usability to ensure they are effective and inclusive. Digital accessibility involves designing and building websites and applications that allow disabled people to interact with them meaningfully and equivalently. Usability, on the other hand, focuses on enabling users to achieve their goals efficiently and with satisfaction. A usable product is intuitive, functional, and enjoyable. While people are unique and unpredictable, making it impossible to design for every scenario, understanding diverse user needs is essential. However, users may struggle to articulate their requirements, meaning their stated desires may not fully align with their actual needs.
+
+## Lecture 11 - Security in Systems
+
+<audio controls>
+  <source src="SCC.141.slides/k.systemSecurity.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
+### Why System Security Matters
+
+It matters because undermined trust leads to downtime, data loss, and safety risks.
+
+- **Trustworthy** Systems Power Our Lives: We depend on them for daily life
+- **Frequent & Costly** Security Breaches: Attacks occur daily, costing time, money, and reputation
+- **Complex Systems** Lead To Inevitable Defects: Design flaws or coding bugs are common in large, interconnected systems
+- **Natural vs Malicious** Exposures: Some vulnerabilities appear by accident, others are exploited deliberately
+
+For example, robotic security matters because:
+
+- Potential Harassment: hacked robots can be turned into tools for offensive or harmful behaviour
+- Safety & Liability: Compromised functionality can cause accidents or damage
+- User Trust: Adoption stalls if people fear privacy invasions or physical harm
+
+### The CIA Triad: Foundations of Security
+
+The CIA Triad is a foundational model for understanding security requirements. Organisations use it to shape policies, controls, and strategies that minimise threats.
+
+CIA matters because...
+
+#### Confidentiality
+
+This is when computing resources, data, and information should be accessible only to authorised users. Data confidentiality ensures that information is not disclosed to unauthorised parties. Privacy gives the owner control over what data is collected, how it's stored, and how it's used. This can be accomplished by encryption, access controls, or authentication.
+
+#### Integrity
+
+This is when resources should only be modified or removed by authorised users. Data integrity ensures that data isn't tampered with (accidentally or maliciously). System integrity intends the system to function as intended, free of unauthorised modifications. Small changes can break critical processes or mislead decision-making. Modifications can be malicious or accidental.
+
+#### Availability
+
+This is when resources need to be accessible when needed by authorised users. Poor performance caused by slow or overloaded systems can hurt availability. Single-point-of-failure designs are those which have one failing component that takes down the entire system. Redundancy and backups provide fallback options.
+
+Malicious: Denial-of-service attacks or ransomware.
+Accidental: Network outage, hardware crash, misconfiguration.
+Environmental: Natural disasters, power failures.
+
+### The Eight Security Design Principles
+
+1. **Economy of Mechanism**: Keep designs as simple and small as possible, reducing the chance of errors.
+   - Reuse simple quality components/libraries
+   - Less code > fewer paths > fewer bugs > simpler verification
+2. **Fail-Safe Defaults**: Deny by default; only grant access if explicitly allowed.
+   - A conservative design must be based on arguments about why objects should be accessible, rather than why they should not.
+   - Mistakes or overlooked details tend to revert the system to safe behaviour instead of wide-open.
+3. **Complete Mediation**: Every request for a resource must be checked for authorisation - no cached shortcuts.
+   - Forces a system-wide view of access control which in addition to normal operation includes initialisation, recovery, shutdown, and maintenance.
+   - Eliminates "once you're in, you're in forever"
+4. **Open Design**: Open design stresses transparency in security.
+   - Mechanisms can be public; keys or passwords remain secret
+   - Encourages robust, peer-reviewed designs that stand up to public scrutiny
+5. **Separation of Privilege**: Divide power so no single entity alone has enough authority to compromise the system.
+   - Reduces insider threats and accidental misuse
+6. **Least Privilege**: A subject should have the minimal privileges necessary for its task.
+   - Limits damage if an account is compromised so attackers can't escape to full control
+7. **Least Common Mechanism**: Minimised shared resources/mechanisms used by multiple components.
+   - One compromised shared mechanism can become a single point of failure
+8. **Psychological Acceptability**: Security must be user-friendly to be adopted.
+   - The best security fails if users avoid or bypass it due to complexity.
+
+**Defence In Depth**: Involves multiple layers of security controls to protect assets. If one layer of security fails, the other layers still protect. - Aims to create a secure environment that is resilient to attack and can quickly detect and respond to any security incidents.
+
+### Immutable Laws of Security
+
+These used to be different but were revisited in 2003 due to the rise of ransomware, cloud-based services, Iot, and AI-driven attacks. Furthermore, the push to move fast often outruns security measures.
+
+1. Security success is ruining the attacker’s return on investment (ROI).
+2. Not keeping up is falling behind.
+3. Productivity always wins.
+4. Attackers don’t care.
+5. Ruthless prioritization is a survival skill.
+6. Cybersecurity is a team sport.
+7. Your network isn’t as trustworthy as you think it is.
+8. Isolated networks aren’t automatically secure.
+9. Encryption alone isn’t a data protection solution.
+10. Technology doesn’t solve people and processes problems.
+
+They changed like this:
+
+- Physical vs. Virtual:
+  - Then: If an attacker physically touches your machine, game over
+  - Now: Attackers might never be physically present—cloud breaches, remote exploits, supply chain intrusions
+- Local Admin vs. Team Sport:
+  - Then: One admin could make or break the security
+  - Now: Security requires cross-team collaboration—DevOps, cloud architects, compliance officers, etc
+- Antivirus vs. Ongoing Patch & Monitor:
+  - Then: Keeping AV updated was big
+  - Now: Ongoing patching, threat intelligence, and real-time monitoring are crucial

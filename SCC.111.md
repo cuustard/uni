@@ -36,6 +36,7 @@ The module aims to help me understand software development. This includes instil
 |  9   | [Lecture 18 - Dynamic Data Structures](#lecture-18---dynamic-data-structures)                | [Dynamic Data Structures](/SCC.111.slides/r.dynamicDataStructures.pdf)                 |  🟧   |
 |  10  | [Lecture 19 - C Highlights](#lecture-19---c-highlights)                                      | [C Highlights](/SCC.111.slides/s.cHighlights.pdf)                                      |  ❌   |
 |  10  | [Lecture 20 - Fun By The C](#lectuer-20---fun-by-the-c)                                      | [Fun By The C](/SCC.111.slides/t.funByTheC.pdf)                                        |  🟧   |
+|  11  | [Lecture 21 - Intro to Term 2](#lecture-21---introduction-to-term-2)                         | [Intro To Term 2](/SCC.111.slides/u.introToTerm2.pdf)                                  |  ✅   |
 
 ---
 
@@ -662,3 +663,5 @@ there is no true or false, only 1 or 0. can define TRUE and FALS in constant in 
 
 // textually replaces "FALSE" with 0
 ```
+
+## Lecture 21 - Introduction To Term 2

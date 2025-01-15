@@ -10,6 +10,11 @@ began: 13th Janurary 2025
 
 ## Lecture 1 - Module Introduction
 
+<audio controls>
+  <source src="MSCI.102.slides/a.introduction.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
 Operations is responsible for the the production of goods or delivery of service. It is the 'other' part of the business which is responsible for 60-70% of the costs, assets, and people.
 
 Business operations is one of the 3 core functions; developing the market (marketing), creating products and services (design and development), and producing and delivering to the market (operations). Accounting & finance, and human resources are two 'supporting functions'.
