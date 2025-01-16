@@ -36,7 +36,7 @@ The module aims to help me understand the fundamentals of Computer Science. Thi
 |   9   | [Lecture 18 - Recursion](#lecture-18---recursion)                                                                                   | [Recursion](/SCC.121.slides/s.recursion.pdf)                                                             |  ✅   |
 |  10   | [Lecture 19 - Indexed Retrieval](#lecture-19---indexed-retrieval)                                                                   | [Indexed Retrieval](/SCC.121.slides/t.indexedRetrieval.pdf)                                              |  ✅   |
 |  11   | [Lecture 20 - Hashing](#lecture-20---hashing)                                                                                       | [Hashing](/SCC.121.slides/u.hashing.pdf)                                                                 |  ✅   |
-|  11   | [Lecture 21 - Introduction To Algorithms](#lecture-21---introduction-to-algorithms)                                                 | [Intro To Algorithms](/SCC.121.slides/v.introToAlgorithms.pdf)                                           |       |
+|  11   | [Lecture 21 - Introduction To Algorithms](#lecture-21---introduction-to-algorithms)                                                 | [Intro To Algorithms](/SCC.121.slides/v.introToAlgorithms.pdf)                                           |  ✅   |
 
 ## Lecture 1 - Sets
 
@@ -1304,3 +1304,71 @@ This is when each induvidual element of data (the value) is associated with a un
   <source src="SCC.121.slides/v.introToAlgorithms.mp3" type="audio/mpeg">
   Your browser does not support the audio element.
 </audio>
+
+### What An Algorithm Is
+
+> "An algorithm is a set of computational steps that transform the input into output... A tool for solving well-specified computational problem... The algorithm describes a specific computational procedure for achieving that input/output relationship." - Cormen, Thmas H., et al. Introduction to algorithms. MIT press, 2009
+
+An algorithm is an effective method for solving a class of problems. The problem input is finite and represents an instance of a problem.
+
+Algorithms can be represented in computer code, pseudocode, flow charts, plain text, punch cards, etc.
+
+### Examples Of Algorithms
+
+There are many different approaches to solving the same problem. The inputs and outputs may be the same but the steps taken to compute the ouput can differ.
+
+Key types of algorithms:
+
+- **Sorting Algorithms**: Sorts data in a particular format. E.g. Quicksort, Mergesort, etc.
+- **Searching Algorithms**: Finds a requested value/record. E.g. Linear search, Binary search, etc.
+- **Graph Algorithms**: Finds solutions to problems such as the shortest path between 2 points. E.g. breadth-first, Dijkstra's algorithm, etc.
+
+Some algorithms are better than others. We can the performance of algorithms by measuring their time/space complexity.
+
+### Why We Study Algorithms
+
+Algorithms need resources during execution. They require **space** (memory), and **time** (number of steps relative to input size). Performance is important but so are correctness, robustness, and simplicity.
+
+Even if computers were infintely fast and memory was free, we should still study algorithms as they should still be correct, robust, an simple.
+
+Ideally we want to minimise space and time complexity of an algorithm. But in reality, it's more likely that we'll only be able to greately one of these. XOR situation.
+
+### Space Complexity
+
+Space complexity is the amount of memory required by an algorithm to run to completion. Space can be split into two parts:
+
+1. **Fixed Part**: The size needed to store data/variables, that is independent of the size of the prolem.
+2. **Variable Part**: Space needed by variables, whose size is dependent on the size of the problem.
+
+```C
+// in this example, lets assume the size of each int variable is 4 bytes. there are 3 ints so 4*3=12. so 12bytes of fixed space is needed. There is no variable part.
+#include <stdio.h>
+
+int main() {
+  int a = 5, b = 5, c;
+  c = a + b;
+  printf("%d", c)
+}
+
+```
+
+```C
+// in this example, the fixed part is 12 bytes. the arr consists of n ints. so the space is 4n cause 4 bytes. so space complexity of 12 + 4n
+#include <stdio.h>
+
+int main() {
+  int n, i, sum = 0;
+  scanf("%d", &n);
+  int arr[n];
+  for (i = 0, i <n; i++) {
+    scanf("%d", &arr[i]);
+    sum = sum + arr[i];
+  }
+  printf("%d", sum);
+}
+
+```
+
+### Space Vs Time
+
+An ideal algorithm requires less space and takes less time to compute. In practice there is a trade-off time vs space complexity. Generally we care more about time complexity as memory is inexpensive even though it is not free. Time is important as we want it to be as fast as possible and the speed depends on the size and organisation of the input.
