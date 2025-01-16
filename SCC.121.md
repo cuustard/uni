@@ -36,6 +36,7 @@ The module aims to help me understand the fundamentals of Computer Science. Thi
 |   9   | [Lecture 18 - Recursion](#lecture-18---recursion)                                                                                   | [Recursion](/SCC.121.slides/s.recursion.pdf)                                                             |  ✅   |
 |  10   | [Lecture 19 - Indexed Retrieval](#lecture-19---indexed-retrieval)                                                                   | [Indexed Retrieval](/SCC.121.slides/t.indexedRetrieval.pdf)                                              |  ✅   |
 |  11   | [Lecture 20 - Hashing](#lecture-20---hashing)                                                                                       | [Hashing](/SCC.121.slides/u.hashing.pdf)                                                                 |  ✅   |
+|  11   | [Lecture 21 - Introduction To Algorithms](#lecture-21---introduction-to-algorithms)                                                 | [Intro To Algorithms](/SCC.121.slides/v.introToAlgorithms.pdf)                                           |       |
 
 ## Lecture 1 - Sets
 
@@ -1265,6 +1266,11 @@ Advantage as chains are dynamic so extra objects can be inserted easier. No need
 
 ## Lecture 20 - Hashing
 
+<audio controls>
+  <source src="SCC.121.slides/u.hashing.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
 A hashing function converts a key (usually a string) into an integer. The integer is then used for indexting a sotrage array. The same function is used for storing and retrieving data.
 
 Index integer is not just restricted from 0 to 25, which allows dada to be spread accross a much longer array.
@@ -1291,3 +1297,10 @@ This is when each induvidual element of data (the value) is associated with a un
 - **Key**: Unique input to hash function (can be anything e.g. integer, but often a string) that is translated by hash function
 - **Hash of the key**: Determines the bucket where we store the value
 - **Value**: what we put in the bucket associated with the key (in previous examples we just put the key itself in the bucket)
+
+## Lecture 21 - Introduction To Algorithms
+
+<audio controls>
+  <source src="SCC.121.slides/v.introToAlgorithms.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>

@@ -2,11 +2,10 @@ began: 13th Janurary 2025
 
 # MSCI.102 Introduction to Operations Management
 
-| Week | My Notes                                                             | Lecture Slides                                            | Noted |
-| :--: | -------------------------------------------------------------------- | --------------------------------------------------------- | :---: |
-|  11  | [Lecture 1 - Module Introduction](#lecture-1---module-introduction)  | [Introduction to OM](/MSCI.102.slides/a.introduction.pdf) |  ✅   |
-|  11  | [Lecture 2 - ](#)                                                    | []()                                                      |       |
-|  12  | [Lecture 3 - ](#lecture-3---introduction-to-supply-chain-management) | []()                                                      |       |
+| Week | My Notes                                                                  | Lecture Slides                                                      | Noted |
+| :--: | ------------------------------------------------------------------------- | ------------------------------------------------------------------- | :---: |
+|  11  | [Lecture 1 - Module Introduction](#lecture-1---module-introduction)       | [Introduction to OM](/MSCI.102.slides/a.introduction.pdf)           |  ✅   |
+|  11  | [Lecture 2 - Operations As A System](#lecture-2---operations-as-a-system) | [Operations As A System](/MSCI.102.slides/b.operationsAsSystem.pdf) |  ✅   |
 
 ## Lecture 1 - Module Introduction
 
@@ -44,4 +43,38 @@ Solving logical, rather than social, problems of producing products and deliveri
 
 A System is a complex whole where relationships between components define system behaviour. The components in the system are modified by interactions with eachother and with external elements. The components maintain and reproduce their own distinct structures and boundaries. The interactions between components via exchange of materials and information can produce qualitively new characteristics in a system.
 
-## Lecture 3 - Introduction to Supply Chain Management
+## Lecture 2 - Operations As A System
+
+<audio controls>
+  <source src="MSCI.102.slides/b.operationsAsSystem.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
+### Purpose In the Operations System
+
+Systems have autonomous behaviour. They do more than react to stimuli, they pursue goals.
+
+![image](images/interactionOfSubComponents.png)
+
+Operations have performance objectives, which typically include cost, quality, speed, dependability, flexibility, and sustainability. Each objective can have different types. For example:
+
+- **Quality**: Top quality vs. consistent quality.
+- **Speed**: On-time delivery vs. fast development.
+- **Flexibility**: Product customization vs. product variety vs. volume flexibility.
+- **Dependability**: Durability vs. reliability.
+
+'Order Winning' operational factors are those that directly and significantly contribute to winning business as they provide a competitive advantage.
+
+### Transformation In The Operations System
+
+![image](images/SystemsTransformTheirEnvironment.png)
+
+- **Materials Processor**: manufacturing, mining, energy
+- **Information Processors**: accountancy, media, research
+- **Customer Processors**: hotels, hospitals, education, transport
+
+![image](images/transformationInOperationsSystem.png)
+
+![image](images/transformationVolumeAndVariety.png.png)
+
+### Adaption In The Operations System

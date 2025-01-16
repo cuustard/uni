@@ -1028,6 +1028,11 @@ Cohort average for 131 week 10 quiz (61.3%).
 
 ## Lecture 21 - The Micro:bit Radio Module
 
+<audio controls>
+  <source src="SCC.131.slides/t.microbitRadioModule.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
 ![alt text](images/microBitSoFAR.png)
 
 Micro:bits have a Nordic Semiconductor nRF52833 System on Chip (SoC). This chip contains a 2.4GHz radio Module. The radio module is designed to run the Bluetooth low Energy (BLE) protocol.
