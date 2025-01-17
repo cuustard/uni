@@ -37,6 +37,7 @@ The module aims to help me understand software development. This includes instil
 |  10  | [Lecture 19 - C Highlights](#lecture-19---c-highlights)                                      | [C Highlights](/SCC.111.slides/s.cHighlights.pdf)                                      |  ❌   |
 |  10  | [Lecture 20 - Fun By The C](#lectuer-20---fun-by-the-c)                                      | [Fun By The C](/SCC.111.slides/t.funByTheC.pdf)                                        |  🟧   |
 |  11  | [Lecture 21 - Intro to Term 2](#lecture-21---introduction-to-term-2)                         | [Intro To Term 2](/SCC.111.slides/u.introToTerm2.pdf)                                  |  ✅   |
+|  11  | [Lecture 22 - Principles of OOP](#lecture-22---principles-of-oop)                            | [Principles of OOP](/SCC.111.slides/v.principlesOfOOP.pdf)                             |  ✅   |
 
 ---
 
@@ -665,3 +666,66 @@ there is no true or false, only 1 or 0. can define TRUE and FALS in constant in 
 ```
 
 ## Lecture 21 - Introduction To Term 2
+
+## Lecture 22 - Principles of OOP
+
+<audio controls>
+  <source src="SCC.111.slides/v.principlesOfOOP.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
+To write scalable code, it must be modular. Modularity relies on standards. The interface between modules and the world must be well-defined. For example, almost every lego brick can plug into every other leg brick. Their interfaces have the same standard. In software, these standards are called an Application Programmable Interface (API).
+
+![image](images/legoModularity.png)
+
+Programming langiuages are classified on the core paradigm on which they are based.
+
+C is a procedural language. This is because there is a well-defined start point, the code is broken down into manageable chuncks (functions), functions are called by one another, and programs hold information in the form of variables. These variables are passed as parameters to those functions, or can be global. So procedural languages are structured around the code.
+
+Procedural programming languages give little thought to the location of the data. Code modularity occurs in functions and libraries. Data modularity only occurs in structures.
+
+### Oobject Oriented Programming
+
+OOP languages combine code and data. Objects are the lego bricks. They group similar data and functions (tight cohesion). They isolate parts of the program from the rest, reducing the complexity of the software.
+
+Objects provide **encapsulation** in which datat and code cannot be separated. Data is defined through **attributes**. Behaviour/methods/functions are defined through **methods**. Objects protect their inner workings through an API. Interactions with objects occur throufh its methods. The programmer only exposes what they choose to. This provides tight control over how it is used. This allows programmers to provide sealed boexes of code in order to promote simplicity.
+
+![image](images/object.png)
+
+Objects are defined by **classes**. This is a specification (like a blueprint) of an object someone might build.
+
+Class: Bank Accont
+Object: Jake Evans
+Attribute: Current Balance
+
+Bank account blueprint. instantiate for Jake Evans. Current Balance Attribute of £10,000,000.
+
+```c++
+// Captialised Camel Case
+// Class keyword defines that everything in the block is part of the class. Similar to a structure.
+
+// an objects attributes are implemented through variables. These are declared inside a classs, but outside any method. These attributes provide a new level of scope which are more controlled than global variables but less specific than local.
+
+class Car {
+    int milesDriven = 0;
+    char *colour;
+
+public:
+    void drive(int miles);
+    void respray(char *c);
+    void show();
+};
+
+// implementation of methods from class
+void Car::drive(int milels) {
+    milesDriven = milesDriven + miles;
+}
+
+void Car::respray(char *c) {
+    colour = (char *)c;
+}
+
+void Car::show() {
+    printf("I am a %s car, and I've driven %d miles.\n", colour, milesDriven);
+}
+```
