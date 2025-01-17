@@ -729,3 +729,13 @@ void Car::show() {
     printf("I am a %s car, and I've driven %d miles.\n", colour, milesDriven);
 }
 ```
+
+We initialise a object from a class like this:
+
+```c++
+Car amysCar;
+
+amysCar.respray((char *)"White");
+amysCar.drive(16);
+amysCar.show();
+```
