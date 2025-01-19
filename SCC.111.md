@@ -667,6 +667,11 @@ there is no true or false, only 1 or 0. can define TRUE and FALS in constant in 
 
 ## Lecture 21 - Introduction To Term 2
 
+<audio controls>
+  <source src="SCC.111.slides/u.introToTerm2.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
 ## Lecture 22 - Principles of OOP
 
 <audio controls>
