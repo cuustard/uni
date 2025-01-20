@@ -6,6 +6,7 @@ began: 13th Janurary 2025
 | :--: | ------------------------------------------------------------------------- | ------------------------------------------------------------------- | :---: |
 |  11  | [Lecture 1 - Module Introduction](#lecture-1---module-introduction)       | [Introduction to OM](/MSCI.102.slides/a.introduction.pdf)           |  ✅   |
 |  11  | [Lecture 2 - Operations As A System](#lecture-2---operations-as-a-system) | [Operations As A System](/MSCI.102.slides/b.operationsAsSystem.pdf) |  ✅   |
+|12| [Lecture 3 - Intro to Supply Chain Management](#lecture-3---intro-to-supply-chain-management) | [Introduction To Supply Chain Management](/MSCI.102.slides/c.introToSCM.pdf) ||
 
 ## Lecture 1 - Module Introduction
 
@@ -78,3 +79,5 @@ Operations have performance objectives, which typically include cost, quality, s
 ![image](images/transformationVolumeAndVariety.png.png)
 
 ### Adaption In The Operations System
+
+## Lecture 3 - Intro To Supply Chain Management
