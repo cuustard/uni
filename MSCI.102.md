@@ -76,7 +76,7 @@ Operations have performance objectives, which typically include cost, quality, s
 
 ![image](images/transformationInOperationsSystem.png)
 
-![image](images/transformationVolumeAndVariety.png.png)
+![image](images/transformationVolumeAndVariety.png)
 
 ### Adaption In The Operations System
 
