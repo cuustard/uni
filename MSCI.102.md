@@ -2,11 +2,11 @@ began: 13th Janurary 2025
 
 # MSCI.102 Introduction to Operations Management
 
-| Week | My Notes                                                                  | Lecture Slides                                                      | Noted |
-| :--: | ------------------------------------------------------------------------- | ------------------------------------------------------------------- | :---: |
-|  11  | [Lecture 1 - Module Introduction](#lecture-1---module-introduction)       | [Introduction to OM](/MSCI.102.slides/a.introduction.pdf)           |  ✅   |
-|  11  | [Lecture 2 - Operations As A System](#lecture-2---operations-as-a-system) | [Operations As A System](/MSCI.102.slides/b.operationsAsSystem.pdf) |  🟧   |
-|12| [Lecture 3 - Intro to Supply Chain Management](#lecture-3---intro-to-supply-chain-management) | [Introduction To Supply Chain Management](/MSCI.102.slides/c.introToSCM.pdf) |🟧|
+| Week | My Notes                                                                                      | Lecture Slides                                                               | Noted |
+| :--: | --------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------- | :---: |
+|  11  | [Lecture 1 - Module Introduction](#lecture-1---module-introduction)                           | [Introduction to OM](/MSCI.102.slides/a.introduction.pdf)                    |  ✅   |
+|  11  | [Lecture 2 - Operations As A System](#lecture-2---operations-as-a-system)                     | [Operations As A System](/MSCI.102.slides/b.operationsAsSystem.pdf)          |  🟧   |
+|  12  | [Lecture 3 - Intro to Supply Chain Management](#lecture-3---intro-to-supply-chain-management) | [Introduction To Supply Chain Management](/MSCI.102.slides/c.introToSCM.pdf) |  🟧   |
 
 ## Lecture 1 - Module Introduction
 
@@ -102,11 +102,9 @@ A supply chain is two or more parties linked by a flow of resources, typically m
 
 ### What A Supply Chain Looks Like
 
-
 The standard view. A local firm, contracting with immediate neighbours:
 
 ![alt text](images/supplyChainStructure1.png)
-
 
 Sometimes has parallel chains:
 
@@ -120,11 +118,11 @@ Firms can swap roles on occasion:
 
 ![image](images/supplyChainStructure4.png)
 
-Having more parties in the supply chain is risky. Specialisation model creates a supply network. Risk and vulnerabilities are inherent in networks. The larger and more extensive the network, the bigger the tension. A balance between efficiency and resilience. 
+Having more parties in the supply chain is risky. Specialisation model creates a supply network. Risk and vulnerabilities are inherent in networks. The larger and more extensive the network, the bigger the tension. A balance between efficiency and resilience.
 
 ### Procurement Process
 
-The procurement process is a series of steps a company takes to obtain the goods and services it needs to operate. 
+The procurement process is a series of steps a company takes to obtain the goods and services it needs to operate.
 
 The process:
 
@@ -133,4 +131,3 @@ The process:
 3. Requisition/ordering
 4. Supply
 5. Invoicing & payment
-
