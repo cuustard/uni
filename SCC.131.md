@@ -35,7 +35,9 @@ The module aims to help me understand digital systems. This includes fundamental
 |  9   | [Lecture 18 - The C Proprocessor](#lecture-18---the-c-preprocessor)                                   | [The C Preprocessor](/SCC.131.slides/p.theCproprocessor.pdf)                                    |  ✅   |
 |  10  | [Lecture 19 - Debugging](#lecture-19---debugging)                                                     | [Debugging](/SCC.131.slides/r.debugging.pdf)                                                    |  ✅   |
 |  10  | [Lecture 20 - Revision and Discussion of Lab Tasks](#lecture-20---revision--discussion-of-lab-tasks)  | [Revision & Discussion of Lab Tasks](/SCC.131.slides/s.labTasksReview.pdf)                      |  ✅   |
-|  11  | [Lecture 21 - The Micro:bit Radio Module](#lecture-21---the-microbit-radio-module)                    | [The Micro:bit Radio Module](/SCC.131.slides/t.microbitRadioModule.pdf)                         |       |
+|  11  | [Lecture 21 - The Micro:bit Radio Module](#lecture-21---the-microbit-radio-module)                    | [The Micro:bit Radio Module](/SCC.131.slides/t.microbitRadioModule.pdf)                         |  ✅   |
+|  11  |                                                                                                       |                                                                                                 |       |
+|  12  | [Lecture 23 - Memory Layout](#lecture-23---memory-layout)                                             | [Memory Layout](/SCC.131.slides/u.memoryLayout.pdf)                                             |       |
 
 ## Lecture 1 - Module Introduction & Computer Architecture
 
@@ -1137,3 +1139,17 @@ int main() {                                     // C CODE for the RECEIVER
 `enable()` initialises the radio components of micro:bit for transmission/reception, `disable()` disables this component for use as a multipoint sender/receiver.
 
 Users can define a group to which their micro:bit devices belong. Datagrams sent will only be recieved by other micro:bits in the same group. If a group is not specified, the defualt is 0.
+
+## Lecture 22 - Memory Layout Part 1
+
+<audio controls>
+  <source src="SCC.131.slides/u.memoryLayoutPrt1.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
+## Lecture 23 - Memory Layout Part 2
+
+<audio controls>
+  <source src="SCC.131.slides/v.memoryLayoutPrt2.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>

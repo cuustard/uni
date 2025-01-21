@@ -37,6 +37,7 @@ The module aims to help me understand the fundamentals of Computer Science. Thi
 |  10   | [Lecture 19 - Indexed Retrieval](#lecture-19---indexed-retrieval)                                                                   | [Indexed Retrieval](/SCC.121.slides/t.indexedRetrieval.pdf)                                              |  ✅   |
 |  11   | [Lecture 20 - Hashing](#lecture-20---hashing)                                                                                       | [Hashing](/SCC.121.slides/u.hashing.pdf)                                                                 |  ✅   |
 |  11   | [Lecture 21 - Introduction To Algorithms](#lecture-21---introduction-to-algorithms)                                                 | [Intro To Algorithms](/SCC.121.slides/v.introToAlgorithms.pdf)                                           |  ✅   |
+|  12   | [Lecture 22 - Introduction To Operations Counting](#lecture-22---introduction-to-operations-counting)                               | [Intro To Operations Counting](/SCC.121.slides/w.operationCounting.pdf)                                  |  ✅   |
 
 ## Lecture 1 - Sets
 
@@ -1372,3 +1373,59 @@ int main() {
 ### Space Vs Time
 
 An ideal algorithm requires less space and takes less time to compute. In practice there is a trade-off time vs space complexity. Generally we care more about time complexity as memory is inexpensive even though it is not free. Time is important as we want it to be as fast as possible and the speed depends on the size and organisation of the input.
+
+## Lecture 22 - Introduction To Operations Counting
+
+<audio controls>
+  <source src="SCC.121.slides/w.operationCounting.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
+### Running Time
+
+The running time depends on the size and organisation of the input. We seek upper bounds (worst case) on the running time.
+
+### Cost Of Operations
+
+To determine how long an algorithm takes to run, we can count the operations it executes. To determine what 1 operation is, we ignore differences between different programming languages and compilers and only analyse the ideas of the algorithm itself.
+
+For example these would count as 1 operation each:
+
+```c
+x = a + b;
+x = theArray[i];
+x = x + theArray[i];
+n < theArray[i];
+i++;
+```
+
+### Operation Counting & T(N)
+
+```C
+int maxel = arr[0]; // 1 Operation
+for (int i = 0; i < n; i++) { // 2 Operations
+  if (arr[i] >= maxel) { // 1 Operation in the for
+    maxel = arr[i]; // 1 operation in the for
+  }
+}
+
+// 3 operations outside the for = 3. 2 operatins in the for = 2n. 
+// 3 + 2n
+```
+
+![image](images/operationCounting.png)
+
+T(n) cannot be defined easily becaose the number of operations isnt dependent on just the size of input, but also on the organisation of the input. For the above algorithm `arr = [1, 2, 3, 4]` will take longer than `arr = [4, 3, 2, 1]`.
+
+
+Another example:
+
+```C
+int sum = 0;
+
+for (int i = 0; i < k; i++) {
+  sum += a[i];
+}
+```
+
+Before the loop starts, we do `int sum = 0;` which is 1 operation, then `int i =0;` which is a second, then `i < k;` which is a third. Then if `i < k;` is true, the loop operates and we do `i++;`, `sum += a[i]`, and the comparison `i < k;` again. That sums 3 before the loop starts, then 3 during the loop. thats 3 + 3n.
