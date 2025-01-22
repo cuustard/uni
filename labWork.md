@@ -14,6 +14,8 @@ began: 8th October 2024
 | 8     | [Week 8 - Catching Up, Catching Up, Micro:Bit](#week-8---catching-up-catching-up-microbit)                                                   | [Catching Up, Catching Up, Micro:Bit](/labMaterial/h.weekEightMaterial.pdf)                          | ❌            |
 | 9     | [Week 9 - Assessed Coursework, Stacks, Micro:Bit](#week-9---assessed-coursework-stacks-microbit)                                             | [Assessed Coursework, Stacks, Micro:Bit](/labMaterial/i.weekNineMaterial.pdf)                        | ❌            |
 | 10    | [Week 10 - Quiz](#week-10---quiz)                                                                                                            | [](/labMaterial)                                                                                     | ❌            |
+| 11    | [Week 11 - Guess The Bit, Complexity](#week-11---guess-the-bit-complexity)                                                                   | [Guess The Bit, Complexity](/labMaterial/k.weekElevenMaterial.pdf)                                   | ❌            |
+| 12    | [Week 12 - Dice Game, Hashing, Guess The Bit](#week-12---dice-game-hashing-guess-the-bit)                                                    | [Dice Game, Hashing, Guess The Bit](/labMaterial/l.weekTwelveMaterial.pdf)                           | ❌            |
 
 ## Week 1 - Learning the UNIX Shell
 
@@ -486,3 +488,17 @@ int main() {
 ### 131 Micro:Bit
 
 ## Week 10 - Quiz
+
+## Week 11 - Guess The Bit, Complexity
+
+### 111 & 131 Guess The Bit
+
+### 121 Complexity
+
+## Week 12 - Dice Game, Hashing, Guess The Bit
+
+### 111 Dice Game
+
+### 121 Hashing
+
+### 131 Guess The Bit

@@ -38,6 +38,7 @@ The module aims to help me understand software development. This includes instil
 |  10  | [Lecture 20 - Fun By The C](#lectuer-20---fun-by-the-c)                                      | [Fun By The C](/SCC.111.slides/t.funByTheC.pdf)                                        |  🟧   |
 |  11  | [Lecture 21 - Intro to Term 2](#lecture-21---introduction-to-term-2)                         | [Intro To Term 2](/SCC.111.slides/u.introToTerm2.pdf)                                  |  ✅   |
 |  11  | [Lecture 22 - Principles of OOP](#lecture-22---principles-of-oop)                            | [Principles of OOP](/SCC.111.slides/v.principlesOfOOP.pdf)                             |  ✅   |
+|  12  | [Lecture 23 - Encapsulation](#lecture-23---encapsulation)                                    | [Encapsulation](/SCC.111.slides/w.encapsulation.pdf)                                   |       |
 
 ---
 
@@ -744,3 +745,10 @@ amysCar.respray((char *)"White");
 amysCar.drive(16);
 amysCar.show();
 ```
+
+## Lecture 23 - Encapsulation
+
+<audio controls>
+  <source src="SCC.111.slides/w.encapsulation.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
