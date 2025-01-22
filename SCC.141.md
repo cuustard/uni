@@ -27,6 +27,7 @@ The module aims to help me understand the fundamentals of Professionalism in Pra
 |  9   | [Lecture 9 - System Failures & Errors](#lecture-9---system-failures--errors)                                                                               | [System Failures & Errors](/SCC.141.slides/i.systemFailuresAndErrors.pdf)                         |  ✅   |
 |  10  | [Lecture 10 - System & Human Error, and Recap](#lecture-10---system--human-error-and-recap)                                                                | [System & Human Error, and Recap](/SCC.141.slides/j.semesterRecap.pdf)                            |  ✅   |
 |  11  | [Lecture 11 - Security In Systems](#lecture-11---security-in-systems)                                                                                      | [Security In Systems](/SCC.141.slides/k.systemSecurity.pdf)                                       |  ✅   |
+|  12  | [Lecture 12 - Privacy](#lecture-12---privacy)                                                                                                              | [Privacy](/SCC.141.slides/l.privacy.pdf)                                                          |  🟧   |
 
 > **_NOTE:_** The AI Podcasts for all the lectures are produced from the Lecture Slide. The structure of my notes may differ to the order of topics discussed in the podcast.
 
@@ -1099,3 +1100,84 @@ They changed like this:
 - Antivirus vs. Ongoing Patch & Monitor:
   - Then: Keeping AV updated was big
   - Now: Ongoing patching, threat intelligence, and real-time monitoring are crucial
+
+## Lecture 12 - Privacy
+
+<audio controls>
+  <source src="SCC.141.slides/l.privacy.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
+Privacy is the right to be let alone, free from interference or intrusion. It's about having control over your personal information and how it's used. This includes things like your thoughts, beliefs, and personal relationships. Privacy is a fundamental human right that allows us to develop and maintain our sense of self.
+
+### Ethical & Philiosophical Dimensions of Privacy
+
+Deontological Perspective:
+
+- Privacy as a fundamental right
+- Not to be infringed upon, regardless of potential outcomes
+
+Utilitarian Perspective:
+
+- Balancing individual privacy vs societal benefits
+- E.G. Public health initiatives using aggregated data to prevent disease outbreaks
+
+Virtue Ethics:
+
+- Privacy as part of human flourishing and dignity
+- Protecting privacy shows respect for individual dignity
+
+Feminist Perspective:
+
+- Power imbalances in data collection and usage
+- privacy as a tool to protect vulnerable communities
+
+### Privacy Paradox
+
+The privacy paradox is a concept in which:
+
+> "When people disclose personal information in ways that are inconsistent with the high value they claim to play on privay."
+
+Potential explanations for this:
+
+- **Rational Ignorance**: "too long; didn't read" approach to privacy policies
+- **Transparency Paradox**: overload of complicated details cause people to tune out
+- **Control Paradox**: we like having control, but we rarely exercise it
+- **Disincentivized To Protect Privacy**: "trade convenience for data"
+
+### Cambridge Analytica Scandal
+
+Key players:
+
+- Cambridge Analytica (CA): A political consulting firm specialising in data analytics to infuelce elections
+- Facebook: The social media platform from which vast amounts of user data were improperly harvested
+- Aleksandr Kogan: A researcher who developed an app called "This is Your Digital Life", used as a tool for data collection
+
+Data Collection:
+
+- The app presented a personality quiz, and collected detailed personal information
+- The app accessed data from user's facebook friends without their consent
+- 270,000 users downloaded the app, but data from up to 87,000,000 people were harvested due to the friends-of-users loophole
+
+Unauthorised Use:
+
+- The data was shared with Cambridge Analytica, violating Facebook's platform policies
+- Cambridge Analytica used the data to build psychological profiles of users
+
+Election Influence:
+
+### GDPR
+
+|           Arguments for Failure           |                                    Arguments for Success                                    |
+| :---------------------------------------: | :-----------------------------------------------------------------------------------------: |
+|         Privacy Paradox persists          |                         Forces explicit consent, raising awareness                          |
+| High burden on the user to manage privacy |                             Documents the "illusion" of choice                              |
+|      Do people truly feel empowered?      | Strengthens the arguments that people dont care about privacy, ironically proving the point |
+
+### The EU Artificial Intelligence Act (EU AI Act)
+
+Addresses risks of unregulated AI applications. Promotes trustworthy AI aligned with ethical principles. It classifiese AI systems by risk (unacceptable, high, limited, minimal). Encourages Transparency and accountability.
+
+![image](images/EUaiACt.png)
+
+### Privacy in AI and Robotics
