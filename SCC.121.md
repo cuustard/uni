@@ -38,6 +38,7 @@ The module aims to help me understand the fundamentals of Computer Science. Thi
 |  11   | [Lecture 20 - Hashing](#lecture-20---hashing)                                                                                       | [Hashing](/SCC.121.slides/u.hashing.pdf)                                                                 |  ✅   |
 |  11   | [Lecture 21 - Introduction To Algorithms](#lecture-21---introduction-to-algorithms)                                                 | [Intro To Algorithms](/SCC.121.slides/v.introToAlgorithms.pdf)                                           |  ✅   |
 |  12   | [Lecture 22 - Introduction To Operations Counting](#lecture-22---introduction-to-operations-counting)                               | [Intro To Operations Counting](/SCC.121.slides/w.operationCounting.pdf)                                  |  ✅   |
+|  12   | [Lecture 23 - Operating Counting Part 2](#lecture-23---operating-counting-part-2)                                                   | [Operation Counting Part 2](/SCC.121.slides/x.operationCountingPrt2.pdf)                                 |  ❌   |
 
 ## Lecture 1 - Sets
 
@@ -1409,14 +1410,13 @@ for (int i = 0; i < n; i++) { // 2 Operations
   }
 }
 
-// 3 operations outside the for = 3. 2 operatins in the for = 2n. 
+// 3 operations outside the for = 3. 2 operatins in the for = 2n.
 // 3 + 2n
 ```
 
 ![image](images/operationCounting.png)
 
 T(n) cannot be defined easily becaose the number of operations isnt dependent on just the size of input, but also on the organisation of the input. For the above algorithm `arr = [1, 2, 3, 4]` will take longer than `arr = [4, 3, 2, 1]`.
-
 
 Another example:
 
@@ -1429,3 +1429,10 @@ for (int i = 0; i < k; i++) {
 ```
 
 Before the loop starts, we do `int sum = 0;` which is 1 operation, then `int i =0;` which is a second, then `i < k;` which is a third. Then if `i < k;` is true, the loop operates and we do `i++;`, `sum += a[i]`, and the comparison `i < k;` again. That sums 3 before the loop starts, then 3 during the loop. thats 3 + 3n.
+
+## Lecture 23 - Operating Counting Part 2
+
+<audio controls>
+  <source src="SCC.121.slides/x.operationCountingPrt2.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>

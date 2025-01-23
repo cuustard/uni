@@ -36,8 +36,8 @@ The module aims to help me understand digital systems. This includes fundamental
 |  10  | [Lecture 19 - Debugging](#lecture-19---debugging)                                                     | [Debugging](/SCC.131.slides/r.debugging.pdf)                                                    |  ✅   |
 |  10  | [Lecture 20 - Revision and Discussion of Lab Tasks](#lecture-20---revision--discussion-of-lab-tasks)  | [Revision & Discussion of Lab Tasks](/SCC.131.slides/s.labTasksReview.pdf)                      |  ✅   |
 |  11  | [Lecture 21 - The Micro:bit Radio Module](#lecture-21---the-microbit-radio-module)                    | [The Micro:bit Radio Module](/SCC.131.slides/t.microbitRadioModule.pdf)                         |  ✅   |
-|  11  |                                                                                                       |                                                                                                 |       |
-|  12  | [Lecture 23 - Memory Layout](#lecture-23---memory-layout)                                             | [Memory Layout](/SCC.131.slides/u.memoryLayout.pdf)                                             |       |
+|  11  | [Lecture 22 - Memory Layout Part 1](#lecture-22---memory-layout-part-1)                               | [Memory Layout Part 1](/SCC.131.slides/u.memoryLayoutPrt1.pdf)                                  |  ❌   |
+|  12  | [Lecture 23 - Memory Layout Part 2](#lecture-23---memory-layout-part-2)                               | [Memory Layout](/SCC.131.slides/v.memoryLayoutPrt2.pdf)                                         |  ❌   |
 
 ## Lecture 1 - Module Introduction & Computer Architecture
 
