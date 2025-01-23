@@ -7,48 +7,49 @@ began: 13th Janurary 2025
 |  11  | [Lecture 1 - Module Introduction](#lecture-1---module-introduction)                           | [Introduction to OM](/MSCI.102.slides/a.introduction.pdf)                    |  ✅   |
 |  11  | [Lecture 2 - Operations As A System](#lecture-2---operations-as-a-system)                     | [Operations As A System](/MSCI.102.slides/b.operationsAsSystem.pdf)          |  🟧   |
 |  12  | [Lecture 3 - Intro to Supply Chain Management](#lecture-3---intro-to-supply-chain-management) | [Introduction To Supply Chain Management](/MSCI.102.slides/c.introToSCM.pdf) |  🟧   |
+|  12  | [Lecture 4 - Supply Chain Management Part 2](#lecture-4---supply-chain-management-part-2)     | [SCM Part 2](/MSCI.102.slides/d.SCM2.pdf)                                    |  🟧   |
 
 ## Lecture 1 - Module Introduction
 
 <audio controls>
-  <source src="MSCI.102.slides/a.introduction.mp3" type="audio/mpeg">
-  Your browser does not support the audio element.
+  <source src="MSCI.102.slides/a.introduction.mp3" type="audio/mpeg">
+ Your browser does not support the audio element.
 </audio>
 
-Operations is responsible for the the production of goods or delivery of service. It is the 'other' part of the business which is responsible for 60-70% of the costs, assets, and people.
+Operations are responsible for the production of goods or delivery of services. It is the 'other' part of the business which is responsible for 60-70% of the costs, assets, and people.
 
 Business operations is one of the 3 core functions; developing the market (marketing), creating products and services (design and development), and producing and delivering to the market (operations). Accounting & finance, and human resources are two 'supporting functions'.
 
-For example, OM solves the problem of how to build arliners from millions of items on time when 2,000 workers are involved in the final assembly, when lead times vary from milliseconds to weeks, when errors happen, people get sick, machines malfunction, and when raw materials to major assemblies come from all over the world. (Scheduling & Control Systems)
+For example, OM solves the problem of how to build airliners from millions of items on time when 2,000 workers are involved in the final assembly, when lead times vary from milliseconds to weeks, when errors happen, people get sick, machines malfunction, and when raw materials to major assemblies come from all over the world. (Scheduling & Control Systems)
 
 ### What I Will Be Able To Do
 
 I'll be able to solve problems in OM by using:
 
-- simple mathematical models (inventory ananlysis)
+- simple mathematical models (inventory analysis)
 - specific planning methods (project planning & control)
 - systems to manage suppliers (supply chain management)
 - basic coordination principles (ERP & Lean Management)
 - statistics to control variation (quality control)
-- practices to focus improvement effort (quality measure)
+- practices to focus improvement efforts (quality measure)
 
 ### Main Themes
 
 Solving logical, rather than social, problems of producing products and delivering services:
 
 - Dealing with complexity, scale & uncertainty
-- Achieving improvement, change & competitivness
+- Achieving improvement, change & competitiveness
 - Concerning the nature of work rather than the people doing it
 
 ### Operations as a SYSTEM
 
-A System is a complex whole where relationships between components define system behaviour. The components in the system are modified by interactions with eachother and with external elements. The components maintain and reproduce their own distinct structures and boundaries. The interactions between components via exchange of materials and information can produce qualitively new characteristics in a system.
+A System is a complex whole where relationships between components define system behaviour. The components in the system are modified by interactions with each other and with external elements. The components maintain and reproduce their distinct structures and boundaries. The interactions between components via the exchange of materials and information can produce qualitatively new characteristics in a system.
 
 ## Lecture 2 - Operations As A System
 
 <audio controls>
-  <source src="MSCI.102.slides/b.operationsAsSystem.mp3" type="audio/mpeg">
-  Your browser does not support the audio element.
+  <source src="MSCI.102.slides/b.operationsAsSystem.mp3" type="audio/mpeg">
+ Your browser does not support the audio element.
 </audio>
 
 ### Purpose In the Operations System
@@ -83,11 +84,11 @@ Operations have performance objectives, which typically include cost, quality, s
 ## Lecture 3 - Intro To Supply Chain Management
 
 <audio controls>
-  <source src="MSCI.102.slides/c.introToSCM.mp3" type="audio/mpeg">
-  Your browser does not support the audio element.
+  <source src="MSCI.102.slides/c.introToSCM.mp3" type="audio/mpeg">
+ Your browser does not support the audio element.
 </audio>
 
-A supply chain is two or more parties linked by a flow of resources, typically material, information, or money, that fulfulls a customer request.
+A supply chain is two or more parties linked by a flow of resources, typically material, information, or money, that fulfil a customer request.
 
 ![image](images/supplychain2.png)
 
@@ -96,7 +97,7 @@ A supply chain is two or more parties linked by a flow of resources, typically m
 - **Upstream**: Activities or firms positioned earlier in the supply chain
 - **Downstream**: Activities or firms positioned later in the supply chain
 - **First-tier Supplier**: A supplier that provides products or services to a firm's first-tier supplier
-- **Second-tier Supplier**: A supplier that provudes products or services to firm's first-tier supplier.
+- **Second-tier Supplier**: A supplier that provides products or services to the firm's first-tier supplier.
 
 ![image](images/supplynetworkofbikemanufacturer.png)
 
@@ -118,7 +119,7 @@ Firms can swap roles on occasion:
 
 ![image](images/supplyChainStructure4.png)
 
-Having more parties in the supply chain is risky. Specialisation model creates a supply network. Risk and vulnerabilities are inherent in networks. The larger and more extensive the network, the bigger the tension. A balance between efficiency and resilience.
+Having more parties in the supply chain is risky. The specialisation model creates a supply network. Risk and vulnerabilities are inherent in networks. The more extensive the network, the bigger the tension. A balance between efficiency and resilience.
 
 ### Procurement Process
 
@@ -131,3 +132,127 @@ The process:
 3. Requisition/ordering
 4. Supply
 5. Invoicing & payment
+
+## Lecture 4 - Supply Chain Management Part 2
+
+<audio controls>
+  <source src="MSCI.102.slides/d.SCM2.mp3" type="audio/mpeg">
+ Your browser does not support the audio element.
+</audio>
+
+Crises put pressure on supply chains due to their disruptiveness. These crises present potential threats and create sudden increases/slumps in the demand for products and services. Firms will sometimes use the power they have over suppliers and this abuse of power damages social relationships which can undermine an effective supply chain.
+
+### Functional vs Innovative Products
+
+Can have 2 categories of product. Functional and innovative.
+
+|                         |      Functional       |    Innovative      |
+| :---------------------- | :-------------------: | :----------------: |
+| Product Life Cycle      | greater than 2 years  |  3 to 12 months    |
+| Margin                  |      5% to 20%        |    20% to 60%      |
+| Product Variety         |         low           |       high         |
+| Average Forecast Error  |         10%           |    40% to 100%     |
+| Stockout Rate           |       1% to 2%        |     up to 40%      |
+| Markdown Rate           |          0%           |    10% to 25%      |
+| Lead Time               |    6 to 12 months     | 3 days to 3 weeks  |
+
+![image](images/bakedBeans.png)
+
+Heinz Tomato Soup Performance Objectives: cost, delivery reliability, and conformance quality.
+
+![image](images/SCMcoat.png)
+
+Coat Performance Objectives: flexibility, specification quality.
+
+### SC Design - Different Types of SCs
+
+- **SC Responsiveness** includes a SC's ability to:
+    - Respond to wide ranges of quantities demanded
+    - Meet short lead times
+    - Handle a large variety of products
+    - Build highly innovative products/services
+    - Meet a high service level
+    - Handle supply uncertainty
+- **SC Efficiency** is the inverse of the cost of making and delivering a product to the customer:
+    - Increases in cost --> lower efficiency
+    - Minimum inventory
+    - Low-cost suppliers
+
+![image](images/SCMcategorisingProducts.png)
+
+### Supply Chain As A Unit Of Management
+
+1. A better understanding of vulnerabilities and risks which are inherent in supply networks.
+2. Taking steps to ensure the balance between efficiency and resilience
+3. A better understanding of opportunities in the network
+4. Sharing information for better performance across the supply chain
+5. Identifying structural changes in the industry
+6. Stronger grasp of instability
+
+Bullwhip Effect Case:
+
+> "Not long ago, logistics executives at Procter & Gamble (P&G) examined the order
+> patterns for one of their best-selling products, Pampers. Its sales at retail stores were fluctuating, but the variabilities were certainly not excessive. However, as they examined the distributors’ orders, the executives were surprised by the degree of variability. When they looked at P&G’s orders of materials to their suppliers, such as 3M, they discovered that the swings were even greater. At first glance, the variabilities did not make sense. While the consumers ... consumed diapers at a steady rate, the demand order variabilities in the supply chain were amplified as they moved up the supply chain." - Lee et al 1997
+
+![image](images/SCMthebullwhipEffect.png)
+
+### Supply Chain As A Unit of Failure
+
+1. Risks to the supply chain
+      - loss of supply, especially when 'just in time'
+2. Risks from the supply chain
+      - distribution of contamination
+3. Risks to and from the supply chain
+      - product counterfeiting
+4. Risks from the supply chain
+      - Outsourcing
+
+A supply chain can be resilient as well as vulnerable. Sustainability is possible through 'closed loop' supply chains and supplier development. They are often globalised and often involve anonymous markets like internet trading. This minimises procurement prices but makes tracing hard and leaves them open to subversion and infiltration.
+![image](images/SCMcoat.png)
+
+Coat Performance Objectives: flexibility, specification quality.
+
+### SC Design - Different Types of SCs
+
+- **SC Responsiveness** includes a SC's ability to:
+  - Respond to wide ranges of quantities demmanded
+  - Meet short lead times
+  - Handle a large vairety of products
+  - Build highly innovative products/services
+  - Meet a high service level
+  - Handle supply uncertainty
+- **SC Efficiency** is the inverse of the cost of making and delivering a product to the customer:
+  - Increases in cost --> lower efficiency
+  - Minimum inventory
+  - Low-cost suppliers
+
+![image](images/SCMcategorisingProducts.png)
+
+### Supply Chain As A Unit Of Management
+
+1. A better understanding of vulnerabilities and risks which are inherent in supply networks.
+2. Taking steps to ensure the balance between efficiency and resilience
+3. A better understanding of opportunities in the network
+4. Sharing information for better performance across the supply chain
+5. Identifying structural changes in industry
+6. Stronger grasp of instability
+
+Bullwhip Effect Case:
+
+> "Not long ago, logistics executives at Procter & Gamble (P&G) examined the order
+> patterns for one of their best-selling products, Pampers. Its sales at retail stores were fluctuating, but the variabilities were certainly not excessive. However, as they examined the distributors’ orders, the executives were surprised by the degree of variability. When they looked at P&G’s orders of materials to their suppliers, such as 3M, they discovered that the swings were even greater. At first glance, the variabilities did not make sense. While the consumers ... consumed diapers at a steady rate, the demand order variabilities in the supply chain were amplified as they moved up the supply chain." - Lee et al 1997
+
+![image](images/SCMthebullwhipEffect.png)
+
+### Supply Chain As A Unit of Failure
+
+1. Risks to the supply chain
+   - loss os sipply, especially when 'just in time'
+2. Risks from the supply chain
+   - distribution of contamination
+3. Risks to and from the supply chain
+   - product counterfeiting
+4. Risks from the supply chain
+   - Outsourcing
+
+A supply chain can be resilient as well as vulnerable. Sustainability is possible through 'closed loop' supply chains and supplier development. They are often globalised and often involve anonymous markets like the internet trading. This minimises procurement prices but makes tracing hard and leaves them open to subversion and infiltration.

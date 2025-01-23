@@ -1008,8 +1008,8 @@ It is vital to consider end-users throughout the system development life cycle b
 ## Lecture 11 - Security in Systems
 
 <audio controls>
-  <source src="SCC.141.slides/k.systemSecurity.mp3" type="audio/mpeg">
-  Your browser does not support the audio element.
+  <source src="SCC.141.slides/k.systemSecurity.mp3" type="audio/mpeg">
+ Your browser does not support the audio element.
 </audio>
 
 ### Why System Security Matters
@@ -1052,25 +1052,25 @@ Environmental: Natural disasters, power failures.
 ### The Eight Security Design Principles
 
 1. **Economy of Mechanism**: Keep designs as simple and small as possible, reducing the chance of errors.
-   - Reuse simple quality components/libraries
-   - Less code > fewer paths > fewer bugs > simpler verification
+      - Reuse simple quality components/libraries
+      - Less code > fewer paths > fewer bugs > simpler verification
 2. **Fail-Safe Defaults**: Deny by default; only grant access if explicitly allowed.
-   - A conservative design must be based on arguments about why objects should be accessible, rather than why they should not.
-   - Mistakes or overlooked details tend to revert the system to safe behaviour instead of wide-open.
+      - A conservative design must be based on arguments about why objects should be accessible, rather than why they should not.
+      - Mistakes or overlooked details tend to revert the system to safe behaviour instead of wide-open.
 3. **Complete Mediation**: Every request for a resource must be checked for authorisation - no cached shortcuts.
-   - Forces a system-wide view of access control which in addition to normal operation includes initialisation, recovery, shutdown, and maintenance.
-   - Eliminates "once you're in, you're in forever"
+      - Forces a system-wide view of access control which in addition to normal operation includes initialisation, recovery, shutdown, and maintenance.
+      - Eliminates "once you're in, you're in forever"
 4. **Open Design**: Open design stresses transparency in security.
-   - Mechanisms can be public; keys or passwords remain secret
-   - Encourages robust, peer-reviewed designs that stand up to public scrutiny
+      - Mechanisms can be public; keys or passwords remain secret
+      - Encourages robust, peer-reviewed designs that stand up to public scrutiny
 5. **Separation of Privilege**: Divide power so no single entity alone has enough authority to compromise the system.
-   - Reduces insider threats and accidental misuse
+      - Reduces insider threats and accidental misuse
 6. **Least Privilege**: A subject should have the minimal privileges necessary for its task.
-   - Limits damage if an account is compromised so attackers can't escape to full control
+      - Limits damage if an account is compromised so attackers can't escape to full control
 7. **Least Common Mechanism**: Minimised shared resources/mechanisms used by multiple components.
-   - One compromised shared mechanism can become a single point of failure
+      - One compromised shared mechanism can become a single point of failure
 8. **Psychological Acceptability**: Security must be user-friendly to be adopted.
-   - The best security fails if users avoid or bypass it due to complexity.
+      - The best security fails if users avoid or bypass it due to complexity.
 
 **Defence In Depth**: Involves multiple layers of security controls to protect assets. If one layer of security fails, the other layers still protect. - Aims to create a secure environment that is resilient to attack and can quickly detect and respond to any security incidents.
 
@@ -1092,25 +1092,25 @@ These used to be different but were revisited in 2003 due to the rise of ransomw
 They changed like this:
 
 - Physical vs. Virtual:
-  - Then: If an attacker physically touches your machine, game over
-  - Now: Attackers might never be physically present—cloud breaches, remote exploits, supply chain intrusions
+    - Then: If an attacker physically touches your machine, game over
+    - Now: Attackers might never be physically present—cloud breaches, remote exploits, supply chain intrusions
 - Local Admin vs. Team Sport:
-  - Then: One admin could make or break the security
-  - Now: Security requires cross-team collaboration—DevOps, cloud architects, compliance officers, etc
+    - Then: One admin could make or break the security
+    - Now: Security requires cross-team collaboration—DevOps, cloud architects, compliance officers, etc
 - Antivirus vs. Ongoing Patch & Monitor:
-  - Then: Keeping AV updated was big
-  - Now: Ongoing patching, threat intelligence, and real-time monitoring are crucial
+    - Then: Keeping AV updated was big
+    - Now: Ongoing patching, threat intelligence, and real-time monitoring are crucial
 
 ## Lecture 12 - Privacy
 
 <audio controls>
-  <source src="SCC.141.slides/l.privacy.mp3" type="audio/mpeg">
-  Your browser does not support the audio element.
+  <source src="SCC.141.slides/l.privacy.mp3" type="audio/mpeg">
+ Your browser does not support the audio element.
 </audio>
 
 Privacy is the right to be let alone, free from interference or intrusion. It's about having control over your personal information and how it's used. This includes things like your thoughts, beliefs, and personal relationships. Privacy is a fundamental human right that allows us to develop and maintain our sense of self.
 
-### Ethical & Philiosophical Dimensions of Privacy
+### Ethical & Philosophical Dimensions of Privacy
 
 Deontological Perspective:
 
@@ -1136,12 +1136,12 @@ Feminist Perspective:
 
 The privacy paradox is a concept in which:
 
-> "When people disclose personal information in ways that are inconsistent with the high value they claim to play on privay."
+> "When people disclose personal information in ways that are inconsistent with the high value they claim to play on privacy."
 
 Potential explanations for this:
 
 - **Rational Ignorance**: "too long; didn't read" approach to privacy policies
-- **Transparency Paradox**: overload of complicated details cause people to tune out
+- **Transparency Paradox**: overload of complicated details causes people to tune out
 - **Control Paradox**: we like having control, but we rarely exercise it
 - **Disincentivized To Protect Privacy**: "trade convenience for data"
 
@@ -1149,14 +1149,14 @@ Potential explanations for this:
 
 Key players:
 
-- Cambridge Analytica (CA): A political consulting firm specialising in data analytics to infuelce elections
+- Cambridge Analytica (CA): A political consulting firm specialising in data analytics to influence elections
 - Facebook: The social media platform from which vast amounts of user data were improperly harvested
 - Aleksandr Kogan: A researcher who developed an app called "This is Your Digital Life", used as a tool for data collection
 
 Data Collection:
 
-- The app presented a personality quiz, and collected detailed personal information
-- The app accessed data from user's facebook friends without their consent
+- The app presented a personality quiz and collected detailed personal information
+- The app accessed data from user's Facebook friends without their consent
 - 270,000 users downloaded the app, but data from up to 87,000,000 people were harvested due to the friends-of-users loophole
 
 Unauthorised Use:
@@ -1168,15 +1168,15 @@ Election Influence:
 
 ### GDPR
 
-|           Arguments for Failure           |                                    Arguments for Success                                    |
-| :---------------------------------------: | :-----------------------------------------------------------------------------------------: |
-|         Privacy Paradox persists          |                         Forces explicit consent, raising awareness                          |
-| High burden on the user to manage privacy |                             Documents the "illusion" of choice                              |
-|      Do people truly feel empowered?      | Strengthens the arguments that people dont care about privacy, ironically proving the point |
+|           Arguments for Failure            |                                    Arguments for Success                                     |
+| :----------------------------------------: | :------------------------------------------------------------------------------------------: |
+|         Privacy Paradox persists           |                         Forces explicit consent, raising awareness                           |
+| High burden on the user to manage privacy  |                             Documents the "illusion" of choice                               |
+|      Do people truly feel empowered?       | Strengthens the arguments that people don't care about privacy, ironically proving the point |
 
 ### The EU Artificial Intelligence Act (EU AI Act)
 
-Addresses risks of unregulated AI applications. Promotes trustworthy AI aligned with ethical principles. It classifiese AI systems by risk (unacceptable, high, limited, minimal). Encourages Transparency and accountability.
+Addresses risks of unregulated AI applications. Promotes trustworthy AI aligned with ethical principles. It classifies AI systems by risk (unacceptable, high, limited, minimal). Encourages Transparency and accountability.
 
 ![image](images/EUaiACt.png)
 

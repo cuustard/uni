@@ -7,8 +7,8 @@ began: 8th October 2024
 |  1 & 2  | [Seminar 1](#seminar-1) | [Seminar 1](seminarMaterials/a.Seminar1.pdf) |  ✅   |
 |  3 & 4  | [Seminar 2](#seminar-2) | [Seminar 2](seminarMaterials/b.Seminar2.pdf) |  ✅   |
 |  5 & 6  | [Seminar 3](#seminar-3) | [Seminar 3](seminarMaterials/c.Seminar3.pdf) |  ✅   |
-| 9 & 10  | [Seminar 4](#seminar-4) | [Seminar 5](seminarMaterials/d.seminar4.pdf) |  ✅   |
-| 11 & 12 | [Seminar 5](#seminar-5) | [Seminar 6](seminarMaterials/e.seminar5.pdf) |  ✅   |
+| 9 & 10  | [Seminar 4](#seminar-4) | [Seminar 4](seminarMaterials/d.seminar4.pdf) |  ✅   |
+| 11 & 12 | [Seminar 5](#seminar-5) | [Seminar 5](seminarMaterials/e.seminar5.pdf) |  ✅   |
 
 ## Seminar 1
 
