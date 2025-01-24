@@ -39,7 +39,7 @@ The module aims to help me understand software development. This includes instil
 |  11  | [Lecture 21 - Intro to Term 2](#lecture-21---introduction-to-term-2)                         | [Intro To Term 2](/SCC.111.slides/u.introToTerm2.pdf)                                  |  ✅   |
 |  11  | [Lecture 22 - Principles of OOP](#lecture-22---principles-of-oop)                            | [Principles of OOP](/SCC.111.slides/v.principlesOfOOP.pdf)                             |  ✅   |
 |  12  | [Lecture 23 - Encapsulation](#lecture-23---encapsulation)                                    | [Encapsulation](/SCC.111.slides/w.encapsulation.pdf)                                   |  ❌   |
-|  12  | [Lecture 24 - Debugging](#lecture-24---debugging)                                            | [Debugging](/SCC.111.slides/x.debugging.pdf)                                           |       |
+|  12  | [Lecture 24 - Debugging](#lecture-24---debugging)                                            | [Debugging](/SCC.111.slides/x.debugging.pdf)                                           |  ✅   |
 
 ---
 
