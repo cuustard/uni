@@ -38,7 +38,8 @@ The module aims to help me understand software development. This includes instil
 |  10  | [Lecture 20 - Fun By The C](#lectuer-20---fun-by-the-c)                                      | [Fun By The C](/SCC.111.slides/t.funByTheC.pdf)                                        |  🟧   |
 |  11  | [Lecture 21 - Intro to Term 2](#lecture-21---introduction-to-term-2)                         | [Intro To Term 2](/SCC.111.slides/u.introToTerm2.pdf)                                  |  ✅   |
 |  11  | [Lecture 22 - Principles of OOP](#lecture-22---principles-of-oop)                            | [Principles of OOP](/SCC.111.slides/v.principlesOfOOP.pdf)                             |  ✅   |
-|  12  | [Lecture 23 - Encapsulation](#lecture-23---encapsulation)                                    | [Encapsulation](/SCC.111.slides/w.encapsulation.pdf)                                   |       |
+|  12  | [Lecture 23 - Encapsulation](#lecture-23---encapsulation)                                    | [Encapsulation](/SCC.111.slides/w.encapsulation.pdf)                                   |  ❌   |
+|  12  | [Lecture 24 - Debugging](#lecture-24---debugging)                                            | [Debugging](/SCC.111.slides/x.debugging.pdf)                                           |       |
 
 ---
 
@@ -752,3 +753,30 @@ amysCar.show();
   <source src="SCC.111.slides/w.encapsulation.mp3" type="audio/mpeg">
   Your browser does not support the audio element.
 </audio>
+
+## Lecture 24 - Debugging
+
+<audio controls>
+  <source src="SCC.111.slides/x.debugging.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
+> "Everyone knows that debugging is twice as hard as writing a program in the first place. So if you're as clever as you can be when you write, how will you ever debug it?" - Brian Kernighan, The Elements of Programming Style, 2nd edition, chapter 2
+
+> "Generative AI tools will mean that typical code written by humans will be harder to write, and they will spend a larger proportion of their time analysing and debugging" - Joe Finney (2003)
+
+> "You can't win until you're not afraid to lose" - John Francis Bongiovi
+
+Finding bugs is a good thing. Compile often. Test frequently. Add one feature at a time. A compiler is your friend when it comes to syntax errors. Compiler messages tell you the file and line of code where the syntax error is found. Debugging is like finding a needle in a haystack... so don't add more hay until you know there is no needle.
+
+Thoroughly read through the code you have written. Dry run it in your head before you execute the code. This is a cheap approach but relys on experience. If your code is modular, you can start at the beginning of the method where the program goes wrong.
+
+If you fail to find a bug by inspection, then stop trying to fix it and instead try to find it using logging diagnostics. Like printf(), entry/exit points, loops, conditionals, outputting the value of a key variable, etc.
+
+Runtime debuggers allow you to visualise what the program is doing. You can see each line of code being executed in real-time, and see the values of variables changing as the program is running. You can also add breakpoints to your program. These pause the program in the debugger when a specified line of code is reached.
+
+Rubber Duck Debugging is when you explain the problem and code to yourself (or any inanimate object) out loud. The act of talking about it often makes your brain think differently, however they may be unconscious bias.
+
+You can also use a divide and conquer technique. Reude the place where the bug can hide by creating a minimal reproducable test case and remove as much unnecessary code as possible, whilst still demonstrating the bug.
+
+![image](images/debuggingWorkflow.png)
