@@ -754,6 +754,8 @@ amysCar.show();
   Your browser does not support the audio element.
 </audio>
 
+Object oritented programming is all about modularity (Data + Methods = Object). Classes provide a specification of objects. Classes are types. Object instances are real, concreate realisations of classes. We use `class` to define classes and
+
 ## Lecture 24 - Debugging
 
 <audio controls>

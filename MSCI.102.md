@@ -8,6 +8,7 @@ began: 13th Janurary 2025
 |  11  | [Lecture 2 - Operations As A System](#lecture-2---operations-as-a-system)                     | [Operations As A System](/MSCI.102.slides/b.operationsAsSystem.pdf)          |  🟧   |
 |  12  | [Lecture 3 - Intro to Supply Chain Management](#lecture-3---intro-to-supply-chain-management) | [Introduction To Supply Chain Management](/MSCI.102.slides/c.introToSCM.pdf) |  🟧   |
 |  12  | [Lecture 4 - Supply Chain Management Part 2](#lecture-4---supply-chain-management-part-2)     | [SCM Part 2](/MSCI.102.slides/d.SCM2.pdf)                                    |  ✅   |
+|  13  | [Lecture 5 - Inventory Management](#lecture-5---inventory-management)                         | [Inventory Management](/MSCI.102.slides/e.inventoryManagement.pdf)           |  🟧   |
 
 ## Lecture 1 - Module Introduction
 
@@ -18,7 +19,8 @@ began: 13th Janurary 2025
 
 Operations are responsible for the production of goods or delivery of services. It is the 'other' part of the business which is responsible for 60-70% of the costs, assets, and people.
 
-Business operations is one of the 3 core functions; developing the market (marketing), creating products and services (design and development), and producing and delivering to the market (operations). Accounting & finance, and human resources are two 'supporting functions'.
+Business operations is one of the 3 core functions; developing the market (marketing), creating product
+s and services (design and development), and producing and delivering to the market (operations). Accounting & finance, and human resources are two 'supporting functions'.
 
 For example, OM solves the problem of how to build airliners from millions of items on time when 2,000 workers are involved in the final assembly, when lead times vary from milliseconds to weeks, when errors happen, people get sick, machines malfunction, and when raw materials to major assemblies come from all over the world. (Scheduling & Control Systems)
 
@@ -256,3 +258,102 @@ Bullwhip Effect Case:
    - Outsourcing
 
 A supply chain can be resilient as well as vulnerable. Sustainability is possible through 'closed loop' supply chains and supplier development. They are often globalised and often involve anonymous markets like the internet trading. This minimises procurement prices but makes tracing hard and leaves them open to subversion and infiltration.
+
+## Lecture 5 - Inventory Management
+
+<audio controls>
+  <source src="MSCI.102.slides/e.inventoryManagement.mp3" type="audio/mpeg">
+ Your browser does not support the audio element.
+</audio>
+
+Inventory could be raw materials, work-in-processes, or finished goods. We have a focus on physical inventories.
+
+![image](images/inventories.png)
+
+Inventory is found at all stages in the operations processes, between unsynchronised activities. However, you can also find inventory at supplier levels, such as inventory that does not enter the operation directly but is necessary for the process, such as office stationary/equipment, cleaning equipment, etc.
+
+![image](images/rawmaterialinventories.png)
+
+### Why We Hold Inventory
+
+We hold inventory for various reasons such as:
+
+- To meet unexpected supply or demand (**buffer**): For example, due to unreliable suppliers.
+- For batch manufacturing (**cycle**): Usually in large, fixed quantities. For example, manufacturing batches of 100 bread loaves at a time.
+- To take advantage of short-term opportunities (**discounts**): For example, quantity discounts on selected items.
+- Due to fixed ordering (**economies of scale**): It is often cheaper to produce in bulk. For example, raw materials.
+- Transportation (**pipeline**): For example, ocean transport takes time to deliver.
+
+### Why We Might Avoid Holding Physical Inventory
+
+- **Holding Costs**: Insurance, real estate, captial, interest.
+- **Shrinkage**: Obsolesence, deterioration, theft.
+- **Obstruction**
+- **Hazards**: Hazmat (Hazardous Materials) Can cause fires or explosions.
+
+### How Much Inventory We Should Have
+
+Too little inventory is bad for the business as it can caus a stock-out which reduces sales (stock-outs cause walkouts). It can also lead to poor customer service which results in dissatisfied customers. The objective is to find a good level of stock in our spply chain. This good level is one that:
+
+1. Guarantees customers' expected demand is satisfied (according to generated forecasts)
+2. Minimises the total cost of ordering and carrying the inventory
+
+These 2 types of cost can be used to determine an optimal level by analysing cost. We can add up costs linked to the 2 phases of the process:
+
+- **Ordering Cost**: Placing order, transport, inspection, staff. Quantity discounts, supplements.
+- **Holding Cost**: Capital cost, interest, storage & insurance, obsolescence, deterioration, handling & staff.
+
+![image](images/inventoryLevel.png)
+
+![image](images/inventoryLevel2.png)
+
+Here is a basic example. If we have a fixed demand of 1000 units, there are 2 options to fufil that demand:
+
+- Plan A: Max of 400 units means order 400, 2.5 times/year
+- Plan B: Max of 100 means order 100, 10 times/year
+
+![image](images/inventoryLevelPlans.png)
+
+If you go with plan A then the holding cost would be more as you have to hold more, but the ordering cost could be less due to less orders per year. With plan B, the holding cost would be less, but the ordering cost greater.
+
+Here is a more detailed example.
+
+ORDERING COST: Let's assume the same ordering cost for any size order (£100). `orders placed/year = annual demand/order quantity`. For example, 1000/**100** = 10 orders : 1000/**80** = 12.5 orders. Total annual orderocst is 10 _ £100 = £1,000 : 12.5 _ £100 = £1,250.
+
+C<sub>0</sub> \* D/Q where C<sub>0</sub> is the cost of each order, D is the annual demand, and Q is the order quantity.
+
+![image](images/inventorymaths1.png)
+
+HOLDING COST: Let's assume that the holding cost is a constant per item stored per unit of time (£10 per unit per year).
+
+Average items stored over a full period
+
+OR C<sub>h</sub> \* Q/2
+
+#### IDEK anymore:
+
+Total cost is the sum of the above 2.
+
+C<sub>t</sub> = (C<sub>h</sub> \* Q/2) + (C<sub>0</sub> \* D/Q)
+
+### EQQ Model & Formula
+
+Assumptions:
+
+- Uniform demand
+- Constant Lead Time (LT)
+- Receipt of inventory is instantaneous and complete (order date = delivery date)
+- No quantity discounts
+- No other Variable costs considered
+- No stick-out (shortage) cost
+
+EQQ = √((2 \* C<sub>O</sub> \* D) / C<sub>h</sub>)
+
+Limitations:
+
+- Demand (steady/predicatable) assumptions
+- Does not account for demand fluctuations
+- Unsuitable to use EQQ models for different businesses
+- Instantaneous delivery assumption
+- Supply uncertainty
+- More suitable for small-scale firms
