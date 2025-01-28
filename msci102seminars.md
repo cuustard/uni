@@ -50,3 +50,86 @@ Inferences we make from this may not be very confident - is there requisite vari
 But this is a necessary way to understand an operation, its role and its challenges.
 
 ## Seminar 2
+
+The task is to compare the firms by the four stages (Design, Manufacturing, Distribution, & Retail) for analysing the supplt network. Watch [this](https://learningonscreen.ac.uk/ondemand/index.php/prog/122D0582?bcast=129265478) video and read the Task Readings Questions:
+
+1. What's the central issue for the case focuses on?
+   - Fast Fashion clothes that last no more than 1 season but are 'up-to-minute' at low prices
+   - "The retail operations that customers see are only the end part of the supply chains that feed them."
+   - Focuses on the supply chain strategies of fast fashion companies (H&M, Zara, Benetton) and how they respond to the demand requests of fash fashion by compressing product development cycles and ensuring speed and flexibility
+2. What characterises the firms?
+   - H&M: cheap/affordable products by delivering "fashion and quality at the best price" through a lot of outsourcing
+   - Zara: Verticle Integration, rapid desing-to-retail cycles, and speed & variety
+   - Benetton: Global Standardisation, and durability & flexibility
+3. Where is the design done?
+   - H&M: Stockholm
+   - Zara: Spain
+   - Benetton: ???
+4. What characterises their manufacturing operations?
+   - H&M: dont own any of their own factories. 750 global suppliers. half of production takes place in Europe and the rest in Asia. 21 production offices globally which coordinate the suppliers to control timing and order quantities.
+   - Zara: owns 20 spanish factories resoonsible for 50% of production while outsourcing labor-intensive tasks 50%
+   - Benetton: mix of owned and subconracted
+5. What general strategies in the case promote speed?
+   - H&M: finds optimal time to order each item, ourchasing fabrics early and finalising designs later
+   - Zara: veticle integration enables rapid production cycles, with designs often produced in small bathces
+   - Benetton:
+   - Rapid prototyping and feedback loops like Zara's integration of retail data into design
+   - Automated warehouses for efficient distribution
+   - Agile manufacturing practices,
+6. What aspects of their distribution facilitate speed?
+   - H&M: Sub-contracted distribution with centralised transit hubs and warehouses. Central transit terminal in Hamburg for efficient routing and allocation of goods.
+   - Zara: Automated, centralised warehouses close to production centres
+   - Benetton: Automated warehouses, and advanced tracking systems like RFID to streamline inventory management
+7. What’s interesting about their retail operations?
+   - H&M: Owns all its own stores for brand consistency
+   - Zara:
+   - Benetton:
+8. In what ways might vertical integration detract from/enhance speed?
+   - H&M:
+   - Zara:
+   - Benetton:
+
+CHATGPT answer:
+
+1. **What’s the central issue the case focuses on?**  
+   The case examines how fast fashion companies (H&M, Zara, and Benetton) manage their supply chains to address the challenges of fast-changing trends in fashion. It highlights the need for speed, flexibility, and cost-efficiency in responding to customer demands. As noted, “catwalk designs speed their way into high street stores at prices anyone can afford”.
+
+2. **What characterises the firms?**
+
+   - **H&M:** Known for its strategy of outsourcing to around 750 suppliers while focusing on cost and volume. The company emphasises, “efficient distribution systems, and being cost-conscious at every stage”.
+   - **Zara:** Focuses on vertical integration and producing in small batches to reduce risk. It integrates feedback from stores into its design and production processes, enabling “catwalk to rack” times as low as 15 days.
+   - **Benetton:** Differentiates itself with a focus on higher-quality, durable garments at a higher price point than H&M and Zara. It has moved to standardise global ranges, reducing designs by over 30% to cut production costs.
+
+3. **Where is the design done?**
+
+   - **H&M:** Centralised in Stockholm with over 100 designers supported by 50 pattern makers and 100 buyers.
+   - **Zara:** Co-locates teams of designers, market specialists, and buyers in Spain, where they collaborate closely to integrate customer feedback from stores.
+   - **Benetton:** Its 300 designers not only create garments but also innovate materials and clothing concepts globally.
+
+4. **What characterises their manufacturing operations?**
+
+   - **H&M:** Outsources all production, leveraging its 21 production offices globally to manage suppliers. The strategy enables flexibility, as H&M explains, “short lead times are not always best… Trendier garments require considerably shorter lead times”.
+   - **Zara:** Maintains in-house production for capital-intensive processes like cutting and dyeing, while using subcontractors for labour-intensive tasks like sewing. About 50% of fabric is sourced from its subsidiary, often undyed for late-stage customisation.
+   - **Benetton:** Combines centralised operations in Italy with a decentralised network of contractors in regions like North Africa and Asia. It uses “dyeing garments after assembly” to delay colour decisions and adapt to market needs.
+
+5. **What general strategies in the case promote speed?**
+
+   - Zara’s vertically integrated model ensures rapid response, with garments often designed, produced, and distributed in as little as 15 days.
+   - H&M and Benetton both use strategies like delaying final production decisions (e.g., colour or quantity) to reduce risks of misaligned supply and demand.
+   - Automated warehouses at Zara and Benetton also enhance supply chain efficiency.
+
+6. **What aspects of their distribution facilitate speed?**
+
+   - **H&M:** Uses a central transit terminal in Hamburg to inspect and allocate goods efficiently. Its “Call-Off warehouse” enables replenishment based on sales trends.
+   - **Zara:** Operates highly automated warehouses near production centres, enabling rapid distribution. Even with unused capacity, Zara invested in a second automated warehouse for future needs.
+   - **Benetton:** Explores innovations like RFID tags for real-time tracking of inventory.
+
+7. **What’s interesting about their retail operations?**
+
+   - **H&M:** Aims to create a “comfortable and inspiring atmosphere” in stores, with full company ownership ensuring brand consistency.
+   - **Zara:** Its unique approach sees garments rarely staying in stores for more than two weeks. This high turnover rate encourages frequent customer visits and immediate purchases to avoid missing out.
+   - **Benetton:** Transitioned from smaller third-party stores to larger flagship stores that display the full product range, reinforcing its brand image.
+
+8. **In what ways might vertical integration detract from/enhance speed?**
+   - **Enhance speed:** Zara’s vertical integration ensures control over processes, allowing faster response times. For example, its integration across the supply chain “allows it to respond to customer demand fast and flexibly while keeping stock to a minimum”.
+   - **Detract from speed:** Vertical integration can limit scalability, as expanding production capacity quickly may require significant investment, compared to H&M’s fully outsourced model that can leverage supplier networks on demand.
