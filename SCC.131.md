@@ -1164,6 +1164,131 @@ Users can define a group to which their micro:bit devices belong. Datagrams sent
   Your browser does not support the audio element.
 </audio>
 
+**Build automation systems** automate the process of compiling source code (from multiple source files) into binary executable code. **Build script generation tools** generate files for build automation systems. This means they do no build executable code direcetly. Users can set up a high-level configurationand generate build scripts for a specific operating system.
+
+The **Make** build automation system reads a script, called makefile, which contains the project structure, and instructions for the creation of binary files.
+
+### makefile
+
+#### Version 1
+
+`makefile`:
+
+```
+exec: primary.c secondary.c mylib.h
+    gcc primary.c secondary.c -o exec
+```
+
+`exec:` This is called the TARGET. It could be a filename, variable, or string. It is the name for the ACTIONS that follow. To execute the ACTIONS of TARGET exec, type `make exec`. If the makefile contains just one TARGET, there is no need to specify the TARGET when running make. If it contains multiple, running make without specifying a TARGET will execute the ACTIONS of TARGET `all` (if it is defined) or the first TARGET.
+
+`primary.c secondary.c mylib.h` are DEPENDENCIES (prerequisites). It's a list of requirements for a TARGET. It could be the filenames or other TARGETS. If the tTARGET and DEPENDENCIES are filenames then their timestamps are compared and the ACTIONS are executed only if the TARGET does not exist or if it is older than the DEPENDENCIES (out of date). If a DEPENDENCY is the name of another TARGET, control will descend to the ACTIONS of the other TARGET.
+
+`gcc primary.c secondary.c -o exec` is an ACTION. Tab is used to indent an ACTION. They are shell commands. Each line shpould contain one ACTION. If an ACTION cannot fit in one line, then the `\` can be used to break the ACTION into multiple lines.
+
+The TARGET, DEPENDENCIES, and ACTIONS form a RULE. A RULE contains the ACTIONS to meet a TARGET when the DEPENDENCIES are fulfilled.
+
+#### Version 2
+
+`makefile`:
+
+```
+exec: primary.o secondary.o
+    gcc primary.o secondary.o -o exec
+
+primary.o: primary.c mylib.h
+    gcc -c primary.c -o primary.o
+
+secondary.o: secondary.c mylib.h
+    gcc -c secondary.c -o secondary.o
+```
+
+In version 1, a change in 1 source file will trigger the creation and linking of both of their corresponding object files. In this version, separate RULES for all the object files have been introducted so the DEPENDENCIES and ACTIONS of TARGET `exec` have also been updated
+
+#### Version 3
+
+`makefile`:
+
+```
+# Example makefile
+CC = gcc
+
+exec: primary.o secondary.o
+    $(CC) primary.o secondary.o -o exec
+
+primary.o: primary.c mylib.h
+    $(CC) -c primary.c -o primary.o
+
+secondary.o: secondary.c mylib.h
+    $(CC) -c secondary.c -o secondary.o
+```
+
+In this version, a comment and a variable are introduced. A comment begins with `#` and lasts until the end of the line. A variable used in a RULE begins with `$` and is enclosed within `()` or `{}`. Single character variables do not need parentheses or braces.
+
+#### Version 4
+
+`makefile`:
+
+```
+# Example makefile
+CC = gcc
+
+exec: primary.o secondary.o
+    $(CC) $^ -o $@
+
+primary.o: primary.c mylib.h
+    $(CC) -c $< -o $@
+
+secondary.o: secondary.c mylib.h
+    $(CC) -c $< -o $@
+```
+
+This version uses automatic variables to shorten the script.
+
+- `$@`: The filename of the TARGET
+- `$*`: The filename of the TARGET without the file extension
+- `$^`: The filenamea of all DEPENDENCIES
+- `$<`: The filename of the first DEPENDENCY
+- `$?`: The filenames of all DEPENDENCIES that are newer than the TARGET
+
+#### Version 5
+
+`makefile`:
+
+```
+# Example makefile
+CC = gcc
+
+exec: primary.o secondary.o
+    $(CC) $^ -o $@
+
+%.o: %.c mylib.h
+    $(CC) -c $< -o $@
+```
+
+In version 5, we exploit the similarities between the two RULES with TARGETS primary.o and secondary.o. The two RULES can be merged into a single RULE if the pattern matching character `%` is used. This character matches a DEPENDENCY filename without the extension.
+
+#### Version 6
+
+`makefile`:
+
+```
+# Example makefile
+CC = gcc
+
+all: exec
+
+exec: primary.o secondary.o
+    $(CC) $^ -o $@
+
+%.o: %.c mylib.h
+    $(CC) -c $< -o $@
+
+clean:
+    rm primary.o secondary.o
+```
+
+This version includes two TARGETS that do not represent filenames: `all` and `clean`. TARGETS of this type are often referred to as 'phony' TARGETS and they are always treated as 'out of date'. `all` establishes which RULE will be considered by defualt (it does not need to be at the top of the script). TARGET `clean` removes the two object files (when `make clean` is run).
+
 ## Lecture 25 - Intro To ARM Assembly
 
 <audio controls>
