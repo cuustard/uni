@@ -39,6 +39,7 @@ The module aims to help me understand the fundamentals of Computer Science. Thi
 |  11   | [Lecture 21 - Introduction To Algorithms](#lecture-21---introduction-to-algorithms)                                                 | [Intro To Algorithms](/SCC.121.slides/v.introToAlgorithms.pdf)                                           |  ✅   |
 |  12   | [Lecture 22 - Introduction To Operations Counting](#lecture-22---introduction-to-operations-counting)                               | [Intro To Operations Counting](/SCC.121.slides/w.operationCounting.pdf)                                  |  ✅   |
 |  12   | [Lecture 23 - Operating Counting Part 2](#lecture-23---operating-counting-part-2)                                                   | [Operation Counting Part 2](/SCC.121.slides/x.operationCountingPrt2.pdf)                                 |  ❌   |
+|  13   | [Lecture 24 - Linear Search: Time Complexity](#lecture-24---linear-search-time-complexity)                                          | [Linear Search: Time Complexity](/SCC.121.slides/y.linearSearchTimeComplexity.pdf)                       |  🟧   |
 
 ## Lecture 1 - Sets
 
@@ -1436,3 +1437,70 @@ Before the loop starts, we do `int sum = 0;` which is 1 operation, then `int i =
   <source src="SCC.121.slides/x.operationCountingPrt2.mp3" type="audio/mpeg">
   Your browser does not support the audio element.
 </audio>
+
+## Lecture 24 - Linear Search: Time Complexity
+
+<audio controls>
+  <source src="SCC.121.slides/y.linearSearchTimeComplexity.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
+General for loop:
+
+```
+for (i = a; i <= b; i++>) {
+  // block
+}
+```
+
+$$
+\displaystyle\sum_{i=a}^b 1=b - a + 1
+$$
+
+### Linear Search Worst, Best, & Average Case
+
+**Worst Case** is the usually the one we look at for analysis. In this case, we calculate the upper bound on the runnign time of an algorithm. We must know the case that causes a max number of operations to be executed.
+
+**Average Case** is looked at less often. Useful if worst case rarely occurs. We take all possible inputs and calculate the computing time for all of the inputs. Sum all the calculated values and divide the sum by the total number of inputs.
+
+**Best Case** is looked at less often aswell. We calculate the lower bound on the running time of an algorithm. We must know the case that causes a minimum number of operations to be executed.
+
+Linear Search Algorithm:
+
+```C
+int isInArray(int theArray[], int N, int iSeaerch) {
+  for (int i = 0; i < N; i++) {
+    if (theArray[i] == iSearch) {
+      return 1;
+    }
+  }
+  return 0;
+}
+```
+
+![image](images/linearSearchOperationCounting.png)
+
+o1, o5, and o6 are done once in the entire function. o2, o3, and o4, are executed with each loop.
+
+| case (best to worst)           | o2  | o3  | o4  |
+| :----------------------------- | :-: | :-: | :-: |
+| 'iSearch' is the first element |  1  |  1  |  0  |
+| 'iSearch' is the last element  |  N  |  N  | N-1 |
+| 'iSearch is not in 'theArray'  | N+1 |  N  |  N  |
+
+Best Case `T(N) = 1 + 1 + 0 + 1 + 1 + 0 = 4`
+
+![image](images/linearSearchBestCase.png)
+
+To calculate the average case, we must do `1/N * (1 + 2 + 3 + 4 + 5 + ... + N) = `
+1/n
+
+$$
+\frac{1}{N} \displaystyle\sum_{i=1}^N i
+$$
+
+![image](images/linearSearchAverageCase.png)
+
+Worst Case `T(N) = 1 + (N + 1) + N + N + 0 + 1 = 3N + 3`
+
+![image](images/linearSearchWorstCase.png)
