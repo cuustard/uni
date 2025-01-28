@@ -1,12 +1,12 @@
 # Introduction to Operations Management Seminars
 
-| Week   | My Notes                | Seminar Resource     | Noted |
-| :----: | ----------------------- | -------------------- | :---: |
-|   1    | [Seminar 1](#seminar-1) | [Seminar 1]()        |       |
-|   2    | [Seminar 2](#seminar-2) | [Seminar 2]()        |       |
-|   3    | [Seminar 3](#seminar-3) | [Seminar 3]()        |       |
-|   4    | [Seminar 4](#seminar-4) | [Seminar 4]()        |       |
-|   5    | [Seminar 5](#seminar-5) | [Seminar 5]()        |       |
+| Week   | My Notes                | Seminar Resources                                                                                                                  | Noted |
+| :----: | ----------------------- | ---------------------------------------------------------------------------------------------------------------------------------- | :---: |
+|   1    | [Seminar 1](#seminar-1) | [Task Doc](MSCI.102.seminarDocs/a.operationsAsSystemTASK.pdf), [Task Solutions](MSCI.102.seminarDocs/a.operationsAsSystemPPTX.pdf) |  🟧   |
+|   2    | [Seminar 2](#seminar-2) | [Task Doc](MSCI.102.seminarDocs/b.scmTASK.pdf), [Task Readings](MSCI.102.seminarDocs/b.scmREADING.pdf)                             |       |
+|   3    | [Seminar 3](#seminar-3) | [Seminar 3]()                                                                                                                      |       |
+|   4    | [Seminar 4](#seminar-4) | [Seminar 4]()                                                                                                                      |       |
+|   5    | [Seminar 5](#seminar-5) | [Seminar 5]()                                                                                                                      |       |
 
 ## Seminar 1
 
@@ -27,7 +27,6 @@ I am asked to think and make conjectures about two simple, local service operati
    - What are the main transforming resources?
      - Greggs: staff, simple equipment, premises and infrastructure, basic expertise
    - What does it transform its inputs into – as main products and by-products?
-     -
    - Is it a material, information or customer processor – or some combination?
    - How would you describe its variety and volume?
    - What type of operation does this variety and volume describe?
