@@ -40,6 +40,7 @@ The module aims to help me understand the fundamentals of Computer Science. Thi
 |  12   | [Lecture 22 - Introduction To Operations Counting](#lecture-22---introduction-to-operations-counting)                               | [Intro To Operations Counting](/SCC.121.slides/w.operationCounting.pdf)                                  |  ✅   |
 |  12   | [Lecture 23 - Operating Counting Part 2](#lecture-23---operating-counting-part-2)                                                   | [Operation Counting Part 2](/SCC.121.slides/x.operationCountingPrt2.pdf)                                 |  ❌   |
 |  13   | [Lecture 24 - Linear Search: Time Complexity](#lecture-24---linear-search-time-complexity)                                          | [Linear Search: Time Complexity](/SCC.121.slides/y.linearSearchTimeComplexity.pdf)                       |  🟧   |
+|  13   | [Lecture 25 - Sentinel & Binary Search Algorithms](#lecture-25---sentinel--binary-search-algorithms)                                | [Sentinel & Binary Search Algorithms](/SCC.121.slides/z.sentinelAndBinarySearch.pdf)                     |  🟧   |
 
 ## Lecture 1 - Sets
 
@@ -1504,3 +1505,92 @@ $$
 Worst Case `T(N) = 1 + (N + 1) + N + N + 0 + 1 = 3N + 3`
 
 ![image](images/linearSearchWorstCase.png)
+
+## Lecture 25 - Sentinel & Binary Search Algorithms
+
+<audio controls>
+  <source src="SCC.121.slides/z.sentinelAndBinarySearch.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
+### Linear Search s Sentinel Search
+
+Linear:
+
+```C
+int isInArray(int theArray[], int N, int iSearch)
+{
+  for (int i = 0; i < N; i++) {
+    if (theArray[i] == iSearch) {
+      return 1;
+    }
+  }
+  return 0;
+}
+```
+
+When a linear search is done on an array of size N, then in the worst case a total of N+1 comparisons are made for the index of the element to be compared so that the index is not out of bounds of the array.
+
+A sentinel search is a type of Linear Search where the number of comparisons is reduced as compared to the linear search.
+
+MISSING NOTES HERE
+
+### Binary Search
+
+Binary search only works on sorted array. It locates a target value in a sorted array by successively eliminating half of the array from consideration.
+
+Iterative implementation of Binary Search:
+
+```C
+boolean isInBinary(int[] theArray, int N, int iSearch)
+{
+  int lo = 0; // o1
+  int hi = N - 1; //o1
+  int mid = 0; // 03
+  while (hi >= lo) { // o4
+    mid = (lo + hi)/2; //round to higher integer // o5
+    if (theArray[mid] == iSearch) // o6
+      return true; // o7
+    else if (theArray[mid] < iSearch) // o8
+      lo = mid + 1; // o9
+    else
+      hi = mid - 1; //o10
+  }
+  return false; // o11
+}
+```
+
+Worst case scenario is if the target value is not in the array. And if o6 is always False and we assume o8 is always false.
+
+Best case complexity of constant. as if the element is first thing found. so not dependant on size of array.
+
+- Sentinel search and Linear search algorithms are both linear in worst case scenario, but Sentinel search requires executing fewer operations.
+- Binary search algorithm is more efficient comparing to Linear and Sentinel Search algorithms (Binary logarithmic in worst case), but the input array should be sorted.
+- Actual values of constants generally unimportant (except in specific circumstances)
+- What we really care about is behaviour as the size of our input increases (asymptotic behaviour)
+
+### Growth of Functions
+
+Assume two algorithms A and B that solve the same class of problems. The time complexity of A is T(n) = 500n, for B it is T(n) = 1.1<sup>n</sup> for an input with n elements.
+
+Algorithm B grows exponentially which means that it should not be used for large inputs while A is still feasable. The growth of time complexity with increasing input size n is a suitable measure for the comparison of algorithms.
+
+![image](images/growthOfFunctionsTable.png)
+
+![image](images/growthOfFunctionsPlot.png)
+
+Growth Rate of Functions (best to worst):
+
+1. 1 → Constant growth
+2. log n → Logarithmic growth
+3. nc → where 0<c<1
+4. n → Linear growth
+5. n log n
+6. n<sup>2</sup> → Quadratic growth
+7. n<sup>2</sup> log n
+8. n<sup>3</sup> → Cubic growth
+9. n<sup>c</sup> → Polynomial growth (c is a constant number)
+10. 2<sup>n</sup> → Exponential growth
+11. 3<sup>n</sup> → Exponential growth
+12. c<sup>n</sup> → Exponential growth (c is a constant number)
+13. n! → Factorial growt
