@@ -14,32 +14,34 @@ The module aims to help me understand software development. This includes instil
 
 ### Table of Contents
 
-| Week | My Notes                                                                                     | Original Slides                                                                        | Noted |
-| :--: | -------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- | :---: |
-|  1   | [Lecture 1 - Module Introduction](#lecture-1---module-introduction)                          | [Module Intro](/SCC.111.slides/a.introSlides.pdf)                                      |  ✅   |
-|  1   | [Lecture 2 - Writing Code](#lecture-2---writing-code)                                        | [Intro to C](/SCC.111.slides/b.introToC.pdf)                                           |  ✅   |
-|  2   | [Lecture 3 - Control Flow](#lecture-3---control-flow)                                        | [Control Flow](/SCC.111.slides/c.controlFlow.pdf)                                      |  ✅   |
-|  2   | [Lecture 4 - Functions & Flow](#lecture-4---functions--flow)                                 | [Functions & Flow](/SCC.111.slides/d.functionsAndFlow.pdf)                             |  ✅   |
-|  3   | [Lecture 5 - Variables & Arrays](#lecture-5---variables--arrays)                             | [Variables & Arrays](/SCC.111.slides/e.variablesAndArrays.pdf)                         |  ❌   |
-|  3   | [Lecture 6 - Reading Code](#lecture-6---reading-code)                                        | [Reading Code](/SCC.111.slides/f.readingCode.pdf)                                      |  ❌   |
-|  4   | [Lecture 7 - Testing](#lecture-7---testing)                                                  | [Testing](/SCC.111.slides/g.testing.pdf)                                               |  ❌   |
-|  4   | [Lecture 8 - Debugging](#lecture-8---debugging)                                              | [Debugging](/SCC.111.slides/h.debugging.pdf)                                           |  ❌   |
-|  5   | [Lecture 9 - Deubbign Part 2](#lecture-9---debugging-part-2)                                 | [Debugging Part 2](/SCC.111.slides/i.debuggingPartTwo.pdf)                             |  ❌   |
-|  5   | [Lecture 10 - Indirection & Pointers](#lecture-10---indirection--pointers)                   | [Indirection & Pointers](/SCC.111.slides/j.indirectionPointers.pdf)                    |  🟧   |
-|  6   | [Lecture 11 - Pointers & Strings](#lecture-11---pointers--strings)                           | [Pointers & Strings](/SCC.111.slides/k.pointersAndStrings.pdf)                         |  ❌   |
-|  6   | [Lecture 12 - Dynamic Memory & Compound Types](#lecture-12---dynamic-memory--compound-types) | [Dynamic Memory & Compound Types](/SCC.111.slides/l.dynamicMemoryAndCompoundTypes.pdf) |  ✅   |
-|  7   | [Lecture 13 - Quiz Solutions](#lecture-13---quiz-solutions)                                  | [Quiz Solutions](/SCC.111.slides/m.quizResults.pdf)                                    |  n/a  |
-|  7   | [Lecture 14 - APIs & Files](#lecture-14---apis--files)                                       | [APIs & Files](/SCC.111.slides/n.APIsAndFiles.pdf)                                     |  ✅   |
-|  8   | [Lecture 15 - More Files](#lecture-15---more-files)                                          | [Files Continued](/SCC.111.slides/o.moreFileStuff.pdf)                                 |  ✅   |
-|  8   | [Lecture 16 - Libraries](#lecture-16---multi-file-projects)                                  | [Libraries](/SCC.111.slides/p.libraries.pdf)                                           |  ✅   |
-|  9   | [Lecture 17 - Version Control](#lecture-17---version-control)                                | [Version Control](/SCC.111.slides/q.versionControl.pdf)                                |  🟧   |
-|  9   | [Lecture 18 - Dynamic Data Structures](#lecture-18---dynamic-data-structures)                | [Dynamic Data Structures](/SCC.111.slides/r.dynamicDataStructures.pdf)                 |  🟧   |
-|  10  | [Lecture 19 - C Highlights](#lecture-19---c-highlights)                                      | [C Highlights](/SCC.111.slides/s.cHighlights.pdf)                                      |  ❌   |
-|  10  | [Lecture 20 - Fun By The C](#lectuer-20---fun-by-the-c)                                      | [Fun By The C](/SCC.111.slides/t.funByTheC.pdf)                                        |  🟧   |
-|  11  | [Lecture 21 - Intro to Term 2](#lecture-21---introduction-to-term-2)                         | [Intro To Term 2](/SCC.111.slides/u.introToTerm2.pdf)                                  |  ✅   |
-|  11  | [Lecture 22 - Principles of OOP](#lecture-22---principles-of-oop)                            | [Principles of OOP](/SCC.111.slides/v.principlesOfOOP.pdf)                             |  ✅   |
-|  12  | [Lecture 23 - Encapsulation](#lecture-23---encapsulation)                                    | [Encapsulation](/SCC.111.slides/w.encapsulation.pdf)                                   |  ❌   |
-|  12  | [Lecture 24 - Debugging](#lecture-24---debugging)                                            | [Debugging](/SCC.111.slides/x.debugging.pdf)                                           |  ✅   |
+| Week | My Notes                                                                                                    | Original Slides                                                                                 | Noted |
+| :--: | ----------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- | :---: |
+|  1   | [Lecture 1 - Module Introduction](#lecture-1---module-introduction)                                         | [Module Intro](/SCC.111.slides/a.introSlides.pdf)                                               |  ✅   |
+|  1   | [Lecture 2 - Writing Code](#lecture-2---writing-code)                                                       | [Intro to C](/SCC.111.slides/b.introToC.pdf)                                                    |  ✅   |
+|  2   | [Lecture 3 - Control Flow](#lecture-3---control-flow)                                                       | [Control Flow](/SCC.111.slides/c.controlFlow.pdf)                                               |  ✅   |
+|  2   | [Lecture 4 - Functions & Flow](#lecture-4---functions--flow)                                                | [Functions & Flow](/SCC.111.slides/d.functionsAndFlow.pdf)                                      |  ✅   |
+|  3   | [Lecture 5 - Variables & Arrays](#lecture-5---variables--arrays)                                            | [Variables & Arrays](/SCC.111.slides/e.variablesAndArrays.pdf)                                  |  ❌   |
+|  3   | [Lecture 6 - Reading Code](#lecture-6---reading-code)                                                       | [Reading Code](/SCC.111.slides/f.readingCode.pdf)                                               |  ❌   |
+|  4   | [Lecture 7 - Testing](#lecture-7---testing)                                                                 | [Testing](/SCC.111.slides/g.testing.pdf)                                                        |  ❌   |
+|  4   | [Lecture 8 - Debugging](#lecture-8---debugging)                                                             | [Debugging](/SCC.111.slides/h.debugging.pdf)                                                    |  ❌   |
+|  5   | [Lecture 9 - Deubbign Part 2](#lecture-9---debugging-part-2)                                                | [Debugging Part 2](/SCC.111.slides/i.debuggingPartTwo.pdf)                                      |  ❌   |
+|  5   | [Lecture 10 - Indirection & Pointers](#lecture-10---indirection--pointers)                                  | [Indirection & Pointers](/SCC.111.slides/j.indirectionPointers.pdf)                             |  🟧   |
+|  6   | [Lecture 11 - Pointers & Strings](#lecture-11---pointers--strings)                                          | [Pointers & Strings](/SCC.111.slides/k.pointersAndStrings.pdf)                                  |  ❌   |
+|  6   | [Lecture 12 - Dynamic Memory & Compound Types](#lecture-12---dynamic-memory--compound-types)                | [Dynamic Memory & Compound Types](/SCC.111.slides/l.dynamicMemoryAndCompoundTypes.pdf)          |  ✅   |
+|  7   | [Lecture 13 - Quiz Solutions](#lecture-13---quiz-solutions)                                                 | [Quiz Solutions](/SCC.111.slides/m.quizResults.pdf)                                             |  n/a  |
+|  7   | [Lecture 14 - APIs & Files](#lecture-14---apis--files)                                                      | [APIs & Files](/SCC.111.slides/n.APIsAndFiles.pdf)                                              |  ✅   |
+|  8   | [Lecture 15 - More Files](#lecture-15---more-files)                                                         | [Files Continued](/SCC.111.slides/o.moreFileStuff.pdf)                                          |  ✅   |
+|  8   | [Lecture 16 - Libraries](#lecture-16---multi-file-projects)                                                 | [Libraries](/SCC.111.slides/p.libraries.pdf)                                                    |  ✅   |
+|  9   | [Lecture 17 - Version Control](#lecture-17---version-control)                                               | [Version Control](/SCC.111.slides/q.versionControl.pdf)                                         |  🟧   |
+|  9   | [Lecture 18 - Dynamic Data Structures](#lecture-18---dynamic-data-structures)                               | [Dynamic Data Structures](/SCC.111.slides/r.dynamicDataStructures.pdf)                          |  🟧   |
+|  10  | [Lecture 19 - C Highlights](#lecture-19---c-highlights)                                                     | [C Highlights](/SCC.111.slides/s.cHighlights.pdf)                                               |  ❌   |
+|  10  | [Lecture 20 - Fun By The C](#lectuer-20---fun-by-the-c)                                                     | [Fun By The C](/SCC.111.slides/t.funByTheC.pdf)                                                 |  🟧   |
+|  11  | [Lecture 21 - Intro to Term 2](#lecture-21---introduction-to-term-2)                                        | [Intro To Term 2](/SCC.111.slides/u.introToTerm2.pdf)                                           |  ✅   |
+|  11  | [Lecture 22 - Principles of OOP](#lecture-22---principles-of-oop)                                           | [Principles of OOP](/SCC.111.slides/v.principlesOfOOP.pdf)                                      |  ✅   |
+|  12  | [Lecture 23 - Encapsulation](#lecture-23---encapsulation)                                                   | [Encapsulation](/SCC.111.slides/w.encapsulation.pdf)                                            |  ❌   |
+|  12  | [Lecture 24 - Debugging](#lecture-24---debugging)                                                           | [Debugging](/SCC.111.slides/x.debugging.pdf)                                                    |  ✅   |
+|  13  | [Lecture 25 - Principles of Reuse](#lecture-25---principles-of-reuse)                                       | [Principles of Reuse](/SCC.111.slides/y.reuse.pdf)                                              |  ❌   |
+|  13  | [Lecture 26 - References, Composition & OO Cast Study](#lecture-26---references-composition--oo-cast-study) | [References, Composition & OO Cast Study](/SCC.111.slides/z.referencesCompositionCaseStudy.pdf) |  ❌   |
 
 ---
 
@@ -782,3 +784,17 @@ Rubber Duck Debugging is when you explain the problem and code to yourself (or a
 You can also use a divide and conquer technique. Reude the place where the bug can hide by creating a minimal reproducable test case and remove as much unnecessary code as possible, whilst still demonstrating the bug.
 
 ![image](images/debuggingWorkflow.png)
+
+## Lecture 25 - Principles of Reuse
+
+<audio controls>
+  <source src="SCC.111.slides/y.reuse.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
+## Lecture 26 - References, Composition & OO Cast Study
+
+<audio controls>
+  <source src="SCC.111.slides/z.referencesCompositionCaseStudy.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>

@@ -28,6 +28,7 @@ The module aims to help me understand the fundamentals of Professionalism in Pra
 |  10  | [Lecture 10 - System & Human Error, and Recap](#lecture-10---system--human-error-and-recap)                                                                | [System & Human Error, and Recap](/SCC.141.slides/j.semesterRecap.pdf)                            |  ✅   |
 |  11  | [Lecture 11 - Security In Systems](#lecture-11---security-in-systems)                                                                                      | [Security In Systems](/SCC.141.slides/k.systemSecurity.pdf)                                       |  ✅   |
 |  12  | [Lecture 12 - Privacy](#lecture-12---privacy)                                                                                                              | [Privacy](/SCC.141.slides/l.privacy.pdf)                                                          |  🟧   |
+|  13  | [Lecture 13 - Surveillance & Censorship](#lecture-13---surveillance-and-censorship)                                                                        | [Surveillance & Censorship](/SCC.141.slides/m.surveillanceAndCensorship.pdf)                      |  ❌   |
 
 > **_NOTE:_** The AI Podcasts for all the lectures are produced from the Lecture Slide. The structure of my notes may differ to the order of topics discussed in the podcast.
 
@@ -1181,3 +1182,10 @@ Addresses risks of unregulated AI applications. Promotes trustworthy AI aligned 
 ![image](images/EUaiACt.png)
 
 ### Privacy in AI and Robotics
+
+## Lecture 13 - Surveillance And Censorship
+
+<audio controls>
+  <source src="SCC.141.slides/m.surveillanceAndCensorship.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
