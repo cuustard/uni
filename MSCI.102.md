@@ -2,13 +2,15 @@ began: 13th Janurary 2025
 
 # MSCI.102 Introduction to Operations Management
 
-| Week | My Notes                                                                                      | Lecture Slides                                                               | Noted |
-| :--: | --------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------- | :---: |
-|  11  | [Lecture 1 - Module Introduction](#lecture-1---module-introduction)                           | [Introduction to OM](/MSCI.102.slides/a.introduction.pdf)                    |  ✅   |
-|  11  | [Lecture 2 - Operations As A System](#lecture-2---operations-as-a-system)                     | [Operations As A System](/MSCI.102.slides/b.operationsAsSystem.pdf)          |  🟧   |
-|  12  | [Lecture 3 - Intro to Supply Chain Management](#lecture-3---intro-to-supply-chain-management) | [Introduction To Supply Chain Management](/MSCI.102.slides/c.introToSCM.pdf) |  🟧   |
-|  12  | [Lecture 4 - Supply Chain Management Part 2](#lecture-4---supply-chain-management-part-2)     | [SCM Part 2](/MSCI.102.slides/d.SCM2.pdf)                                    |  ✅   |
-|  13  | [Lecture 5 - Inventory Management](#lecture-5---inventory-management)                         | [Inventory Management](/MSCI.102.slides/e.inventoryManagement.pdf)           |  🟧   |
+| Week | My Notes                                                                                      | Lecture Slides                                                                     | Noted |
+| :--: | --------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- | :---: |
+|  11  | [Lecture 1 - Module Introduction](#lecture-1---module-introduction)                           | [Introduction to OM](/MSCI.102.slides/a.introduction.pdf)                          |  ✅   |
+|  11  | [Lecture 2 - Operations As A System](#lecture-2---operations-as-a-system)                     | [Operations As A System](/MSCI.102.slides/b.operationsAsSystem.pdf)                |  🟧   |
+|  12  | [Lecture 3 - Intro to Supply Chain Management](#lecture-3---intro-to-supply-chain-management) | [Introduction To Supply Chain Management](/MSCI.102.slides/c.introToSCM.pdf)       |  🟧   |
+|  12  | [Lecture 4 - Supply Chain Management Part 2](#lecture-4---supply-chain-management-part-2)     | [SCM Part 2](/MSCI.102.slides/d.SCM2.pdf)                                          |  ✅   |
+|  13  | [Lecture 5 - Inventory Management](#lecture-5---inventory-management)                         | [Inventory Management](/MSCI.102.slides/e.inventoryManagement.pdf)                 |  🟧   |
+|  13  | [Lecture 6 - Inventory Management Part 2](#lecture-6---inventory-management-part-2)           | [Inventory Management Prt 2](/MSCI.102.slides/f.IM2.pdf)                           |  ❌   |
+|  14  | [Lecture 7 - Capacity Planning & Analysis](#lecture-7---capacity-planning--analysis)          | [Capacity Planning & Analysis](/MSCI.102.slides/g.capacityPlanningAndAnalysis.pdf) |  ❌   |
 
 ## Lecture 1 - Module Introduction
 
@@ -357,3 +359,17 @@ Limitations:
 - Instantaneous delivery assumption
 - Supply uncertainty
 - More suitable for small-scale firms
+
+## Lecture 6 - Inventory Management Part 2
+
+<audio controls>
+  <source src="MSCI.102.slides/f.IM2.mp3" type="audio/mpeg">
+ Your browser does not support the audio element.
+</audio>
+
+## Lecture 7 - Capacity Planning & Analysis
+
+<audio controls>
+  <source src="MSCI.102.slides/g.capacityPlanningAndAnalysis.mp3" type="audio/mpeg">
+ Your browser does not support the audio element.
+</audio>
