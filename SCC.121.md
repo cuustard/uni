@@ -41,6 +41,7 @@ The module aims to help me understand the fundamentals of Computer Science. Thi
 |  12   | [Lecture 23 - Operating Counting Part 2](#lecture-23---operating-counting-part-2)                                                   | [Operation Counting Part 2](/SCC.121.slides/x.operationCountingPrt2.pdf)                                 |  ❌   |
 |  13   | [Lecture 24 - Linear Search: Time Complexity](#lecture-24---linear-search-time-complexity)                                          | [Linear Search: Time Complexity](/SCC.121.slides/y.linearSearchTimeComplexity.pdf)                       |  🟧   |
 |  13   | [Lecture 25 - Sentinel & Binary Search Algorithms](#lecture-25---sentinel--binary-search-algorithms)                                | [Sentinel & Binary Search Algorithms](/SCC.121.slides/z.sentinelAndBinarySearch.pdf)                     |  🟧   |
+|  14   | [Lecture 26 - Big O Notation](#lecture-26---big-o-notation)                                                                         | [Big O Notation](/SCC.121.slides/za.bigO.pdf)                                                            |  ❌   |
 
 ## Lecture 1 - Sets
 
@@ -1594,3 +1595,10 @@ Growth Rate of Functions (best to worst):
 11. 3<sup>n</sup> → Exponential growth
 12. c<sup>n</sup> → Exponential growth (c is a constant number)
 13. n! → Factorial growt
+
+## Lecture 26 - Big O Notation
+
+<audio controls>
+  <source src="SCC.121.slides/za.bigO.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>

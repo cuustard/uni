@@ -41,6 +41,7 @@ The module aims to help me understand digital systems. This includes fundamental
 |  12  | [Lecture 24 - Build Automation](#lecture-24---build-automation)                                       | [Build Automation](/SCC.131.slides/w.buildAutomation.pdf)                                       |  ✅   |
 |  13  | [Lecture 25 - Introduction To ARM Assembly](#lecture-25---intro-to-arm-assembly)                      | [Intro To ARM Assembly](/SCC.131.slides/x.ARMassemblyIntro.pdf)                                 |  ❌   |
 |  13  | [Lecture 26 - Arithmetic Operators](#lecture-26---arithmetic-operations)                              | [Arithmetic Operators](/SCC.131.slides/y.arithmeticAndLogicalOperators.pdf)                     |  ❌   |
+|  14  | [Lecture 27 - Memory](#lecture-27---memory)                                                           | [Memory](/SCC.131.slides/z.memory.pdf)                                                          |  ❌   |
 
 ## Lecture 1 - Module Introduction & Computer Architecture
 
@@ -1300,5 +1301,12 @@ This version includes two TARGETS that do not represent filenames: `all` and `cl
 
 <audio controls>
   <source src="SCC.131.slides/y.arithmeticAndLogicalOperators.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
+## Lecture 27 - Memory
+
+<audio controls>
+  <source src="SCC.131.slides/z.memory.mp3" type="audio/mpeg">
   Your browser does not support the audio element.
 </audio>
