@@ -29,6 +29,7 @@ The module aims to help me understand the fundamentals of Professionalism in Pra
 |  11  | [Lecture 11 - Security In Systems](#lecture-11---security-in-systems)                                                                                      | [Security In Systems](/SCC.141.slides/k.systemSecurity.pdf)                                       |  ✅   |
 |  12  | [Lecture 12 - Privacy](#lecture-12---privacy)                                                                                                              | [Privacy](/SCC.141.slides/l.privacy.pdf)                                                          |  🟧   |
 |  13  | [Lecture 13 - Surveillance & Censorship](#lecture-13---surveillance-and-censorship)                                                                        | [Surveillance & Censorship](/SCC.141.slides/m.surveillanceAndCensorship.pdf)                      |  ❌   |
+|  14  | [Lecture 14 - Malware, Malevolent Online Practices, & Threat Modelling](#lecture-14---malware-malevolent-online-practices--threat-modelling)               | [Malware](/SCC.141.slides/n.malware.pdf)                                                          |  🟧   |
 
 > **_NOTE:_** The AI Podcasts for all the lectures are produced from the Lecture Slide. The structure of my notes may differ to the order of topics discussed in the podcast.
 
@@ -1189,3 +1190,141 @@ Addresses risks of unregulated AI applications. Promotes trustworthy AI aligned 
   <source src="SCC.141.slides/m.surveillanceAndCensorship.mp3" type="audio/mpeg">
   Your browser does not support the audio element.
 </audio>
+
+## Lecture 14 - Malware, Malevolent Online Practices, & Threat Modelling
+
+<audio controls>
+  <source src="SCC.141.slides/n.malware.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
+### Malware
+
+> "People represent the weakest link in the security chain and are chronically responsible for the failure of security systems" - Bruce Schneier, 200, p. 149
+
+Exploiting of software and information systems often targets the weakest link.
+
+- Human Factors: Social engineering, unintentional errors
+- Technology Vulnerabilities: Outdated or insecure apps, & operating system defects
+- Exposed Personal Traits: Oversharing on social media
+
+Malicious Software (Malware) is software that causes harm to computer systems, networks, or users. It harms and explorts the computer or network to steal sensetive information like passwords and credit card numbers. It can also disrupt the system's operations and allows attackers to gain unauthroised access to the device.
+
+#### Virus
+
+#### Worms
+
+#### Trojans
+
+#### Ransomware
+
+#### Zombie
+
+#### Botnets
+
+#### DDoS Attack
+
+A DDoS (Distributed Deinal of Service) attack is like a traffic jam on a website. They work by flooding a website/service with an overwhelming number of requests from different devices, making it inaccessible.
+
+#### Malware Access, Effects, & Practitioners
+
+Malware can gain access in many ways:
+
+- Phishing
+- Exploiting Vulnerabilities
+- Social Engineering
+- Malicious Websites/Ads
+- Infected Software/Downloads
+
+Malware can have several effects:
+
+- **Data Theft**: Personal, financial, or business data is stolen for malicious use
+- **System Damage**: Malware can corrupt or delete files, slow down or crash systems
+- **Loss of Privacy**: Sensitive information such as passwords or browsing history may be exposed
+- **Financial Loss**: Ransomware and data breaches can lead to direct financial damage
+- **Performance Issues**: Malware can reduce system speed or disrupt normal operation
+- **Reputation Damage**: Organizations or individuals may suffer from compromised trust and credibility
+
+Practitioners:
+
+- **Cybercriminals**: Individuals or groups who create and distribute malware for financial gain
+- **Hacktivists**: People or organizations who use malware as a tool for political or social causes
+- **State-Sponsored Actors**: Governments or military organizations that use malware for espionage, sabotage, or warfare
+- **Script Kiddies**: Less skilled attackers who use pre-made malware for fun or to gain attention
+- **Cybersecurity Researchers**: Ethical hackers who analyze malware to develop protections or solutions (often the counterforce to malicious actors)
+
+### Malevolent Online Practices
+
+Malware is not the only malevolent practice. The rise of social networks & digital communications lead to new malicious practices. These often have a narrowed focus and target on vulnerable groups like the elderly, single men and women, or children.
+
+#### Phishing
+
+Emails containing a convincing hyperlink that appears to be a trustede source but the actual address may be foreign or suspicious. Victims are tricked into entering personal information and by clicking on anything confirms that your email address is active so you'll begin to receive more spam. This is similar to spear-phishing which targets and personalises their attack for specific individuals. So spear-phishing emails may include personal information about you that is used to convince you that it is legit.
+
+#### Social Engineering
+
+Social Engineering is described as 'hacking without code' and is based on a principle of trust. The perpetrator collects data by dumpster-dibing, monitoring social media, and shouldering. When they've collected enough to know about you, they will then try and convince the victim to trust them and ask for money/details.
+
+#### Grooming
+
+This is gaining trust of a victim by being nice over a period of time. Once trust is gained they get the victim to reveal information about themselves which, unknowingly involves them in a crime.
+
+#### Online Stalking
+
+Stalking is obsessively following/watching a person without their knowledge. Lateral Surveillance is viewing someone's online presence without their knowledge. Doxing is publishing private data with malicious intent.
+
+#### Deepfakes & Synthetic Media
+
+AI-generated images, videos, or audio that appear real. They can be used to impersonated executives for fraud, create fake videos for blackmail or manipulation, or spreading misinformation or fake political speeches. This raises challenges in verifying authentic media.
+
+#### Misinformation & Propaganda
+
+Misinformation is the sharing false or misleading information unintentionally. Disinformation is the deliberate spread of false information to manipulate or decieve. There are several techniques such as fake news, doctored images, AI-generated content, Bots & fake accounts, and deepfakes.
+
+This erods trust in the media and institutions. It polarises society and amplifies echo chambers. It influences political outcmoes and public opinion.
+
+### Threat Modelling
+
+Threat Modelling is a technique within the security lifecycle to analyse a system's security and privacy concerns. We do this to recognise potential failures or attacks by identifying design & implementation flaws earlier. This informs decisions throughout development, testing, and deployment.
+
+- Asset Identification
+  - Determine what you're trying to protect
+  - Identifies: Which assets need protection
+- Threat Analysis
+  - Identify potential attacks or events that could compromise these assets
+  - Identifies: Relevant threats & vulnerabilities
+- Vulnerability Analysis
+  - Pinpoint the weaknesses in the setup - both technical and organisational
+  - Identifies: Risk level for each threat
+- Risk Assessment
+  - Evaluate the likelihood and impact of each threat
+  - Mitigation & contingency priorities
+- Risk Communication
+  - Share the findings with stakeholders
+
+Natural & Accidental Threats:
+
+- Natural
+  - Well-studied (insurance data, actuarial tables)
+  - Relatively predictable in terms of frequency so organizations can plan accordingly
+- Accidental
+  - Come from human error with no malicious intent
+  - lost or stolen devices, misconfigurations, or employees clicking on phishing links
+  - Hard to track
+  - Implement awareness training, strict policies around data handling, and proper incident reporting
+
+A malicious agent can be an induvidual or group that implements a threat. They are influenced by amplifiers (motivators, resources, alliances) or inhibitors (legal risk, limited acces, fear of exposure). They have characteristics:
+
+- Motivation
+- Capability
+- Catalyst
+- Inhibitors
+- Amplifiers
+
+#### Threat Modelling Frameworks
+
+STRIDE and DREAD frameowkr threat models are systematic processes that identify and access security risks in a system.
+
+![image](images/STRIDE.png)
+
+![image](images/DREAD.png)
