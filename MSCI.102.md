@@ -2,15 +2,16 @@ began: 13th Janurary 2025
 
 # MSCI.102 Introduction to Operations Management
 
-| Week | My Notes                                                                                      | Lecture Slides                                                                     | Noted |
-| :--: | --------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- | :---: |
-|  11  | [Lecture 1 - Module Introduction](#lecture-1---module-introduction)                           | [Introduction to OM](/MSCI.102.slides/a.introduction.pdf)                          |  ✅   |
-|  11  | [Lecture 2 - Operations As A System](#lecture-2---operations-as-a-system)                     | [Operations As A System](/MSCI.102.slides/b.operationsAsSystem.pdf)                |  🟧   |
-|  12  | [Lecture 3 - Intro to Supply Chain Management](#lecture-3---intro-to-supply-chain-management) | [Introduction To Supply Chain Management](/MSCI.102.slides/c.introToSCM.pdf)       |  🟧   |
-|  12  | [Lecture 4 - Supply Chain Management Part 2](#lecture-4---supply-chain-management-part-2)     | [SCM Part 2](/MSCI.102.slides/d.SCM2.pdf)                                          |  ✅   |
-|  13  | [Lecture 5 - Inventory Management](#lecture-5---inventory-management)                         | [Inventory Management](/MSCI.102.slides/e.inventoryManagement.pdf)                 |  🟧   |
-|  13  | [Lecture 6 - Inventory Management Part 2](#lecture-6---inventory-management-part-2)           | [Inventory Management Prt 2](/MSCI.102.slides/f.IM2.pdf)                           |  ❌   |
-|  14  | [Lecture 7 - Capacity Planning & Analysis](#lecture-7---capacity-planning--analysis)          | [Capacity Planning & Analysis](/MSCI.102.slides/g.capacityPlanningAndAnalysis.pdf) |  ❌   |
+| Week | My Notes                                                                                           | Lecture Slides                                                                             | Noted |
+| :--: | -------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ | :---: |
+|  11  | [Lecture 1 - Module Introduction](#lecture-1---module-introduction)                                | [Introduction to OM](/MSCI.102.slides/a.introduction.pdf)                                  |  ✅   |
+|  11  | [Lecture 2 - Operations As A System](#lecture-2---operations-as-a-system)                          | [Operations As A System](/MSCI.102.slides/b.operationsAsSystem.pdf)                        |  🟧   |
+|  12  | [Lecture 3 - Intro to Supply Chain Management](#lecture-3---intro-to-supply-chain-management)      | [Introduction To Supply Chain Management](/MSCI.102.slides/c.introToSCM.pdf)               |  🟧   |
+|  12  | [Lecture 4 - Supply Chain Management Part 2](#lecture-4---supply-chain-management-part-2)          | [SCM Part 2](/MSCI.102.slides/d.SCM2.pdf)                                                  |  ✅   |
+|  13  | [Lecture 5 - Inventory Management](#lecture-5---inventory-management)                              | [Inventory Management](/MSCI.102.slides/e.inventoryManagement.pdf)                         |  🟧   |
+|  13  | [Lecture 6 - Inventory Management Part 2](#lecture-6---inventory-management-part-2)                | [Inventory Management Prt 2](/MSCI.102.slides/f.IM2.pdf)                                   |  ❌   |
+|  14  | [Lecture 7 - Capacity Planning & Analysis](#lecture-7---capacity-planning--analysis)               | [Capacity Planning & Analysis](/MSCI.102.slides/g.capacityPlanningAndAnalysis.pdf)         |  ✅   |
+|  14  | [Lecture 8 - Capacity Planning & Analysis Part 2](#lecture-8---capacity-planning--analysis-part-2) | [Capacity Planning & Analysis Part 2](/MSCI.102.slides/h.capacityPlanningAndAnalysis2.pdf) |  ✅   |
 
 ## Lecture 1 - Module Introduction
 
@@ -370,6 +371,181 @@ Limitations:
 ## Lecture 7 - Capacity Planning & Analysis
 
 <audio controls>
-  <source src="MSCI.102.slides/g.capacityPlanningAndAnalysis.mp3" type="audio/mpeg">
+  <source src="MSCI.102.slides/g.capacityPlanningAndAnalysis.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
+### What is Capacity?
+
+Capacity can be defined in terms of volume or throughput. The most obvious measure is physical volume or resources, such as the size of a vessel, the number of available seats, or workforce capacity. However, this is different from the capacity for work, which considers factors like workflow, turnover, and output.
+
+Operations Management focuses more on\*throughput, which refers to the amount of work completed or the number of people, materials, or products processed. Capacity is also defined as the "maximum level of value-adding activity within a given period."
+
+### Capacity in Context
+
+Capacity depends on circumstances and assumptions, often requiring aggregation across multiple products or services. For example:
+
+- Hotels measure capacity in room nights per month, regardless of room type.
+- Cinemas measure capacity in seats per month, regardless of screen size.
+
+Capacity is also time-dependent:
+
+- Long-term capacity: Allows for substantial changes (e.g., building new facilities, hiring more staff).
+- Short-term capacity: Only allows for minor adjustments (e.g., adding overtime shifts).
+
+For example, a university's capacity includes (but is not limited to):
+
+- The number of lecture rooms, labs, and offices.
+- The number of faculty and staff.
+- The number of students who can graduate per year.
+- The volume of research that can be published per quarter.
+
+### Measuring Capacity Utilisation
+
+There are two key measures of how capacity is used:
+
+- Utilisation = Actual output / Design capacity
+- Efficiency = Actual output / Effective capacity
+
+### How Organisations Respond to Demand
+
+There are different approaches to managing fluctuations in demand:
+
+#### Level Capacity Planning
+
+This approach maintains a constant capacity, regardless of demand fluctuations, and relies on buffer inventory to handle excess demand.
+
+Pros:
+
+- Stable employment.
+- Simple and predictable operations.
+
+Cons:
+
+- Requires higher financial investment (e.g., inventory and warehousing costs).
+- Risk of product deterioration or obsolescence.
+
+![Level Capacity Planning](images/levelCapacityPlanning.png)
+
+#### Chase Demand Planning
+
+This approach adjusts capacity to match demand, reducing the need for storage and minimising deterioration risks.
+
+Pros:
+
+- Limits the need for storage.
+- Avoids deterioration of goods.
+
+Cons:
+
+- Leads to unstable employment.
+- Difficult to manage ad-hoc resourcing.
+- Requires a high level of physical capacity.
+
+![Chase Demand Planning](images/chaseDemandPlanning.png)
+
+#### Manage Demand Planning
+
+This method smooths out demand fluctuations using pricing strategies, such as surge pricing.
+
+- Discounts encourage demand when it is low.
+- Premium pricing controls demand when it is high.
+
+Pros:
+
+- Helps balance supply and demand.
+- Can make services more profitable.
+
+Cons:
+
+- May limit customer access.
+- Requires careful pricing strategy.
+
+![Manage Demand Planning](images/manageDemandPlanning.png)
+
+#### Mixed Plans
+
+A combination of all the above methods, mixed planning:
+
+- Uses premium pricing and discounts to regulate demand.
+- Occasionally increases or decreases capacity.
+- Takes advantage of "natural wastage" (e.g., employees leaving over time).
+- Allows for some inventory storage.
+
+## Lecture 8 - Capacity Planning & Analysis Part 2
+
+<audio controls>
+  <source src="MSCI.102.slides/h.capacityPlanningAndAnalysis2.mp3" type="audio/mpeg">
  Your browser does not support the audio element.
 </audio>
+
+### Capacity Analysis
+
+#### Capacity vs Demand Example
+
+| Month    | Jan | Feb | Mar | Apr | May | Jun | Jul | Aug | Sep | Oct | Nov | Dec |
+| -------- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Demand   | 100 | 150 | 175 | 150 | 200 | 300 | 350 | 500 | 650 | 450 | 100 | 100 |
+| Capacity | 300 | 300 | 300 | 300 | 300 | 300 | 300 | 300 | 300 | 300 | 300 | 300 |
+
+- Key Analysis Questions:
+  - Is the capacity sufficient to meet demand (e.g., airline seats, production output, clinic patients)?
+  - Do we accumulate products or backlogs?
+
+### Production Operations That Accumulate Products
+
+- Capacity management considerations:
+  - Ensure supply precedes demand
+  - Cumulative analysis helps track surplus/shortages
+  - Example Calculation:
+    - Total production by Sep = 8 × 300 = 2,400 units
+    - Total demand till Sep = 1,925 units → surplus available
+
+### When Output Can't Be Stored (Service Operations)
+
+- Demand vs. Capacity:
+  - Accumulated demand tracked (e.g., patient queue in a clinic)
+  - Unused capacity is lost (e.g., empty airline seats)
+  - Example:
+    - Waiting list grows if demand exceeds capacity
+
+| Month    | Jan | Feb | Mar | Apr | May | Jun | Jul | Aug | Sep | Oct | Nov | Dec |
+| -------- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Arrivals | 100 | 150 | 175 | 150 | 200 | 300 | 350 | 500 | 650 | 450 | 100 | 100 |
+| Capacity | 300 | 300 | 300 | 300 | 300 | 300 | 300 | 300 | 300 | 300 | 300 | 300 |
+| Waiting  | 0   | 0   | 0   | 0   | 0   | 0   | 50  | 250 | 600 | 750 | 550 | 350 |
+
+### Capacity Management Strategies
+
+- Three Key Steps:
+  1. Establish Base Capacity – Determine minimum operational level
+  2. Handle Demand Variability – Choose between Chase, Level, or Mixed strategies
+  3. Evaluate Capacity Options – Adjust operations based on demand
+
+### The Theory of Constraints (ToC)
+
+#### Heathrow Runway Example
+
+- Additional terminal buildings did not increase overall airport capacity.
+- Runways were the bottleneck – the operation's limiting factor.
+- A bottleneck determines the throughput of the entire process.
+
+#### Goldratt’s "The Goal" (Book Summary)
+
+- Manufacturing Plant Metaphor:
+  - Slowest worker in a group hike = production bottleneck
+  - Downstream tasks starve for work
+  - Upstream tasks create excess inventory
+  - Solution:
+    - Prioritize bottleneck resources
+    - Prevent overproduction
+    - Improve bottleneck efficiency
+
+#### Managing Bottlenecks
+
+- Five Focusing Steps (FFS):
+  1. Identify constraints (bottlenecks)
+  2. Exploit bottlenecks (keep them fully utilized)
+  3. Subordinate other processes to the bottleneck
+  4. Elevate the bottleneck (improve efficiency)
+  5. Repeat the process
