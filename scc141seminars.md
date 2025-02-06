@@ -2,13 +2,14 @@ began: 8th October 2024
 
 # Professionalism in Practice Seminars
 
-| Week    | My Notes                | Seminar Slide                                | Noted |
-| :-----: | ----------------------- | -------------------------------------------- | :---: |
-|  1 & 2  | [Seminar 1](#seminar-1) | [Seminar 1](seminarMaterials/a.Seminar1.pdf) |  ✅   |
-|  3 & 4  | [Seminar 2](#seminar-2) | [Seminar 2](seminarMaterials/b.Seminar2.pdf) |  ✅   |
-|  5 & 6  | [Seminar 3](#seminar-3) | [Seminar 3](seminarMaterials/c.Seminar3.pdf) |  ✅   |
-| 9 & 10  | [Seminar 4](#seminar-4) | [Seminar 4](seminarMaterials/d.seminar4.pdf) |  ✅   |
-| 11 & 12 | [Seminar 5](#seminar-5) | [Seminar 5](seminarMaterials/e.seminar5.pdf) |  ✅   |
+| Week    | My Notes                | Seminar Slide                                 | Noted |
+| :-----: | ----------------------- | --------------------------------------------- | :---: |
+|  1 & 2  | [Seminar 1](#seminar-1) | [Seminar 1](seminarMaterials/a.Seminar1.pdf)  |  ✅   |
+|  3 & 4  | [Seminar 2](#seminar-2) | [Seminar 2](seminarMaterials/b.Seminar2.pdf)  |  ✅   |
+|  5 & 6  | [Seminar 3](#seminar-3) | [Seminar 3](seminarMaterials/c.Seminar3.pdf)  |  ✅   |
+| 9 & 10  | [Seminar 4](#seminar-4) | [Seminar 4](seminarMaterials/d.seminar4.pdf)  |  ✅   |
+| 11 & 12 | [Seminar 5](#seminar-5) | [Seminar 5](seminarMaterials/e.seminar5.pdf)  |  ✅   |
+| 13 & 14 | [Seminar 6](#seminar-6) | [Seminar 6](/seminarMaterials/f.seminar6.pdf) |  ✅   |
 
 ## Seminar 1
 
@@ -139,3 +140,29 @@ Topic: AI changing Law
 > "...organizations are starting to see cost reductions after adopting AI... By reducing overhead costs through automation across various industries, AI helps law firms expand their client base and serve people who might have once been priced out of the market."
 
 AI is transforming litigation law by automating routine tasks, enabling lawyers to focus on strategic, high-value work and fostering a shift toward outcome-based business models. It empowers a new generation of "generalist" lawyers who can leverage AI to provide cost-effective services across diverse legal areas, expanding access to clients previously priced out of the market. While AI enhances efficiency and accuracy, it requires human oversight to avoid errors and preserve the critical elements of judgment and strategy. By embracing AI as a tool to complement their expertise, legal professionals can lead this evolving landscape, delivering better results while maintaining the irreplaceable human touch.
+
+## Seminar 6
+
+**Topic**: What privacy means to me.
+
+This seminar aims to assist in Section 1 of the 2nd group report. I need to identify and discuss to what extent, and in what context, does privacy matter?. (400 words) (Section 1).
+
+**Guidance notes**: You must discuss two privacy harms, each with a concrete example of how they manifest. Assess how severe you consider these harms to be and explain how they link to reasons why a person might want to protect their privacy (i.e. why privacy matters).
+
+Today's Tasks:
+
+1. Defining my privacy personality - 20 mins
+2. Defending my privacy position - 20 mins
+3. Sharing with the class - 10 mins
+
+Develop my own position on why privacy matters to me. My position may differ from my lecturer's position; disagreement is encouraged and valued. They will assess me on my ability to articulate my own opinion.
+
+Helpful links: [Privacy Orientation Scale](https://lemibaruh.me/privacy-orientation-scale/), [Online Privacy Personality](https://link.springer.com/article/10.1007/s10723-019-09500-3)
+
+Research:
+
+Lean towards Dimension 1 Privacy as a Right which states that:
+
+- Privacy laws should be strengthened to protect personal privacy.
+- People need legal protection against misuse of personal data.
+- If I were to write a constitution today, I would probably add privacy as a fundamental right.
