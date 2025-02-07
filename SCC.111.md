@@ -43,7 +43,7 @@ The module aims to help me understand software development. This includes instil
 |  13  | [Lecture 25 - Principles of Reuse](#lecture-25---principles-of-reuse)                                       | [Principles of Reuse](/SCC.111.slides/y.reuse.pdf)                                              |  ❌   |
 |  13  | [Lecture 26 - References, Composition & OO Cast Study](#lecture-26---references-composition--oo-cast-study) | [References, Composition & OO Cast Study](/SCC.111.slides/z.referencesCompositionCaseStudy.pdf) |  ❌   |
 |  14  | [Lecture 27 - Reflections on C++](#lecture-27---reflections-on-c)                                           | [C++ Reflections](/SCC.111.slides/za.C++Reflections.pdf)                                        |  ❌   |
-|  14  | [Lecture 28 - Introduction To Java](#lecture-28---introduction-to-java)                                     | [Intro To Java](/SCC.111.slides/zb.JavaIntro.pdf)                                               |       |
+|  14  | [Lecture 28 - Introduction To Java](#lecture-28---introduction-to-java)                                     | [Intro To Java](/SCC.111.slides/zb.JavaIntro.pdf)                                               |  ✅   |
 
 ---
 
@@ -814,3 +814,86 @@ You can also use a divide and conquer technique. Reude the place where the bug c
   <source src="SCC.111.slides/zb.JavaIntro.mp3" type="audio/mpeg">
   Your browser does not support the audio element.
 </audio>
+
+### Virtual Machine Based Languages
+
+A Virtual Machine (VM) is a software emulation of physical computer hardware that runs programs in an isolated environment. So, instead of directly running on hardware, BM-based languages run on a software-based virtual environment. This is because code written in a VM-based language can run on any system with the appropriate VM installed. Furthermore, VMs handle memory allocation and garbage collection, which reduces the risk of memory-related errors. Also the execution within a VM provides a layer of isolation.
+
+### Introducing Java
+
+Java is a mordern, platform independent, object-oriented programming language. It was developed by SUN microsystems in 1995 (James Gosling). It is now owned by Oracle. It was designed with simplicty and reuse in mind. It was originally designed for embedded devices. It's first envisioned application was the Java toaster, but then it was the web language of choice. Since then it has evolved into a programming language of choice for high reliability and good performance. It is commonly used in Enterprise Systems (IBM/ORacle), Mobile Devices (Android), Embedded Devices (SmartTVs, IoT), and Financial, Medical, and Automotive Domains.
+
+Since Java has open standards, it allows interoperation and promotes innovation. It uses a VM to abstract over device operating systems.
+
+![images](images/JavaAbstract.png)
+
+#### Java Virtual Macnhine (JVM)
+
+Java abstracts over a device hardware: Processor, Memory, Input/Output, Graphical Interfaces.
+
+Contains a virtual computer processor. It executes its own machine language known as bytecode. Very simple instructions, such as add, multiply, compare, etc. Java programs are compiled into bytecode by the developer. The JVM interprets these into whatever the hardware understands at run time. Java bytecode is an example of an intermediate language (neither something you write in, nor something that is directly executed by a computer).
+
+#### Java Machine Language: Bytecode
+
+```Java
+public static void main(String[] args) {
+    int a = 1;
+    int b = 2;
+    int c = a + b;
+}
+```
+
+```byteCode
+0: iconst_1
+1: istore_1
+2: iconst_2
+3: istore_2
+4: iload_1
+5: iload_2
+6: iadd
+7: istore_3
+8: return
+```
+
+> "There are only two types of languages: the ones people complain about and the ones nobody uses" - Beharne Stroustrup
+
+#### Classes
+
+Every Java progam is made up of one more more classses. In Java, a class is a unit of modularity; they define objects. The class keyword defines a unique name for the class you're writing. Curly braces fedine the code that is part of that class. There can only be one class per file, with the filename matching the class name.
+
+```Java
+public class HelloWorld
+{
+    public static void main( String[] arguments )
+    {
+        // put what you want the program to do here
+        System.out.println( "Hello World" );
+    }
+}
+```
+
+Differences to C/C++:
+
+- Never return anything from main. It is always void.
+- Access specifier for main function. should always be `public`
+- Capital S
+- Static means it is a class method and not an instance method. locks function in memory so it is always in the same place.
+- implemented the method inside the class definition
+
+#### Methods
+
+The main method defines the start point for the program. This method always returns void in Java. Parameter is an array of strings. Methods are like functions in C. They are blocks of code with names, parameters, and return types.
+
+#### Comments
+
+A single line comment begins with `//`. Comment blocks are like `/* */`.
+
+#### Statements
+
+Method invocation (like calling a function in C) statements end with a semicolon. E.g. `System.out` is the name of an object (the console output stream). `println` is the tname of a method - there is also a `print` method.
+
+### Compiling a Java Program
+
+Create a text file. Filename must match name of the class it contains and must end in .java. Open command line prompt (shell in Unix and cmd in Windows). Change the directory to the location of the file, compile it into bytecode `javac HelloWorld.java`. Then start a Java VM that interprets the program `java HelloWorld`.
+
+### Development Tools
