@@ -368,6 +368,18 @@ Limitations:
  Your browser does not support the audio element.
 </audio>
 
+We can determine how much invetory we need and when to get it by these methods:
+
+- Encomic Bath Quantity
+- Inventory Classification
+- Re-order levels
+
+### Encomic Bath Quantity
+
+Replenishment is not instantaneous and inventory is recieved over time period. For example, Units are produced and sold simultaneously.
+
+The cost as the start of each replenishment = 'setup' cost.
+
 ## Lecture 7 - Capacity Planning & Analysis
 
 <audio controls>

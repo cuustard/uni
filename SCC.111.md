@@ -42,6 +42,8 @@ The module aims to help me understand software development. This includes instil
 |  12  | [Lecture 24 - Debugging](#lecture-24---debugging)                                                           | [Debugging](/SCC.111.slides/x.debugging.pdf)                                                    |  ✅   |
 |  13  | [Lecture 25 - Principles of Reuse](#lecture-25---principles-of-reuse)                                       | [Principles of Reuse](/SCC.111.slides/y.reuse.pdf)                                              |  ❌   |
 |  13  | [Lecture 26 - References, Composition & OO Cast Study](#lecture-26---references-composition--oo-cast-study) | [References, Composition & OO Cast Study](/SCC.111.slides/z.referencesCompositionCaseStudy.pdf) |  ❌   |
+|  14  | [Lecture 27 - Reflections on C++](#lecture-27---reflections-on-c)                                           | [C++ Reflections](/SCC.111.slides/za.C++Reflections.pdf)                                        |  ❌   |
+|  14  | [Lecture 28 - Introduction To Java](#lecture-28---introduction-to-java)                                     | [Intro To Java](/SCC.111.slides/zb.JavaIntro.pdf)                                               |       |
 
 ---
 
@@ -796,5 +798,19 @@ You can also use a divide and conquer technique. Reude the place where the bug c
 
 <audio controls>
   <source src="SCC.111.slides/z.referencesCompositionCaseStudy.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
+## Lecture 27 - Reflections on C++
+
+<audio controls>
+  <source src="SCC.111.slides/za.C++Reflections.mp33" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
+## Lecture 28 - Introduction To Java
+
+<audio controls>
+  <source src="SCC.111.slides/zb.JavaIntro.mp3" type="audio/mpeg">
   Your browser does not support the audio element.
 </audio>

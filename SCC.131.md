@@ -42,6 +42,7 @@ The module aims to help me understand digital systems. This includes fundamental
 |  13  | [Lecture 25 - Introduction To ARM Assembly](#lecture-25---intro-to-arm-assembly)                      | [Intro To ARM Assembly](/SCC.131.slides/x.ARMassemblyIntro.pdf)                                 |  ❌   |
 |  13  | [Lecture 26 - Arithmetic Operators](#lecture-26---arithmetic-operations)                              | [Arithmetic Operators](/SCC.131.slides/y.arithmeticAndLogicalOperators.pdf)                     |  ❌   |
 |  14  | [Lecture 27 - Memory](#lecture-27---memory)                                                           | [Memory](/SCC.131.slides/z.memory.pdf)                                                          |  ❌   |
+|  14  |                                                                                                       |                                                                                                 |       |
 
 ## Lecture 1 - Module Introduction & Computer Architecture
 
