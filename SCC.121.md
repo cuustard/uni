@@ -43,6 +43,8 @@ The module aims to help me understand the fundamentals of Computer Science. Thi
 |  13   | [Lecture 25 - Sentinel & Binary Search Algorithms](#lecture-25---sentinel--binary-search-algorithms)                                | [Sentinel & Binary Search Algorithms](/SCC.121.slides/z.sentinelAndBinarySearch.pdf)                     |  🟧   |
 |  14   | [Lecture 26 - Big O Notation](#lecture-26---big-o-notation)                                                                         | [Big O Notation](/SCC.121.slides/za.bigO.pdf)                                                            |  ❌   |
 |  14   | [Lecture 27 - Big O Notation Part 2](#lecture-27---big-o-notation-part-2)                                                           | [Big O Notation Part 2](/SCC.121.slides/zb.bigO2.pdf)                                                    |  ❌   |
+|  15   | [Lecture 28 - Big Ω & Θ Notation](#lecture-28---big-ω--θ-notation)                                                                  | [Big Ω & Θ Notation](/SCC.121.slides/zc.BigOmegaAndTheta.pdf)                                            |       |
+|  15   | [Lecture 29 - Time Complexity of Recursive Algorithms](#lecture-29---time-complexity-of-recursive-algorithms)                       | [Recursive Time Complexity](/SCC.121.slides/zd.timeComplexityRecursion.pdf)                              |       |
 
 ## Lecture 1 - Sets
 
@@ -1610,3 +1612,7 @@ Growth Rate of Functions (best to worst):
   <source src="SCC.121.slides/zb.bigO2.mp3" type="audio/mpeg">
   Your browser does not support the audio element.
 </audio>
+
+## Lecture 28 - Big Ω & Θ Notation
+
+## Lecture 29 - Time Complexity of Recursive Algorithms

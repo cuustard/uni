@@ -42,7 +42,8 @@ The module aims to help me understand digital systems. This includes fundamental
 |  13  | [Lecture 25 - Introduction To ARM Assembly](#lecture-25---intro-to-arm-assembly)                      | [Intro To ARM Assembly](/SCC.131.slides/x.ARMassemblyIntro.pdf)                                 |  ❌   |
 |  13  | [Lecture 26 - Arithmetic Operators](#lecture-26---arithmetic-operations)                              | [Arithmetic Operators](/SCC.131.slides/y.arithmeticAndLogicalOperators.pdf)                     |  ❌   |
 |  14  | [Lecture 27 - Memory](#lecture-27---memory)                                                           | [Memory](/SCC.131.slides/z.memory.pdf)                                                          |  ❌   |
-|  14  |                                                                                                       |                                                                                                 |  ❌   |
+|  14  | [Lecture 28 - ](#lecture-28---loopsflow-control)                                                      | [Loops & Control Flow](/SCC.131.slides/za.loopsFlowControl.pdf)                                 |  ❌   |
+|  15  | [Lecture 29 - Programming in Assembly](#lecture-29---programming-in-assembly)                         | [Assembly Programming](/SCC.131.slides/zb.assemblyProgramming.pdf)                              |  🟧   |
 
 ## Lecture 1 - Module Introduction & Computer Architecture
 
@@ -1318,3 +1319,36 @@ This version includes two TARGETS that do not represent filenames: `all` and `cl
   <source src="SCC.131.slides/za.loopsFlowControl.mp3" type="audio/mpeg">
   Your browser does not support the audio element.
 </audio>
+
+## Lecture 29 - Programming in Assembly
+
+<audio controls>
+  <source src="SCC.131.slides/zb.assemblyProgramming.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
+We need these things to implement programs in Assembly:
+
+- Arithmetic & logical operators
+- Memory
+- Condition & Unconditional loops
+
+Let's make a program to create the first 12 numbers of the fibonacci sequence, and store the them in an array.
+
+```C
+int main () {
+  int fibs[12] = {0};
+
+  fibs[0] = 0;
+  fibs[1] = 1;
+  int n = 2;
+
+  do {
+    fibs[n] = fibs[n - 1] + fibs[n - 2];
+    n = n + 1;
+  } while (n < 12);
+  return 0;
+}
+```
+
+In assembly:
