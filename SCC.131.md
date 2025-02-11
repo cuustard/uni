@@ -42,7 +42,7 @@ The module aims to help me understand digital systems. This includes fundamental
 |  13  | [Lecture 25 - Introduction To ARM Assembly](#lecture-25---intro-to-arm-assembly)                      | [Intro To ARM Assembly](/SCC.131.slides/x.ARMassemblyIntro.pdf)                                 |  ❌   |
 |  13  | [Lecture 26 - Arithmetic Operators](#lecture-26---arithmetic-operations)                              | [Arithmetic Operators](/SCC.131.slides/y.arithmeticAndLogicalOperators.pdf)                     |  ❌   |
 |  14  | [Lecture 27 - Memory](#lecture-27---memory)                                                           | [Memory](/SCC.131.slides/z.memory.pdf)                                                          |  ❌   |
-|  14  | [Lecture 28 - ](#lecture-28---loopsflow-control)                                                      | [Loops & Control Flow](/SCC.131.slides/za.loopsFlowControl.pdf)                                 |  ❌   |
+|  14  | [Lecture 28 - Loops/Control Flow](#lecture-28---loopsflow-control)                                    | [Loops & Control Flow](/SCC.131.slides/za.loopsFlowControl.pdf)                                 |  ❌   |
 |  15  | [Lecture 29 - Programming in Assembly](#lecture-29---programming-in-assembly)                         | [Assembly Programming](/SCC.131.slides/zb.assemblyProgramming.pdf)                              |  🟧   |
 
 ## Lecture 1 - Module Introduction & Computer Architecture

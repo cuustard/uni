@@ -1615,4 +1615,14 @@ Growth Rate of Functions (best to worst):
 
 ## Lecture 28 - Big Ω & Θ Notation
 
+<audio controls>
+  <source src="SCC.121.slides/zc.BigOmegaAndTheta.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
 ## Lecture 29 - Time Complexity of Recursive Algorithms
+
+<audio controls>
+  <source src="SCC.121.slides/zd.timeComplexityRecursion.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
