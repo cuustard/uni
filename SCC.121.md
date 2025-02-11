@@ -43,7 +43,7 @@ The module aims to help me understand the fundamentals of Computer Science. Thi
 |  13   | [Lecture 25 - Sentinel & Binary Search Algorithms](#lecture-25---sentinel--binary-search-algorithms)                                | [Sentinel & Binary Search Algorithms](/SCC.121.slides/z.sentinelAndBinarySearch.pdf)                     |  🟧   |
 |  14   | [Lecture 26 - Big O Notation](#lecture-26---big-o-notation)                                                                         | [Big O Notation](/SCC.121.slides/za.bigO.pdf)                                                            |  ❌   |
 |  14   | [Lecture 27 - Big O Notation Part 2](#lecture-27---big-o-notation-part-2)                                                           | [Big O Notation Part 2](/SCC.121.slides/zb.bigO2.pdf)                                                    |  ❌   |
-|  15   | [Lecture 28 - Big Ω & Θ Notation](#lecture-28---big-ω--θ-notation)                                                                  | [Big Ω & Θ Notation](/SCC.121.slides/zc.BigOmegaAndTheta.pdf)                                            |       |
+|  15   | [Lecture 28 - Big Ω & Θ Notation](#lecture-28---big-ω--θ-notation)                                                                  | [Big Ω & Θ Notation](/SCC.121.slides/zc.BigOmegaAndTheta.pdf)                                            |  ✅   |
 |  15   | [Lecture 29 - Time Complexity of Recursive Algorithms](#lecture-29---time-complexity-of-recursive-algorithms)                       | [Recursive Time Complexity](/SCC.121.slides/zd.timeComplexityRecursion.pdf)                              |       |
 
 ## Lecture 1 - Sets
@@ -1619,6 +1619,45 @@ Growth Rate of Functions (best to worst):
   <source src="SCC.121.slides/zc.BigOmegaAndTheta.mp3" type="audio/mpeg">
   Your browser does not support the audio element.
 </audio>
+
+### Asymptotic Growth
+
+#### The Big Ω Notation
+
+- Let T(n) and f(n) be posotive functions from the integers or the real numbers to the real numbers.
+- T(n) is Ω(f(n)) if, even as n becomes arbitrarily large, T(n)'s growth is bounded from below by f(n), meaning it grows no slower than f(n).
+- T(n) ∊ Ω(f(n)) if there are posotive constants M and n<sub>0</sub> such that: `T(n) >= m * f(n)` for all n >= n<sub>0</sub>
+
+#### The Big Θ Notation
+
+- Let T(n) and f(n) be positive functions from the integers or the real numbers to the real numbers.
+- T(n) is the Θ(f(n)) if, even as n becomes arbitrarily large, T(n)'s growth is bounded from above and below by f(n), meaning it grows no faster than f(n).
+- T(n) ∊ Θ(f(n)) if there are positive constants M<sub>1</sub>, M<sub>2</sub> and n<sub>0</sub> such that: M<sub>1</sub> _ f(n) <= T(n) <= M<sub>2</sub> _ f(n) for all n >= n<sub>0</sub>
+
+![images](images/bigNotationsCompare.png)
+
+### Linear Seaarch Complexity Notations
+
+```C
+int isInArray(int theArray[], int N, int iSearch) {
+  for(int i = 0; i < N; i++) {
+    if (theArray[i] == iSearch) {
+      return 1;
+    }
+  }
+  return 0;
+}
+```
+
+- **Best Case**: T(N) = 4
+  - T(N) = Constant --> O(1) Ω(1) Θ(1)
+- **Average Case**: T(N) = (3P/2 + 3 - 3P)N + (5P/2 + 3 -3P)
+  - T(N) = C<sub>1</sub> \* N + C<sub>2</sub> --> O(N) Ω(N) Θ(N)
+- **Worst Case**: T(N) = 3N + 3
+  - T(N) = C<sub>1</sub> \* N + C<sub>2</sub> --> O(N) Ω(N) Θ(N)
+  - C<sub>1</sub> and C<sub>2</sub> are constant
+
+![image](images/linearSearchComplexitiesNotation.png)
 
 ## Lecture 29 - Time Complexity of Recursive Algorithms
 
