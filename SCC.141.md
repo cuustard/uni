@@ -30,7 +30,7 @@ The module aims to help me understand the fundamentals of Professionalism in Pra
 |  12  | [Lecture 12 - Privacy](#lecture-12---privacy)                                                                                                              | [Privacy](/SCC.141.slides/l.privacy.pdf)                                                          |  🟧   |
 |  13  | [Lecture 13 - Surveillance & Censorship](#lecture-13---surveillance-and-censorship)                                                                        | [Surveillance & Censorship](/SCC.141.slides/m.surveillanceAndCensorship.pdf)                      |  ❌   |
 |  14  | [Lecture 14 - Malware, Malevolent Online Practices, & Threat Modelling](#lecture-14---malware-malevolent-online-practices--threat-modelling)               | [Malware](/SCC.141.slides/n.malware.pdf)                                                          |  🟧   |
-|  14  |                                                                                                                                                            |                                                                                                   |       |
+|  15  | [Lecture 15 - Digital Exlusion & Divide](#lecture-15---digital-exlusion--divide)                                                                           | [Digital Exlusion & Divide](/SCC.141.slides/o.exclusionAndDivide.pdf)                             |       |
 
 > **_NOTE:_** The AI Podcasts for all the lectures are produced from the Lecture Slide. The structure of my notes may differ to the order of topics discussed in the podcast.
 
@@ -1329,3 +1329,10 @@ STRIDE and DREAD frameowkr threat models are systematic processes that identify 
 ![image](images/STRIDE.png)
 
 ![image](images/DREAD.png)
+
+## Lecture 15 - Digital Exlusion & Divide
+
+<audio controls>
+  <source src="SCC.141.slides/p.exclusionAndDivide.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>

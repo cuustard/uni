@@ -44,6 +44,7 @@ The module aims to help me understand software development. This includes instil
 |  13  | [Lecture 26 - References, Composition & OO Cast Study](#lecture-26---references-composition--oo-cast-study) | [References, Composition & OO Cast Study](/SCC.111.slides/z.referencesCompositionCaseStudy.pdf) |  ❌   |
 |  14  | [Lecture 27 - Reflections on C++](#lecture-27---reflections-on-c)                                           | [C++ Reflections](/SCC.111.slides/za.C++Reflections.pdf)                                        |  ❌   |
 |  14  | [Lecture 28 - Introduction To Java](#lecture-28---introduction-to-java)                                     | [Intro To Java](/SCC.111.slides/zb.JavaIntro.pdf)                                               |  ✅   |
+|  15  | [Lecture 29 - OO Fundamentals in Java](#lecture-29---oo-fundamentals-in-java)                               | [OO Fundamentals in Java](/SCC.111.slides/zc.OOinJava.pdf)                                      |       |
 
 ---
 
@@ -897,3 +898,10 @@ Method invocation (like calling a function in C) statements end with a semicolon
 Create a text file. Filename must match name of the class it contains and must end in .java. Open command line prompt (shell in Unix and cmd in Windows). Change the directory to the location of the file, compile it into bytecode `javac HelloWorld.java`. Then start a Java VM that interprets the program `java HelloWorld`.
 
 ### Development Tools
+
+## Lecture 29 - OO Fundamentals in Java
+
+<audio controls>
+  <source src="SCC.111.slides/zc.OOinJava.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
