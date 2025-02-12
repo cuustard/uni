@@ -1333,6 +1333,105 @@ STRIDE and DREAD frameowkr threat models are systematic processes that identify 
 ## Lecture 15 - Digital Exlusion & Divide
 
 <audio controls>
-  <source src="SCC.141.slides/p.exclusionAndDivide.mp3" type="audio/mpeg">
+  <source src="SCC.141.slides/o.exclusionAndDivide.mp3" type="audio/mpeg">
   Your browser does not support the audio element.
 </audio>
+
+### Into to Digital Exclusion
+
+Digital Exclusion is the inability to fully participate in digital life due to limited **ability**, **access**, or **affordability**. This leads to social, economic, and educational disadvantages.
+
+#### Ability
+
+This skills, literacy, and confidence needed to engage with digital technologies. It includes:
+
+- Digital Literacy: Nagivating software, apps, and online services.
+- Physical/Congnitive Factors: Vision, hearing, dexterity, memory, or learning differences.
+- Motivation & Confidence: Believing in the value of technology and feeling comfortable experimenting
+
+Potential Solutions:
+
+- Training & Workshops: Personalised instruction or community classes
+- Inclusive Design: Larger fonts, voice controls, screen readers, easy navigation
+- User-friendly Interfaces: Clear menus, error tolerance, and accessible layouts
+
+#### Access
+
+The ability to obtain and use necessary devices, infrastructure, and reliable internet or mobile connectivity. It includes:
+
+- Infrastructure: Broadband coverage, mobile data networks, public Wi-Fi availability
+- Devices: Smartphones, tablets, laptops, wearables ,or other hardware
+- Availability & Reliability: Stable connection speeds, consistent power supply
+
+Potential Solutions:
+
+- Infrastructure Investment: Expanding broadband to underserved areas
+- Community Resources: Public libraries with free computer and internet access
+- Device Donations/Refurbishing: Low-cost or donated devices for those in need
+
+#### Affordability
+
+The financial feasibility of purchasing and maintaining devices, paying for internet, and covering ongoing costs. It includes:
+
+- Upfront Costs: Devices, and setup fees
+- Ongoing Expenses: Monthly internet or mobile data plans, software subscriptions
+- Hidden Costs: Repairs, upgrades, data security, and electricty bills
+
+Potential Solutions:
+
+- Subsidies & Discounts: Government or NGO programs that reduce broadband/device costs
+- Flexible Payment Plans: Pay-as-you-go data, budget devices, community-run internet services
+- Partnerships & grants: Collaboration with tech companies, local councils, or charities to make tech more affordable
+
+### Intro to Digital Divide
+
+The digital devide refers to inequalities in acees to, use of, and benefits from digital technology. It affects different groups based on age, income, geography, education, and disability. It has 3 layers:
+
+- Access Divide: Who has internet, devices, and infrastructure
+- Skills Divide: Who knows how to use technology effectively?
+- Usage Divide: Who benefits from technology, and who doesn't?
+
+Different generations have different relationships with technology:
+
+- Digital Natives: born into the digital world (Gen Z, Millennials)
+- Digital Immigrants: Adopted technology later in life (Gen X, Boomers)
+- Digital Pioneers: Early adopters of the internet and computing (Older Millennials, Gen X)
+- Generation Alpha: First fully AI-native generation
+
+The silver digital divide is the barrier to adoption of technologies. The lack of digital skills, trust & security concerns, and complexity of modern interfaces. These can be countermanded by user-friendly tech design, communicty training programs, and voice assistants & helpers.
+
+The economic digital divide is the idea that tech access is expensive. Low-income communities struggle with affording devices, and high-speed internet, data costs, and school & work digital requirements.
+
+The geographic digital divide is the battle between urban and rural areas. Urban areas have faster internet, and more infrastructure. Rural areas have poor broadband access, fewer public Wi-Fi locations.
+
+The educational digital divide is the idea that digital skills are now essential for employment, education, and daily life. Digital skills come with challanges:
+
+- The Homework Gap: Students in low-income areas often lack devices or stable internet
+- The Skills Divide: Many adults struggle with digital tools, limiting job opportunities
+- AI & Automation Shift: The digital economy demands new skills that aren't evenly taught
+
+The disability digital divide focuses on people with disabilities face barriers to accessing technology. The lack of screen reader compatibility on many websites. Inaccessible online learning platforms for visually & hearing-impared. Job applications often require digital skills but lack assistive technology.
+
+The digital privacy divide says that some groups are more vulnerable to online threats. Older adults are more susceptible to phishing & scams. Children & teens have a lack of awareness about data tracking & cyberbullying. Low-literacy users struggle to navigate privacy settings & misinformation.
+
+The gender digital divide focuses on discrepancies in internet/device access, digital skills, and online benefits across gender lines. Women in many regions have lower rates of device ownership and internet usage than men, these averages can differ significantly by region, so we should avoid broad-brush assumptions. Contributing factors such as cultural or social norms, economic barriers, and saftey & privacy concerns. This reduced educational and economic opportunities, lower digital literacy, and limited online participation. 
+
+Digital exlucsion recongises differences in technology use as inequality (injustice). It implies societal or structural responsibilty to address barriers. Digital divide recognises differences in technology use as inequality (differences in outcomes). The remedy often framed as 'equal access'. Any remaining gap seen as 'merited' or due to personal choice/ability.
+
+- Neoliberalism: Role of the goverment is to create and and sustain markets only
+- New economy: Build and prioritise digital innovation and efficiency
+- Access dictrine: Belief that providing basic tech access is enough to 'pull' individuals out of poverty or marginalisation
+
+AI presents challanges & opportunities:
+
+- AI Assistants: Help older adults & low-litercy users navigate tech
+- Algorithm Bais: AI tools often reinforce existing digita ldivides
+- Automation & Jobs: AI is changing the skills required in the workforce
+
+Technical solutions for inclusive AI:
+
+- Local-First or Edge AI: reduces reliance on high-speed internet; processes data on-device
+- Federated Learning: Models can train on decentralised data sets, improving representation without centralising private info
+- Techniques like LIME, SHAP, orintegrated gradients help users understand AI decisions
+- Bias Detection & Mitigation: Tools (Fairlearn, AI Fairness 360) to measure and reduce algorithmic bias
+- Low-resource Language Support: Transfer learning or domain adaptation to handle languages with limited data
