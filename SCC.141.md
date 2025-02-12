@@ -30,7 +30,7 @@ The module aims to help me understand the fundamentals of Professionalism in Pra
 |  12  | [Lecture 12 - Privacy](#lecture-12---privacy)                                                                                                              | [Privacy](/SCC.141.slides/l.privacy.pdf)                                                          |  🟧   |
 |  13  | [Lecture 13 - Surveillance & Censorship](#lecture-13---surveillance-and-censorship)                                                                        | [Surveillance & Censorship](/SCC.141.slides/m.surveillanceAndCensorship.pdf)                      |  ❌   |
 |  14  | [Lecture 14 - Malware, Malevolent Online Practices, & Threat Modelling](#lecture-14---malware-malevolent-online-practices--threat-modelling)               | [Malware](/SCC.141.slides/n.malware.pdf)                                                          |  🟧   |
-|  15  | [Lecture 15 - Digital Exlusion & Divide](#lecture-15---digital-exlusion--divide)                                                                           | [Digital Exlusion & Divide](/SCC.141.slides/o.exclusionAndDivide.pdf)                             |       |
+|  15  | [Lecture 15 - Digital Exlusion & Divide](#lecture-15---digital-exlusion--divide)                                                                           | [Digital Exlusion & Divide](/SCC.141.slides/o.exclusionAndDivide.pdf)                             |  ✅     |
 
 > **_NOTE:_** The AI Podcasts for all the lectures are produced from the Lecture Slide. The structure of my notes may differ to the order of topics discussed in the podcast.
 
@@ -1330,23 +1330,23 @@ STRIDE and DREAD frameowkr threat models are systematic processes that identify 
 
 ![image](images/DREAD.png)
 
-## Lecture 15 - Digital Exlusion & Divide
+## Lecture 15 - Digital Exclusion & Divide
 
 <audio controls>
-  <source src="SCC.141.slides/o.exclusionAndDivide.mp3" type="audio/mpeg">
-  Your browser does not support the audio element.
+  <source src="SCC.141.slides/o.exclusionAndDivide.mp3" type="audio/mpeg">
+ Your browser does not support the audio element.
 </audio>
 
-### Into to Digital Exclusion
+### Intro to Digital Exclusion
 
 Digital Exclusion is the inability to fully participate in digital life due to limited **ability**, **access**, or **affordability**. This leads to social, economic, and educational disadvantages.
 
 #### Ability
 
-This skills, literacy, and confidence needed to engage with digital technologies. It includes:
+These skills, literacy, and confidence are needed to engage with digital technologies. It includes:
 
-- Digital Literacy: Nagivating software, apps, and online services.
-- Physical/Congnitive Factors: Vision, hearing, dexterity, memory, or learning differences.
+- Digital Literacy: Navigating software, apps, and online services.
+- Physical/Cognitive Factors: Vision, hearing, dexterity, memory, or learning differences.
 - Motivation & Confidence: Believing in the value of technology and feeling comfortable experimenting
 
 Potential Solutions:
@@ -1360,7 +1360,7 @@ Potential Solutions:
 The ability to obtain and use necessary devices, infrastructure, and reliable internet or mobile connectivity. It includes:
 
 - Infrastructure: Broadband coverage, mobile data networks, public Wi-Fi availability
-- Devices: Smartphones, tablets, laptops, wearables ,or other hardware
+- Devices: Smartphones, tablets, laptops, wearables, or other hardware
 - Availability & Reliability: Stable connection speeds, consistent power supply
 
 Potential Solutions:
@@ -1375,7 +1375,7 @@ The financial feasibility of purchasing and maintaining devices, paying for inte
 
 - Upfront Costs: Devices, and setup fees
 - Ongoing Expenses: Monthly internet or mobile data plans, software subscriptions
-- Hidden Costs: Repairs, upgrades, data security, and electricty bills
+- Hidden Costs: Repairs, upgrades, data security, and electricity bills
 
 Potential Solutions:
 
@@ -1385,7 +1385,7 @@ Potential Solutions:
 
 ### Intro to Digital Divide
 
-The digital devide refers to inequalities in acees to, use of, and benefits from digital technology. It affects different groups based on age, income, geography, education, and disability. It has 3 layers:
+The digital divide refers to inequalities in access to, use of, and benefits from digital technology. It affects different groups based on age, income, geography, education, and disability. It has 3 layers:
 
 - Access Divide: Who has internet, devices, and infrastructure
 - Skills Divide: Who knows how to use technology effectively?
@@ -1398,40 +1398,40 @@ Different generations have different relationships with technology:
 - Digital Pioneers: Early adopters of the internet and computing (Older Millennials, Gen X)
 - Generation Alpha: First fully AI-native generation
 
-The silver digital divide is the barrier to adoption of technologies. The lack of digital skills, trust & security concerns, and complexity of modern interfaces. These can be countermanded by user-friendly tech design, communicty training programs, and voice assistants & helpers.
+The silver digital divide is the barrier to the adoption of technologies. The lack of digital skills, trust & security concerns, and complexity of modern interfaces. These can be countermanded by user-friendly tech design, community training programs, and voice assistants & helpers.
 
 The economic digital divide is the idea that tech access is expensive. Low-income communities struggle with affording devices, and high-speed internet, data costs, and school & work digital requirements.
 
-The geographic digital divide is the battle between urban and rural areas. Urban areas have faster internet, and more infrastructure. Rural areas have poor broadband access, fewer public Wi-Fi locations.
+The geographic digital divide is the battle between urban and rural areas. Urban areas have faster internet and more infrastructure. Rural areas have poor broadband access and fewer public Wi-Fi locations.
 
-The educational digital divide is the idea that digital skills are now essential for employment, education, and daily life. Digital skills come with challanges:
+The educational digital divide is the idea that digital skills are now essential for employment, education, and daily life. Digital skills come with challenges:
 
 - The Homework Gap: Students in low-income areas often lack devices or stable internet
 - The Skills Divide: Many adults struggle with digital tools, limiting job opportunities
 - AI & Automation Shift: The digital economy demands new skills that aren't evenly taught
 
-The disability digital divide focuses on people with disabilities face barriers to accessing technology. The lack of screen reader compatibility on many websites. Inaccessible online learning platforms for visually & hearing-impared. Job applications often require digital skills but lack assistive technology.
+The disability digital divide focuses on people with disabilities who face barriers to accessing technology. The lack of screen reader compatibility on many websites. Inaccessible online learning platforms for visually & hearing-impaired. Job applications often require digital skills but lack assistive technology.
 
 The digital privacy divide says that some groups are more vulnerable to online threats. Older adults are more susceptible to phishing & scams. Children & teens have a lack of awareness about data tracking & cyberbullying. Low-literacy users struggle to navigate privacy settings & misinformation.
 
-The gender digital divide focuses on discrepancies in internet/device access, digital skills, and online benefits across gender lines. Women in many regions have lower rates of device ownership and internet usage than men, these averages can differ significantly by region, so we should avoid broad-brush assumptions. Contributing factors such as cultural or social norms, economic barriers, and saftey & privacy concerns. This reduced educational and economic opportunities, lower digital literacy, and limited online participation. 
+The gender digital divide focuses on discrepancies in internet/device access, digital skills, and online benefits across gender lines. Women in many regions have lower rates of device ownership and internet usage than men, these averages can differ significantly by region, so we should avoid broad-brush assumptions. Contributing factors such as cultural or social norms, economic barriers, and safety & privacy concerns. This reduced educational and economic opportunities, lower digital literacy, and limited online participation. 
 
-Digital exlucsion recongises differences in technology use as inequality (injustice). It implies societal or structural responsibilty to address barriers. Digital divide recognises differences in technology use as inequality (differences in outcomes). The remedy often framed as 'equal access'. Any remaining gap seen as 'merited' or due to personal choice/ability.
+Digital exclusion recognises differences in technology use as inequality (injustice). It implies societal or structural responsibility to address barriers. The digital divide recognises differences in technology use as inequality (differences in outcomes). The remedy is often framed as 'equal access'. Any remaining gap is seen as 'merited' or due to personal choice/ability.
 
-- Neoliberalism: Role of the goverment is to create and and sustain markets only
+- Neoliberalism: The role of the government is to create and and sustain markets only
 - New economy: Build and prioritise digital innovation and efficiency
-- Access dictrine: Belief that providing basic tech access is enough to 'pull' individuals out of poverty or marginalisation
+- Access doctrine: Belief that providing basic tech access is enough to 'pull' individuals out of poverty or marginalisation
 
-AI presents challanges & opportunities:
+AI presents challenges & opportunities:
 
-- AI Assistants: Help older adults & low-litercy users navigate tech
-- Algorithm Bais: AI tools often reinforce existing digita ldivides
+- AI Assistants: Help older adults & low-literacy users navigate tech
+- Algorithm Bais: AI tools often reinforce existing digital divides
 - Automation & Jobs: AI is changing the skills required in the workforce
 
 Technical solutions for inclusive AI:
 
 - Local-First or Edge AI: reduces reliance on high-speed internet; processes data on-device
 - Federated Learning: Models can train on decentralised data sets, improving representation without centralising private info
-- Techniques like LIME, SHAP, orintegrated gradients help users understand AI decisions
+- Techniques like LIME, SHAP, or integrated gradients help users understand AI decisions
 - Bias Detection & Mitigation: Tools (Fairlearn, AI Fairness 360) to measure and reduce algorithmic bias
 - Low-resource Language Support: Transfer learning or domain adaptation to handle languages with limited data

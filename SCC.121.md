@@ -44,7 +44,7 @@ The module aims to help me understand the fundamentals of Computer Science. Thi
 |  14   | [Lecture 26 - Big O Notation](#lecture-26---big-o-notation)                                                                         | [Big O Notation](/SCC.121.slides/za.bigO.pdf)                                                            |  ❌   |
 |  14   | [Lecture 27 - Big O Notation Part 2](#lecture-27---big-o-notation-part-2)                                                           | [Big O Notation Part 2](/SCC.121.slides/zb.bigO2.pdf)                                                    |  ❌   |
 |  15   | [Lecture 28 - Big Ω & Θ Notation](#lecture-28---big-ω--θ-notation)                                                                  | [Big Ω & Θ Notation](/SCC.121.slides/zc.BigOmegaAndTheta.pdf)                                            |  ✅   |
-|  15   | [Lecture 29 - Time Complexity of Recursive Algorithms](#lecture-29---time-complexity-of-recursive-algorithms)                       | [Recursive Time Complexity](/SCC.121.slides/zd.timeComplexityRecursion.pdf)                              |       |
+|  15   | [Lecture 29 - Time Complexity of Recursive Algorithms](#lecture-29---time-complexity-of-recursive-algorithms)                       | [Recursive Time Complexity](/SCC.121.slides/zd.timeComplexityRecursion.pdf)                              |  ✅     |
 
 ## Lecture 1 - Sets
 
@@ -1665,3 +1665,98 @@ int isInArray(int theArray[], int N, int iSearch) {
   <source src="SCC.121.slides/zd.timeComplexityRecursion.mp3" type="audio/mpeg">
   Your browser does not support the audio element.
 </audio>
+
+A recursive algorithm is an algorithm which calls itself with smaller input values. It obtains the result from the current input by aplpying simple operations to the returned value for teh smaller input. If a problem can be solved utilising solutions to smaller versions of the same problem, and the smaller versions reduce to easily solvable cases, then one can use a recursive to solve that problem.
+
+### Examples
+
+### Evaluating the Time Complexity of Recursive Algorithms
+
+#### Back Substitution
+
+Finding the time complexity of the sum function can then be reduced to solving the recurrence relation. We want to find T(n) in terms of n.
+
+- `T(1) = 1`
+- `T(n) = T(n - 1) + 1 when n > 1`
+
+From this we can know that:
+
+- `T(n - 1) = T(n - 2) + 1`
+- `T(n - 2) = T(n - 3) + 1`
+- `T(n - 3) = T(n - 4) + 1`
+
+Then using the substitution:
+
+- `T(n) = T(n - 1) + 1 = T(n - 2) + 1 + 1 = T(n - 2) + 2`
+- `T(n) = T(n - 2) + 2 = T(n - 3) + 1 + 2 = T(n - 3) + 3`
+
+Continuing the substitution, and remembering from equation 2, we wrote:
+
+- `T(n - 1) = T(n - 2) + 1`
+- `T(n - 2) = T(n - 3) + 1`
+- `T(n - 3) = T(n - 4) + 1`
+
+Next, using substitution:
+
+- `T(n) = T(n-1) + 1 = T(n-2) + 1 + 1 = T(n-2) + 2`
+- `T(n) = T(n-2) + 2 = T(n-3) + 1 + 2 = T(n-3) + 3`
+- `T(n) = T(n-3) + 3 = T(n-4) + 1 + 3 = T(n-4) + 4`
+
+Notice that if we continue the substitution, in general we can write:
+
+- `T(n) = T(n - k) + k`
+
+We can use equation 1 of our recurrence relation:
+
+- `T(1) = 1`
+- `T(n) = T(n - 1) + 1 when n > 1`
+
+From this, we know the value of `T(1) = 1`. We want `(n - k) = 1`, so we can use `T(1) = 1. (n - k) = 1` can be rearranged to give `k = n - 1`. Subbing `k = (n - 1)` gives `T(n) = T(n - k) + k = T(1) + n - 1 = 1 + n - 1 = n`. So `T(n) = n`. Which means the algorithm is `θ(n)`.
+
+#### Recursion Tree
+
+Trees are special cases of graphs having no loops; having only one path between any two vertices (nodes). The depth of a tree is the depth of the deepest node. The branching factor is the number of children at each node.
+
+![image](images/trees.png)
+
+A recursion tree is useful for visualising what happens when a recurrence is iterated. It diagrams the tree of recursive calls and the amount of work done at each call.
+
+Given the following recurrence relation:
+
+- T(1) = 1
+- T(n) = 2T(n/2) + 1
+
+We can use a recursion tree to find the time complexity.
+
+![image](images/recursionTree.png)
+
+![image](images/recursionTree2.png)
+
+![image](images/recursionTree3.png)
+
+![image](images/recursionTree4.png)
+
+![image](images/recursionTree5.png)
+
+![image](images/recursionTree6.png)
+
+![image](images/recursionTree7.png)
+
+![image](images/recursionTree8.png)
+
+#### Master Theorem
+
+Let T(n) be a monotonically increasing function that satisfies:
+
+- T(n) = aT(n/b) + f(n)
+- T(1) = c
+
+where a >= 1, b >= 2, c > 0 and f(n) is Θ(n<sup>d</sup>) where d >= 0 then:
+
+![image](images/masterTheorem.png)
+
+You cannot use the Master Theorem if:
+
+- T(n) is not monotone, e.g. T(n) = sin(x)
+- f(n) is not polynomial, e.g. T(n) = 2T(n/2) + 2<sup>n</sup>
+- b cannot be expressed as a constant
