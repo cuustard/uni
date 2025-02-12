@@ -44,6 +44,7 @@ The module aims to help me understand digital systems. This includes fundamental
 |  14  | [Lecture 27 - Memory](#lecture-27---memory)                                                           | [Memory](/SCC.131.slides/z.memory.pdf)                                                          |  ❌   |
 |  14  | [Lecture 28 - Loops/Control Flow](#lecture-28---loopsflow-control)                                    | [Loops & Control Flow](/SCC.131.slides/za.loopsFlowControl.pdf)                                 |  ❌   |
 |  15  | [Lecture 29 - Programming in Assembly](#lecture-29---programming-in-assembly)                         | [Assembly Programming](/SCC.131.slides/zb.assemblyProgramming.pdf)                              |  🟧   |
+|  15  | [Lecture 30 - Functions](#lecture-30---functions)                                                     | [Functions](/SCC.131.slides/zc.functions.pdf)                                                   |       |
 
 ## Lecture 1 - Module Introduction & Computer Architecture
 
@@ -1352,3 +1353,126 @@ int main () {
 ```
 
 In assembly:
+
+## Lecture 30 - Functions
+
+<audio controls>
+  <source src="SCC.131.slides/zc.functions.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
+A function is a stored subroutine that performs a specific task based on the parameters with which it is provieded. Complex operations can be performed by calling a procedure. They make code easier to understand and manage. Progam elements that can easily be re-used. Same procedure can be called many times within a program.
+
+An API defines interface by which one software program communicates with another at the source code level. API defines the interface only. The user of the API can ignore the implementation. Many implementations of the same API. C standard library hides many low-level details of the system.
+
+Functions can act as 'detectives'. They are assigned a secret mission (function call), acquires necessary resources (acquire parameters and memory - stack), perform the mission (execute instructions), leaves no trace (clean up memory), and returns safely to the point of origin (function return).
+
+Function Execution:
+
+1. Caller stores arguments in registers or memory
+2. Function call: Caller transfers flow control to the callee
+3. Calle acquires/allocates memory for doing work
+4. Calee executes the function body
+5. Calee stores the result in 'some' register
+6. Calee deallocates memory
+7. Function return: Calee returns control the caller
+
+`bl ProcedureAddress`. `bl` stores the address of the next instruction in register 1r and then jumps to `ProcedureAddress`. To get back, we restore the current address to `pc`. `mov pc, lr` copies lr address to pc. `bx lr` branches to lr.
+
+Assembly offers limited resources for computation, i.e. registers. A function implementation should follow a set of calling conventions to ensure interoperability. Many times, these conventions makes your code inefficient. Leave no trace.
+
+Functions written by different programmers can interoperate. Functions compiled by two different compilers can interoperate. A library function by a third party can be used without corrupting state.
+
+Convention 1 - Registers for procedure calls:
+
+```
+r0-r3:
+
+; 'argument' registers in which to pass parameters
+
+r0:
+
+; return value registers
+
+lr:
+
+; return address registers (link register)
+```
+
+Convention 2 - Preserving Registers:
+
+![image](images/preservingRegisters.png)
+
+Registers must be restored after after procedure call. If usage of these register is avoided no spilling of registers on the stack is required.
+
+Convention 3 - Preserving Registers:
+
+- Sometimes a procedure needs to use more registers than just four arguments and two return values.
+- Register content must be preserved during a procedure call
+- Moving the contents of registers to the main memory is called spilling registers.
+- Registers are stored to memory using a conceptual data structure known as a stack.
+- The stack pointer register sp points to the contents of the register most recently pushed onto the stack.
+
+![image](images/procedureNesting.png)
+
+Procedure Nesting:
+
+`bl` save `pc` to `lr`. We must always save the `lr` register, if a nseted procedure is called. `lr` can be saved in a stack. If the usage of these registers is avoided, no spilling of registers on the stack is required.
+
+Stack Memory:
+
+Stack is a memory region used to store the local state for your functions. It is a dynamic memory region. The stack pointer (sp) starts at address 0x20020000. The current stack pointer bottom is pointed by register sp. A stack is like a Last In First Out (LIFO) Queue. You can use register sp to grow (decrease register sp) and shrink (increase register sp).
+
+The stack is used to store preserved registers, local function variables, and input arguments to the function.
+
+![images](images/stackmemory.png)
+
+![images](images/memoryLayout.png)
+
+The Stack:
+
+![images](images/theStackMemory.png)
+
+ARM stack grows down in memory. Stack Pointer (SP) points to the top of the stack, SP register holds the address of (points to) the top of the stack.
+
+Growing the Stack:
+
+Let us push two items on the stack:
+
+- 0x12345678
+- 0xFFFFDDCC
+
+Where does the SP points to now? How does the stack look?
+
+![images](images/growingTheStack.png)
+
+Instructions for Stack:
+
+`push {r4, r5, lr}`
+
+- `push` pushes registers onto the stack. It modifies sp register to make space and saves registers in memory. To restore sp and registers, use pop `pop {r4, r5, lr}`
+- `{r4, r5, lr}` is the list of registers.
+
+![image](images/simpleCprocedure.png)
+
+Complex Calculations:
+
+```
+add r0, r1
+add r1, r2, r3
+sub r0, r1
+
+// register mapping looks like:
+
+f: r0
+g: r0
+h: r1
+i: r2
+j: r3
+```
+
+looks like this in C
+
+```C
+f = (g + h) - (i + j);
+```
