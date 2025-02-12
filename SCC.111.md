@@ -905,3 +905,142 @@ Create a text file. Filename must match name of the class it contains and must e
   <source src="SCC.111.slides/zc.OOinJava.mp3" type="audio/mpeg">
   Your browser does not support the audio element.
 </audio>
+
+Classes:
+
+- Use the class keyword to define a class
+- Create a .java file matching the name of the class
+- Almost always declare as public
+- No header file
+
+Attributes:
+
+- Create as variables inside the class
+- Almost always declared as private
+
+Methods:
+
+- Create inside the class
+- May be declared public or private
+- Implementation also goes inside the class definition
+
+Constructors:
+
+- Create as a standard method inside the class
+- Method name must match the name of the class
+- Multiple constructs are permitted, provided the parameters are different
+
+Public:
+
+- Access modifier that states the following method/variable is accessible to all code
+- Add the `public` keyword explicity before each method/variable
+
+Private:
+
+- Access modifier that states the following method/variable is accessible only to code inside th class
+- Add the `private` keyword explicity before each method/variable
+
+Composition:
+
+- Classes may hold attributes of class type, not just any types
+
+Example Java Class:
+
+```Java
+public class Car {
+    private int milesDriven;
+    private String colour;
+
+    public void drive (int miles) {
+        milesDriven = milesDriven + miles;
+    }
+
+    public Car (String newColour) {
+        colour = newColour
+        milesDriven = 0;
+    }
+}
+```
+
+Example creating object instances:
+
+```Java
+public static void main( String[] arguments ) {
+    Car c = new Car("white");
+}
+
+// first `Car` is class name.
+// `c` is the name of the new variable which is an object reference
+// second `Car` is the constructor for the new object
+```
+
+![image](images/javaObjectCreation.png)
+
+![image](images/javaObjectReferencing.png)
+
+Java objects are automatically garbage collected (deleted) when they have no references:
+
+![image](images/javaObjectReferencing2.png)
+
+Java is entirely a 'pass by value' language. Primitive types are also known as Value Types. When used, it is the data itself that is being accessed/modified or passed into a function. They can be identified as they use lower case. E.g. int, char, float, double, boolean. 
+
+Everything else is a 'Reference Type'. These use object references to objects. Whenever variables of this type can be identified as they should use capitalised camel case. E.g. Car, String, FluffyElephant, Minion, CatDog.
+
+They keyword `this` returns an object reference to the object instance which the current method is executing in. It is used to unambigiously refer to methods and variables which can be particularly useful in constructors but also anywhere we want to be explicit or anywhere we want to pass the current object as a parameter.
+
+```Java
+this.drive(4);
+
+if (this.milesDriven > 18) {
+    ...
+}
+```
+
+![image](images/thisKeyword.png)
+
+There is a Java Class library that includse a set of pre-written classes known as a class library.
+
+Example 1:
+
+![image](images/javaStringClass1.png)
+
+Example 2:
+
+```Java
+public static void main (String[ ] arguments) {
+    String s = "Hello World";
+}
+
+public static void main( String[ ] arguments) {
+    String s = new String("Hello World");
+}
+
+
+
+public static void main( String[ ] arguments) {
+    String s = "Hello Wordld";
+
+    int len = s.length()
+
+    String l = s.toLowerCase();
+
+    char[] myArray = s.toCharArray();
+}
+```
+
+Programmers document their classes so that others can learn how to use them in their applications. Java uses a standard called JavaDoc. All Java programs use this so they all have documentation in the same common format. This makes it easy to learn about other peoples classes which promots reuse. Documentation is embedded inside your code using comment blocks. Keywords allow structured documentation of methods, return values, and required parameters. `@param <name>` documents the meaning of the parameter called 'name'. `@return` documents the meaning of a value returned from a method. E.g.:
+
+```Java
+/**
+ * Creates a new Car with the given characteristics.
+ * @param col The colour of the car being created.
+ * @param miles The number of miles the car has driven.
+ **/
+
+public Car(String col, int miles) {
+    colour = col;
+    milesDriven = miles;
+}
+```
+
+JavaDoc can generate documentation automatically. The semi-structured comments and Java code are processed ot build web pages documenting your classes. These can be posted online to let other programmeres know how to use your classes. You just have to run the `javadoc` tool from the command line to generate the web pages. `javadoc -d doc *.java`. The `-d` parameter specifies the directory (folder) to store the web pages in. After running javadoc, just double click the 'index.html' in this folder.
