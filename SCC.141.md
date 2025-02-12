@@ -30,7 +30,7 @@ The module aims to help me understand the fundamentals of Professionalism in Pra
 |  12  | [Lecture 12 - Privacy](#lecture-12---privacy)                                                                                                              | [Privacy](/SCC.141.slides/l.privacy.pdf)                                                          |  🟧   |
 |  13  | [Lecture 13 - Surveillance & Censorship](#lecture-13---surveillance-and-censorship)                                                                        | [Surveillance & Censorship](/SCC.141.slides/m.surveillanceAndCensorship.pdf)                      |  ❌   |
 |  14  | [Lecture 14 - Malware, Malevolent Online Practices, & Threat Modelling](#lecture-14---malware-malevolent-online-practices--threat-modelling)               | [Malware](/SCC.141.slides/n.malware.pdf)                                                          |  🟧   |
-|  15  | [Lecture 15 - Digital Exlusion & Divide](#lecture-15---digital-exlusion--divide)                                                                           | [Digital Exlusion & Divide](/SCC.141.slides/o.exclusionAndDivide.pdf)                             |  ✅     |
+|  15  | [Lecture 15 - Digital Exlusion & Divide](#lecture-15---digital-exlusion--divide)                                                                           | [Digital Exlusion & Divide](/SCC.141.slides/o.exclusionAndDivide.pdf)                             |  ✅   |
 
 > **_NOTE:_** The AI Podcasts for all the lectures are produced from the Lecture Slide. The structure of my notes may differ to the order of topics discussed in the podcast.
 
@@ -1414,7 +1414,7 @@ The disability digital divide focuses on people with disabilities who face barri
 
 The digital privacy divide says that some groups are more vulnerable to online threats. Older adults are more susceptible to phishing & scams. Children & teens have a lack of awareness about data tracking & cyberbullying. Low-literacy users struggle to navigate privacy settings & misinformation.
 
-The gender digital divide focuses on discrepancies in internet/device access, digital skills, and online benefits across gender lines. Women in many regions have lower rates of device ownership and internet usage than men, these averages can differ significantly by region, so we should avoid broad-brush assumptions. Contributing factors such as cultural or social norms, economic barriers, and safety & privacy concerns. This reduced educational and economic opportunities, lower digital literacy, and limited online participation. 
+The gender digital divide focuses on discrepancies in internet/device access, digital skills, and online benefits across gender lines. Women in many regions have lower rates of device ownership and internet usage than men, these averages can differ significantly by region, so we should avoid broad-brush assumptions. Contributing factors such as cultural or social norms, economic barriers, and safety & privacy concerns. This reduced educational and economic opportunities, lower digital literacy, and limited online participation.
 
 Digital exclusion recognises differences in technology use as inequality (injustice). It implies societal or structural responsibility to address barriers. The digital divide recognises differences in technology use as inequality (differences in outcomes). The remedy is often framed as 'equal access'. Any remaining gap is seen as 'merited' or due to personal choice/ability.
 

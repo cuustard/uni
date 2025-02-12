@@ -44,7 +44,7 @@ The module aims to help me understand software development. This includes instil
 |  13  | [Lecture 26 - References, Composition & OO Cast Study](#lecture-26---references-composition--oo-cast-study) | [References, Composition & OO Cast Study](/SCC.111.slides/z.referencesCompositionCaseStudy.pdf) |  ❌   |
 |  14  | [Lecture 27 - Reflections on C++](#lecture-27---reflections-on-c)                                           | [C++ Reflections](/SCC.111.slides/za.C++Reflections.pdf)                                        |  ❌   |
 |  14  | [Lecture 28 - Introduction To Java](#lecture-28---introduction-to-java)                                     | [Intro To Java](/SCC.111.slides/zb.JavaIntro.pdf)                                               |  ✅   |
-|  15  | [Lecture 29 - OO Fundamentals in Java](#lecture-29---oo-fundamentals-in-java)                               | [OO Fundamentals in Java](/SCC.111.slides/zc.OOinJava.pdf)                                      |       |
+|  15  | [Lecture 29 - OO Fundamentals in Java](#lecture-29---oo-fundamentals-in-java)                               | [OO Fundamentals in Java](/SCC.111.slides/zc.OOinJava.pdf)                                      |  ✅   |
 
 ---
 
@@ -982,7 +982,7 @@ Java objects are automatically garbage collected (deleted) when they have no ref
 
 ![image](images/javaObjectReferencing2.png)
 
-Java is entirely a 'pass by value' language. Primitive types are also known as Value Types. When used, it is the data itself that is being accessed/modified or passed into a function. They can be identified as they use lower case. E.g. int, char, float, double, boolean. 
+Java is entirely a 'pass by value' language. Primitive types are also known as Value Types. When used, it is the data itself that is being accessed/modified or passed into a function. They can be identified as they use lower case. E.g. int, char, float, double, boolean.
 
 Everything else is a 'Reference Type'. These use object references to objects. Whenever variables of this type can be identified as they should use capitalised camel case. E.g. Car, String, FluffyElephant, Minion, CatDog.
 

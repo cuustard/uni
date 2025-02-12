@@ -44,7 +44,7 @@ The module aims to help me understand digital systems. This includes fundamental
 |  14  | [Lecture 27 - Memory](#lecture-27---memory)                                                           | [Memory](/SCC.131.slides/z.memory.pdf)                                                          |  ❌   |
 |  14  | [Lecture 28 - Loops/Control Flow](#lecture-28---loopsflow-control)                                    | [Loops & Control Flow](/SCC.131.slides/za.loopsFlowControl.pdf)                                 |  ❌   |
 |  15  | [Lecture 29 - Programming in Assembly](#lecture-29---programming-in-assembly)                         | [Assembly Programming](/SCC.131.slides/zb.assemblyProgramming.pdf)                              |  🟧   |
-|  15  | [Lecture 30 - Functions](#lecture-30---functions)                                                     | [Functions](/SCC.131.slides/zc.functions.pdf)                                                   |       |
+|  15  | [Lecture 30 - Functions](#lecture-30---functions)                                                     | [Functions](/SCC.131.slides/zc.functions.pdf)                                                   |  ✅   |
 
 ## Lecture 1 - Module Introduction & Computer Architecture
 
