@@ -45,6 +45,7 @@ The module aims to help me understand software development. This includes instil
 |  14  | [Lecture 27 - Reflections on C++](#lecture-27---reflections-on-c)                                           | [C++ Reflections](/SCC.111.slides/za.C++Reflections.pdf)                                        |  ❌   |
 |  14  | [Lecture 28 - Introduction To Java](#lecture-28---introduction-to-java)                                     | [Intro To Java](/SCC.111.slides/zb.JavaIntro.pdf)                                               |  ✅   |
 |  15  | [Lecture 29 - OO Fundamentals in Java](#lecture-29---oo-fundamentals-in-java)                               | [OO Fundamentals in Java](/SCC.111.slides/zc.OOinJava.pdf)                                      |  ✅   |
+|  15  | [Lecture 30 - OO Cast Study](#lecture-30---oo-cast-study)                                                   | [OO Case Study](/SCC.111.slides/zd.OOcaseStudy.pdf)                                             |       |
 
 ---
 
@@ -1044,3 +1045,10 @@ public Car(String col, int miles) {
 ```
 
 JavaDoc can generate documentation automatically. The semi-structured comments and Java code are processed ot build web pages documenting your classes. These can be posted online to let other programmeres know how to use your classes. You just have to run the `javadoc` tool from the command line to generate the web pages. `javadoc -d doc *.java`. The `-d` parameter specifies the directory (folder) to store the web pages in. After running javadoc, just double click the 'index.html' in this folder.
+
+## Lecture 30 - OO Cast Study
+
+<audio controls>
+  <source src="SCC.111.slides/zd.OOcaseStudy.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>

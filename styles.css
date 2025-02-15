@@ -86,10 +86,13 @@ td a {
   color: #fff;
   border-radius: 5px;
   transition: background 0.3s ease;
+  text-decoration: none;
 }
 
 td a:hover {
   background: #2980b9;
+  color: #fff;
+  text-decoration: none;
 }
 
 /* Responsive Design */
@@ -137,6 +140,11 @@ td a:hover {
   display: block;
   padding: 10px 0;
   font-size: 1.1rem;
+}
+
+.card a:hover {
+  color: #2980b9;
+  text-decoration: none;
 }
 
 /* Responsive Adjustments */
