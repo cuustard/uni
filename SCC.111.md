@@ -45,7 +45,7 @@ The module aims to help me understand software development. This includes instil
 |  14  | [Lecture 27 - Reflections on C++](#lecture-27---reflections-on-c)                                           | [C++ Reflections](/SCC.111.slides/za.C++Reflections.pdf)                                        |  ❌   |
 |  14  | [Lecture 28 - Introduction To Java](#lecture-28---introduction-to-java)                                     | [Intro To Java](/SCC.111.slides/zb.JavaIntro.pdf)                                               |  ✅   |
 |  15  | [Lecture 29 - OO Fundamentals in Java](#lecture-29---oo-fundamentals-in-java)                               | [OO Fundamentals in Java](/SCC.111.slides/zc.OOinJava.pdf)                                      |  ✅   |
-|  15  | [Lecture 30 - OO Cast Study](#lecture-30---oo-cast-study)                                                   | [OO Case Study](/SCC.111.slides/zd.OOcaseStudy.pdf)                                             |       |
+|  15  | [Lecture 30 - OO Cast Study](#lecture-30---oo-cast-study)                                                   | [OO Case Study](/SCC.111.slides/zd.OOcaseStudy.pdf)                                             |  ✅   |
 
 ---
 
@@ -1052,3 +1052,157 @@ JavaDoc can generate documentation automatically. The semi-structured comments a
   <source src="SCC.111.slides/zd.OOcaseStudy.mp3" type="audio/mpeg">
   Your browser does not support the audio element.
 </audio>
+
+Swing is the stanrard Java package for GUIs and is platform independent like the rest of Java. It is heavily object oriented so is good for clean OO design. It is also very large and extremely flexible, including textboxes, sliders, buttons, images, etc. GUIs like Swing are built from a standard set of components such as the abovementioned.
+
+These graphical components are implemented as Java classes. Each type of component is a different type of class. The implementation is therefore encapsulated so the complexity of the task is hidden. This means you don't need to know how it works, just how to use it.
+
+![image](images/GUIcomponentsJava.png)
+
+Swing classes reside in a package called javax.swing. A package is a named collection of classes grouped together. Classes from a package are used via fullname like `javax.swing.JFrame`. The import keyword tells the Java compiler of any addition classes packages that we want to import into our programs namespace:
+
+```Java
+import javax.swing.*;
+
+public class ...
+```
+
+### JFrame
+
+JFrame represents a window in the host Operating System. It's style matches the local OS. It includes title bar, icons to minimise, resize, close, etc. The constructor has two commonly used forms and contains useful (private) attributes and associated accessor/mutator methods:
+
+```Java
+JFrame();
+JFrame(String title);
+```
+
+```Java
+boolean getVisible();
+void setVisible(boolean b);
+String getTitle();
+void setTItle(String s);
+void setSize(int x, int y);
+```
+
+To instantiate a JFrame class to create a window: One instance for every window you need. Make an instance in the usual way: use `new` to call its constructor. Windows are created in an invisible state so that all the components can be built before it is displayed to the user.
+
+Several things can happen when the window is closed:
+
+- `setDefualtCloseOperation(int operation)`
+- `JFrame.EXIT_ON_CLOSE` - terminate application
+- `JFrame.DISPOSE_ON_CLOSE` - close window, keep app running
+- `JFrame.DO_NOTHING_ON_CLOSE` - ignore
+
+```Java
+Jframe a = new JFrame();    // Create a blank window
+a.setVisible(True);         // Make it visible
+a.setTitle("Hello World!"); // Change window title
+a.setSize(300, 300);        // Change window size
+a.setDefualtVloseOperation(JFrame.EXIT_ON_CLOSE);
+```
+
+What exactly is `JFrame.EXIT_ON_CLOSE`? The `JFrame` part is the Class, the `EXIT_ON_COSE` part is an integer variable. Example of a static final variable: `public static final int EXIT_ON_CLOSE = 1;`. A **static** variable or method is called on a class, not an instance. This should be used sparingly as it is only useful when a more procedural programming style is prefered to OO. The variable is also shared between all instances of the class. A **final** variable cannot have it's value changed after it has been initialised. This is a commonly used technique for defining constants and is more humanly readable than trying to remeber values.
+
+### Adding Components
+
+JFrames are responsible for managing the window, not its content. So we need a container t ohold all our components. The JPanel calss provides this functionality. It holds a list of components are provides `add()` and `remove()` methods for Swing components, so:
+
+```Java
+import javax.swing.*;
+
+public class HelloWorld {
+    JFrame a = new JFrame();        // Create a blank window
+    JPanel panel = new JPanel();    // Create a panel
+    a.setcontentPane(panel);        // Use panel on Window
+}
+```
+
+To add components to a window, instantiate the component, see Java API documentation on a component's constructor, and add it to the relevant JPanel. Common components include `JButton`, `JLabel`, and `JTextField`.
+
+#### JLabel
+
+This is the simplest component: a read only text field. Text cannot be changed by the user on the GUI. It is very useful for prompts, status nessages, instructions ot the user, etc. Below are several commonly usef constructors:
+
+```Java
+JLabel(String s);   // Plain Text
+JLabel(Icon i);     // Image
+```
+
+Accessor and mutator methods provided to inspect and change the text displayed:
+
+```Java
+String getText();
+void setText(String s);
+```
+
+#### JButton
+
+JButton is a clickable component an is useful for performing user-initiated actions. There are several simple constructors:
+
+```Java
+JButton(String s);      // Clickable Text Button
+JButton(ImageIcon i);   // Clickable Image Button
+```
+
+#### JTextField
+
+JTextField is a user editable clock of text ueful for collecting user input. It has simple constructors:
+
+```Java
+JTextField();           // Initially empty
+JTextField(String s);   // Created with given text
+```
+
+Accesor and mutator methods provided to inspect and change the text displayed:
+
+```Java
+Stirng getText();           // Retrieve the text that has been typed in
+void setText(String s);     // Set the text box to the given value
+void setEditable(boolean);  // Enables/displays user input
+```
+
+#### Examples
+
+Example 1:
+
+```Java
+import javax.swing.*;
+
+public class HelloWorld {
+    public static void main(String [] args) {
+        JFrame a = new JFrame();                            // Create a blank window
+        JPanel panel = new JPanel();                        // Create a panel
+        JButton b = new JButton("Press");                   // Create a button
+
+        panel.add(b);                                         // Add button to the panel
+        a.setContentPane(panel);                              // Use panel on Window
+        a.setTitle("Hello world!");                           // Change window title
+        a.setSize(300, 300);                                  // Change window size
+        a.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        a.setVisible(true);                                  // Make it visible
+    }
+}
+```
+
+Example 2:
+
+```Java
+import javax.swing.*;
+public class HelloWorld
+{
+    private JFrame a = new JFrame();                          // Create a blank window
+    private JPanel panel = new JPanel();                      // Create a panel
+    private JButton b = new JButton("Press!");                // Create a button
+
+    public HelloWorld()
+    {
+        panel.add(b);                                         // Add button to the panel
+        a.setContentPane(panel);                              // Use panel on Window
+        a.setTitle("Hello world!");                           // Change window title
+        a.setSize(300, 300);                                  // Change window size
+        a.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        a.setVisible(true);                                   // Make it visible
+   }
+}
+
+```
