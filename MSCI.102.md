@@ -12,6 +12,8 @@ began: 13th Janurary 2025
 |  13  | [Lecture 6 - Inventory Management Part 2](#lecture-6---inventory-management-part-2)                | [Inventory Management Prt 2](/MSCI.102.slides/f.IM2.pdf)                                   |  ❌   |
 |  14  | [Lecture 7 - Capacity Planning & Analysis](#lecture-7---capacity-planning--analysis)               | [Capacity Planning & Analysis](/MSCI.102.slides/g.capacityPlanningAndAnalysis.pdf)         |  ✅   |
 |  14  | [Lecture 8 - Capacity Planning & Analysis Part 2](#lecture-8---capacity-planning--analysis-part-2) | [Capacity Planning & Analysis Part 2](/MSCI.102.slides/h.capacityPlanningAndAnalysis2.pdf) |  ✅   |
+|  15  | [Lecture 9 - Coursework Guidance](#lecture-9---coursework-guidance)                                | [Coursework Guidance](/MSCI.102.slides/i.courseworkGuidance.pdf)                           |  ❌   |
+|  16  | [Lecture 10 - Forecasting](#lecture-10---forecasting)                                              | [Forecasting](/MSCI.102.slides/j.forecasting.pdf)                                          |       |
 
 ## Lecture 1 - Module Introduction
 
@@ -561,3 +563,47 @@ A combination of all the above methods, mixed planning:
   3. Subordinate other processes to the bottleneck
   4. Elevate the bottleneck (improve efficiency)
   5. Repeat the process
+
+## Lecture 9 - Coursework Guidance
+
+<audio controls>
+  <source src="MSCI.102.slides/i.courseworkGuidance.mp3" type="audio/mpeg">
+ Your browser does not support the audio element.
+</audio>
+
+## Lecture 10 - Forecasting
+
+<audio controls>
+  <source src="MSCI.102.slides/j.forecasting.mp3" type="audio/mpeg">
+ Your browser does not support the audio element.
+</audio>
+
+Forecasting is used to determine resources needed, schedule existing resources, and acquire additional resources. It anticipates changes in prices/costs and is used to prepare for new laws/regulations, competitors, an resource shortages.
+
+We forecast because a purely reactive process is usually infeasible as capacity cannot be modified instantaneously; facilities take time to build, equipment takes time to acquire, and people take time to recruit and train. Forecastst are the basis for all planning decisions in a supply chain. So a failure to meet demand or use capacity can be punitive. The loss of goodwill/future customers, social unacceptability in vital services, and cost of funding unused capacity.
+
+We can forecast using qualitative approaches:
+
+- **Jury of Executive Opinion**: Pool opinions of high-level experts, sometimes augmented by statistical models. Experts estimate demands working together. 'Group think' disadvantage
+- **Delphi Method**: Panel of experts, queried iteratively, continues until consensus is reached. 3 types of participants; decision-makers, staff =, and respondents (experts). Pharmaceutical firm can use doctors, researchers, and industry experts.
+- **Sales Force Composite**: Estimates from individual salespersons are reviewed for reasonableness, then aggregated. Each salesperson projects their sales. Combined at district and national levels. Sales reps know customers' wants.
+
+We analytically forecast to tackle problems in social contexts. Forecasts are not made in a social vacumm. Groupthink and censorship: avoiding dissenting opinion. So objective quantitative approaches become important and are used when the situation is stable and historical data exists. It involves mathematical techniques.
+
+### Time-Series Methods
+
+A time series is where the value of the same variable is recorded at regular time intervals.
+
+Time Series with No Trend or Seasonality:
+
+![image](images/timeSerieswihNOTrendORSeasonality.png)
+
+Time Series with Trend but No Seasonality:
+
+![image](images/timeSeriesWithTrendButNoSeasonality.png)
+
+Time Series with Seasonality but No Trend:
+
+![image](images/timeSerieswithSeaonalityButNoTrend.png)
+
+**i aint doing alla that**

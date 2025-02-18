@@ -44,7 +44,8 @@ The module aims to help me understand the fundamentals of Computer Science. Thi
 |  14   | [Lecture 26 - Big O Notation](#lecture-26---big-o-notation)                                                                         | [Big O Notation](/SCC.121.slides/za.bigO.pdf)                                                            |  ❌   |
 |  14   | [Lecture 27 - Big O Notation Part 2](#lecture-27---big-o-notation-part-2)                                                           | [Big O Notation Part 2](/SCC.121.slides/zb.bigO2.pdf)                                                    |  ❌   |
 |  15   | [Lecture 28 - Big Ω & Θ Notation](#lecture-28---big-ω--θ-notation)                                                                  | [Big Ω & Θ Notation](/SCC.121.slides/zc.BigOmegaAndTheta.pdf)                                            |  ✅   |
-|  15   | [Lecture 29 - Time Complexity of Recursive Algorithms](#lecture-29---time-complexity-of-recursive-algorithms)                       | [Recursive Time Complexity](/SCC.121.slides/zd.timeComplexityRecursion.pdf)                              |  ✅     |
+|  15   | [Lecture 29 - Time Complexity of Recursive Algorithms](#lecture-29---time-complexity-of-recursive-algorithms)                       | [Recursive Time Complexity](/SCC.121.slides/zd.timeComplexityRecursion.pdf)                              |  ✅   |
+|  16   | [Lecture 30 - Sorting, Trees, & Graphs](#lecture-30---sorting-trees--graphs)                                                        | [Sorting, Trees, & Graphs](/SCC.121.slides/ze.SortingGraphsTrees.pdf)                                    |  🟧   |
 
 ## Lecture 1 - Sets
 
@@ -1760,3 +1761,89 @@ You cannot use the Master Theorem if:
 - T(n) is not monotone, e.g. T(n) = sin(x)
 - f(n) is not polynomial, e.g. T(n) = 2T(n/2) + 2<sup>n</sup>
 - b cannot be expressed as a constant
+
+## Lecture 30 - Sorting, Trees, & Graphs
+
+<audio controls>
+  <source src="SCC.121.slides/ze.SortingGraphsTrees.mp3" type="audio/mpeg">
+ Your browser does not support the audio element.
+</audio>
+
+- Input: list/array of data in an arbitary order
+- Output: list/array in a sorted order
+
+The data may consist of duplixates and we have no info on the distribution of the data (e.g. its highest and lowest values or the median).
+
+Sorting data is fundamental to computational problems. Ranking data, or to find top X items, searching and other operations are faster on sorted datasets. If many searches are done on the same dataset, sorting it first makes for an efficient preprocessing step.
+
+### Selection Sort
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/g-PGLbMth_g?si=8iviam6V0WNLhG-1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+E.G. of a shit selection sort:
+
+- Input Array: `[5, 4, 2, 5, 6, 1, 8, 7]`
+- Sorted Array: `[ , , , , , , , ]`
+
+Find the minimum value from the input array, remove it, and add it to the sorted array.
+
+- Input Array: `[5, 4, 2, 5, 6, , 8, 7]`
+- Sorted Array: `[1, , , , , , , ]`
+
+Repeat:
+
+- Input Array: `[5, 4, , 5, 6, , 8, 7]`
+- Sorted Array: `[1, 2, , , , , , ]`
+
+Repeat:
+
+- Input Array: `[5, , , 5, 6, , 8, 7]`
+- Sorted Array: `[1, 2, 4, , , , , ]`
+
+Repeat:
+
+- Input Array: `[, , , 5, 6, , 8, 7]`
+- Sorted Array: `[1, 2, 4, 5, , , , ]`
+
+Repeat:
+
+- Input Array: `[, , , , 6, , 8, 7]`
+- Sorted Array: `[1, 2, 4, 5, 5, , , ]`
+
+Repeat:
+
+- Input Array: `[, , , , , , 8, 7]`
+- Sorted Array: `[1, 2, 4, 5, 5, 6, , ]`
+
+Repeat:
+
+- Input Array: `[, , , , , , 8, ]`
+- Sorted Array: `[1, 2, 4, 5, 5, 6, 7, ]`
+
+Repeat:
+
+- Input Array: `[, , , , , , , ]`
+- Sorted Array: `[1, 2, 4, 5, 5, 6, 7, 8]`
+
+In-place algorithms use little additional space like O(1). How do we sort in-place:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/g-PGLbMth_g?si=8iviam6V0WNLhG-1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+Code:
+
+```C
+class SelectionSort {
+    static void selectionSort(int[] array){
+        for (int i = 0; i < array.length; i++) {
+            int iMin = i;      
+            for (int j = i + 1; j < array.length; j++) {  //find index of minimum
+                if (array[j] < array[iMin]) iMin = j;
+            }
+            if (iMin != i) {                //swap array[i] and array[iMin]
+                int tmp= array[i];
+                array[i] = array[iMin];
+                array[iMin] = tmp;
+            }
+        }
+    } }
+```

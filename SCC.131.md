@@ -45,6 +45,7 @@ The module aims to help me understand digital systems. This includes fundamental
 |  14  | [Lecture 28 - Loops/Control Flow](#lecture-28---loopsflow-control)                                    | [Loops & Control Flow](/SCC.131.slides/za.loopsFlowControl.pdf)                                 |  ❌   |
 |  15  | [Lecture 29 - Programming in Assembly](#lecture-29---programming-in-assembly)                         | [Assembly Programming](/SCC.131.slides/zb.assemblyProgramming.pdf)                              |  🟧   |
 |  15  | [Lecture 30 - Functions](#lecture-30---functions)                                                     | [Functions](/SCC.131.slides/zc.functions.pdf)                                                   |  ✅   |
+|  16  | [Lecture 31 - Inline Assembler](#lecture-31---inline-assemmbler)                                      | [Inline Assembler](/SCC.131.slides/zd.inlineAssembler.pdf)                                      |  ❌   |
 
 ## Lecture 1 - Module Introduction & Computer Architecture
 
@@ -1476,3 +1477,12 @@ looks like this in C
 ```C
 f = (g + h) - (i + j);
 ```
+
+## Lecture 31 - Inline Assemmbler
+
+<audio controls>
+  <source src="SCC.131.slides/zd.inlineAssembler.mp3" type="audio/mpeg">
+ Your browser does not support the audio element.
+</audio>
+
+GCC translates C into machine code.
