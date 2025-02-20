@@ -45,7 +45,8 @@ The module aims to help me understand software development. This includes instil
 |  14  | [Lecture 27 - Reflections on C++](#lecture-27---reflections-on-c)                                           | [C++ Reflections](/SCC.111.slides/za.C++Reflections.pdf)                                        |  ❌   |
 |  14  | [Lecture 28 - Introduction To Java](#lecture-28---introduction-to-java)                                     | [Intro To Java](/SCC.111.slides/zb.JavaIntro.pdf)                                               |  ✅   |
 |  15  | [Lecture 29 - OO Fundamentals in Java](#lecture-29---oo-fundamentals-in-java)                               | [OO Fundamentals in Java](/SCC.111.slides/zc.OOinJava.pdf)                                      |  ✅   |
-|  15  | [Lecture 30 - OO Cast Study](#lecture-30---oo-cast-study)                                                   | [OO Case Study](/SCC.111.slides/zd.OOcaseStudy.pdf)                                             |  ✅   |
+|  15  | [Lecture 30 - OO Case Study](#lecture-30---oo-case-study)                                                   | [OO Case Study](/SCC.111.slides/zd.OOcaseStudy.pdf)                                             |  ✅   |
+|  16  | [Lecture 31 - OO Case Study Part 2](#lecture-31---oo-case-study-part-2)                                     | [OO Caset Study Prt 2](/SCC.111.slides/ze.OOcaseStudy2.pdf)                                     |       |
 
 ---
 
@@ -1046,7 +1047,7 @@ public Car(String col, int miles) {
 
 JavaDoc can generate documentation automatically. The semi-structured comments and Java code are processed ot build web pages documenting your classes. These can be posted online to let other programmeres know how to use your classes. You just have to run the `javadoc` tool from the command line to generate the web pages. `javadoc -d doc *.java`. The `-d` parameter specifies the directory (folder) to store the web pages in. After running javadoc, just double click the 'index.html' in this folder.
 
-## Lecture 30 - OO Cast Study
+## Lecture 30 - OO Case Study
 
 <audio controls>
   <source src="SCC.111.slides/zd.OOcaseStudy.mp3" type="audio/mpeg">
@@ -1205,4 +1206,174 @@ public class HelloWorld
    }
 }
 
+```
+
+## Lecture 31 - OO Case Study Part 2
+
+<audio controls>
+  <source src="SCC.111.slides/ze.OOcaseStudy2.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
+### Creating Non-trivial User Interfaces
+
+To be useful, most GUIs require many components. We've seen how we can add components to a JPanel, but how do we define where exactly these components are displayed in the panel. All swing components allow you to define specific locations if you want to.
+
+Java specifically tries to prevent you from specifying where our components go. Swing provides a set of Layout Managers class that dynamically layout GUIs for you. These make the application flexible and platform independent. These Layout Managers are part of a package called AWT: `import java.awt*;`.
+
+### FlowLayout
+
+FLowLayout is the simplest latout manager. It arranges components beset to fit the size of JPanel. Purely in a left to right, top to bottom order. This simplicity makes for simple GUIs for things like lists, etc.
+
+FlowLayout is implemented in the FlowLayout class. The `setLayout()` method provided by JPanel allows you to define the layout manager you want to use in that JPanel:
+
+```Java
+FlowLayout layout = new FlowLayout();   // Create Layout manager
+panel.setLayout(layout);                // Assign to Panel
+```
+
+![image](images/flowLayoutExamples.png)
+
+FlowLayout is simple to use and highly reactive so layouts react dynamically to changes in size of the panel. However there is a lack of control over where components are placed.
+
+By defualt, FlowLayout will centre your components in the panel but you can specify left, right, or centre alignment in the constructor. Note the American spelling: `CENTER`.:
+
+```Java
+FlowLayout layout = new FlowLayout(FlowLayout.LEFT);
+FlowLayout layout = new FlowLayout(FlowLayout.CENTER);
+FlowLayout layout = new FlowLayout(FlowLayout.RIGHT);
+```
+
+### GridLayout
+
+Defines fixed size components in a matrix. The GridLayout fits components into a `n x m` grid structure. This is still arranged left to right, top to bottom, but on a grid boundaries, and you can specify the shape of the grid:
+
+```Java
+GridLayout layout = new GridLayout(int rows, int columns);
+panel.setLayout(layout);
+```
+
+GridLayout managers are excellent for repeating sets of components which is remarkably common, like mixing desk, numerical keyboard, and powerpoints. However it is far too clinical to layout everything thist way though as wel still don't have any control over which components go where.
+
+### BorderLayout
+
+BorderLayout provides relative positioning of up to five components. It divides the JPanel into five areas, North, South, East, West, and center. Compass points take priority over space. You can specify which area to put component inside the add method. Only one component permitted per location.:
+
+```Java
+BorderLayout layout = new BorderLayout();
+panel.setLayout(layout);
+panel.add("North", buttonPanic);
+panel.add("East", buttonRun);
+panel.add("West", buttonLeave);
+panel.add("South", buttonBlame);
+panel.add("Center", buttonExit);
+```
+
+![image](images/borderLayoutExample.png)
+
+### Setting Your Own Layout
+
+It is possible to manually specify locations. To do this we must specify a null Layout manager. Use `setLocation(int x, int y)` and `setSize(int x, int y)` to manually place components.:
+
+```Java
+panel.setLayout(null);  // Disable layout manager
+
+public void setLocation(int x, int y);
+public void setSize(int x, int y);
+```
+
+```Java
+// We can also use ratios:
+
+JButton button = new JButton("Press");
+int width = (int)(frame.getWidth() * 0.5);
+int height = (int)(frame.getHeight() * 0.2);
+button.setSize(width, height);
+```
+
+Manual positioning provides total control but no flexibility. It is difficult to handle conditions of window reizing and painful to specify locations manually (IDEs help here though). Layout managers provide flexibility at the cost of control. So we need to give up control of GUI design - often not too tempting. But we can draw on the modularity of OO to help.
+
+### Multiple Panels
+
+Panels can be placed inside other panels. Each JPanel has its own Layout Manager. This can gie us much more flexibility with the layoutm while maintaining the ability to handle window resizes. For example you can use a panel with a Grid Layout inside a panel with a BorderLayout.:
+
+![image](images/multiplePanels.png)
+
+### Sequential Programming
+
+So far all out Java programs have looked a bit like this:
+
+![image](images/javaSequentialProgramming.png)
+
+Which means that all interactive programmings would have to look like this:
+
+```Java
+while (true) {
+    // do something
+}
+```
+
+Which is not good for modularity or efficiency.
+
+Event-based programming (asynchronous programming) is when your code does not have a simple start to end flow of execution. Instead the application registers interest in certain events (e.g. button presses). The environment informs the aplpication when they occur.
+
+![image](images/eventBasedProgramming.png)
+
+Swing lets you register 'Listeners' on GUI components. Your register an interest in the events you wish to receiv. You provide an object with a well-known method. This method is then invoked when that event occurs.
+
+For example, the following interfaces notify you when:
+
+- **ActionListener**: when buttons are clicked
+- **ChangeListener**: when sliders are moved
+- **KeyListener**: when a button is pressed on the keyboard
+- **MouseListener**: when a mouse button is pressed/moved
+- **Window Listener**: when windows are resized/closed/minimised
+
+All listeners follow the same steps:
+
+1. Import the `java.awt.event` package
+2. Declare you want to receive an event by adding implements ActionListener to your class definition
+3. Use the `addActionListener()` method to register interest in the relevant buttons
+4. Write a method called `actionPerformed()` in your class, with the parameters shown below
+
+Implement ActionListener:
+
+```Java
+public void actionPerformed(ActionEvent e) {
+    // code you want to execute when the button is clicked
+}
+```
+
+Example:
+
+```Java
+import java.awt.event.*;
+import javax.swing.*;
+
+public class HelloWorld implements ActionListener {
+    private JButton someButton;
+
+    public HelloWorld() {
+        someButton = new JButton("Click me!");
+        someButton.addActionListener(this);
+    }
+
+    public void actionPerformed(ActionEvent e) {
+        // code you want to execute when the button is clicked
+    }
+}
+```
+
+One ActionListener can be register with multiple buttons. The ActionEvent object can differentiate the source for us. Responds to the getSource() method. Returns the object that generated the event (thet JButton). Combined with a conditional this can be used to trap all your events in one place:
+
+```Java
+public void actionPerformed(ActionEvent e) {
+    if (e.getSource() == okButton) {
+        //...
+    }
+
+    if (e.getSource() == cancelButton) {
+        //...
+    }
+}
 ```

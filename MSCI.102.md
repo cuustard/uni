@@ -13,7 +13,7 @@ began: 13th Janurary 2025
 |  14  | [Lecture 7 - Capacity Planning & Analysis](#lecture-7---capacity-planning--analysis)               | [Capacity Planning & Analysis](/MSCI.102.slides/g.capacityPlanningAndAnalysis.pdf)         |  ✅   |
 |  14  | [Lecture 8 - Capacity Planning & Analysis Part 2](#lecture-8---capacity-planning--analysis-part-2) | [Capacity Planning & Analysis Part 2](/MSCI.102.slides/h.capacityPlanningAndAnalysis2.pdf) |  ✅   |
 |  15  | [Lecture 9 - Coursework Guidance](#lecture-9---coursework-guidance)                                | [Coursework Guidance](/MSCI.102.slides/i.courseworkGuidance.pdf)                           |  ❌   |
-|  16  | [Lecture 10 - Forecasting](#lecture-10---forecasting)                                              | [Forecasting](/MSCI.102.slides/j.forecasting.pdf)                                          |       |
+|  16  | [Lecture 10 - Forecasting](#lecture-10---forecasting)                                              | [Forecasting](/MSCI.102.slides/j.forecasting.pdf)                                          |  🟧   |
 
 ## Lecture 1 - Module Introduction
 
