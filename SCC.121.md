@@ -46,6 +46,7 @@ The module aims to help me understand the fundamentals of Computer Science. Thi
 |  15   | [Lecture 28 - Big Ω & Θ Notation](#lecture-28---big-ω--θ-notation)                                                                  | [Big Ω & Θ Notation](/SCC.121.slides/zc.BigOmegaAndTheta.pdf)                                            |  ✅   |
 |  15   | [Lecture 29 - Time Complexity of Recursive Algorithms](#lecture-29---time-complexity-of-recursive-algorithms)                       | [Recursive Time Complexity](/SCC.121.slides/zd.timeComplexityRecursion.pdf)                              |  ✅   |
 |  16   | [Lecture 30 - Sorting, Trees, & Graphs](#lecture-30---sorting-trees--graphs)                                                        | [Sorting, Trees, & Graphs](/SCC.121.slides/ze.SortingGraphsTrees.pdf)                                    |  🟧   |
+|  16   | [Lecture 31 - Sorting, Trees, & Graphs Part 2](#lecture-31---sorting-trees--graphs-part-2)                                          | [Sorint, Trees, & Graphs Prt 2](/SCC.121.slides/zf.SortingGraphsTrees2.pdf)                              |  🟧   |
 
 ## Lecture 1 - Sets
 
@@ -1847,3 +1848,24 @@ class SelectionSort {
         }
     } }
 ```
+
+## Lecture 31 - Sorting, Trees, & Graphs Part 2
+
+<audio controls>
+  <source src="SCC.121.slides/zf.SortingGraphsTrees2.mp3" type="audio/mpeg">
+ Your browser does not support the audio element.
+</audio>
+
+### Merge Sort
+
+The merge sort is a divide an conquer Paradigm. The idea is to decompose a problem into a simpler sub-problems (of the same type). Then, solve recursively on the sub-problems. Finally, combine the solutions for the sub-problems to get a solution of the original problem.
+
+1. Split: the input array into two equal halves.
+2. Solve: Recursively solve (sort) the two subarrays independently
+3. Combine: Combine the two sorted subarrays by merging to get an overall sorted array
+
+![image](images/mergeSortSimpified.png)
+
+See powerpoint for longy-slided detailed explanation for the steps. I aint typing alla that.
+
+tbc...
