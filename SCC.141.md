@@ -31,6 +31,7 @@ The module aims to help me understand the fundamentals of Professionalism in Pra
 |  13  | [Lecture 13 - Surveillance & Censorship](#lecture-13---surveillance-and-censorship)                                                                        | [Surveillance & Censorship](/SCC.141.slides/m.surveillanceAndCensorship.pdf)                      |  ❌   |
 |  14  | [Lecture 14 - Malware, Malevolent Online Practices, & Threat Modelling](#lecture-14---malware-malevolent-online-practices--threat-modelling)               | [Malware](/SCC.141.slides/n.malware.pdf)                                                          |  🟧   |
 |  15  | [Lecture 15 - Digital Exlusion & Divide](#lecture-15---digital-exclusion--divide)                                                                          | [Digital Exlusion & Divide](/SCC.141.slides/o.exclusionAndDivide.pdf)                             |  ✅   |
+|  15  | [Lecture 16 - ]                                                                                                                                            |                                                                                                   |       |
 
 > **_NOTE:_** The AI Podcasts for all the lectures are produced from the Lecture Slide. The structure of my notes may differ to the order of topics discussed in the podcast.
 
@@ -1435,3 +1436,10 @@ Technical solutions for inclusive AI:
 - Techniques like LIME, SHAP, or integrated gradients help users understand AI decisions
 - Bias Detection & Mitigation: Tools (Fairlearn, AI Fairness 360) to measure and reduce algorithmic bias
 - Low-resource Language Support: Transfer learning or domain adaptation to handle languages with limited data
+
+## Lecture 16 - Digital Inequalities
+
+<audio controls>
+  <source src="SCC.141.slides/p.digitalInequalities.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>

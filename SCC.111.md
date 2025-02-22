@@ -47,6 +47,7 @@ The module aims to help me understand software development. This includes instil
 |  15  | [Lecture 29 - OO Fundamentals in Java](#lecture-29---oo-fundamentals-in-java)                               | [OO Fundamentals in Java](/SCC.111.slides/zc.OOinJava.pdf)                                      |  ✅   |
 |  15  | [Lecture 30 - OO Case Study](#lecture-30---oo-case-study)                                                   | [OO Case Study](/SCC.111.slides/zd.OOcaseStudy.pdf)                                             |  ✅   |
 |  16  | [Lecture 31 - OO Case Study Part 2](#lecture-31---oo-case-study-part-2)                                     | [OO Caset Study Prt 2](/SCC.111.slides/ze.OOcaseStudy2.pdf)                                     |  ✅   |
+|  16  | [Lecture 32 - Collaborative Workflows](#lecture-32---collaborative-workflows)                               | [Collaborative Workflows](/SCC.111.slides/zf.collaborativeWorkflows.pdf)                        |  ❌   |
 
 ---
 
@@ -1377,3 +1378,10 @@ public void actionPerformed(ActionEvent e) {
     }
 }
 ```
+
+## Lecture 32 - Collaborative Workflows
+
+<audio controls>
+  <source src="SCC.111.slides/zf.collaborativeWorkflows.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>

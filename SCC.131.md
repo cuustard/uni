@@ -46,6 +46,7 @@ The module aims to help me understand digital systems. This includes fundamental
 |  15  | [Lecture 29 - Programming in Assembly](#lecture-29---programming-in-assembly)                         | [Assembly Programming](/SCC.131.slides/zb.assemblyProgramming.pdf)                              |  🟧   |
 |  15  | [Lecture 30 - Functions](#lecture-30---functions)                                                     | [Functions](/SCC.131.slides/zc.functions.pdf)                                                   |  ✅   |
 |  16  | [Lecture 31 - Inline Assembler](#lecture-31---inline-assemmbler)                                      | [Inline Assembler](/SCC.131.slides/zd.inlineAssembler.pdf)                                      |  ❌   |
+|  16  | [Lecture 32 - ARM Assembly Serialisation](#lecture-32---arm-assembly-serialisation)                   | [ARM Assembly Serialisation](/SCC.131.slides/ze.ARMassemblySerialisation.pdf)                   |  ❌   |
 
 ## Lecture 1 - Module Introduction & Computer Architecture
 
@@ -1486,3 +1487,10 @@ f = (g + h) - (i + j);
 </audio>
 
 GCC translates C into machine code.
+
+## Lecture 32 - ARM Assembly Serialisation
+
+<audio controls>
+  <source src="SCC.131.slides/ze.ARMassemblySerialisation.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
