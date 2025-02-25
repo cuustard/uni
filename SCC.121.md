@@ -48,6 +48,8 @@ The module aims to help me understand the fundamentals of Computer Science. Thi
 |  16   | [Lecture 30 - Sorting, Trees, & Graphs](#lecture-30---sorting-trees--graphs)                                                        | [Sorting, Trees, & Graphs](/SCC.121.slides/ze.SortingGraphsTrees.pdf)                                    |  🟧   |
 |  16   | [Lecture 31 - Sorting, Trees, & Graphs Part 2](#lecture-31---sorting-trees--graphs-part-2)                                          | [Sorint, Trees, & Graphs Prt 2](/SCC.121.slides/zf.SortingGraphsTrees2.pdf)                              |  🟧   |
 
+> **_NOTE:_** The AI Podcasts used for each lecture are produced from that lecture's slides. The structure of my notes for each lecture may differ to the order of topics discussed in the podcast.
+
 ## Lecture 1 - Sets
 
 A Set is a collection of unique and unordered objects/elements/members. E.g. `A = {4, 3, 2, 1, 5}`

@@ -49,6 +49,8 @@ The module aims to help me understand digital systems. This includes fundamental
 |  16  | [Lecture 32 - ARM Assembly Serialisation](#lecture-32---arm-assembly-serialisation)                   | [ARM Assembly Serialisation](/SCC.131.slides/ze.ARMassemblySerialisation.pdf)                   |  ❌   |
 |  17  | [Lecture 33 - Interrupts](#lecture-33---interrupts)                                                   | [Interrupts](/SCC.131.slides/zf.Interrupts.pdf)                                                 |  ❌   |
 
+> **_NOTE:_** The AI Podcasts used for each lecture are produced from that lecture's slides. The structure of my notes for each lecture may differ to the order of topics discussed in the podcast.
+
 ## Lecture 1 - Module Introduction & Computer Architecture
 
 Architecture is the science of putting together building materials to produce buildings.

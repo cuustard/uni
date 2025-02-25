@@ -49,7 +49,7 @@ The module aims to help me understand software development. This includes instil
 |  16  | [Lecture 31 - OO Case Study Part 2](#lecture-31---oo-case-study-part-2)                                     | [OO Caset Study Prt 2](/SCC.111.slides/ze.OOcaseStudy2.pdf)                                     |  ✅   |
 |  16  | [Lecture 32 - Collaborative Workflows](#lecture-32---collaborative-workflows)                               | [Collaborative Workflows](/SCC.111.slides/zf.collaborativeWorkflows.pdf)                        |  ❌   |
 
----
+> **_NOTE:_** The AI Podcasts used for each lecture are produced from that lecture's slides. The structure of my notes for each lecture may differ to the order of topics discussed in the podcast.
 
 ## Lecture 1 - Module Introduction
 

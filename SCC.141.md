@@ -33,7 +33,7 @@ The module aims to help me understand the fundamentals of Professionalism in Pra
 |  15  | [Lecture 15 - Digital Exlusion & Divide](#lecture-15---digital-exclusion--divide)                                                                          | [Digital Exlusion & Divide](/SCC.141.slides/o.exclusionAndDivide.pdf)                             |  ✅   |
 |  15  | [Lecture 16 - Digital Inequalities](#lecture-16---digital-inequalities)                                                                                    | [Digital Inequalities](/SCC.141.slides/p.digitalInequalities.pdf)                                 |  ❌   |
 
-> **_NOTE:_** The AI Podcasts for all the lectures are produced from the Lecture Slide. The structure of my notes may differ to the order of topics discussed in the podcast.
+> **_NOTE:_** The AI Podcasts used for each lecture are produced from that lecture's slides. The structure of my notes for each lecture may differ to the order of topics discussed in the podcast.
 
 ## Lecture 1 - Module Introduction
 
