@@ -47,6 +47,7 @@ The module aims to help me understand digital systems. This includes fundamental
 |  15  | [Lecture 30 - Functions](#lecture-30---functions)                                                     | [Functions](/SCC.131.slides/zc.functions.pdf)                                                   |  ✅   |
 |  16  | [Lecture 31 - Inline Assembler](#lecture-31---inline-assemmbler)                                      | [Inline Assembler](/SCC.131.slides/zd.inlineAssembler.pdf)                                      |  ❌   |
 |  16  | [Lecture 32 - ARM Assembly Serialisation](#lecture-32---arm-assembly-serialisation)                   | [ARM Assembly Serialisation](/SCC.131.slides/ze.ARMassemblySerialisation.pdf)                   |  ❌   |
+|  17  | [Lecture 33 - Interrupts](#lecture-33---interrupts)                                                   | [Interrupts](/SCC.131.slides/zf.Interrupts.pdf)                                                 |  ❌   |
 
 ## Lecture 1 - Module Introduction & Computer Architecture
 
@@ -1494,3 +1495,5 @@ GCC translates C into machine code.
   <source src="SCC.131.slides/ze.ARMassemblySerialisation.mp3" type="audio/mpeg">
   Your browser does not support the audio element.
 </audio>
+
+## lecture 33 - Interrupts
