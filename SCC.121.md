@@ -47,7 +47,7 @@ The module aims to help me understand the fundamentals of Computer Science. Thi
 |  15   | [Lecture 29 - Time Complexity of Recursive Algorithms](#lecture-29---time-complexity-of-recursive-algorithms)                       | [Recursive Time Complexity](/SCC.121.slides/zd.timeComplexityRecursion.pdf)                              |  ✅   |
 |  16   | [Lecture 30 - Sorting, Trees, & Graphs](#lecture-30---sorting-trees--graphs)                                                        | [Sorting, Trees, & Graphs](/SCC.121.slides/ze.SortingGraphsTrees.pdf)                                    |  🟧   |
 |  16   | [Lecture 31 - Sorting, Trees, & Graphs Part 2](#lecture-31---sorting-trees--graphs-part-2)                                          | [Sorting, Trees, & Graphs Prt 2](/SCC.121.slides/zf.SortingGraphsTrees2.pdf)                             |  🟧   |
-|  17   | [Lecture 32 - Sorting, Tress, & Graphs Part 3](#lecture-32---sorting-trees--graphs-part-3)                                          | [Sorting, Trees, & Graphs Part 3](/SCC.121.slides/zg.SortingGraphsTrees3.pdf)                            |  ❌   |
+|  17   | [Lecture 32 - Sorting, Tress, & Graphs Part 3](#lecture-32---sorting-trees--graphs-part-3)                                          | [Sorting, Trees, & Graphs Part 3](/SCC.121.slides/zg.SortingGraphsTrees3.pdf)                            |  🟧   |
 
 > **_NOTE:_** The AI Podcasts used for each lecture are produced from that lecture's slides. The structure of my notes for each lecture may differ to the order of topics discussed in the podcast.
 
@@ -1879,3 +1879,33 @@ tbc...
   <source src="SCC.121.slides/zg.SortingGraphsTrees3.mp3" type="audio/mpeg">
  Your browser does not support the audio element.
 </audio>
+
+A Tree is a non-linear abstract data type (ADT) which stores elements hierarchically.
+
+### Applications for Trees
+
+Computer document formats like XML or HTML describe a tree of relationships between elements.
+
+![image](images/HTMLtree.png)
+
+A compiler takes source code and converts it into an abstract syntax tree to make it easy to evaluate the program in the correct order.
+
+![image](images/compilerTree.png)
+
+Physic simulations, image processing, and game design use tree ADTs for mesh generation (computer graphics), collision detection, etc.
+
+### Definitions
+
+A tree is nodes connected by edges with not cycles or loops.
+
+Hierarchical data structure from root node, to its children, and so on, until a leaf (node without children) is reached.
+
+Descendants of a node are any nodes below it (children, grandchildren, etc). So this means all nodes are descendants of the root node. Vice versa for Ancestors.
+
+Tree split into levels (each level like a different generation).
+
+![image](images/treeDistances.png)
+
+Height of a tree is the number og generations (exlucding root node) (basically number of levels). Diameter/width of a tree is the number of nodes on longest path between any two leaves.
+
+A k-ary tree is one that imposes a max number of children to each node. Binary trees are especially popular with a max of 2 children per node.
