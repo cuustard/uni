@@ -46,7 +46,8 @@ The module aims to help me understand the fundamentals of Computer Science. Thi
 |  15   | [Lecture 28 - Big Ω & Θ Notation](#lecture-28---big-ω--θ-notation)                                                                  | [Big Ω & Θ Notation](/SCC.121.slides/zc.BigOmegaAndTheta.pdf)                                            |  ✅   |
 |  15   | [Lecture 29 - Time Complexity of Recursive Algorithms](#lecture-29---time-complexity-of-recursive-algorithms)                       | [Recursive Time Complexity](/SCC.121.slides/zd.timeComplexityRecursion.pdf)                              |  ✅   |
 |  16   | [Lecture 30 - Sorting, Trees, & Graphs](#lecture-30---sorting-trees--graphs)                                                        | [Sorting, Trees, & Graphs](/SCC.121.slides/ze.SortingGraphsTrees.pdf)                                    |  🟧   |
-|  16   | [Lecture 31 - Sorting, Trees, & Graphs Part 2](#lecture-31---sorting-trees--graphs-part-2)                                          | [Sorint, Trees, & Graphs Prt 2](/SCC.121.slides/zf.SortingGraphsTrees2.pdf)                              |  🟧   |
+|  16   | [Lecture 31 - Sorting, Trees, & Graphs Part 2](#lecture-31---sorting-trees--graphs-part-2)                                          | [Sorting, Trees, & Graphs Prt 2](/SCC.121.slides/zf.SortingGraphsTrees2.pdf)                             |  🟧   |
+|  17   | [Lecture 32 - Sorting, Tress, & Graphs Part 3](#lecture-32---sorting-trees--graphs-part-3)                                          | [Sorting, Trees, & Graphs Part 3](/SCC.121.slides/zg.SortingGraphsTrees3.pdf)                            |  ❌   |
 
 > **_NOTE:_** The AI Podcasts used for each lecture are produced from that lecture's slides. The structure of my notes for each lecture may differ to the order of topics discussed in the podcast.
 
@@ -1871,3 +1872,10 @@ The merge sort is a divide an conquer Paradigm. The idea is to decompose a probl
 See powerpoint for longy-slided detailed explanation for the steps. I aint typing alla that.
 
 tbc...
+
+## Lecture 32 - Sorting, Trees, & Graphs Part 3
+
+<audio controls>
+  <source src="SCC.121.slides/zg.SortingGraphsTrees3.mp3" type="audio/mpeg">
+ Your browser does not support the audio element.
+</audio>
