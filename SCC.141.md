@@ -31,7 +31,8 @@ The module aims to help me understand the fundamentals of Professionalism in Pra
 |  13  | [Lecture 13 - Surveillance & Censorship](#lecture-13---surveillance-and-censorship)                                                                        | [Surveillance & Censorship](/SCC.141.slides/m.surveillanceAndCensorship.pdf)                      |  ❌   |
 |  14  | [Lecture 14 - Malware, Malevolent Online Practices, & Threat Modelling](#lecture-14---malware-malevolent-online-practices--threat-modelling)               | [Malware](/SCC.141.slides/n.malware.pdf)                                                          |  🟧   |
 |  15  | [Lecture 15 - Digital Exlusion & Divide](#lecture-15---digital-exclusion--divide)                                                                          | [Digital Exlusion & Divide](/SCC.141.slides/o.exclusionAndDivide.pdf)                             |  ✅   |
-|  15  | [Lecture 16 - Digital Inequalities](#lecture-16---digital-inequalities)                                                                                    | [Digital Inequalities](/SCC.141.slides/p.digitalInequalities.pdf)                                 |  ❌   |
+|  16  | [Lecture 16 - Digital Inequalities](#lecture-16---digital-inequalities)                                                                                    | [Digital Inequalities](/SCC.141.slides/p.digitalInequalities.pdf)                                 |  ❌   |
+|  17  | [Lecture 17 - Intelligence & AI](#lecture-17---intelligence--ethics)                                                                                       | [Intelligence & Ethics](/SCC.141.slides/q.intelligenceAndEthics.pdf)                              |  ❌   |
 
 > **_NOTE:_** The AI Podcasts used for each lecture are produced from that lecture's slides. The structure of my notes for each lecture may differ to the order of topics discussed in the podcast.
 
@@ -1441,5 +1442,12 @@ Technical solutions for inclusive AI:
 
 <audio controls>
   <source src="SCC.141.slides/p.digitalInequalities.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
+## Lecture 17 - Intelligence & Ethics
+
+<audio controls>
+  <source src="SCC.141.slides/q.intelligenceAndEthics.mp3" type="audio/mpeg">
   Your browser does not support the audio element.
 </audio>

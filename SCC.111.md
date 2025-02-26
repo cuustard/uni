@@ -47,8 +47,8 @@ The module aims to help me understand software development. This includes instil
 |  15  | [Lecture 29 - OO Fundamentals in Java](#lecture-29---oo-fundamentals-in-java)                               | [OO Fundamentals in Java](/SCC.111.slides/zc.OOinJava.pdf)                                      |  ✅   |
 |  15  | [Lecture 30 - OO Case Study](#lecture-30---oo-case-study)                                                   | [OO Case Study](/SCC.111.slides/zd.OOcaseStudy.pdf)                                             |  ✅   |
 |  16  | [Lecture 31 - OO Case Study Part 2](#lecture-31---oo-case-study-part-2)                                     | [OO Caset Study Prt 2](/SCC.111.slides/ze.OOcaseStudy2.pdf)                                     |  ✅   |
-|  16  | [Lecture 32 - Collaborative Workflows](#lecture-32---collaborative-workflows)                               | [Collaborative Workflows](/SCC.111.slides/zf.collaborativeWorkflows.pdf)                        |  ❌   |
-|  17  | [Lecture 33 - Collaborative Workflows Part 2](#lecture-33---collaborative-workflows-part-2)                 | [Collaborative Workflows Prt 2](/SCC.111.slides/zg.collaborativeWorkflows2.pdf)                 |  ❌   |
+|  16  | [Lecture 32 - Collaborative Workflows](#lecture-32---collaborative-workflows)                               | [Collaborative Workflows](/SCC.111.slides/zf.collaborativeWorkflows.pdf)                        |  ✅   |
+|  17  | [Lecture 33 - Collaborative Workflows Part 2](#lecture-33---collaborative-workflows-part-2)                 | [Collaborative Workflows Prt 2](/SCC.111.slides/zg.collaborativeWorkflows2.pdf)                 |  ✅   |
 
 > **_NOTE:_** The AI Podcasts used for each lecture are produced from that lecture's slides. The structure of my notes for each lecture may differ to the order of topics discussed in the podcast.
 
@@ -1387,9 +1387,25 @@ public void actionPerformed(ActionEvent e) {
   Your browser does not support the audio element.
 </audio>
 
+Git repositories are usually stored on a server somewhere. The repo is cloned onto computers as needed. All changes made within a repo are automatically tracked. When a useful change is made locally, you commit that change. Then when ready, you push those commits back to the server. If others have made changes to the same repo and have committed and pushed their changes, we can pull the changes, and merge them, from the cloud repo to our local. If the version on the server is newer than your local version you must pull before pushing your changes.
+
+If someone has updated a file on the server that you have edited locally, this is called a merge conflict. Files in conflict will be updated with both copies of the lines of code that differ. fix this by either choosing the versions of the lines you want or by editing the code until it is correct. Then add these changed files and commit.
+
 ## lecture 33 - Collaborative Workflows Part 2
 
 <audio controls>
   <source src="SCC.111.slides/zg.collaborativeWorkflows2.mp3" type="audio/mpeg">
   Your browser does not support the audio element.
 </audio>
+
+Branches help support longer running changes. Every repo has a main branch (the definitive 'true' version of the code). Any changes make will ultimately updated the main branch. You can directly work on and commit to the main branch. But sometimes this is detrimental when working on larger, longer running changes. Team mebers must either push partial changes to the main branch that others are using or keep their updaes locally on their computer and not push it for a long time. Neither of these options is good for stability and safety of the codebase.
+
+Devs are free to create a branch of a repo at any point. A branch is like a sub-copy of the repo that diverges at a given commit. This branch can have new commits pushed to it independently of the main branch, ensuring work is always backed up. At a later point in time, when the code development is complete, the branch can be merged back into main.
+
+![image](images/repoBranches.png)
+
+A fork is a deeop copy of a repo. It allows repos to experiment with changes without affecting the original project. The fork is created on the devs own account/organisation rather than the account/organisation hosting the original repo.
+
+In open-source projects, we might want to accept merge requests from people we don't know. We don't trust these people enough to be collaborators but they may still have valuable contributions to make.
+
+Continuous Integration (CI) is a software dev practice where developers regularly integrate their code changes into a central repository. Each integration is verified by an autmoated build and autmoated tests. This allows us to detect and fix integration issues early and ensures code quality and reliability.
