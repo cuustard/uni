@@ -1504,3 +1504,10 @@ GCC translates C into machine code.
   <source src="SCC.131.slides/zf.fInterrupts.mp3" type="audio/mpeg">
   Your browser does not support the audio element.
 </audio>
+
+## Lecture 34 - Memory Mapped IO
+
+<audio controls>
+  <source src="SCC.131.slides/zg.memoryMappedIO.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
