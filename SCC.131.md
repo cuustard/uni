@@ -1499,3 +1499,8 @@ GCC translates C into machine code.
 </audio>
 
 ## lecture 33 - Interrupts
+
+<audio controls>
+  <source src="SCC.131.slides/zf.fInterrupts.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
