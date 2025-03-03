@@ -14,6 +14,9 @@ began: 13th Janurary 2025
 |  14  | [Lecture 8 - Capacity Planning & Analysis Part 2](#lecture-8---capacity-planning--analysis-part-2) | [Capacity Planning & Analysis Part 2](/MSCI.102.slides/h.capacityPlanningAndAnalysis2.pdf) |  ✅   |
 |  15  | [Lecture 9 - Coursework Guidance](#lecture-9---coursework-guidance)                                | [Coursework Guidance](/MSCI.102.slides/i.courseworkGuidance.pdf)                           |  ❌   |
 |  16  | [Lecture 10 - Forecasting](#lecture-10---forecasting)                                              | [Forecasting](/MSCI.102.slides/j.forecasting.pdf)                                          |  🟧   |
+|  16  | [Lecture 11 - Forecasting Part 2](#lecture-11---forecasting-part-2)                                | [Forecasting Part 2](/MSCI.102.slides/k.forecasting2.pdf)                                  |  ❌   |
+|  17  | [Lecture 12 - ERP, JIT & Lean](#lecture-12---erp-jit--lean)                                        | [ERP, JIT & Lean](/MSCI.102.slides/l.erpJITlean.pdf)                                       |  ❌   |
+|  18  | [Lecture 13 - Quality Management](#lecture-13---quality-management)                                | [Quality Management](/MSCI.102.slides/m.lectureQuality.pdf)                                |       |
 
 ## Lecture 1 - Module Introduction
 
@@ -607,3 +610,24 @@ Time Series with Seasonality but No Trend:
 ![image](images/timeSerieswithSeaonalityButNoTrend.png)
 
 **i aint doing alla that**
+
+## Lecture 11 - Forecasting Part 2
+
+<audio controls>
+  <source src="MSCI.102.slides/k.forecasting2.MP3" type="audio/mpeg">
+ Your browser does not support the audio element.
+</audio>
+
+## Lecture 12 - ERP, JIT & Lean
+
+<audio controls>
+  <source src="MSCI.102.slideS/l.erpJITlean.MP3" type="audio/mpeg">
+ Your browser does not support the audio element.
+</audio>
+
+## Lecture 13 - Quality Management
+
+<audio controls>
+  <source src="MSCI.102.slides/m.lectureQuality.mp3" type="audio/mpeg">
+ Your browser does not support the audio element.
+</audio>
