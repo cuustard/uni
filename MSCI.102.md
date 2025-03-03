@@ -621,7 +621,7 @@ Time Series with Seasonality but No Trend:
 ## Lecture 12 - ERP, JIT & Lean
 
 <audio controls>
-  <source src="MSCI.102.slideS/l.erpJITlean.mp3" type="audio/mpeg">
+  <source src="MSCI.102.slides/l.erpJITlean.mp3" type="audio/mpeg">
  Your browser does not support the audio element.
 </audio>
 
