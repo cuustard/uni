@@ -49,8 +49,8 @@ The module aims to help me understand software development. This includes instil
 |  16  | [Lecture 31 - OO Case Study Part 2](#lecture-31---oo-case-study-part-2)                                     | [OO Caset Study Prt 2](/SCC.111.slides/ze.OOcaseStudy2.pdf)                                     |  ✅   |
 |  16  | [Lecture 32 - Collaborative Workflows](#lecture-32---collaborative-workflows)                               | [Collaborative Workflows](/SCC.111.slides/zf.collaborativeWorkflows.pdf)                        |  ✅   |
 |  17  | [Lecture 33 - Collaborative Workflows Part 2](#lecture-33---collaborative-workflows-part-2)                 | [Collaborative Workflows Prt 2](/SCC.111.slides/zg.collaborativeWorkflows2.pdf)                 |  ✅   |
-|  17  | [Lecture 34 - Inheritence](#lecture-34---inheritence)                                                       | [Inheritence](/SCC.111.slides/zh.inheritence.pdf)                                               |  ❌   |
-|  18  | [Lecture 35 - Polymorphism](#lecture-35---polymorphism)                                                     | [Polymorphism](/SCC.111.slides/zi.polymorphism.pdf)                                             |       |
+|  17  | [Lecture 34 - Inheritence](#lecture-34---inheritence)                                                       | [Inheritence](/SCC.111.slides/zh.inheritence.pdf)                                               |  ✅   |
+|  18  | [Lecture 35 - Polymorphism](#lecture-35---polymorphism)                                                     | [Polymorphism](/SCC.111.slides/zi.polymorphism.pdf)                                             |  ✅   |
 
 > **_NOTE:_** The AI Podcasts used for each lecture are produced from that lecture's slides. The structure of my notes for each lecture may differ to the order of topics discussed in the podcast.
 
@@ -1419,9 +1419,107 @@ Continuous Integration (CI) is a software dev practice where developers regularl
   Your browser does not support the audio element.
 </audio>
 
+We've seen how classes promote modularity and reuse. But what if a class doesn't do what we want or we want it to do more? We can specialise a class that has already bee written but without changing that code or duplicating it? In OO languages, inheritence provides a mechanism to promote reuse and extensibility. Code written by one programmer and delivered as a class can then be extended by another to suit the needs of the task at hand.
+
+Inheritence is when one class inherits from, is derived from, or extend to create a new class. Classes are simply a grouping of attributes and methods. When a class is extended, the attributes and methods implicitly become part of the new class. These can be accessed/invoked on the new class even though they are not explicitly defined in that class. The new class can add further capability by creating new attributes and methods, without polluting the original class.
+
+The class being extended is known as the **base class**, **super class**, or the **parent** class. The new class is known as a **subclass** of the other. A class can have many subclasses.
+
+We use the `extends` keyword when defining the class to define its super class.
+
+```Java
+public class Lecturer extends Person {
+    ...
+}
+```
+
+All methods and instance variables defined in the super classs implicitly become part of the new subclass. Any accessible methods and attributes can be directly used by methods in the new sublass.
+
+Inheritence is transitive. Sublasses can themselves be super classes of other classes. If a class is a super of all its subclasses and their subclasses . E.G.
+
+```java
+public class Mammal {
+    ...
+}
+
+public class Person extends Mammal {
+    ...
+}
+
+public class Lecturer extends Person {
+    ...
+}
+```
+
+As inheritence is transitive and we can create many subclasses, we can express the subclasses as a tree structure, known as an inheritance hierarchy. All the inheritance relationships can be mapped out a bit like a family tree... The attributes and methods your class has depends on its position in that tree.
+
+![image](images/inheritanceHierarchy.png)
+
+It is important to remever that the level of abstraction changes as we move up and down the hierarchy tree. Move up the tree and we become more generalist and abstract. Move down the tree and we become more specialist and specific.
+
+You can use it to specialise an existing class to suit your needs. Deciding where to implement a method or place an attribute is therefore a very important decision. To promote reuse, typically implement at as high a level as makes sense (mostly).
+
 ## Lecture 35 - Polymorphism
 
 <audio controls>
   <source src="SCC.111.slides/zi.polymorphism.mp3" type="audio/mpeg">
   Your browser does not support the audio element.
 </audio>
+
+Constructors provide a way to initalise objects when they are created. But if we extend a class, we can either use the one from the superclass or write a new one for the sublass.
+
+In Java we use `super()` to call the constructor method of our super class. We can use `super()` to call the constructor in our superclass before intialising our own internal attributes. This guarantees super classes are initialised properly. If you choose to use it, `super()` must be the first statement in your constructor. Put any necessary parameters to the constructor in the brackets, just as you would using `new()`. But if you omit it, then the Java compiler wil put it in anyway.
+
+![image](images/constructorChainingExample.png)
+
+```Java
+public class ChessBoard extends JFrame implements ActionListener {
+    private ChessPiece[] pieces = new ChessPiece[16];
+
+    public ChessBoard() {
+        // Add the prawns
+        for (int x = 0; x < 8l x++) {
+            pieces[x] = new Prawn(squares[x][6]);
+        }
+    }
+}
+```
+
+This looks like a type mismatch as pieces is an array of type ChessPiece yet pieces[0] is being assigned to an object of type Prawn. How?
+
+Polymorphism comes from Greek and Latin meaning: to take many forms.
+
+By definition any sublass must have all the attributes and methods of its superclass. Furthermore a sublcass can only add functionality to a class... never remove it. Therefore all classes must have all the external behaviour of their super class. Therefore any class can be treated as a type of its super class.
+
+All instances of a subclass can therefore be pass as a parameter into methods expecting its super class and stored in a variable or array that is typed as its superclass. This provides full backward compatibility of a subclass with any code written for its superclass.
+
+Any object instance of a class that extends another can be treated as an object of that class. An object reference of one type can therefor refer to an object of a different type. This is safe, as any subclass will have at least the same methods and instance variables.
+
+From the previous term, converting a primitve variable from one type to another known as casting. Casting can also be used to convert between types of object references but only if the underlying object is the same class or subclass of the type you are casting to.
+
+Java will implicitly and transparently cast an object reference as necessary, provided that the transformation goes upwards the inheritance hierarchy. Casting down the hierarchy must be done explicity. This is also inherently dangerous. This is because casting of object referece cannot be undertaken outside a polymorphic relationship. For example, a Prawn cannot be cast to a Queen. It is the object reference which changes type during casting. Once an object instance is created, it lives and dies with the same class and cannot be changed. Polymorphism can therefore be viewed as an overlay that only looks at part of an objects implementation.
+
+![image](images/polymorphismExample.png)
+
+Inheritance allows us to specialise the behaviour of an existing class by adding stuff. We can add new instance variables in any subclass we create. It's not possible to remove methods and instance variables. You can choose to not to use them but they always remain. Method overriding can however be used to change behaviour by replacing a method in the superclass. The implementation is simple, define a method in your class with the same signature as one in a superclass. The functionaity in thsi method replaces the funtionality inherited from the superclass. Method overriding e.g.:
+
+```Java
+public class ChessPiece {
+    public boolean canMoveTo(ChessSquare s) {
+        return false;
+    }
+}
+```
+
+```Java
+public class Prawn extends ChessPiece {
+    public boolean canMoveTo(chessSquare s) {
+        if (square.xLocation == s.xLocation && (square.yLocation == s.yLocation + 1 || (square.yLocatio 6 && s.yLocation ==4)))
+        return true;
+    }
+}
+```
+
+If we have an objcet refernce of type ChessPiece that is referring to an object of type Prawn and we cann the canMoveTo() method using that reference. The method that is called will be the most specific (lowest in the inheritance hierarchy) applicable to that object instance. Exactly the same functionality as if the obejct refernce were teh same type as the object instance. However only access to the methods and instance variables matching the object references position in the inheritance hierarchy will be accessible. This enables us to create heterogeneous collections of object instances. Objects in the arent necessary all of the same type, but enough functionality to allow them to be interoperable.
+
+Java methods are uniquely identified by their class, name, and parameter list. The name and parameter list is often referred to as a methods signature. This means we can now have more than one method with the same name, in the same class, as long as they have different parameter lists. Defining multiple methods with the same name but different parameter lists is known as method overloading. Method overloading is often applied to constructors as we've alreay seen but can be applied to any method.
