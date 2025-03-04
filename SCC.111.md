@@ -49,6 +49,8 @@ The module aims to help me understand software development. This includes instil
 |  16  | [Lecture 31 - OO Case Study Part 2](#lecture-31---oo-case-study-part-2)                                     | [OO Caset Study Prt 2](/SCC.111.slides/ze.OOcaseStudy2.pdf)                                     |  ✅   |
 |  16  | [Lecture 32 - Collaborative Workflows](#lecture-32---collaborative-workflows)                               | [Collaborative Workflows](/SCC.111.slides/zf.collaborativeWorkflows.pdf)                        |  ✅   |
 |  17  | [Lecture 33 - Collaborative Workflows Part 2](#lecture-33---collaborative-workflows-part-2)                 | [Collaborative Workflows Prt 2](/SCC.111.slides/zg.collaborativeWorkflows2.pdf)                 |  ✅   |
+|  17  | [Lecture 34 - Inheritence](#lecture-34---inheritence)                                                       | [Inheritence](/SCC.111.slides/zh.inheritence.pdf)                                               |  ❌   |
+|  18  | [Lecture 35 - Polymorphism](#lecture-35---polymorphism)                                                     | [Polymorphism](/SCC.111.slides/zi.polymorphism.pdf)                                             |       |
 
 > **_NOTE:_** The AI Podcasts used for each lecture are produced from that lecture's slides. The structure of my notes for each lecture may differ to the order of topics discussed in the podcast.
 
@@ -1409,3 +1411,17 @@ A fork is a deeop copy of a repo. It allows repos to experiment with changes wit
 In open-source projects, we might want to accept merge requests from people we don't know. We don't trust these people enough to be collaborators but they may still have valuable contributions to make.
 
 Continuous Integration (CI) is a software dev practice where developers regularly integrate their code changes into a central repository. Each integration is verified by an autmoated build and autmoated tests. This allows us to detect and fix integration issues early and ensures code quality and reliability.
+
+## Lecture 34 - Inheritence
+
+<audio controls>
+  <source src="SCC.111.slides/zh.inheritence.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
+## Lecture 35 - Polymorphism
+
+<audio controls>
+  <source src="SCC.111.slides/zi.polymorphism.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
