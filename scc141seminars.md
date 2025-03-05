@@ -10,8 +10,8 @@ began: 8th October 2024
 | 9 & 10  | [Seminar 4](#seminar-4) | [Seminar 4](seminarMaterials/d.seminar4.pdf)  |  ✅   |
 | 11 & 12 | [Seminar 5](#seminar-5) | [Seminar 5](seminarMaterials/e.seminar5.pdf)  |  ✅   |
 | 13 & 14 | [Seminar 6](#seminar-6) | [Seminar 6](/seminarMaterials/f.seminar6.pdf) |  ✅   |
-| 15 & 16 | [Seminar 7](#seminar-7) | [Seminar 7](/seminarMaterials/g.seminar7.pdf) |       |
-| 17 & 18 | [Seminar 8](#seminar-8) | [Seminar 8](/seminarMaterials/h.seminar8.pdf) |       |
+| 15 & 16 | [Seminar 7](#seminar-7) | [Seminar 7](/seminarMaterials/g.seminar7.pdf) |  ✅   |
+| 17 & 18 | [Seminar 8](#seminar-8) | [Seminar 8](/seminarMaterials/h.seminar8.pdf) |  ✅   |
 
 ## Seminar 1
 
