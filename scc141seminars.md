@@ -10,6 +10,8 @@ began: 8th October 2024
 | 9 & 10  | [Seminar 4](#seminar-4) | [Seminar 4](seminarMaterials/d.seminar4.pdf)  |  ✅   |
 | 11 & 12 | [Seminar 5](#seminar-5) | [Seminar 5](seminarMaterials/e.seminar5.pdf)  |  ✅   |
 | 13 & 14 | [Seminar 6](#seminar-6) | [Seminar 6](/seminarMaterials/f.seminar6.pdf) |  ✅   |
+| 15 & 16 | [Seminar 7](#seminar-7) | [Seminar 7](/seminarMaterials/g.seminar7.pdf) |       |
+| 17 & 18 | [Seminar 8](#seminar-8) | [Seminar 8](/seminarMaterials/h.seminar8.pdf) |       |
 
 ## Seminar 1
 
@@ -145,7 +147,7 @@ AI is transforming litigation law by automating routine tasks, enabling lawyers 
 
 **Topic**: What privacy means to me.
 
-This seminar aims to assist in Section 1 of the 2nd group report. I need to identify and discuss to what extent, and in what context, does privacy matter?. (400 words) (Section 1).
+This seminar aims to assist in Section 1 of the 2nd group report. I need to identify and discuss to what extent, and in what context, does privacy matter?. (400 words)
 
 **Guidance notes**: You must discuss two privacy harms, each with a concrete example of how they manifest. Assess how severe you consider these harms to be and explain how they link to reasons why a person might want to protect their privacy (i.e. why privacy matters).
 
@@ -166,3 +168,43 @@ Lean towards Dimension 1 Privacy as a Right which states that:
 - Privacy laws should be strengthened to protect personal privacy.
 - People need legal protection against misuse of personal data.
 - If I were to write a constitution today, I would probably add privacy as a fundamental right.
+
+## Seminar 7
+
+**Topic**: Computing Futures
+
+This seminar aims to assist in Section 2 of the 2nd group report. I need to identify and discuss what the key social, ethical & ethical challenges are likely to emerge over the next decade? And how I would suggest that these challenges by resolved or what this will mean for the future opportunities and/or practices of computing professionals. (400 words)
+
+**Guidance notes**: You must reflect on at least two different emerging technologies. Draw on the exercise from seminar 7.
+
+Today's Tasks:
+
+1. Mapping future challenges and opportunities - 20 mins
+   - Choose and focus on an emerging technology
+   - Consider potential future developments of this technology. (What could a desirble vs undesirable future look like?)
+   - From the different versions of the future, identify the top 3 challenges and top 3 opportunities.
+2. Considering future responses - 20 mins
+   - Focus on the top 3 challenges identified in exercise 1
+   - What responses are required? (Consider potential responses of a range of stakeholders)
+   - How would you rank the importance of these stakeholders responses?
+3. Sharing with the class - 8 mins
+
+## Seminar 8
+
+**Topic**: Inequalities
+
+This seminar aims to assist in Section 3 of the 2nd group report. I need to construct an argument either for or against the statement: "Digital technologies are exacerbating existing inequalities.". (400 words)
+
+**Guidance notes**: You must include at least 2 examples of in support of your argument (if arguing against, provide a counter-argument to 2 examples covered in the lectures). One of these examples must pertain to older adults, drawing on the exercise from seminar 8.
+
+Today's Tasks:
+
+1. Pandemic digital divide - 20 mins
+   - What technologies did you use during the lockdown(s)?
+   - Imagine you could not use those technologies due to a disability, finances, lack of skills
+   - What immediate would this have on your life?
+   - What long-term impacts might this have on your life?
+2. Pro/con list - 20 mins
+   - Create a list with columns how digital technologies are 'exacervating inequalities' and 'mitigating inequalities'
+   - Be specific: what are the inequalities and what technologies are involved and how?
+3. Sharing with the class - 8 mins

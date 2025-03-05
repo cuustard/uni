@@ -1,4 +1,4 @@
-began: 9th October 2024
+-began: 9th October 2024
 
 # SCC.141 Professionalism in Practice
 
@@ -33,6 +33,7 @@ The module aims to help me understand the fundamentals of Professionalism in Pra
 |  15  | [Lecture 15 - Digital Exlusion & Divide](#lecture-15---digital-exclusion--divide)                                                                          | [Digital Exlusion & Divide](/SCC.141.slides/o.exclusionAndDivide.pdf)                             |  ✅   |
 |  16  | [Lecture 16 - Digital Inequalities](#lecture-16---digital-inequalities)                                                                                    | [Digital Inequalities](/SCC.141.slides/p.digitalInequalities.pdf)                                 |  ❌   |
 |  17  | [Lecture 17 - Intelligence & AI](#lecture-17---intelligence--ethics)                                                                                       | [Intelligence & Ethics](/SCC.141.slides/q.intelligenceAndEthics.pdf)                              |  ❌   |
+|  18  | [Lecture 18 - Environment]                                                                                                                                 |                                                                                                   |  ❌   |
 
 > **_NOTE:_** The AI Podcasts used for each lecture are produced from that lecture's slides. The structure of my notes for each lecture may differ to the order of topics discussed in the podcast.
 

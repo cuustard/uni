@@ -631,3 +631,11 @@ Time Series with Seasonality but No Trend:
   <source src="MSCI.102.slides/m.lectureQuality.mp3" type="audio/mpeg">
  Your browser does not support the audio element.
 </audio>
+
+The Problem of quality
+Customer expectiation
+Concept
+Quality Specification
+Actual quality
+
+### Systems for controllling varitation
