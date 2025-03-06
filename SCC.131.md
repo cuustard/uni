@@ -49,6 +49,8 @@ The module aims to help me understand digital systems. This includes fundamental
 |  16  | [Lecture 32 - ARM Assembly Serialisation](#lecture-32---arm-assembly-serialisation)                   | [ARM Assembly Serialisation](/SCC.131.slides/ze.ARMassemblySerialisation.pdf)                   |  ❌   |
 |  17  | [Lecture 33 - Interrupts](#lecture-33---interrupts)                                                   | [Interrupts](/SCC.131.slides/zf.Interrupts.pdf)                                                 |  ❌   |
 |  17  | [Lecture 34 - Memory Mapped IO](#lecture-34---memory-mapped-io)                                       | [Memory Mapped IO](/SCC.131.slides/zg.memoryMappedIO.pdf)                                       |  ❌   |
+|  18  | [Lecture 35 - LED Heart In Assembly](#lecture-35---led-heart-in-assembly)                             | [LED Heart In Assembly](/SCC.131.slides/zh.LEDoperation.pdf)                                    |  ❌   |
+|  18  | [Lecture 36 - ]                                                                                       |                                                                                                 |       |
 
 > **_NOTE:_** The AI Podcasts used for each lecture are produced from that lecture's slides. The structure of my notes for each lecture may differ to the order of topics discussed in the podcast.
 
@@ -1512,3 +1514,5 @@ GCC translates C into machine code.
   <source src="SCC.131.slides/zg.memoryMappedIO.mp3" type="audio/mpeg">
   Your browser does not support the audio element.
 </audio>
+
+## Lecture 35 - LED Heart In Assembly

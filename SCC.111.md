@@ -51,6 +51,7 @@ The module aims to help me understand software development. This includes instil
 |  17  | [Lecture 33 - Collaborative Workflows Part 2](#lecture-33---collaborative-workflows-part-2)                 | [Collaborative Workflows Prt 2](/SCC.111.slides/zg.collaborativeWorkflows2.pdf)                 |  ✅   |
 |  17  | [Lecture 34 - Inheritence](#lecture-34---inheritence)                                                       | [Inheritence](/SCC.111.slides/zh.inheritence.pdf)                                               |  ✅   |
 |  18  | [Lecture 35 - Polymorphism](#lecture-35---polymorphism)                                                     | [Polymorphism](/SCC.111.slides/zi.polymorphism.pdf)                                             |  ✅   |
+|  18  | [Lecture 36 - ]                                                                                             | []()                                                                                            |       |
 
 > **_NOTE:_** The AI Podcasts used for each lecture are produced from that lecture's slides. The structure of my notes for each lecture may differ to the order of topics discussed in the podcast.
 
@@ -1523,3 +1524,5 @@ public class Prawn extends ChessPiece {
 If we have an objcet refernce of type ChessPiece that is referring to an object of type Prawn and we cann the canMoveTo() method using that reference. The method that is called will be the most specific (lowest in the inheritance hierarchy) applicable to that object instance. Exactly the same functionality as if the obejct refernce were teh same type as the object instance. However only access to the methods and instance variables matching the object references position in the inheritance hierarchy will be accessible. This enables us to create heterogeneous collections of object instances. Objects in the arent necessary all of the same type, but enough functionality to allow them to be interoperable.
 
 Java methods are uniquely identified by their class, name, and parameter list. The name and parameter list is often referred to as a methods signature. This means we can now have more than one method with the same name, in the same class, as long as they have different parameter lists. Defining multiple methods with the same name but different parameter lists is known as method overloading. Method overloading is often applied to constructors as we've alreay seen but can be applied to any method.
+
+## Lecture 36 -
