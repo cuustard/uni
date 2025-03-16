@@ -51,7 +51,9 @@ The module aims to help me understand software development. This includes instil
 |  17  | [Lecture 33 - Collaborative Workflows Part 2](#lecture-33---collaborative-workflows-part-2)                 | [Collaborative Workflows Prt 2](/SCC.111.slides/zg.collaborativeWorkflows2.pdf)                 |  ✅   |
 |  17  | [Lecture 34 - Inheritence](#lecture-34---inheritence)                                                       | [Inheritence](/SCC.111.slides/zh.inheritence.pdf)                                               |  ✅   |
 |  18  | [Lecture 35 - Polymorphism](#lecture-35---polymorphism)                                                     | [Polymorphism](/SCC.111.slides/zi.polymorphism.pdf)                                             |  ✅   |
-|  18  | [Lecture 36 - ]                                                                                             | []()                                                                                            |       |
+|  18  | [Lecture 36 - Interfaces](#lecture-36---interfaces)                                                         | [Interfaces](/SCC.111.slides/zj.interfaces.pdf)                                                 |  ✅   |
+|  19  |                                                                                                             |                                                                                                 |       |
+|  19  |                                                                                                             |                                                                                                 |       |
 
 > **_NOTE:_** The AI Podcasts used for each lecture are produced from that lecture's slides. The structure of my notes for each lecture may differ to the order of topics discussed in the podcast.
 
@@ -1525,4 +1527,94 @@ If we have an objcet refernce of type ChessPiece that is referring to an object 
 
 Java methods are uniquely identified by their class, name, and parameter list. The name and parameter list is often referred to as a methods signature. This means we can now have more than one method with the same name, in the same class, as long as they have different parameter lists. Defining multiple methods with the same name but different parameter lists is known as method overloading. Method overloading is often applied to constructors as we've alreay seen but can be applied to any method.
 
-## Lecture 36 -
+## Lecture 36 - Interfaces
+
+<audio controls>
+  <source src="SCC.111.slides/zj.interfaces.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
+An interface is a named specification of zero or more methods. They are similar to abstract classes but do not contain any functionality, attributes or method implementations. They only contain methods description that classes implement.
+
+A class can declare that it wants to implement any number of interfaces. By contract, that class must implement the methods specified in those interfaces. This is enforced by the compiler.
+
+Therefore, we can guarantee that any class implementing an interface has all the methods defined in that interface.
+
+Polymorphism in Java is also applied to interfaces. We can definitively say a class has the capabilities defined in an interface, therefore we can apply polymorphism without compromising type safety. Therefore, a class can be treated as a type of any interface it chooses to implement. As classes can implement many interfaces, this provides a clean mechanism that addresses the limitations of single inheritance languages, whilst sidestepping the complexity of multiple inheritance.
+
+> A class can be treated as a type of its class, any of its super classes, or any of the interfaces it implements.
+
+The Java API contains a multitude of interfaces. `ActionListener` is actually an interface that specifies a single method only:
+
+```Java
+interface ActionListener {
+    public void actionPerformed(ActionEvent e);
+}
+```
+
+Classes that implement the ActionListener interface must therefore write an actionperformed method. In return, objects of that class can be treated as a type of ActionListener.
+
+The Java API contains a multiple of interfaces. Classes that implement the ActionListener interface must therefore write an actionPerformed method. In return, that class can be treated as a type of ActionListener (by polymorphism). Example:
+
+```Java
+public class ChessBoard implements ActionListener {
+   ChessSquare[][] squares = new ChessSquare[8][8];
+
+   public ChessBoard() {
+       squares[x][y] = new ChessSquare(x, y, "pieces/EmptySquare.jpg");
+       squares[x][y].addActionListener(this);
+   }
+
+   public void actionPerformed(ActionEvent e)
+   { ... }
+}
+```
+
+Let's consider this extract from the `AbstractButton` source code. What is the super class of JButton, and what would the implementation conceptually look like?
+
+```Java
+/**
+* Adds an ActionListener to the button's listener list. When the
+* button's model is clicked it fires an ActionEvent, and these
+* listeners will be called.
+*
+* @param l The new listener to add
+*/
+public void addActionListener(ActionListener l)
+{
+   ...
+}
+```
+
+The `addActionListener` method (in AbstractButton) takes a single parameter: an object reference to an object that implements the ActionListener interface. It can then store these until needed. It can then invoke the `actionPerformed` method on those instances when the time is right (when the button is clicked). The AbstractButton class has no knowledge of our class (ChessBoard) when it was written in 2002. Yet it can call methods on our class in a type safe manner.
+
+To create our own interfaces, they can be used anytime to promote polymorphism but avoid restrictions of single inheritance to promote extensibility and elegance. They allow us to define what other programmers must do in order to interace with your code. Then the code can support working with objects that haven't even been written yet. They are defined much like classes; they are named, and the filename should match the interface name.
+
+```Java
+public interface UniversityMember {
+    public void sleep();
+    public void drinkCoffe();
+    public void work();
+}
+```
+
+Classes use the implements keyword to declare that they want to implement your interface. They can be treated as a type of your new interface. The compiler will enforce that the class then implements methods matching your interface. The speficif behaviour of the method is still left to the programmer of the class.:
+
+```Java
+class Undergrad implements UniversityMember {
+    int stressLevel = 0;
+    public void sleep() {
+        for (int hours=0; hours<15; hours++) {
+
+        }
+    }
+
+    public void drinkCoffee() {
+       stressLevel++;
+    }
+
+   public void work() {
+
+   }
+}
+```
