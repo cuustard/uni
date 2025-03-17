@@ -49,8 +49,10 @@ The module aims to help me understand the fundamentals of Computer Science. Thi
 |  16  | [Lecture 31 - Sorting, Trees, & Graphs Part 2](#lecture-31---sorting-trees--graphs-part-2)                                          | [Sorting, Trees, & Graphs Part 2](/SCC.121.slides/zf.SortingGraphsTrees2.pdf)                            |  🟧   |
 |  17  | [Lecture 32 - Sorting, Tress, & Graphs Part 3](#lecture-32---sorting-trees--graphs-part-3)                                          | [Sorting, Trees, & Graphs Part 3](/SCC.121.slides/zg.SortingGraphsTrees3.pdf)                            |  🟧   |
 |  17  | [Lecture 33 - Sorting, Tress, & Graphs Part 4](#lecture-33---sorting-trees--graphs-part-4)                                          | [Sorting, Trees, & Graphs Part 4](/SCC.121.slides/zh.SortingGraphsTrees4.pdf)                            |  ❌   |
-|  18  | [Lecture 23 - Sorting, Tress, & Graphs Part 5](#lecture-34---sorting-trees--graphs-part-5)                                          | [Sorting, Trees, & Graphs Part 5](/SCC.121.slides/zi.SortingGraphsTrees5.pdf)                            |  ❌   |
-|  18  | [Lecture 24 - Sorting, Trees, & Graphs Part 6](#lecture-35---sorting-trees--graphs-part-6)                                          | [Sorting, Trees, & Graphs Part 5](/SCC.121.slides/zj.SortingGraphsTrees6.pdf)                            |  ❌   |
+|  18  | [Lecture 33 - Sorting, Tress, & Graphs Part 5](#lecture-34---sorting-trees--graphs-part-5)                                          | [Sorting, Trees, & Graphs Part 5](/SCC.121.slides/zi.SortingGraphsTrees5.pdf)                            |  ❌   |
+|  18  | [Lecture 34 - Sorting, Trees, & Graphs Part 6](#lecture-35---sorting-trees--graphs-part-6)                                          | [Sorting, Trees, & Graphs Part 5](/SCC.121.slides/zj.SortingGraphsTrees6.pdf)                            |  ❌   |
+|  19  | [Lecture 35 - Greedy Algorithm](#lecture-36---greedy-algorithm)                                                                     | [Greedy Algorithm](/SCC.121.slides/zk.greedyAlgorithm.pdf)                                               |  ❌   |
+|  19  | [Lecture 36 - Dynamic Programming](#lecture-37---dynamic-programming)                                                               | [Dynamic Programming](/SCC.121.slides/zl.dynamicProgramming.pdf)                                         |  ❌   |
 
 > **_NOTE:_** The AI Podcasts used for each lecture are produced from that lecture's slides. The structure of my notes for each lecture may differ to the order of topics discussed in the podcast.
 
@@ -1933,3 +1935,12 @@ A k-ary tree is one that imposes a max number of children to each node. Binary t
   <source src="SCC.121.slides/zj.SortingGraphsTrees6.mp3" type="audio/mpeg">
  Your browser does not support the audio element.
 </audio>
+
+## Lecture 36 - Greedy Algorithm
+
+<audio controls>
+  <source src="SCC.121.slides/zk.greedyAlgorithm.mp3" type="audio/mpeg">
+ Your browser does not support the audio element.
+</audio>
+
+## Lecture 37 - Dynamic Programming

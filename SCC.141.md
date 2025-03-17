@@ -33,7 +33,8 @@ The module aims to help me understand the fundamentals of Professionalism in Pra
 |  15  | [Lecture 15 - Digital Exlusion & Divide](#lecture-15---digital-exclusion--divide)                                                                          | [Digital Exlusion & Divide](/SCC.141.slides/o.exclusionAndDivide.pdf)                             |  ✅   |
 |  16  | [Lecture 16 - Digital Inequalities](#lecture-16---digital-inequalities)                                                                                    | [Digital Inequalities](/SCC.141.slides/p.digitalInequalities.pdf)                                 |  ❌   |
 |  17  | [Lecture 17 - Intelligence & AI](#lecture-17---intelligence--ethics)                                                                                       | [Intelligence & Ethics](/SCC.141.slides/q.intelligenceAndEthics.pdf)                              |  ❌   |
-|  18  | [Lecture 18 - Environment]                                                                                                                                 |                                                                                                   |  ❌   |
+|  18  | [Lecture 18 - Environment](#lecture-18---environment)                                                                                                      | [Environment](/SCC.141.slides/r.environmentalImpacts.pdf)                                         |  ❌   |
+|  19  | [Lecture 19 - Digital Forensics](#lecture-19---digital-forensics)                                                                                          | [Digital Forensics](/SCC.141.slides/s.digitalForensics.pdf)                                       |  ❌   |
 
 > **_NOTE:_** The AI Podcasts used for each lecture are produced from that lecture's slides. The structure of my notes for each lecture may differ to the order of topics discussed in the podcast.
 
@@ -1450,5 +1451,19 @@ Technical solutions for inclusive AI:
 
 <audio controls>
   <source src="SCC.141.slides/q.intelligenceAndEthics.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
+## Lecture 18 - Environment
+
+<audio controls>
+  <source src="SCC.141.slides/r.environmentalImpacts.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
+## Lecture 19 - Digital Forensics
+
+<audio controls>
+  <source src="SCC.141.slides/s.digitalForensics.mp3" type="audio/mpeg">
   Your browser does not support the audio element.
 </audio>
