@@ -110,14 +110,15 @@ td a:hover {
 /* Card Container */
 .link-cards {
   display: flex;
-  justify-content: space-between;
+  flex-wrap: wrap;
   gap: 15px;
   margin-top: 20px;
+  justify-content: space-between;
 }
 
 /* Individual Card */
 .card {
-  flex: 1;
+  flex: 1 1 calc(33.333% - 15px); /* Allows up to 3 cards per row with spacing */
   background: #ffffff;
   padding: 15px;
   border-radius: 10px;
@@ -147,12 +148,18 @@ td a:hover {
   text-decoration: none;
 }
 
-/* Responsive Adjustments */
 @media (max-width: 768px) {
-  .link-cards {
-    flex-direction: column;
+  .card {
+    flex: 1 1 calc(50% - 15px); /* Adjust to 2 cards per row on smaller screens */
   }
 }
+
+@media (max-width: 500px) {
+  .card {
+    flex: 1 1 100%; /* Single card per row on very small screens */
+  }
+}
+
 
 /* Default Light Theme (Uses CSS Variables) */
 :root {
