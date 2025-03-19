@@ -105,7 +105,7 @@ td a:hover {
 }
 
 .card {
-  flex: 1 1 calc(30% - 10px); /* Ensures three cards with some spacing */
+  flex: 1 1 calc(20% - 10px); /* Ensures three cards with some spacing */
   background: var(--card-bg);
   padding: 15px;
   border-radius: 10px;
