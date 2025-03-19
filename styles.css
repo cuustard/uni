@@ -139,7 +139,7 @@ td a:hover {
   }
 
   .card {
-    flex: 1 1 calc(50% - 15px);
+    flex: 1 1 calc(33% - 15px);
   }
 }
 
