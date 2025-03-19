@@ -17,7 +17,7 @@ body {
 }
 
 .container {
-  max-width: 900px; /* Or larger if desired */
+  max-width: 800px; /* Or larger if desired */
   margin: 40px auto;
   padding: 20px;
 }
@@ -105,7 +105,7 @@ td a:hover {
 }
 
 .card {
-  flex: 1 1 calc(20% - 10px); /* Ensures three cards with some spacing */
+  flex: 1 1 calc(25% - 10px); /* Ensures three cards with some spacing */
   background: var(--card-bg);
   padding: 15px;
   border-radius: 10px;
