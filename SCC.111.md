@@ -1626,9 +1626,208 @@ class Undergrad implements UniversityMember {
   Your browser does not support the audio element.
 </audio>
 
+Arrays in Java:
+
+```Java
+// makes array with default values 0
+int[] numbers = new int[4]; // [0, 0, 0, 0]
+
+// assigns value 5 to array index 1
+numbers[1] = 5; // [0, 5, 0, 0]
+
+// makes new array with specified values
+int numbers = {1, 5, 10, 20} // [1, 5, 10, 20]
+
+
+
+
+// [null, null, null, null]
+String[] names = new String[4];
+Car[] cards = new Car[4];
+```
+
+```Java
+Car[] cars = {new Car("BMW"), new Car("Volvo")};
+
+// iterate through with for loop:
+for (int i = 0; i < cars.length; i++) {
+    cars[i].printMilege();
+}
+
+// iterate through with fore-each:
+for (Car car : cars) {
+    car.printMilege();
+    // doesnt require a counter, more readable, good for reading all values
+} 
+```
+
+```Java
+// loop through cars array and replace each one with "Mercedes":
+
+for (Car car : cars) {
+    car = new Car("Mercedes");
+}
+```
+
+```Java
+// 2D arrays:
+
+int[][] myNumbers = { {1, 2, 3, 4}. {5, 6, 7} };
+
+// myNumbers[1][2] is 7
+
+
+
+for (int i = 0; i < myNumbers.length; i++) {
+    for (int j = 0; j < myNumbers[i].length; j++) {
+        System.out.print(myNumbers[i][j] + " ");
+    }
+}
+```
+
 ## Lecture 38 - Collections
 
 <audio controls>
   <source src="SCC.111.slides/zl.collections.mp3" type="audio/mpeg">
   Your browser does not support the audio element.
 </audio>
+
+Collections are just data structures. They give us general, reusble implementations of common data structures. They are technically not inherently part of the language. They are implemented as classes. The most popular data structures are distributed in the standard class library.
+
+Collections are implemented through an interface hierarchy. So all data structures implementation have the same API.
+
+![image](images/collectionsJavaTree.png)
+
+```Java
+// Collection Interface
+
+public interface Collection<E> {
+   // Basic operations
+   int size();
+   boolean isEmpty();
+   boolean contains(Object element);
+   boolean containsAll(Collection<?> c);
+   Iterator<E> iterator();
+   // Add / Remove operations
+   boolean add(E element);
+   boolean remove(Object element);
+   boolean addAll(Collection<? extends E> c); 
+   boolean removeAll(Collection<?> c);
+   boolean retainAll(Collection<?> c);
+   void clear();
+   // Array operations
+   Object[] toArray();
+   <T> T[] toArray(T[] a);
+}
+```
+
+```Java
+// List Interface
+
+public interface List<E> extends Collection<E> 
+{
+   // Positional access
+   E get(int index);
+   // Add / remove opertions
+   E set(int index, E element);
+   void add(int index, E element);
+   E remove(int index);
+   boolean addAll(int index, Collection<? extends E> c);
+   // Search
+   int indexOf(Object o);
+   int lastIndexOf(Object o);
+   // Range-view
+   List<E> subList(int from, int to);
+}
+8
+
+```
+
+```Java
+// Set & Queue Interfaces
+
+public interface Set<E> extends Collection<E> 
+{
+   // Uniqueness operations,
+   boolean equals(Object o);
+   int hashCode();
+}
+
+public interface Queue<E> extends Collection<E> 
+{
+   E element();            // return head item (exception if none)
+   E peek();           // return head item (return null if none)
+ 
+   boolean offer(E e);     // add item (return false if full)
+   E remove();         // pop head item (exception if none)
+   E poll();           // pop head item (return null if none)
+}
+```
+
+Collections are classes so we treat them as such. Create an object using its constructor, use its methods to interact with that data structure, and choose the best data structure for the application:
+
+```Java
+import java.util.Collections.*;
+import java.util.*;
+public class University
+{
+   public void doSomething()
+   {
+       ArrayList<Person> staff = new ArrayList<>(); // the type of thing you want to store
+       staff.add(new Person("Joe"));
+       staff.add(new Person("Saad"));
+   }
+}
+```
+
+```Java
+// we can use any of the methods defined in the relevant interfaces
+
+import java.util.Collections.*;
+import java.util.*;
+public class University
+{
+   public void doSomething()
+   {
+       ArrayList<Person> staff = new ArrayList<>();
+       Person j = new Person("Joe");
+       Person s = new Person("Saad");
+       staff.add(j);
+       staff.add(s);
+       for (Person p : staff)
+           System.out.println(p.getName());
+       staff.remove(j);
+       if (staff.contains(s))
+           System.out.println("Saad is a staff member!");
+   }
+}
+```
+
+ArrayList acts like an extensible array. Items are maintained in a sequence, add/removed dynamically, etc. Items are also enumerated and indexed by location.
+
+Implemented internally as a simple array. If the array becomes full, a new one is created and the data copied from the old one.
+
+- O(1) complexity for index lookups
+- O(1) complexity for additions (on average!)
+- O(n) complexity for remove
+
+HashMap is an undordered collection of key/value pairs. Here we define two types when create an object (key and value). `put()` and `get()` methods allow us to add and remove objects from the collection. It is **very** fast. Approaching O(1) for key based addition, deletion, and lookup.
+
+```Java
+public class University
+{
+   public void doSomething()
+   {
+       Person j = new Person("Joe");
+       HashMap<String,Person> users = new HashMap<>();
+       users.put("finneyj", j);
+       Person p = users.get("finneyj");     
+   }
+}
+```
+
+Generics. Formal type parameterse bind to real types when objects are created using new. The actual types are defined also in angled brackets at this point. A new class is generated for that specific type. That class is then instantiated and a strongly typed object reference returned.
+
+```Java
+LinkedList<Person> staff = new LinkedList<Person>();
+```
