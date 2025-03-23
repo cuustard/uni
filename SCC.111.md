@@ -52,8 +52,8 @@ The module aims to help me understand software development. This includes instil
 |  17  | [Lecture 34 - Inheritence](#lecture-34---inheritence)                                                       | [Inheritence](/SCC.111.slides/zh.inheritence.pdf)                                               |  ✅   |
 |  18  | [Lecture 35 - Polymorphism](#lecture-35---polymorphism)                                                     | [Polymorphism](/SCC.111.slides/zi.polymorphism.pdf)                                             |  ✅   |
 |  18  | [Lecture 36 - Interfaces](#lecture-36---interfaces)                                                         | [Interfaces](/SCC.111.slides/zj.interfaces.pdf)                                                 |  ✅   |
-|  19  | [Lecture 37 - Game Arena Cast Study](#lecture-37---game-arena-cast-study)                                   | [Game Arena Cast Study](/SCC.111.slides/zk.gamerArenaCaseStudy.pdf)                             |  ❌   |
-|  19  | [Lecture 38 - Collections](#lecture-38---collections)                                                       | [Collections](/SCC.111.slides/zl.collections.pdf)                                               |  ❌   |
+|  19  | [Lecture 37 - Game Arena Cast Study](#lecture-37---game-arena-cast-study)                                   | [Game Arena Cast Study](/SCC.111.slides/zk.gamerArenaCaseStudy.pdf)                             |  ✅   |
+|  19  | [Lecture 38 - Collections](#lecture-38---collections)                                                       | [Collections](/SCC.111.slides/zl.collections.pdf)                                               |  ✅   |
 
 > **_NOTE:_** The AI Podcasts used for each lecture are produced from that lecture's slides. The structure of my notes for each lecture may differ to the order of topics discussed in the podcast.
 
